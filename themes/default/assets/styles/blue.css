@@ -1,0 +1,174 @@
+/* Optional Light Navigation 
+=================================================================== */
+#content, #content:before { border-left: none !important; }
+#content.sidebar-minified {
+    border-left: 40px solid #9168A1 !important;
+}
+.navbar, a.navbar-brand span, .header-nav a.btn, .header-nav a.btn.account {
+    background: #9168A1;
+    color: #FFF !important;
+}
+.header-nav a.btn, .navbar #search input, .navbar #search i, .header-nav a.btn.cart {
+    background: #ccc1d9;
+}
+.bnav  {
+    color: #E7C5E8;
+}
+footer  {
+    background: #9168A1;
+    color: #fff;
+}
+.navbar #search {
+    background: #ccc1d9;
+    border: 1px solid #9168A1;
+}
+.header-nav a.btn{
+    border-left: 1px solid #9168A1;
+}
+
+.header-nav a.btn:hover,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background: #ccc1d9;
+}
+a#main-menu-toggle {
+  background: #9168A1;
+}
+a#main-menu-toggle.close {
+  opacity: 1;
+  background: #E7C5E8 !important;
+  padding: 10px 13px !important;
+}
+a#main-menu-act {
+  border-bottom: 1px solid #ccc1d9;
+}
+
+a#main-menu-act i {
+    background: #ccc1d9;
+    color: #fff;
+    border-bottom: 1px solid #ccc1d9;
+}
+a#main-menu-act i:hover {
+    background: #ccc1d9;
+    color: #FFF;
+}
+a#main-menu-min i:hover {
+  background: #ccc1d9;
+  color: #6f7880;
+}
+#sidebar-left {
+    background: none; 
+}
+.nav.main-menu > li:first-child > a {
+    border-top: 1px solid #ccc1d9;
+}
+.nav.main-menu > li {
+  margin-top: -1px;
+  border-bottom: 1px solid #ccc1d9;
+}
+.nav.main-menu > li > a,
+.nav.main-menu > li > ul > li > a,
+.nav.main-menu > li > ul > li > ul > li > a,
+.nav.main-menu > li > ul > li > ul > li > ul > li > a {
+  color: #ffffff;
+  border-bottom: 1px solid #ccc1d9;
+  background: #9168A1;
+}
+.nav.main-menu > li > a .chevron,
+.nav.main-menu > li > ul > li > a .chevron,
+.nav.main-menu > li > ul > li > ul > li > a .chevron,
+.nav.main-menu > li > ul > li > ul > li > ul > li > a .chevron {
+  color: #ffffff !important;
+}
+.nav.main-menu > li > a .chevron.closed:after,
+.nav.main-menu > li > ul > li > a .chevron.closed:after,
+.nav.main-menu > li > ul > li > ul > li > a .chevron.closed:after,
+.nav.main-menu > li > ul > li > ul > li > ul > li > a .chevron.closed:after {
+  color: #ffffff !important;
+}
+.nav.main-menu > li > a > i,
+.nav.main-menu > li > ul > li > a > i {
+  border-right: none;
+}
+.nav.main-menu > li > ul > li > a {
+  background: #623975;
+}
+.nav.main-menu > li > ul > li > ul > li > a {
+  background: #623975;
+}
+.nav.main-menu > li > ul > li > ul > li > ul > li > a {
+  background: #623975;
+}
+.nav.main-menu > li > a:hover,
+.nav.main-menu > li > ul > li > a:hover,
+.nav.main-menu > li > ul > li > ul > li > a:hover,
+.nav.main-menu > li > ul > li > ul > li > ul > li > a:hover {
+  background: #ccc1d9;
+  border-bottom: 1px solid #ccc1d9;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.nav.main-menu > li > a:hover > i,
+.nav.main-menu > li > ul > li > a:hover > i,
+.nav.main-menu > li > ul > li > ul > li > a:hover > i,
+.nav.main-menu > li > ul > li > ul > li > ul > li > a:hover > i {
+  border-color: #ccc1d9;
+}
+.nav.main-menu > li > a:hover,
+.nav.main-menu > li > ul > li > a:hover {
+  background: #ccc1d9;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.nav.main-menu > li > ul > li.active > a,
+.nav.main-menu > li > ul > li > ul > li.active > a,
+.nav.main-menu > li > ul > li > ul > li > ul > li.active > a {
+  background: #ccc1d9;
+}
+.nav.main-menu > li.active > a:hover {
+  background: #E7C5E8;
+  border: none;
+  color: white;
+}
+.nav.main-menu > li.active > ul {
+  background: #ccc1d9;
+}
+#sidebar-left.minified .sidebar-nav li {
+  border: 0;
+}
+#sidebar-left.minified .sidebar-nav li i {
+  border-bottom: 1px solid #ccc1d9;
+}
+#sidebar-left.minified .sidebar-nav li ul i {
+  border-bottom: 0;
+}
+#sidebar-left.minified .sidebar-nav li > ul > li > a > i {
+  border-right: 0;
+}
+#sidebar-left.minified .sidebar-nav > ul > li > a .text {
+  background: #9168A1;
+  border: 1px solid #AB87F5;
+}
+#sidebar-left.minified .sidebar-nav > ul > li:hover > a .text {
+  background: #ccc1d9;
+  border-color: #ccc1d9;
+  margin-top: -1px;
+}
+.nav.main-menu > li.active > a, .nav.main-menu > li.active > a > i, #sidebar-left.minified .sidebar-nav > ul > li.active > a .text {
+    background: #E7C5E8;
+    color: white;
+    border-color: #E7C5E8;
+}
+#sidebar-left.minified .sidebar-nav > ul > li:hover > ul {
+  top: 38px;
+  background: #9168A1;
+  border: 1px solid #ccc1d9;
+  border-bottom: none;
+}
+.nav.main-menu > li > ul > li.active > a,
+.nav.main-menu > li > ul > li > ul > li.active > a,
+.nav.main-menu > li > ul > li > ul > li > ul > li.active > a {
+    background: #ccc1d9;
+    border-color: #ccc1d9;
+}
