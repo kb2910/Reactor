@@ -573,24 +573,6 @@ class Products extends MY_Controller
 
             if ($this->input->post('type') == 'service') {
                 $data['track_quantity'] = 0;
-            } elseif ($this->input->post('type') == 'combo') {
-                $total_price = 0;
-                $c = sizeof($_POST['combo_item_code']) - 1;
-                for ($r = 0; $r <= $c; $r++) {
-                    if (isset($_POST['combo_item_code'][$r]) && isset($_POST['combo_item_quantity'][$r]) && isset($_POST['combo_item_price'][$r])) {
-                        $items[] = array(
-                            'item_code' => $_POST['combo_item_code'][$r],
-                            'quantity' => $_POST['combo_item_quantity'][$r],
-                            'unit_price' => $_POST['combo_item_price'][$r],
-                        );
-                    }
-                    $total_price += $_POST['combo_item_price'][$r] * $_POST['combo_item_quantity'][$r];
-                }
-                if ($this->sma->formatDecimal($total_price) != $this->sma->formatDecimal($this->input->post('price'))) {
-                    $this->form_validation->set_rules('combo_price', 'combo_price', 'required');
-                    $this->form_validation->set_message('required', lang('pprice_not_match_ciprice'));
-                }
-                $data['track_quantity'] = 0;
             } elseif ($this->input->post('type') == 'digital') {
                 if ($_FILES['digital_file']['size'] > 0) {
                     $config['upload_path'] = $this->digital_upload_path;
@@ -937,24 +919,6 @@ class Products extends MY_Controller
             }
 
             if ($this->input->post('type') == 'service') {
-                $data['track_quantity'] = 0;
-            } elseif ($this->input->post('type') == 'combo') {
-                $total_price = 0;
-                $c = sizeof($_POST['combo_item_code']) - 1;
-                for ($r = 0; $r <= $c; $r++) {
-                    if (isset($_POST['combo_item_code'][$r]) && isset($_POST['combo_item_quantity'][$r]) && isset($_POST['combo_item_price'][$r])) {
-                        $items[] = array(
-                            'item_code' => $_POST['combo_item_code'][$r],
-                            'quantity' => $_POST['combo_item_quantity'][$r],
-                            'unit_price' => $_POST['combo_item_price'][$r],
-                        );
-                    }
-                    $total_price += $_POST['combo_item_price'][$r] * $_POST['combo_item_quantity'][$r];
-                }
-                if ($this->sma->formatDecimal($total_price) != $this->sma->formatDecimal($this->input->post('price'))) {
-                    $this->form_validation->set_rules('combo_price', 'combo_price', 'required');
-                    $this->form_validation->set_message('required', lang('pprice_not_match_ciprice'));
-                }
                 $data['track_quantity'] = 0;
             } elseif ($this->input->post('type') == 'digital') {
                 if ($_FILES['digital_file']['size'] > 0) {
