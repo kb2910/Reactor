@@ -311,8 +311,7 @@ if (!empty($variants)) {
                                         <th class="col-md-5 col-sm-5 col-xs-5"><?= lang("product_name") . " (" . $this->lang->line("product_code") . ")"; ?></th>
                                         <th class="col-md-2 col-sm-2 col-xs-2"><?= lang("quantity"); ?></th>
                                         <th class="col-md-3 col-sm-3 col-xs-3"><?= lang("unit_price"); ?></th>
-                                        <th class="col-md-1 col-sm-1 col-xs-1 text-center"><i class="fa fa-trash-o"
-                                                                                              style="opacity:0.5; filter:alpha(opacity=50);"></i>
+                                        <th class="col-md-1 col-sm-1 col-xs-1 text-center"><i class="fa fa-trash-o" style="opacity:0.5; filter:alpha(opacity=50);"></i>
                                         </th>
                                     </tr>
                                     </thead>
@@ -320,6 +319,7 @@ if (!empty($variants)) {
                                 </table>
                             </div>
                         </div>
+                        <div id="priceItems"></div>
 
                     </div>
 
@@ -540,6 +540,7 @@ if (!empty($variants)) {
                 e.preventDefault();
                 $(this).autocomplete("search");
             }
+            $('#priceItems').html("");
         });
         <?php
         if($this->input->post('type') == 'combo') {
@@ -572,7 +573,7 @@ if (!empty($variants)) {
                 var newTr = $('<tr id="row_' + row_no + '" class="item_' + this.id + '"></tr>');
                 tr_html = '<td><input name="combo_item_id[]" type="hidden" value="' + this.id + '"><input name="combo_item_name[]" type="hidden" value="' + this.name + '"><input name="combo_item_code[]" type="hidden" value="' + this.code + '"><span id="name_' + row_no + '">' + this.name + ' (' + this.code + ')</span></td>';
                 tr_html += '<td><input class="form-control text-center" name="combo_item_quantity[]" type="text" value="' + formatDecimal(this.qty) + '" data-id="' + row_no + '" data-item="' + this.id + '" id="quantity_' + row_no + '" onClick="this.select();"></td>';
-                tr_html += '<td><input class="form-control text-center" name="combo_item_price[]" type="text" value="' + formatDecimal(this.price) + '" data-id="' + row_no + '" data-item="' + this.id + '" id="combo_item_price_' + row_no + '" onClick="this.select();"></td>';
+                tr_html += '<td><input class="form-control text-center" name="combo_item_price[]" type="text" value="' + formatDecimal(this.price) + '" data-id="' + row_no + '" data-item="' + this.id + '" id="combo_item_price_' + row_no + '" onClick="this.select();" onkeyup="validatePrice('+formatDecimal(this.price)+','+ row_no + ')"></td>';
                 tr_html += '<td class="text-center"><i class="fa fa-times tip del" id="' + row_no + '" title="Remove" style="cursor:pointer;"></i></td>';
                 newTr.html(tr_html);
                 newTr.prependTo("#prTable");
@@ -587,6 +588,7 @@ if (!empty($variants)) {
             var id = $(this).attr('id');
             delete items[id];
             $(this).closest('#row_' + id).remove();
+            $('#priceItems').html("");
         });
         var su = 2;
         $('#addSupplier').click(function () {
@@ -795,6 +797,19 @@ if (!empty($variants)) {
             $(this).val($('#r' + $(this).attr('id')).text());
         });
     });
+
+    function validatePrice(price,id) {
+        var mensaje = '<?= lang('validate_price') ?>';
+        var text = '<div class="alert alert-danger" role="alert"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;&nbsp;'+mensaje+'&nbsp;&nbsp;'+price+'</div>';
+        var textName = "#combo_item_price_"+id
+        var inputValue =  $(textName).val();
+        if(price > inputValue){
+            $('#priceItems').html(text);
+        } else {
+            $('#priceItems').html("");
+        }
+       
+    }
     <?php } ?>
 </script>
 

@@ -99,6 +99,7 @@ $lang['no_qty_in_warehouse']                     =     "El almacén no tienen es
 // need to be translated 
 $lang['product_variants'] 						 = 	   "Product Variants";
 $lang['wh_pr_qty_issue'] 						 =     "<strong>Request Failed!</strong> Warehouse and product variants quantity id different. Please set the correct quantity for warehouse and product variants.";
-$lang['purchases']                              = "Purchases";
-$lang['damages']                                = "Damages";
-$lang['returns']                                = "Returns";
+$lang['purchases']                               = "Purchases";
+$lang['damages']                                 = "Damages";
+$lang['returns']                                 = "Returns";
+$lang['validate_price']                          = "The unit price cannot be less than:";

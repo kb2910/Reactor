@@ -129,3 +129,4 @@ $lang['products_quantity_sync']             = "Product quantity successfully syn
 $lang['update_variants']                    = "Update product variants";
 $lang['add_more_variants']                  = "Add more product variants";
 $lang['quantity_x_adjusted']                = "Product quantity can not be adjusted as there is no purchased item record found. Please add purchase first";
+$lang['validate_price']                     = "El precio unitario no puede ser menor a:";
