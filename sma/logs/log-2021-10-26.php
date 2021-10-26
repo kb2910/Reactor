@@ -24652,3 +24652,4287 @@ ERROR - 2021-10-26 14:30:34 --> Severity: Warning --> array_combine() expects pa
 ERROR - 2021-10-26 14:30:34 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
 ERROR - 2021-10-26 14:30:34 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
 ERROR - 2021-10-26 14:30:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:02:01 --> Config Class Initialized
+INFO - 2021-10-26 15:02:01 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:01 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:01 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:01 --> URI Class Initialized
+INFO - 2021-10-26 15:02:01 --> Router Class Initialized
+INFO - 2021-10-26 15:02:01 --> Output Class Initialized
+INFO - 2021-10-26 15:02:01 --> Security Class Initialized
+INFO - 2021-10-26 15:02:01 --> CRSF cookie sent
+INFO - 2021-10-26 15:02:01 --> CSRF token verified
+DEBUG - 2021-10-26 15:02:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:01 --> Input Class Initialized
+INFO - 2021-10-26 15:02:01 --> Language Class Initialized
+INFO - 2021-10-26 15:02:01 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:01 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:01 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:01 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:01 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:01 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:01 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:01 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:01 --> Model Class Initialized
+INFO - 2021-10-26 15:02:01 --> Model Class Initialized
+INFO - 2021-10-26 15:02:01 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:01 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:01 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:01 --> Model Class Initialized
+INFO - 2021-10-26 15:02:01 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:02:01 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:02:01 --> Upload Class Initialized
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:01 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
+ERROR - 2021-10-26 15:02:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:02:33 --> Config Class Initialized
+INFO - 2021-10-26 15:02:33 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:33 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:33 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:33 --> URI Class Initialized
+INFO - 2021-10-26 15:02:33 --> Router Class Initialized
+INFO - 2021-10-26 15:02:33 --> Output Class Initialized
+INFO - 2021-10-26 15:02:33 --> Security Class Initialized
+INFO - 2021-10-26 15:02:33 --> CRSF cookie sent
+INFO - 2021-10-26 15:02:33 --> CSRF token verified
+DEBUG - 2021-10-26 15:02:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:33 --> Input Class Initialized
+INFO - 2021-10-26 15:02:33 --> Language Class Initialized
+INFO - 2021-10-26 15:02:33 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:33 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:33 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:33 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:33 --> Model Class Initialized
+INFO - 2021-10-26 15:02:33 --> Model Class Initialized
+INFO - 2021-10-26 15:02:33 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:33 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:33 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:33 --> Model Class Initialized
+INFO - 2021-10-26 15:02:33 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:02:33 --> Upload Class Initialized
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:33 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+INFO - 2021-10-26 15:02:33 --> Config Class Initialized
+INFO - 2021-10-26 15:02:33 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:33 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:33 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:33 --> URI Class Initialized
+INFO - 2021-10-26 15:02:33 --> Router Class Initialized
+INFO - 2021-10-26 15:02:33 --> Output Class Initialized
+INFO - 2021-10-26 15:02:33 --> Security Class Initialized
+INFO - 2021-10-26 15:02:33 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:33 --> Input Class Initialized
+INFO - 2021-10-26 15:02:33 --> Language Class Initialized
+INFO - 2021-10-26 15:02:33 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:33 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:33 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:33 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:33 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:33 --> Model Class Initialized
+INFO - 2021-10-26 15:02:33 --> Model Class Initialized
+INFO - 2021-10-26 15:02:33 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:33 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:33 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-26 15:02:33 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:33 --> Total execution time: 0.1018
+INFO - 2021-10-26 15:02:37 --> Config Class Initialized
+INFO - 2021-10-26 15:02:37 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:37 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:37 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:37 --> URI Class Initialized
+INFO - 2021-10-26 15:02:37 --> Router Class Initialized
+INFO - 2021-10-26 15:02:37 --> Output Class Initialized
+INFO - 2021-10-26 15:02:37 --> Security Class Initialized
+INFO - 2021-10-26 15:02:37 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:37 --> Input Class Initialized
+INFO - 2021-10-26 15:02:37 --> Language Class Initialized
+INFO - 2021-10-26 15:02:37 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:37 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:37 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:37 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:37 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:37 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:37 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:37 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:37 --> Model Class Initialized
+INFO - 2021-10-26 15:02:37 --> Model Class Initialized
+INFO - 2021-10-26 15:02:37 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:37 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:37 --> Model Class Initialized
+INFO - 2021-10-26 15:02:37 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:02:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:02:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:02:37 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:02:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:02:37 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:37 --> Total execution time: 0.1690
+INFO - 2021-10-26 15:02:40 --> Config Class Initialized
+INFO - 2021-10-26 15:02:40 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:40 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:40 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:40 --> URI Class Initialized
+INFO - 2021-10-26 15:02:40 --> Router Class Initialized
+INFO - 2021-10-26 15:02:40 --> Output Class Initialized
+INFO - 2021-10-26 15:02:40 --> Security Class Initialized
+INFO - 2021-10-26 15:02:40 --> CRSF cookie sent
+INFO - 2021-10-26 15:02:40 --> CSRF token verified
+DEBUG - 2021-10-26 15:02:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:40 --> Input Class Initialized
+INFO - 2021-10-26 15:02:40 --> Language Class Initialized
+INFO - 2021-10-26 15:02:40 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:40 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:40 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:40 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:40 --> Model Class Initialized
+INFO - 2021-10-26 15:02:40 --> Model Class Initialized
+INFO - 2021-10-26 15:02:40 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:40 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:40 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:40 --> Model Class Initialized
+INFO - 2021-10-26 15:02:40 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:02:40 --> Upload Class Initialized
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:02:40 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+INFO - 2021-10-26 15:02:40 --> Config Class Initialized
+INFO - 2021-10-26 15:02:40 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:40 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:40 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:40 --> URI Class Initialized
+INFO - 2021-10-26 15:02:40 --> Router Class Initialized
+INFO - 2021-10-26 15:02:40 --> Output Class Initialized
+INFO - 2021-10-26 15:02:40 --> Security Class Initialized
+INFO - 2021-10-26 15:02:40 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:40 --> Input Class Initialized
+INFO - 2021-10-26 15:02:40 --> Language Class Initialized
+INFO - 2021-10-26 15:02:40 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:40 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:40 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:40 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:40 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:40 --> Model Class Initialized
+INFO - 2021-10-26 15:02:40 --> Model Class Initialized
+INFO - 2021-10-26 15:02:40 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:40 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-26 15:02:40 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:40 --> Total execution time: 0.0987
+INFO - 2021-10-26 15:02:54 --> Config Class Initialized
+INFO - 2021-10-26 15:02:54 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:54 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:54 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:54 --> URI Class Initialized
+INFO - 2021-10-26 15:02:54 --> Router Class Initialized
+INFO - 2021-10-26 15:02:54 --> Output Class Initialized
+INFO - 2021-10-26 15:02:54 --> Security Class Initialized
+INFO - 2021-10-26 15:02:54 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:54 --> Input Class Initialized
+INFO - 2021-10-26 15:02:54 --> Language Class Initialized
+INFO - 2021-10-26 15:02:54 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:54 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:54 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:54 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:54 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:54 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:54 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:54 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:54 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:54 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:54 --> Model Class Initialized
+INFO - 2021-10-26 15:02:54 --> Model Class Initialized
+INFO - 2021-10-26 15:02:54 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:54 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:54 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:54 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:54 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-26 15:02:54 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:54 --> Total execution time: 0.1375
+INFO - 2021-10-26 15:02:57 --> Config Class Initialized
+INFO - 2021-10-26 15:02:57 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:57 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:57 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:57 --> URI Class Initialized
+INFO - 2021-10-26 15:02:57 --> Router Class Initialized
+INFO - 2021-10-26 15:02:57 --> Output Class Initialized
+INFO - 2021-10-26 15:02:57 --> Security Class Initialized
+INFO - 2021-10-26 15:02:57 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:57 --> Input Class Initialized
+INFO - 2021-10-26 15:02:57 --> Language Class Initialized
+INFO - 2021-10-26 15:02:57 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:57 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:57 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:57 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:57 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:57 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:57 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:57 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:57 --> Model Class Initialized
+INFO - 2021-10-26 15:02:57 --> Model Class Initialized
+INFO - 2021-10-26 15:02:57 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:57 --> Model Class Initialized
+INFO - 2021-10-26 15:02:57 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:02:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:02:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:02:57 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:02:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:02:57 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:57 --> Total execution time: 0.1744
+INFO - 2021-10-26 15:02:59 --> Config Class Initialized
+INFO - 2021-10-26 15:02:59 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:02:59 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:02:59 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:02:59 --> URI Class Initialized
+INFO - 2021-10-26 15:02:59 --> Router Class Initialized
+INFO - 2021-10-26 15:02:59 --> Output Class Initialized
+INFO - 2021-10-26 15:02:59 --> Security Class Initialized
+INFO - 2021-10-26 15:02:59 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:02:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:02:59 --> Input Class Initialized
+INFO - 2021-10-26 15:02:59 --> Language Class Initialized
+INFO - 2021-10-26 15:02:59 --> Loader Class Initialized
+INFO - 2021-10-26 15:02:59 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:02:59 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:02:59 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:02:59 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:02:59 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:02:59 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:02:59 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:02:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:02:59 --> Parser Class Initialized
+INFO - 2021-10-26 15:02:59 --> Model Class Initialized
+INFO - 2021-10-26 15:02:59 --> Model Class Initialized
+INFO - 2021-10-26 15:02:59 --> Controller Class Initialized
+INFO - 2021-10-26 15:02:59 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:02:59 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "today"
+INFO - 2021-10-26 15:02:59 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:02:59 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:02:59 --> Model Class Initialized
+INFO - 2021-10-26 15:02:59 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:02:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:02:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:02:59 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:02:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:02:59 --> Final output sent to browser
+DEBUG - 2021-10-26 15:02:59 --> Total execution time: 0.1538
+INFO - 2021-10-26 15:03:07 --> Config Class Initialized
+INFO - 2021-10-26 15:03:07 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:03:07 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:03:07 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:03:07 --> URI Class Initialized
+INFO - 2021-10-26 15:03:07 --> Router Class Initialized
+INFO - 2021-10-26 15:03:07 --> Output Class Initialized
+INFO - 2021-10-26 15:03:07 --> Security Class Initialized
+INFO - 2021-10-26 15:03:07 --> CRSF cookie sent
+INFO - 2021-10-26 15:03:07 --> CSRF token verified
+DEBUG - 2021-10-26 15:03:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:03:07 --> Input Class Initialized
+INFO - 2021-10-26 15:03:07 --> Language Class Initialized
+INFO - 2021-10-26 15:03:07 --> Loader Class Initialized
+INFO - 2021-10-26 15:03:07 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:03:07 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:03:07 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:03:07 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:03:07 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:03:07 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:03:07 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:03:07 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:03:07 --> Parser Class Initialized
+INFO - 2021-10-26 15:03:07 --> Model Class Initialized
+INFO - 2021-10-26 15:03:07 --> Model Class Initialized
+INFO - 2021-10-26 15:03:07 --> Controller Class Initialized
+INFO - 2021-10-26 15:03:07 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:03:07 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:03:07 --> Could not find the language line "today"
+INFO - 2021-10-26 15:03:07 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:03:07 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:03:07 --> Model Class Initialized
+INFO - 2021-10-26 15:03:07 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:03:07 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:03:07 --> Upload Class Initialized
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:03:07 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
+ERROR - 2021-10-26 15:03:07 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:04:51 --> Config Class Initialized
+INFO - 2021-10-26 15:04:51 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:04:51 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:04:51 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:04:51 --> URI Class Initialized
+INFO - 2021-10-26 15:04:51 --> Router Class Initialized
+INFO - 2021-10-26 15:04:51 --> Output Class Initialized
+INFO - 2021-10-26 15:04:51 --> Security Class Initialized
+INFO - 2021-10-26 15:04:51 --> CRSF cookie sent
+INFO - 2021-10-26 15:04:51 --> CSRF token verified
+DEBUG - 2021-10-26 15:04:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:04:51 --> Input Class Initialized
+INFO - 2021-10-26 15:04:51 --> Language Class Initialized
+INFO - 2021-10-26 15:04:51 --> Loader Class Initialized
+INFO - 2021-10-26 15:04:51 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:04:51 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:04:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:04:51 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:04:51 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:04:51 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:04:51 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:04:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:04:51 --> Parser Class Initialized
+INFO - 2021-10-26 15:04:51 --> Model Class Initialized
+INFO - 2021-10-26 15:04:51 --> Model Class Initialized
+INFO - 2021-10-26 15:04:51 --> Controller Class Initialized
+INFO - 2021-10-26 15:04:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:04:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:04:51 --> Could not find the language line "today"
+INFO - 2021-10-26 15:04:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:04:51 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:04:51 --> Model Class Initialized
+INFO - 2021-10-26 15:04:51 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:04:51 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:04:51 --> Upload Class Initialized
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:52 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:52 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:52 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 15:04:52 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1263
+ERROR - 2021-10-26 15:04:52 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\sma\controllers\Products.php:1250) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:07:57 --> Config Class Initialized
+INFO - 2021-10-26 15:07:57 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:07:57 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:07:57 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:07:57 --> URI Class Initialized
+INFO - 2021-10-26 15:07:57 --> Router Class Initialized
+INFO - 2021-10-26 15:07:57 --> Output Class Initialized
+INFO - 2021-10-26 15:07:57 --> Security Class Initialized
+INFO - 2021-10-26 15:07:57 --> CRSF cookie sent
+INFO - 2021-10-26 15:07:57 --> CSRF token verified
+DEBUG - 2021-10-26 15:07:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:07:57 --> Input Class Initialized
+INFO - 2021-10-26 15:07:57 --> Language Class Initialized
+INFO - 2021-10-26 15:07:57 --> Loader Class Initialized
+INFO - 2021-10-26 15:07:57 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:07:57 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:07:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:07:57 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:07:57 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:07:57 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:07:57 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:07:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:07:57 --> Parser Class Initialized
+INFO - 2021-10-26 15:07:57 --> Model Class Initialized
+INFO - 2021-10-26 15:07:57 --> Model Class Initialized
+INFO - 2021-10-26 15:07:57 --> Controller Class Initialized
+INFO - 2021-10-26 15:07:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:07:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:07:57 --> Could not find the language line "today"
+INFO - 2021-10-26 15:07:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:07:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:07:57 --> Model Class Initialized
+INFO - 2021-10-26 15:07:57 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:07:57 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:07:57 --> Upload Class Initialized
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:07:57 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1266
+ERROR - 2021-10-26 15:07:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\sma\controllers\Products.php:1240) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:08:52 --> Config Class Initialized
+INFO - 2021-10-26 15:08:52 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:08:52 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:08:52 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:08:52 --> URI Class Initialized
+INFO - 2021-10-26 15:08:52 --> Router Class Initialized
+INFO - 2021-10-26 15:08:52 --> Output Class Initialized
+INFO - 2021-10-26 15:08:52 --> Security Class Initialized
+INFO - 2021-10-26 15:08:52 --> CRSF cookie sent
+INFO - 2021-10-26 15:08:52 --> CSRF token verified
+DEBUG - 2021-10-26 15:08:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:08:52 --> Input Class Initialized
+INFO - 2021-10-26 15:08:52 --> Language Class Initialized
+INFO - 2021-10-26 15:08:52 --> Loader Class Initialized
+INFO - 2021-10-26 15:08:52 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:08:52 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:08:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:08:52 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:08:52 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:08:52 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:08:53 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:08:53 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:08:53 --> Parser Class Initialized
+INFO - 2021-10-26 15:08:53 --> Model Class Initialized
+INFO - 2021-10-26 15:08:53 --> Model Class Initialized
+INFO - 2021-10-26 15:08:53 --> Controller Class Initialized
+INFO - 2021-10-26 15:08:53 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:08:53 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:08:53 --> Could not find the language line "today"
+INFO - 2021-10-26 15:08:53 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:08:53 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:08:53 --> Model Class Initialized
+INFO - 2021-10-26 15:08:53 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:08:53 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:08:53 --> Upload Class Initialized
+ERROR - 2021-10-26 15:08:53 --> Severity: Notice --> Undefined property: CI_Upload::$data C:\wamp64\www\Reactor\sma\controllers\Products.php 1240
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:08:53 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1266
+ERROR - 2021-10-26 15:08:53 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:11:43 --> Config Class Initialized
+INFO - 2021-10-26 15:11:43 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:11:43 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:11:43 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:11:43 --> URI Class Initialized
+INFO - 2021-10-26 15:11:43 --> Router Class Initialized
+INFO - 2021-10-26 15:11:43 --> Output Class Initialized
+INFO - 2021-10-26 15:11:43 --> Security Class Initialized
+INFO - 2021-10-26 15:11:43 --> CRSF cookie sent
+INFO - 2021-10-26 15:11:43 --> CSRF token verified
+DEBUG - 2021-10-26 15:11:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:11:43 --> Input Class Initialized
+INFO - 2021-10-26 15:11:43 --> Language Class Initialized
+INFO - 2021-10-26 15:11:43 --> Loader Class Initialized
+INFO - 2021-10-26 15:11:43 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:11:43 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:11:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:11:43 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:11:43 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:11:43 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:11:43 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:11:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:11:43 --> Parser Class Initialized
+INFO - 2021-10-26 15:11:43 --> Model Class Initialized
+INFO - 2021-10-26 15:11:43 --> Model Class Initialized
+INFO - 2021-10-26 15:11:43 --> Controller Class Initialized
+INFO - 2021-10-26 15:11:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:11:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:11:43 --> Could not find the language line "today"
+INFO - 2021-10-26 15:11:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:11:43 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:11:43 --> Model Class Initialized
+INFO - 2021-10-26 15:11:43 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:11:43 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:11:43 --> Upload Class Initialized
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1259
+ERROR - 2021-10-26 15:11:43 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1264
+ERROR - 2021-10-26 15:11:43 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:24:27 --> Config Class Initialized
+INFO - 2021-10-26 15:24:27 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:24:27 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:24:27 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:24:27 --> URI Class Initialized
+INFO - 2021-10-26 15:24:27 --> Router Class Initialized
+INFO - 2021-10-26 15:24:27 --> Output Class Initialized
+INFO - 2021-10-26 15:24:27 --> Security Class Initialized
+INFO - 2021-10-26 15:24:27 --> CRSF cookie sent
+INFO - 2021-10-26 15:24:27 --> CSRF token verified
+DEBUG - 2021-10-26 15:24:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:24:27 --> Input Class Initialized
+INFO - 2021-10-26 15:24:27 --> Language Class Initialized
+INFO - 2021-10-26 15:24:27 --> Loader Class Initialized
+INFO - 2021-10-26 15:24:27 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:24:27 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:24:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:24:27 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:24:27 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:24:27 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:24:27 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:24:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:24:27 --> Parser Class Initialized
+INFO - 2021-10-26 15:24:27 --> Model Class Initialized
+INFO - 2021-10-26 15:24:27 --> Model Class Initialized
+INFO - 2021-10-26 15:24:27 --> Controller Class Initialized
+INFO - 2021-10-26 15:24:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:24:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "today"
+INFO - 2021-10-26 15:24:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:24:27 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:24:27 --> Model Class Initialized
+INFO - 2021-10-26 15:24:27 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:24:27 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:24:27 --> Upload Class Initialized
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Severity: Notice --> Undefined variable: filedata C:\wamp64\www\Reactor\sma\controllers\Products.php 1247
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:24:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:24:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:24:27 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:24:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:24:27 --> Final output sent to browser
+DEBUG - 2021-10-26 15:24:27 --> Total execution time: 0.2895
+INFO - 2021-10-26 15:24:47 --> Config Class Initialized
+INFO - 2021-10-26 15:24:47 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:24:47 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:24:47 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:24:47 --> URI Class Initialized
+INFO - 2021-10-26 15:24:47 --> Router Class Initialized
+INFO - 2021-10-26 15:24:47 --> Output Class Initialized
+INFO - 2021-10-26 15:24:47 --> Security Class Initialized
+INFO - 2021-10-26 15:24:47 --> CRSF cookie sent
+INFO - 2021-10-26 15:24:47 --> CSRF token verified
+DEBUG - 2021-10-26 15:24:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:24:47 --> Input Class Initialized
+INFO - 2021-10-26 15:24:47 --> Language Class Initialized
+INFO - 2021-10-26 15:24:47 --> Loader Class Initialized
+INFO - 2021-10-26 15:24:47 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:24:47 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:24:47 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:24:47 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:24:47 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:24:47 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:24:47 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:24:47 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:24:47 --> Parser Class Initialized
+INFO - 2021-10-26 15:24:47 --> Model Class Initialized
+INFO - 2021-10-26 15:24:47 --> Model Class Initialized
+INFO - 2021-10-26 15:24:47 --> Controller Class Initialized
+INFO - 2021-10-26 15:24:47 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:24:47 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "today"
+INFO - 2021-10-26 15:24:47 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:24:47 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:24:47 --> Model Class Initialized
+INFO - 2021-10-26 15:24:47 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:24:47 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:24:47 --> Upload Class Initialized
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:24:47 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:24:47 --> Final output sent to browser
+DEBUG - 2021-10-26 15:24:47 --> Total execution time: 0.1788
+INFO - 2021-10-26 15:24:59 --> Config Class Initialized
+INFO - 2021-10-26 15:24:59 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:24:59 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:24:59 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:24:59 --> URI Class Initialized
+INFO - 2021-10-26 15:24:59 --> Router Class Initialized
+INFO - 2021-10-26 15:24:59 --> Output Class Initialized
+INFO - 2021-10-26 15:24:59 --> Security Class Initialized
+INFO - 2021-10-26 15:24:59 --> CRSF cookie sent
+INFO - 2021-10-26 15:24:59 --> CSRF token verified
+DEBUG - 2021-10-26 15:24:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:24:59 --> Input Class Initialized
+INFO - 2021-10-26 15:24:59 --> Language Class Initialized
+INFO - 2021-10-26 15:24:59 --> Loader Class Initialized
+INFO - 2021-10-26 15:24:59 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:24:59 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:24:59 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:24:59 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:24:59 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:24:59 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:24:59 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:24:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:24:59 --> Parser Class Initialized
+INFO - 2021-10-26 15:24:59 --> Model Class Initialized
+INFO - 2021-10-26 15:24:59 --> Model Class Initialized
+INFO - 2021-10-26 15:24:59 --> Controller Class Initialized
+INFO - 2021-10-26 15:24:59 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:24:59 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "today"
+INFO - 2021-10-26 15:24:59 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:24:59 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:24:59 --> Model Class Initialized
+INFO - 2021-10-26 15:24:59 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:24:59 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:24:59 --> Upload Class Initialized
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:24:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:24:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:24:59 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:24:59 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:24:59 --> Final output sent to browser
+DEBUG - 2021-10-26 15:24:59 --> Total execution time: 0.1441
+INFO - 2021-10-26 15:25:21 --> Config Class Initialized
+INFO - 2021-10-26 15:25:21 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:25:21 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:25:21 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:25:21 --> URI Class Initialized
+INFO - 2021-10-26 15:25:21 --> Router Class Initialized
+INFO - 2021-10-26 15:25:21 --> Output Class Initialized
+INFO - 2021-10-26 15:25:21 --> Security Class Initialized
+INFO - 2021-10-26 15:25:21 --> CRSF cookie sent
+INFO - 2021-10-26 15:25:21 --> CSRF token verified
+DEBUG - 2021-10-26 15:25:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:25:21 --> Input Class Initialized
+INFO - 2021-10-26 15:25:21 --> Language Class Initialized
+INFO - 2021-10-26 15:25:21 --> Loader Class Initialized
+INFO - 2021-10-26 15:25:21 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:25:21 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:25:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:25:21 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:25:21 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:25:21 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:25:21 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:25:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:25:21 --> Parser Class Initialized
+INFO - 2021-10-26 15:25:21 --> Model Class Initialized
+INFO - 2021-10-26 15:25:21 --> Model Class Initialized
+INFO - 2021-10-26 15:25:21 --> Controller Class Initialized
+INFO - 2021-10-26 15:25:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:25:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "today"
+INFO - 2021-10-26 15:25:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:25:21 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:25:21 --> Model Class Initialized
+INFO - 2021-10-26 15:25:21 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:25:21 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:25:21 --> Upload Class Initialized
+ERROR - 2021-10-26 15:25:21 --> Severity: Notice --> Undefined offset: 0 C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:25:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:25:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:25:21 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:25:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:25:21 --> Final output sent to browser
+DEBUG - 2021-10-26 15:25:21 --> Total execution time: 0.3395
+INFO - 2021-10-26 15:26:06 --> Config Class Initialized
+INFO - 2021-10-26 15:26:06 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:26:06 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:26:06 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:26:06 --> URI Class Initialized
+INFO - 2021-10-26 15:26:06 --> Router Class Initialized
+INFO - 2021-10-26 15:26:06 --> Output Class Initialized
+INFO - 2021-10-26 15:26:06 --> Security Class Initialized
+INFO - 2021-10-26 15:26:06 --> CRSF cookie sent
+INFO - 2021-10-26 15:26:06 --> CSRF token verified
+DEBUG - 2021-10-26 15:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:26:06 --> Input Class Initialized
+INFO - 2021-10-26 15:26:06 --> Language Class Initialized
+INFO - 2021-10-26 15:26:06 --> Loader Class Initialized
+INFO - 2021-10-26 15:26:06 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:26:06 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:26:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:26:06 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:26:06 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:26:06 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:26:06 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:26:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:26:06 --> Parser Class Initialized
+INFO - 2021-10-26 15:26:06 --> Model Class Initialized
+INFO - 2021-10-26 15:26:06 --> Model Class Initialized
+INFO - 2021-10-26 15:26:06 --> Controller Class Initialized
+INFO - 2021-10-26 15:26:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:26:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:26:06 --> Could not find the language line "today"
+INFO - 2021-10-26 15:26:06 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:26:06 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:26:06 --> Model Class Initialized
+INFO - 2021-10-26 15:26:06 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:26:06 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:26:06 --> Upload Class Initialized
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 15:26:06 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
+ERROR - 2021-10-26 15:26:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 15:27:04 --> Config Class Initialized
+INFO - 2021-10-26 15:27:04 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:27:04 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:27:04 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:27:04 --> URI Class Initialized
+INFO - 2021-10-26 15:27:04 --> Router Class Initialized
+INFO - 2021-10-26 15:27:04 --> Output Class Initialized
+INFO - 2021-10-26 15:27:04 --> Security Class Initialized
+INFO - 2021-10-26 15:27:04 --> CRSF cookie sent
+INFO - 2021-10-26 15:27:04 --> CSRF token verified
+DEBUG - 2021-10-26 15:27:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:27:04 --> Input Class Initialized
+INFO - 2021-10-26 15:27:04 --> Language Class Initialized
+INFO - 2021-10-26 15:27:04 --> Loader Class Initialized
+INFO - 2021-10-26 15:27:04 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:27:04 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:27:04 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:27:04 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:27:04 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:27:04 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:27:04 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:27:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:27:04 --> Parser Class Initialized
+INFO - 2021-10-26 15:27:04 --> Model Class Initialized
+INFO - 2021-10-26 15:27:04 --> Model Class Initialized
+INFO - 2021-10-26 15:27:04 --> Controller Class Initialized
+INFO - 2021-10-26 15:27:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:27:04 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "today"
+INFO - 2021-10-26 15:27:04 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:27:04 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:27:04 --> Model Class Initialized
+INFO - 2021-10-26 15:27:04 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:27:04 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:27:04 --> Upload Class Initialized
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:27:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:27:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:27:04 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:27:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:27:04 --> Final output sent to browser
+DEBUG - 2021-10-26 15:27:04 --> Total execution time: 0.2612
+INFO - 2021-10-26 15:27:45 --> Config Class Initialized
+INFO - 2021-10-26 15:27:45 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:27:45 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:27:45 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:27:45 --> URI Class Initialized
+INFO - 2021-10-26 15:27:45 --> Router Class Initialized
+INFO - 2021-10-26 15:27:45 --> Output Class Initialized
+INFO - 2021-10-26 15:27:45 --> Security Class Initialized
+INFO - 2021-10-26 15:27:45 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:27:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:27:45 --> Input Class Initialized
+INFO - 2021-10-26 15:27:45 --> Language Class Initialized
+INFO - 2021-10-26 15:27:45 --> Loader Class Initialized
+INFO - 2021-10-26 15:27:45 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:27:45 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:27:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:27:45 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:27:45 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:27:45 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:27:45 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:27:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:27:45 --> Parser Class Initialized
+INFO - 2021-10-26 15:27:45 --> Model Class Initialized
+INFO - 2021-10-26 15:27:45 --> Model Class Initialized
+INFO - 2021-10-26 15:27:45 --> Controller Class Initialized
+INFO - 2021-10-26 15:27:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:27:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "today"
+INFO - 2021-10-26 15:27:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:27:45 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:27:45 --> Model Class Initialized
+INFO - 2021-10-26 15:27:45 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:27:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:27:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:27:45 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:27:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:27:45 --> Final output sent to browser
+DEBUG - 2021-10-26 15:27:45 --> Total execution time: 0.1479
+INFO - 2021-10-26 15:27:48 --> Config Class Initialized
+INFO - 2021-10-26 15:27:48 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:27:48 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:27:48 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:27:48 --> URI Class Initialized
+INFO - 2021-10-26 15:27:48 --> Router Class Initialized
+INFO - 2021-10-26 15:27:48 --> Output Class Initialized
+INFO - 2021-10-26 15:27:48 --> Security Class Initialized
+INFO - 2021-10-26 15:27:48 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:27:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:27:48 --> Input Class Initialized
+INFO - 2021-10-26 15:27:48 --> Language Class Initialized
+INFO - 2021-10-26 15:27:48 --> Loader Class Initialized
+INFO - 2021-10-26 15:27:48 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:27:48 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:27:48 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:27:48 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:27:48 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:27:48 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:27:48 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:27:48 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:27:48 --> Parser Class Initialized
+INFO - 2021-10-26 15:27:48 --> Model Class Initialized
+INFO - 2021-10-26 15:27:48 --> Model Class Initialized
+INFO - 2021-10-26 15:27:48 --> Controller Class Initialized
+INFO - 2021-10-26 15:27:48 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:27:48 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "today"
+INFO - 2021-10-26 15:27:48 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:27:48 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:27:48 --> Model Class Initialized
+INFO - 2021-10-26 15:27:48 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:27:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:27:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:27:48 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:27:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:27:48 --> Final output sent to browser
+DEBUG - 2021-10-26 15:27:48 --> Total execution time: 0.1385
+INFO - 2021-10-26 15:42:42 --> Config Class Initialized
+INFO - 2021-10-26 15:42:42 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:42:42 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:42:42 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:42:42 --> URI Class Initialized
+INFO - 2021-10-26 15:42:42 --> Router Class Initialized
+INFO - 2021-10-26 15:42:42 --> Output Class Initialized
+INFO - 2021-10-26 15:42:42 --> Security Class Initialized
+INFO - 2021-10-26 15:42:42 --> CRSF cookie sent
+DEBUG - 2021-10-26 15:42:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:42:42 --> Input Class Initialized
+INFO - 2021-10-26 15:42:42 --> Language Class Initialized
+INFO - 2021-10-26 15:42:42 --> Loader Class Initialized
+INFO - 2021-10-26 15:42:42 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:42:42 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:42:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:42:42 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:42:42 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:42:42 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:42:42 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:42:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:42:42 --> Parser Class Initialized
+INFO - 2021-10-26 15:42:42 --> Model Class Initialized
+INFO - 2021-10-26 15:42:42 --> Model Class Initialized
+INFO - 2021-10-26 15:42:42 --> Controller Class Initialized
+INFO - 2021-10-26 15:42:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:42:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "today"
+INFO - 2021-10-26 15:42:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:42:42 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:42:42 --> Model Class Initialized
+INFO - 2021-10-26 15:42:42 --> Helper loaded: security_helper
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "backups"
+INFO - 2021-10-26 15:42:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 15:42:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "due"
+ERROR - 2021-10-26 15:42:42 --> Could not find the language line "transferring"
+INFO - 2021-10-26 15:42:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 15:42:42 --> Final output sent to browser
+DEBUG - 2021-10-26 15:42:42 --> Total execution time: 0.1723
+INFO - 2021-10-26 15:42:52 --> Config Class Initialized
+INFO - 2021-10-26 15:42:52 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:42:52 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:42:52 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:42:52 --> URI Class Initialized
+INFO - 2021-10-26 15:42:52 --> Router Class Initialized
+INFO - 2021-10-26 15:42:52 --> Output Class Initialized
+INFO - 2021-10-26 15:42:52 --> Security Class Initialized
+INFO - 2021-10-26 15:42:52 --> CRSF cookie sent
+INFO - 2021-10-26 15:42:52 --> CSRF token verified
+DEBUG - 2021-10-26 15:42:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:42:52 --> Input Class Initialized
+INFO - 2021-10-26 15:42:52 --> Language Class Initialized
+INFO - 2021-10-26 15:42:52 --> Loader Class Initialized
+INFO - 2021-10-26 15:42:52 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:42:52 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:42:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:42:52 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:42:52 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:42:52 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:42:52 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:42:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:42:52 --> Parser Class Initialized
+INFO - 2021-10-26 15:42:52 --> Model Class Initialized
+INFO - 2021-10-26 15:42:52 --> Model Class Initialized
+INFO - 2021-10-26 15:42:52 --> Controller Class Initialized
+INFO - 2021-10-26 15:42:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:42:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:42:52 --> Could not find the language line "today"
+INFO - 2021-10-26 15:42:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:42:52 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:42:52 --> Model Class Initialized
+INFO - 2021-10-26 15:42:52 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:42:52 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:42:52 --> Upload Class Initialized
+ERROR - 2021-10-26 15:42:52 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1246
+ERROR - 2021-10-26 15:42:52 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 15:46:47 --> Config Class Initialized
+INFO - 2021-10-26 15:46:47 --> Hooks Class Initialized
+DEBUG - 2021-10-26 15:46:47 --> UTF-8 Support Enabled
+INFO - 2021-10-26 15:46:47 --> Utf8 Class Initialized
+INFO - 2021-10-26 15:46:47 --> URI Class Initialized
+INFO - 2021-10-26 15:46:47 --> Router Class Initialized
+INFO - 2021-10-26 15:46:47 --> Output Class Initialized
+INFO - 2021-10-26 15:46:47 --> Security Class Initialized
+INFO - 2021-10-26 15:46:47 --> CRSF cookie sent
+INFO - 2021-10-26 15:46:47 --> CSRF token verified
+DEBUG - 2021-10-26 15:46:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 15:46:47 --> Input Class Initialized
+INFO - 2021-10-26 15:46:47 --> Language Class Initialized
+INFO - 2021-10-26 15:46:47 --> Loader Class Initialized
+INFO - 2021-10-26 15:46:47 --> Helper loaded: url_helper
+INFO - 2021-10-26 15:46:47 --> Helper loaded: form_helper
+INFO - 2021-10-26 15:46:47 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 15:46:47 --> Helper loaded: language_helper
+INFO - 2021-10-26 15:46:47 --> Helper loaded: file_helper
+INFO - 2021-10-26 15:46:47 --> Helper loaded: date_helper
+INFO - 2021-10-26 15:46:47 --> Database Driver Class Initialized
+INFO - 2021-10-26 15:46:47 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 15:46:47 --> Parser Class Initialized
+INFO - 2021-10-26 15:46:47 --> Model Class Initialized
+INFO - 2021-10-26 15:46:47 --> Model Class Initialized
+INFO - 2021-10-26 15:46:47 --> Controller Class Initialized
+INFO - 2021-10-26 15:46:47 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 15:46:47 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 15:46:47 --> Could not find the language line "today"
+INFO - 2021-10-26 15:46:47 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 15:46:47 --> Form Validation Class Initialized
+INFO - 2021-10-26 15:46:47 --> Model Class Initialized
+INFO - 2021-10-26 15:46:47 --> Helper loaded: security_helper
+INFO - 2021-10-26 15:46:47 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 15:46:47 --> Upload Class Initialized
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:47 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 15:46:48 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 15:46:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:02:21 --> Config Class Initialized
+INFO - 2021-10-26 16:02:21 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:02:21 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:02:21 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:02:21 --> URI Class Initialized
+INFO - 2021-10-26 16:02:21 --> Router Class Initialized
+INFO - 2021-10-26 16:02:21 --> Output Class Initialized
+INFO - 2021-10-26 16:02:21 --> Security Class Initialized
+INFO - 2021-10-26 16:02:21 --> CRSF cookie sent
+INFO - 2021-10-26 16:02:21 --> CSRF token verified
+DEBUG - 2021-10-26 16:02:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:02:21 --> Input Class Initialized
+INFO - 2021-10-26 16:02:21 --> Language Class Initialized
+INFO - 2021-10-26 16:02:21 --> Loader Class Initialized
+INFO - 2021-10-26 16:02:21 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:02:21 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:02:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:02:21 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:02:21 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:02:22 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:02:22 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:02:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:02:22 --> Parser Class Initialized
+INFO - 2021-10-26 16:02:22 --> Model Class Initialized
+INFO - 2021-10-26 16:02:22 --> Model Class Initialized
+INFO - 2021-10-26 16:02:22 --> Controller Class Initialized
+INFO - 2021-10-26 16:02:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:02:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:02:22 --> Could not find the language line "today"
+INFO - 2021-10-26 16:02:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:02:22 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:02:22 --> Model Class Initialized
+INFO - 2021-10-26 16:02:22 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:02:22 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:02:22 --> Upload Class Initialized
+ERROR - 2021-10-26 16:02:22 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1242
+ERROR - 2021-10-26 16:02:22 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:02:56 --> Config Class Initialized
+INFO - 2021-10-26 16:02:56 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:02:56 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:02:56 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:02:56 --> URI Class Initialized
+INFO - 2021-10-26 16:02:56 --> Router Class Initialized
+INFO - 2021-10-26 16:02:56 --> Output Class Initialized
+INFO - 2021-10-26 16:02:56 --> Security Class Initialized
+INFO - 2021-10-26 16:02:56 --> CRSF cookie sent
+INFO - 2021-10-26 16:02:56 --> CSRF token verified
+DEBUG - 2021-10-26 16:02:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:02:56 --> Input Class Initialized
+INFO - 2021-10-26 16:02:56 --> Language Class Initialized
+INFO - 2021-10-26 16:02:56 --> Loader Class Initialized
+INFO - 2021-10-26 16:02:56 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:02:56 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:02:56 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:02:56 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:02:56 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:02:56 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:02:56 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:02:56 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:02:56 --> Parser Class Initialized
+INFO - 2021-10-26 16:02:56 --> Model Class Initialized
+INFO - 2021-10-26 16:02:56 --> Model Class Initialized
+INFO - 2021-10-26 16:02:56 --> Controller Class Initialized
+INFO - 2021-10-26 16:02:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:02:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:02:57 --> Could not find the language line "today"
+INFO - 2021-10-26 16:02:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:02:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:02:57 --> Model Class Initialized
+INFO - 2021-10-26 16:02:57 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:02:57 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:02:57 --> Upload Class Initialized
+ERROR - 2021-10-26 16:02:57 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1244
+ERROR - 2021-10-26 16:02:57 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:03:46 --> Config Class Initialized
+INFO - 2021-10-26 16:03:46 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:03:46 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:03:46 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:03:46 --> URI Class Initialized
+INFO - 2021-10-26 16:03:46 --> Router Class Initialized
+INFO - 2021-10-26 16:03:46 --> Output Class Initialized
+INFO - 2021-10-26 16:03:46 --> Security Class Initialized
+INFO - 2021-10-26 16:03:46 --> CRSF cookie sent
+INFO - 2021-10-26 16:03:46 --> CSRF token verified
+DEBUG - 2021-10-26 16:03:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:03:46 --> Input Class Initialized
+INFO - 2021-10-26 16:03:46 --> Language Class Initialized
+INFO - 2021-10-26 16:03:46 --> Loader Class Initialized
+INFO - 2021-10-26 16:03:46 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:03:46 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:03:46 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:03:46 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:03:46 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:03:46 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:03:46 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:03:46 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:03:46 --> Parser Class Initialized
+INFO - 2021-10-26 16:03:46 --> Model Class Initialized
+INFO - 2021-10-26 16:03:46 --> Model Class Initialized
+INFO - 2021-10-26 16:03:46 --> Controller Class Initialized
+INFO - 2021-10-26 16:03:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:03:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:03:46 --> Could not find the language line "today"
+INFO - 2021-10-26 16:03:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:03:46 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:03:46 --> Model Class Initialized
+INFO - 2021-10-26 16:03:46 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:03:46 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:03:46 --> Upload Class Initialized
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:03:46 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 16:03:46 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:15:24 --> Config Class Initialized
+INFO - 2021-10-26 16:15:24 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:15:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:15:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:15:24 --> URI Class Initialized
+INFO - 2021-10-26 16:15:24 --> Router Class Initialized
+INFO - 2021-10-26 16:15:24 --> Output Class Initialized
+INFO - 2021-10-26 16:15:24 --> Security Class Initialized
+INFO - 2021-10-26 16:15:24 --> CRSF cookie sent
+INFO - 2021-10-26 16:15:24 --> CSRF token verified
+DEBUG - 2021-10-26 16:15:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:15:24 --> Input Class Initialized
+INFO - 2021-10-26 16:15:24 --> Language Class Initialized
+INFO - 2021-10-26 16:15:24 --> Loader Class Initialized
+INFO - 2021-10-26 16:15:24 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:15:24 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:15:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:15:24 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:15:24 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:15:24 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:15:24 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:15:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:15:24 --> Parser Class Initialized
+INFO - 2021-10-26 16:15:24 --> Model Class Initialized
+INFO - 2021-10-26 16:15:24 --> Model Class Initialized
+INFO - 2021-10-26 16:15:24 --> Controller Class Initialized
+INFO - 2021-10-26 16:15:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:15:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:15:24 --> Could not find the language line "today"
+INFO - 2021-10-26 16:15:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:15:24 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:15:24 --> Model Class Initialized
+INFO - 2021-10-26 16:15:24 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:15:24 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:15:24 --> Upload Class Initialized
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:15:24 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 16:15:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:15:37 --> Config Class Initialized
+INFO - 2021-10-26 16:15:37 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:15:37 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:15:37 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:15:37 --> URI Class Initialized
+INFO - 2021-10-26 16:15:37 --> Router Class Initialized
+INFO - 2021-10-26 16:15:37 --> Output Class Initialized
+INFO - 2021-10-26 16:15:37 --> Security Class Initialized
+INFO - 2021-10-26 16:15:37 --> CRSF cookie sent
+INFO - 2021-10-26 16:15:37 --> CSRF token verified
+DEBUG - 2021-10-26 16:15:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:15:37 --> Input Class Initialized
+INFO - 2021-10-26 16:15:37 --> Language Class Initialized
+INFO - 2021-10-26 16:15:37 --> Loader Class Initialized
+INFO - 2021-10-26 16:15:37 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:15:37 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:15:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:15:37 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:15:37 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:15:37 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:15:37 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:15:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:15:37 --> Parser Class Initialized
+INFO - 2021-10-26 16:15:37 --> Model Class Initialized
+INFO - 2021-10-26 16:15:37 --> Model Class Initialized
+INFO - 2021-10-26 16:15:37 --> Controller Class Initialized
+INFO - 2021-10-26 16:15:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:15:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "today"
+INFO - 2021-10-26 16:15:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:15:37 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:15:37 --> Model Class Initialized
+INFO - 2021-10-26 16:15:37 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:15:37 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:15:37 --> Upload Class Initialized
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:15:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:15:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:15:37 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:15:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:15:37 --> Final output sent to browser
+DEBUG - 2021-10-26 16:15:37 --> Total execution time: 0.1337
+INFO - 2021-10-26 16:15:48 --> Config Class Initialized
+INFO - 2021-10-26 16:15:48 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:15:48 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:15:48 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:15:48 --> URI Class Initialized
+INFO - 2021-10-26 16:15:48 --> Router Class Initialized
+INFO - 2021-10-26 16:15:48 --> Output Class Initialized
+INFO - 2021-10-26 16:15:48 --> Security Class Initialized
+INFO - 2021-10-26 16:15:48 --> CRSF cookie sent
+INFO - 2021-10-26 16:15:48 --> CSRF token verified
+DEBUG - 2021-10-26 16:15:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:15:48 --> Input Class Initialized
+INFO - 2021-10-26 16:15:48 --> Language Class Initialized
+INFO - 2021-10-26 16:15:48 --> Loader Class Initialized
+INFO - 2021-10-26 16:15:48 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:15:48 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:15:48 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:15:48 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:15:48 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:15:48 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:15:48 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:15:48 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:15:48 --> Parser Class Initialized
+INFO - 2021-10-26 16:15:48 --> Model Class Initialized
+INFO - 2021-10-26 16:15:48 --> Model Class Initialized
+INFO - 2021-10-26 16:15:48 --> Controller Class Initialized
+INFO - 2021-10-26 16:15:48 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:15:48 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "today"
+INFO - 2021-10-26 16:15:48 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:15:48 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:15:48 --> Model Class Initialized
+INFO - 2021-10-26 16:15:48 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:15:48 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:15:48 --> Upload Class Initialized
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:15:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:15:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:15:48 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:15:48 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:15:48 --> Final output sent to browser
+DEBUG - 2021-10-26 16:15:48 --> Total execution time: 0.1259
+INFO - 2021-10-26 16:16:43 --> Config Class Initialized
+INFO - 2021-10-26 16:16:43 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:16:43 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:16:43 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:16:43 --> URI Class Initialized
+INFO - 2021-10-26 16:16:43 --> Router Class Initialized
+INFO - 2021-10-26 16:16:43 --> Output Class Initialized
+INFO - 2021-10-26 16:16:43 --> Security Class Initialized
+INFO - 2021-10-26 16:16:43 --> CRSF cookie sent
+INFO - 2021-10-26 16:16:43 --> CSRF token verified
+DEBUG - 2021-10-26 16:16:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:16:43 --> Input Class Initialized
+INFO - 2021-10-26 16:16:43 --> Language Class Initialized
+INFO - 2021-10-26 16:16:43 --> Loader Class Initialized
+INFO - 2021-10-26 16:16:43 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:16:43 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:16:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:16:43 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:16:43 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:16:43 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:16:43 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:16:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:16:43 --> Parser Class Initialized
+INFO - 2021-10-26 16:16:43 --> Model Class Initialized
+INFO - 2021-10-26 16:16:43 --> Model Class Initialized
+INFO - 2021-10-26 16:16:43 --> Controller Class Initialized
+INFO - 2021-10-26 16:16:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:16:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "today"
+INFO - 2021-10-26 16:16:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:16:43 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:16:43 --> Model Class Initialized
+INFO - 2021-10-26 16:16:43 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:16:43 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:16:43 --> Upload Class Initialized
+ERROR - 2021-10-26 16:16:43 --> Severity: Notice --> Undefined variable: csv C:\wamp64\www\Reactor\sma\controllers\Products.php 1237
+ERROR - 2021-10-26 16:16:43 --> Severity: Warning --> fopen(assets/uploads/xls/assets/uploads/xls/): failed to open stream: No such file or directory C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:16:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:16:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:16:43 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:16:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:16:43 --> Final output sent to browser
+DEBUG - 2021-10-26 16:16:43 --> Total execution time: 0.2296
+INFO - 2021-10-26 16:16:52 --> Config Class Initialized
+INFO - 2021-10-26 16:16:52 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:16:52 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:16:52 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:16:52 --> URI Class Initialized
+INFO - 2021-10-26 16:16:52 --> Router Class Initialized
+INFO - 2021-10-26 16:16:52 --> Output Class Initialized
+INFO - 2021-10-26 16:16:52 --> Security Class Initialized
+INFO - 2021-10-26 16:16:52 --> CRSF cookie sent
+INFO - 2021-10-26 16:16:52 --> CSRF token verified
+DEBUG - 2021-10-26 16:16:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:16:52 --> Input Class Initialized
+INFO - 2021-10-26 16:16:52 --> Language Class Initialized
+INFO - 2021-10-26 16:16:52 --> Loader Class Initialized
+INFO - 2021-10-26 16:16:52 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:16:52 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:16:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:16:52 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:16:52 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:16:52 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:16:52 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:16:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:16:52 --> Parser Class Initialized
+INFO - 2021-10-26 16:16:52 --> Model Class Initialized
+INFO - 2021-10-26 16:16:52 --> Model Class Initialized
+INFO - 2021-10-26 16:16:52 --> Controller Class Initialized
+INFO - 2021-10-26 16:16:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:16:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "today"
+INFO - 2021-10-26 16:16:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:16:52 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:16:52 --> Model Class Initialized
+INFO - 2021-10-26 16:16:52 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:16:52 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:16:52 --> Upload Class Initialized
+ERROR - 2021-10-26 16:16:52 --> Severity: Notice --> Undefined variable: csv C:\wamp64\www\Reactor\sma\controllers\Products.php 1237
+ERROR - 2021-10-26 16:16:52 --> Severity: Warning --> fopen(assets/uploads/xls/assets/uploads/xls/): failed to open stream: No such file or directory C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:16:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:16:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:16:52 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:16:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:16:52 --> Final output sent to browser
+DEBUG - 2021-10-26 16:16:52 --> Total execution time: 0.2046
+INFO - 2021-10-26 16:17:34 --> Config Class Initialized
+INFO - 2021-10-26 16:17:34 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:17:34 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:17:34 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:17:34 --> URI Class Initialized
+INFO - 2021-10-26 16:17:34 --> Router Class Initialized
+INFO - 2021-10-26 16:17:34 --> Output Class Initialized
+INFO - 2021-10-26 16:17:34 --> Security Class Initialized
+INFO - 2021-10-26 16:17:34 --> CRSF cookie sent
+INFO - 2021-10-26 16:17:34 --> CSRF token verified
+DEBUG - 2021-10-26 16:17:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:17:34 --> Input Class Initialized
+INFO - 2021-10-26 16:17:34 --> Language Class Initialized
+INFO - 2021-10-26 16:17:34 --> Loader Class Initialized
+INFO - 2021-10-26 16:17:34 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:17:34 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:17:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:17:34 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:17:34 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:17:34 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:17:34 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:17:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:17:34 --> Parser Class Initialized
+INFO - 2021-10-26 16:17:34 --> Model Class Initialized
+INFO - 2021-10-26 16:17:34 --> Model Class Initialized
+INFO - 2021-10-26 16:17:34 --> Controller Class Initialized
+INFO - 2021-10-26 16:17:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:17:34 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "today"
+INFO - 2021-10-26 16:17:34 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:17:34 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:17:34 --> Model Class Initialized
+INFO - 2021-10-26 16:17:34 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:17:34 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:17:34 --> Upload Class Initialized
+ERROR - 2021-10-26 16:17:34 --> Severity: Notice --> Undefined property: CI_Upload::$filename C:\wamp64\www\Reactor\sma\controllers\Products.php 1237
+ERROR - 2021-10-26 16:17:34 --> Severity: Warning --> fopen(assets/uploads/xls/assets/uploads/xls/): failed to open stream: No such file or directory C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:17:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:17:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:17:34 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:17:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:17:34 --> Final output sent to browser
+DEBUG - 2021-10-26 16:17:34 --> Total execution time: 0.2771
+INFO - 2021-10-26 16:18:38 --> Config Class Initialized
+INFO - 2021-10-26 16:18:38 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:18:38 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:18:38 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:18:38 --> URI Class Initialized
+INFO - 2021-10-26 16:18:38 --> Router Class Initialized
+INFO - 2021-10-26 16:18:38 --> Output Class Initialized
+INFO - 2021-10-26 16:18:38 --> Security Class Initialized
+INFO - 2021-10-26 16:18:38 --> CRSF cookie sent
+INFO - 2021-10-26 16:18:38 --> CSRF token verified
+DEBUG - 2021-10-26 16:18:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:18:38 --> Input Class Initialized
+INFO - 2021-10-26 16:18:38 --> Language Class Initialized
+INFO - 2021-10-26 16:18:39 --> Loader Class Initialized
+INFO - 2021-10-26 16:18:39 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:18:39 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:18:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:18:39 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:18:39 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:18:39 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:18:39 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:18:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:18:39 --> Parser Class Initialized
+INFO - 2021-10-26 16:18:39 --> Model Class Initialized
+INFO - 2021-10-26 16:18:39 --> Model Class Initialized
+INFO - 2021-10-26 16:18:39 --> Controller Class Initialized
+INFO - 2021-10-26 16:18:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:18:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "today"
+INFO - 2021-10-26 16:18:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:18:39 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:18:39 --> Model Class Initialized
+INFO - 2021-10-26 16:18:39 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:18:39 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:18:39 --> Upload Class Initialized
+ERROR - 2021-10-26 16:18:39 --> Severity: Warning --> fopen(assets/uploads/xls/assets/uploads/xls/listado_de_productos_2021-10-26_11_35.xls): failed to open stream: No such file or directory C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:18:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:18:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:18:39 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:18:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:18:39 --> Final output sent to browser
+DEBUG - 2021-10-26 16:18:39 --> Total execution time: 0.1630
+INFO - 2021-10-26 16:19:11 --> Config Class Initialized
+INFO - 2021-10-26 16:19:11 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:19:11 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:19:11 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:19:11 --> URI Class Initialized
+INFO - 2021-10-26 16:19:11 --> Router Class Initialized
+INFO - 2021-10-26 16:19:11 --> Output Class Initialized
+INFO - 2021-10-26 16:19:11 --> Security Class Initialized
+INFO - 2021-10-26 16:19:11 --> CRSF cookie sent
+INFO - 2021-10-26 16:19:11 --> CSRF token verified
+DEBUG - 2021-10-26 16:19:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:19:11 --> Input Class Initialized
+INFO - 2021-10-26 16:19:11 --> Language Class Initialized
+INFO - 2021-10-26 16:19:11 --> Loader Class Initialized
+INFO - 2021-10-26 16:19:11 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:19:11 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:19:11 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:19:11 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:19:11 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:19:11 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:19:11 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:19:11 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:19:11 --> Parser Class Initialized
+INFO - 2021-10-26 16:19:11 --> Model Class Initialized
+INFO - 2021-10-26 16:19:11 --> Model Class Initialized
+INFO - 2021-10-26 16:19:11 --> Controller Class Initialized
+INFO - 2021-10-26 16:19:11 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:19:11 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:19:11 --> Could not find the language line "today"
+INFO - 2021-10-26 16:19:11 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:19:11 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:19:11 --> Model Class Initialized
+INFO - 2021-10-26 16:19:11 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:19:11 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:19:11 --> Upload Class Initialized
+ERROR - 2021-10-26 16:19:11 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 16:19:12 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
+ERROR - 2021-10-26 16:19:12 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:20:35 --> Config Class Initialized
+INFO - 2021-10-26 16:20:35 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:20:35 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:20:35 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:20:35 --> URI Class Initialized
+INFO - 2021-10-26 16:20:35 --> Router Class Initialized
+INFO - 2021-10-26 16:20:35 --> Output Class Initialized
+INFO - 2021-10-26 16:20:35 --> Security Class Initialized
+INFO - 2021-10-26 16:20:35 --> CRSF cookie sent
+INFO - 2021-10-26 16:20:35 --> CSRF token verified
+DEBUG - 2021-10-26 16:20:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:20:35 --> Input Class Initialized
+INFO - 2021-10-26 16:20:35 --> Language Class Initialized
+INFO - 2021-10-26 16:20:35 --> Loader Class Initialized
+INFO - 2021-10-26 16:20:35 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:20:35 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:20:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:20:35 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:20:35 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:20:35 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:20:35 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:20:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:20:35 --> Parser Class Initialized
+INFO - 2021-10-26 16:20:35 --> Model Class Initialized
+INFO - 2021-10-26 16:20:35 --> Model Class Initialized
+INFO - 2021-10-26 16:20:35 --> Controller Class Initialized
+INFO - 2021-10-26 16:20:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:20:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "today"
+INFO - 2021-10-26 16:20:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:20:35 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:20:35 --> Model Class Initialized
+INFO - 2021-10-26 16:20:35 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:20:35 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:20:35 --> Upload Class Initialized
+ERROR - 2021-10-26 16:20:35 --> Severity: Warning --> fgets() expects at most 2 parameters, 3 given C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "backups"
+INFO - 2021-10-26 16:20:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 16:20:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "due"
+ERROR - 2021-10-26 16:20:35 --> Could not find the language line "transferring"
+INFO - 2021-10-26 16:20:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 16:20:35 --> Final output sent to browser
+DEBUG - 2021-10-26 16:20:35 --> Total execution time: 0.2549
+INFO - 2021-10-26 16:20:55 --> Config Class Initialized
+INFO - 2021-10-26 16:20:55 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:20:55 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:20:55 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:20:55 --> URI Class Initialized
+INFO - 2021-10-26 16:20:55 --> Router Class Initialized
+INFO - 2021-10-26 16:20:55 --> Output Class Initialized
+INFO - 2021-10-26 16:20:55 --> Security Class Initialized
+INFO - 2021-10-26 16:20:55 --> CRSF cookie sent
+INFO - 2021-10-26 16:20:55 --> CSRF token verified
+DEBUG - 2021-10-26 16:20:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:20:55 --> Input Class Initialized
+INFO - 2021-10-26 16:20:55 --> Language Class Initialized
+INFO - 2021-10-26 16:20:55 --> Loader Class Initialized
+INFO - 2021-10-26 16:20:55 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:20:55 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:20:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:20:55 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:20:55 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:20:55 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:20:55 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:20:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:20:55 --> Parser Class Initialized
+INFO - 2021-10-26 16:20:55 --> Model Class Initialized
+INFO - 2021-10-26 16:20:55 --> Model Class Initialized
+INFO - 2021-10-26 16:20:55 --> Controller Class Initialized
+INFO - 2021-10-26 16:20:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:20:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:20:55 --> Could not find the language line "today"
+INFO - 2021-10-26 16:20:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:20:55 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:20:55 --> Model Class Initialized
+INFO - 2021-10-26 16:20:55 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:20:55 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:20:55 --> Upload Class Initialized
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> array_combine() expects parameter 2 to be array, string given C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:20:55 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 16:20:55 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:23:53 --> Config Class Initialized
+INFO - 2021-10-26 16:23:53 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:23:53 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:23:53 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:23:53 --> URI Class Initialized
+INFO - 2021-10-26 16:23:53 --> Router Class Initialized
+INFO - 2021-10-26 16:23:53 --> Output Class Initialized
+INFO - 2021-10-26 16:23:53 --> Security Class Initialized
+INFO - 2021-10-26 16:23:53 --> CRSF cookie sent
+INFO - 2021-10-26 16:23:53 --> CSRF token verified
+DEBUG - 2021-10-26 16:23:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:23:53 --> Input Class Initialized
+INFO - 2021-10-26 16:23:53 --> Language Class Initialized
+INFO - 2021-10-26 16:23:53 --> Loader Class Initialized
+INFO - 2021-10-26 16:23:53 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:23:53 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:23:53 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:23:53 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:23:53 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:23:53 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:23:53 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:23:53 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:23:54 --> Parser Class Initialized
+INFO - 2021-10-26 16:23:54 --> Model Class Initialized
+INFO - 2021-10-26 16:23:54 --> Model Class Initialized
+INFO - 2021-10-26 16:23:54 --> Controller Class Initialized
+INFO - 2021-10-26 16:23:54 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:23:54 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:23:54 --> Could not find the language line "today"
+INFO - 2021-10-26 16:23:54 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:23:54 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:23:54 --> Model Class Initialized
+INFO - 2021-10-26 16:23:54 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:23:54 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:23:54 --> Upload Class Initialized
+ERROR - 2021-10-26 16:23:54 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1242
+ERROR - 2021-10-26 16:23:54 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:24:21 --> Config Class Initialized
+INFO - 2021-10-26 16:24:21 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:24:22 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:24:22 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:24:22 --> URI Class Initialized
+INFO - 2021-10-26 16:24:22 --> Router Class Initialized
+INFO - 2021-10-26 16:24:22 --> Output Class Initialized
+INFO - 2021-10-26 16:24:22 --> Security Class Initialized
+INFO - 2021-10-26 16:24:22 --> CRSF cookie sent
+INFO - 2021-10-26 16:24:22 --> CSRF token verified
+DEBUG - 2021-10-26 16:24:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:24:22 --> Input Class Initialized
+INFO - 2021-10-26 16:24:22 --> Language Class Initialized
+INFO - 2021-10-26 16:24:22 --> Loader Class Initialized
+INFO - 2021-10-26 16:24:22 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:24:22 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:24:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:24:22 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:24:22 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:24:22 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:24:22 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:24:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:24:22 --> Parser Class Initialized
+INFO - 2021-10-26 16:24:22 --> Model Class Initialized
+INFO - 2021-10-26 16:24:22 --> Model Class Initialized
+INFO - 2021-10-26 16:24:22 --> Controller Class Initialized
+INFO - 2021-10-26 16:24:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:24:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:24:22 --> Could not find the language line "today"
+INFO - 2021-10-26 16:24:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:24:22 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:24:22 --> Model Class Initialized
+INFO - 2021-10-26 16:24:22 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:24:22 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:24:22 --> Upload Class Initialized
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1256
+ERROR - 2021-10-26 16:24:22 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1261
+ERROR - 2021-10-26 16:24:22 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:32:49 --> Config Class Initialized
+INFO - 2021-10-26 16:32:49 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:32:49 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:32:49 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:32:49 --> URI Class Initialized
+INFO - 2021-10-26 16:32:49 --> Router Class Initialized
+INFO - 2021-10-26 16:32:49 --> Output Class Initialized
+INFO - 2021-10-26 16:32:49 --> Security Class Initialized
+INFO - 2021-10-26 16:32:49 --> CRSF cookie sent
+INFO - 2021-10-26 16:32:49 --> CSRF token verified
+DEBUG - 2021-10-26 16:32:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:32:49 --> Input Class Initialized
+INFO - 2021-10-26 16:32:49 --> Language Class Initialized
+INFO - 2021-10-26 16:32:49 --> Loader Class Initialized
+INFO - 2021-10-26 16:32:49 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:32:49 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:32:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:32:49 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:32:49 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:32:49 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:32:49 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:32:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:32:49 --> Parser Class Initialized
+INFO - 2021-10-26 16:32:49 --> Model Class Initialized
+INFO - 2021-10-26 16:32:49 --> Model Class Initialized
+INFO - 2021-10-26 16:32:49 --> Controller Class Initialized
+INFO - 2021-10-26 16:32:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:32:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:32:49 --> Could not find the language line "today"
+INFO - 2021-10-26 16:32:49 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:32:49 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:32:49 --> Model Class Initialized
+INFO - 2021-10-26 16:32:49 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:32:49 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:32:49 --> Upload Class Initialized
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:49 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1258
+ERROR - 2021-10-26 16:32:50 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1263
+ERROR - 2021-10-26 16:32:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 16:35:03 --> Config Class Initialized
+INFO - 2021-10-26 16:35:03 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:35:03 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:35:03 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:35:03 --> URI Class Initialized
+INFO - 2021-10-26 16:35:03 --> Router Class Initialized
+INFO - 2021-10-26 16:35:03 --> Output Class Initialized
+INFO - 2021-10-26 16:35:03 --> Security Class Initialized
+INFO - 2021-10-26 16:35:03 --> CRSF cookie sent
+INFO - 2021-10-26 16:35:03 --> CSRF token verified
+DEBUG - 2021-10-26 16:35:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:35:03 --> Input Class Initialized
+INFO - 2021-10-26 16:35:03 --> Language Class Initialized
+INFO - 2021-10-26 16:35:03 --> Loader Class Initialized
+INFO - 2021-10-26 16:35:03 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:35:03 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:35:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:35:03 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:35:03 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:35:03 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:35:03 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:35:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:35:03 --> Parser Class Initialized
+INFO - 2021-10-26 16:35:03 --> Model Class Initialized
+INFO - 2021-10-26 16:35:03 --> Model Class Initialized
+INFO - 2021-10-26 16:35:03 --> Controller Class Initialized
+INFO - 2021-10-26 16:35:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:35:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:35:03 --> Could not find the language line "today"
+INFO - 2021-10-26 16:35:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:35:03 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:35:03 --> Model Class Initialized
+INFO - 2021-10-26 16:35:03 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:35:03 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:35:03 --> Upload Class Initialized
+ERROR - 2021-10-26 16:35:03 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:35:03 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:35:18 --> Config Class Initialized
+INFO - 2021-10-26 16:35:18 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:35:18 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:35:18 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:35:18 --> URI Class Initialized
+INFO - 2021-10-26 16:35:18 --> Router Class Initialized
+INFO - 2021-10-26 16:35:18 --> Output Class Initialized
+INFO - 2021-10-26 16:35:18 --> Security Class Initialized
+INFO - 2021-10-26 16:35:18 --> CRSF cookie sent
+INFO - 2021-10-26 16:35:18 --> CSRF token verified
+DEBUG - 2021-10-26 16:35:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:35:18 --> Input Class Initialized
+INFO - 2021-10-26 16:35:18 --> Language Class Initialized
+INFO - 2021-10-26 16:35:18 --> Loader Class Initialized
+INFO - 2021-10-26 16:35:18 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:35:18 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:35:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:35:18 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:35:18 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:35:18 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:35:18 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:35:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:35:18 --> Parser Class Initialized
+INFO - 2021-10-26 16:35:18 --> Model Class Initialized
+INFO - 2021-10-26 16:35:18 --> Model Class Initialized
+INFO - 2021-10-26 16:35:18 --> Controller Class Initialized
+INFO - 2021-10-26 16:35:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:35:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:35:18 --> Could not find the language line "today"
+INFO - 2021-10-26 16:35:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:35:18 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:35:18 --> Model Class Initialized
+INFO - 2021-10-26 16:35:18 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:35:18 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:35:18 --> Upload Class Initialized
+ERROR - 2021-10-26 16:35:18 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 16:35:18 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:38:51 --> Config Class Initialized
+INFO - 2021-10-26 16:38:51 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:38:51 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:38:51 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:38:51 --> URI Class Initialized
+INFO - 2021-10-26 16:38:51 --> Router Class Initialized
+INFO - 2021-10-26 16:38:51 --> Output Class Initialized
+INFO - 2021-10-26 16:38:51 --> Security Class Initialized
+INFO - 2021-10-26 16:38:51 --> CRSF cookie sent
+INFO - 2021-10-26 16:38:51 --> CSRF token verified
+DEBUG - 2021-10-26 16:38:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:38:51 --> Input Class Initialized
+INFO - 2021-10-26 16:38:51 --> Language Class Initialized
+INFO - 2021-10-26 16:38:51 --> Loader Class Initialized
+INFO - 2021-10-26 16:38:51 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:38:51 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:38:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:38:51 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:38:51 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:38:51 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:38:51 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:38:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:38:51 --> Parser Class Initialized
+INFO - 2021-10-26 16:38:51 --> Model Class Initialized
+INFO - 2021-10-26 16:38:51 --> Model Class Initialized
+INFO - 2021-10-26 16:38:51 --> Controller Class Initialized
+INFO - 2021-10-26 16:38:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:38:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:38:51 --> Could not find the language line "today"
+INFO - 2021-10-26 16:38:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:38:51 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:38:51 --> Model Class Initialized
+INFO - 2021-10-26 16:38:51 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:38:51 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:38:51 --> Upload Class Initialized
+ERROR - 2021-10-26 16:38:51 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+ERROR - 2021-10-26 16:38:51 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:45:57 --> Config Class Initialized
+INFO - 2021-10-26 16:45:57 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:45:57 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:45:57 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:45:57 --> URI Class Initialized
+INFO - 2021-10-26 16:45:57 --> Router Class Initialized
+INFO - 2021-10-26 16:45:57 --> Output Class Initialized
+INFO - 2021-10-26 16:45:57 --> Security Class Initialized
+INFO - 2021-10-26 16:45:57 --> CRSF cookie sent
+INFO - 2021-10-26 16:45:57 --> CSRF token verified
+DEBUG - 2021-10-26 16:45:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:45:57 --> Input Class Initialized
+INFO - 2021-10-26 16:45:57 --> Language Class Initialized
+INFO - 2021-10-26 16:45:57 --> Loader Class Initialized
+INFO - 2021-10-26 16:45:57 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:45:57 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:45:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:45:57 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:45:57 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:45:57 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:45:57 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:45:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:45:57 --> Parser Class Initialized
+INFO - 2021-10-26 16:45:57 --> Model Class Initialized
+INFO - 2021-10-26 16:45:57 --> Model Class Initialized
+INFO - 2021-10-26 16:45:57 --> Controller Class Initialized
+INFO - 2021-10-26 16:45:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:45:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:45:57 --> Could not find the language line "today"
+INFO - 2021-10-26 16:45:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:45:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:45:57 --> Model Class Initialized
+INFO - 2021-10-26 16:45:57 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:45:57 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:45:57 --> Upload Class Initialized
+ERROR - 2021-10-26 16:45:57 --> Severity: Notice --> Undefined variable: path C:\wamp64\www\Reactor\sma\controllers\Products.php 1248
+ERROR - 2021-10-26 16:45:57 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1251
+ERROR - 2021-10-26 16:45:57 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:46:23 --> Config Class Initialized
+INFO - 2021-10-26 16:46:23 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:46:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:46:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:46:24 --> URI Class Initialized
+INFO - 2021-10-26 16:46:24 --> Router Class Initialized
+INFO - 2021-10-26 16:46:24 --> Output Class Initialized
+INFO - 2021-10-26 16:46:24 --> Security Class Initialized
+INFO - 2021-10-26 16:46:24 --> CRSF cookie sent
+INFO - 2021-10-26 16:46:24 --> CSRF token verified
+DEBUG - 2021-10-26 16:46:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:46:24 --> Input Class Initialized
+INFO - 2021-10-26 16:46:24 --> Language Class Initialized
+INFO - 2021-10-26 16:46:24 --> Loader Class Initialized
+INFO - 2021-10-26 16:46:24 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:46:24 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:46:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:46:24 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:46:24 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:46:24 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:46:24 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:46:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:46:24 --> Parser Class Initialized
+INFO - 2021-10-26 16:46:24 --> Model Class Initialized
+INFO - 2021-10-26 16:46:24 --> Model Class Initialized
+INFO - 2021-10-26 16:46:24 --> Controller Class Initialized
+INFO - 2021-10-26 16:46:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:46:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:46:24 --> Could not find the language line "today"
+INFO - 2021-10-26 16:46:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:46:24 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:46:24 --> Model Class Initialized
+INFO - 2021-10-26 16:46:24 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:46:24 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:46:24 --> Upload Class Initialized
+ERROR - 2021-10-26 16:46:24 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1251
+ERROR - 2021-10-26 16:46:24 --> Severity: Error --> Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of Error given, called in C:\wamp64\www\Reactor\system\core\Common.php on line 658 and defined in C:\wamp64\www\Reactor\system\core\Exceptions.php:190
+Stack trace:
+#0 C:\wamp64\www\Reactor\system\core\Common.php(658): CI_Exceptions->show_exception(Object(Error))
+#1 [internal function]: _exception_handler(Object(Error))
+#2 {main}
+  thrown C:\wamp64\www\Reactor\system\core\Exceptions.php 190
+INFO - 2021-10-26 16:48:37 --> Config Class Initialized
+INFO - 2021-10-26 16:48:37 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:48:37 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:48:37 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:48:37 --> URI Class Initialized
+INFO - 2021-10-26 16:48:37 --> Router Class Initialized
+INFO - 2021-10-26 16:48:37 --> Output Class Initialized
+INFO - 2021-10-26 16:48:37 --> Security Class Initialized
+INFO - 2021-10-26 16:48:37 --> CRSF cookie sent
+INFO - 2021-10-26 16:48:37 --> CSRF token verified
+DEBUG - 2021-10-26 16:48:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:48:37 --> Input Class Initialized
+INFO - 2021-10-26 16:48:37 --> Language Class Initialized
+INFO - 2021-10-26 16:48:37 --> Loader Class Initialized
+INFO - 2021-10-26 16:48:37 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:48:37 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:48:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:48:37 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:48:37 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:48:37 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:48:37 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:48:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:48:37 --> Parser Class Initialized
+INFO - 2021-10-26 16:48:37 --> Model Class Initialized
+INFO - 2021-10-26 16:48:37 --> Model Class Initialized
+INFO - 2021-10-26 16:48:37 --> Controller Class Initialized
+INFO - 2021-10-26 16:48:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:48:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:48:37 --> Could not find the language line "today"
+INFO - 2021-10-26 16:48:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:48:37 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:48:37 --> Model Class Initialized
+INFO - 2021-10-26 16:48:37 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:48:37 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:48:37 --> Upload Class Initialized
+ERROR - 2021-10-26 16:48:37 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1251
+INFO - 2021-10-26 16:49:28 --> Config Class Initialized
+INFO - 2021-10-26 16:49:28 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:49:28 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:49:28 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:49:28 --> URI Class Initialized
+INFO - 2021-10-26 16:49:28 --> Router Class Initialized
+INFO - 2021-10-26 16:49:28 --> Output Class Initialized
+INFO - 2021-10-26 16:49:28 --> Security Class Initialized
+INFO - 2021-10-26 16:49:28 --> CRSF cookie sent
+INFO - 2021-10-26 16:49:28 --> CSRF token verified
+DEBUG - 2021-10-26 16:49:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:49:28 --> Input Class Initialized
+INFO - 2021-10-26 16:49:28 --> Language Class Initialized
+INFO - 2021-10-26 16:49:28 --> Loader Class Initialized
+INFO - 2021-10-26 16:49:28 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:49:28 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:49:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:49:28 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:49:28 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:49:28 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:49:28 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:49:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:49:28 --> Parser Class Initialized
+INFO - 2021-10-26 16:49:28 --> Model Class Initialized
+INFO - 2021-10-26 16:49:28 --> Model Class Initialized
+INFO - 2021-10-26 16:49:28 --> Controller Class Initialized
+INFO - 2021-10-26 16:49:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:49:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:49:28 --> Could not find the language line "today"
+INFO - 2021-10-26 16:49:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:49:28 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:49:28 --> Model Class Initialized
+INFO - 2021-10-26 16:49:28 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:49:28 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:49:28 --> Upload Class Initialized
+ERROR - 2021-10-26 16:49:28 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1251
+INFO - 2021-10-26 16:51:24 --> Config Class Initialized
+INFO - 2021-10-26 16:51:24 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:51:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:51:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:51:24 --> URI Class Initialized
+INFO - 2021-10-26 16:51:24 --> Router Class Initialized
+INFO - 2021-10-26 16:51:24 --> Output Class Initialized
+INFO - 2021-10-26 16:51:24 --> Security Class Initialized
+INFO - 2021-10-26 16:51:24 --> CRSF cookie sent
+INFO - 2021-10-26 16:51:24 --> CSRF token verified
+DEBUG - 2021-10-26 16:51:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:51:24 --> Input Class Initialized
+INFO - 2021-10-26 16:51:24 --> Language Class Initialized
+INFO - 2021-10-26 16:51:24 --> Loader Class Initialized
+INFO - 2021-10-26 16:51:24 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:51:24 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:51:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:51:24 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:51:24 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:51:24 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:51:24 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:51:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:51:24 --> Parser Class Initialized
+INFO - 2021-10-26 16:51:24 --> Model Class Initialized
+INFO - 2021-10-26 16:51:24 --> Model Class Initialized
+INFO - 2021-10-26 16:51:24 --> Controller Class Initialized
+INFO - 2021-10-26 16:51:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:51:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:51:24 --> Could not find the language line "today"
+INFO - 2021-10-26 16:51:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:51:24 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:51:24 --> Model Class Initialized
+INFO - 2021-10-26 16:51:24 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:51:24 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:51:24 --> Upload Class Initialized
+ERROR - 2021-10-26 16:51:24 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+INFO - 2021-10-26 16:51:25 --> Config Class Initialized
+INFO - 2021-10-26 16:51:25 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:51:25 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:51:25 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:51:25 --> URI Class Initialized
+INFO - 2021-10-26 16:51:25 --> Router Class Initialized
+INFO - 2021-10-26 16:51:25 --> Output Class Initialized
+INFO - 2021-10-26 16:51:25 --> Security Class Initialized
+INFO - 2021-10-26 16:51:25 --> CRSF cookie sent
+INFO - 2021-10-26 16:51:25 --> CSRF token verified
+DEBUG - 2021-10-26 16:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:51:25 --> Input Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language Class Initialized
+INFO - 2021-10-26 16:51:25 --> Loader Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:51:25 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:51:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:51:25 --> Parser Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Controller Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:51:25 --> Could not find the language line "today"
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:51:25 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:51:25 --> Upload Class Initialized
+ERROR - 2021-10-26 16:51:25 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+INFO - 2021-10-26 16:51:25 --> Config Class Initialized
+INFO - 2021-10-26 16:51:25 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:51:25 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:51:25 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:51:25 --> URI Class Initialized
+INFO - 2021-10-26 16:51:25 --> Router Class Initialized
+INFO - 2021-10-26 16:51:25 --> Output Class Initialized
+INFO - 2021-10-26 16:51:25 --> Security Class Initialized
+INFO - 2021-10-26 16:51:25 --> CRSF cookie sent
+INFO - 2021-10-26 16:51:25 --> CSRF token verified
+DEBUG - 2021-10-26 16:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:51:25 --> Input Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language Class Initialized
+INFO - 2021-10-26 16:51:25 --> Loader Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:51:25 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:51:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:51:25 --> Parser Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Controller Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:51:25 --> Could not find the language line "today"
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:51:25 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:51:25 --> Upload Class Initialized
+ERROR - 2021-10-26 16:51:25 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+INFO - 2021-10-26 16:51:25 --> Config Class Initialized
+INFO - 2021-10-26 16:51:25 --> Hooks Class Initialized
+DEBUG - 2021-10-26 16:51:25 --> UTF-8 Support Enabled
+INFO - 2021-10-26 16:51:25 --> Utf8 Class Initialized
+INFO - 2021-10-26 16:51:25 --> URI Class Initialized
+INFO - 2021-10-26 16:51:25 --> Router Class Initialized
+INFO - 2021-10-26 16:51:25 --> Output Class Initialized
+INFO - 2021-10-26 16:51:25 --> Security Class Initialized
+INFO - 2021-10-26 16:51:25 --> CRSF cookie sent
+INFO - 2021-10-26 16:51:25 --> CSRF token verified
+DEBUG - 2021-10-26 16:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 16:51:25 --> Input Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language Class Initialized
+INFO - 2021-10-26 16:51:25 --> Loader Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: url_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: form_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: language_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: file_helper
+INFO - 2021-10-26 16:51:25 --> Helper loaded: date_helper
+INFO - 2021-10-26 16:51:25 --> Database Driver Class Initialized
+INFO - 2021-10-26 16:51:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 16:51:25 --> Parser Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Controller Class Initialized
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 16:51:25 --> Could not find the language line "today"
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 16:51:25 --> Form Validation Class Initialized
+INFO - 2021-10-26 16:51:25 --> Model Class Initialized
+INFO - 2021-10-26 16:51:25 --> Helper loaded: security_helper
+INFO - 2021-10-26 16:51:25 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 16:51:25 --> Upload Class Initialized
+ERROR - 2021-10-26 16:51:25 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1243
+INFO - 2021-10-26 17:09:26 --> Config Class Initialized
+INFO - 2021-10-26 17:09:26 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:09:26 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:09:26 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:09:26 --> URI Class Initialized
+INFO - 2021-10-26 17:09:26 --> Router Class Initialized
+INFO - 2021-10-26 17:09:26 --> Output Class Initialized
+INFO - 2021-10-26 17:09:26 --> Security Class Initialized
+INFO - 2021-10-26 17:09:26 --> CRSF cookie sent
+INFO - 2021-10-26 17:09:26 --> CSRF token verified
+DEBUG - 2021-10-26 17:09:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:09:26 --> Input Class Initialized
+INFO - 2021-10-26 17:09:26 --> Language Class Initialized
+INFO - 2021-10-26 17:09:26 --> Loader Class Initialized
+INFO - 2021-10-26 17:09:26 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:09:26 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:09:26 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:09:26 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:09:26 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:09:26 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:09:26 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:09:26 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:09:26 --> Parser Class Initialized
+INFO - 2021-10-26 17:09:26 --> Model Class Initialized
+INFO - 2021-10-26 17:09:26 --> Model Class Initialized
+INFO - 2021-10-26 17:09:26 --> Controller Class Initialized
+INFO - 2021-10-26 17:09:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:09:26 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:09:26 --> Could not find the language line "today"
+INFO - 2021-10-26 17:09:26 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:09:26 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:09:26 --> Model Class Initialized
+INFO - 2021-10-26 17:09:26 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:09:26 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:09:26 --> Upload Class Initialized
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:09:26 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1260
+ERROR - 2021-10-26 17:09:26 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:13:45 --> Config Class Initialized
+INFO - 2021-10-26 17:13:45 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:13:45 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:13:45 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:13:45 --> URI Class Initialized
+INFO - 2021-10-26 17:13:45 --> Router Class Initialized
+INFO - 2021-10-26 17:13:45 --> Output Class Initialized
+INFO - 2021-10-26 17:13:45 --> Security Class Initialized
+INFO - 2021-10-26 17:13:45 --> CRSF cookie sent
+INFO - 2021-10-26 17:13:45 --> CSRF token verified
+DEBUG - 2021-10-26 17:13:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:13:45 --> Input Class Initialized
+INFO - 2021-10-26 17:13:45 --> Language Class Initialized
+INFO - 2021-10-26 17:13:45 --> Loader Class Initialized
+INFO - 2021-10-26 17:13:45 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:13:45 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:13:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:13:45 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:13:45 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:13:45 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:13:45 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:13:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:13:45 --> Parser Class Initialized
+INFO - 2021-10-26 17:13:45 --> Model Class Initialized
+INFO - 2021-10-26 17:13:45 --> Model Class Initialized
+INFO - 2021-10-26 17:13:45 --> Controller Class Initialized
+INFO - 2021-10-26 17:13:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:13:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:13:45 --> Could not find the language line "today"
+INFO - 2021-10-26 17:13:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:13:45 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:13:45 --> Model Class Initialized
+INFO - 2021-10-26 17:13:45 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:13:45 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:13:45 --> Upload Class Initialized
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1255
+ERROR - 2021-10-26 17:13:45 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1260
+ERROR - 2021-10-26 17:13:45 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:14:50 --> Config Class Initialized
+INFO - 2021-10-26 17:14:50 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:14:50 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:14:50 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:14:50 --> URI Class Initialized
+INFO - 2021-10-26 17:14:50 --> Router Class Initialized
+INFO - 2021-10-26 17:14:50 --> Output Class Initialized
+INFO - 2021-10-26 17:14:50 --> Security Class Initialized
+INFO - 2021-10-26 17:14:50 --> CRSF cookie sent
+INFO - 2021-10-26 17:14:50 --> CSRF token verified
+DEBUG - 2021-10-26 17:14:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:14:50 --> Input Class Initialized
+INFO - 2021-10-26 17:14:50 --> Language Class Initialized
+INFO - 2021-10-26 17:14:50 --> Loader Class Initialized
+INFO - 2021-10-26 17:14:50 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:14:50 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:14:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:14:50 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:14:50 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:14:50 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:14:50 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:14:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:14:50 --> Parser Class Initialized
+INFO - 2021-10-26 17:14:50 --> Model Class Initialized
+INFO - 2021-10-26 17:14:50 --> Model Class Initialized
+INFO - 2021-10-26 17:14:50 --> Controller Class Initialized
+INFO - 2021-10-26 17:14:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:14:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:14:50 --> Could not find the language line "today"
+INFO - 2021-10-26 17:14:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:14:50 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:14:50 --> Model Class Initialized
+INFO - 2021-10-26 17:14:50 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:14:50 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:14:50 --> Upload Class Initialized
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1257
+ERROR - 2021-10-26 17:14:50 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1262
+ERROR - 2021-10-26 17:14:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:22:09 --> Config Class Initialized
+INFO - 2021-10-26 17:22:09 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:22:09 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:22:09 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:22:09 --> URI Class Initialized
+INFO - 2021-10-26 17:22:09 --> Router Class Initialized
+INFO - 2021-10-26 17:22:09 --> Output Class Initialized
+INFO - 2021-10-26 17:22:09 --> Security Class Initialized
+INFO - 2021-10-26 17:22:09 --> CRSF cookie sent
+INFO - 2021-10-26 17:22:09 --> CSRF token verified
+DEBUG - 2021-10-26 17:22:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:22:09 --> Input Class Initialized
+INFO - 2021-10-26 17:22:09 --> Language Class Initialized
+INFO - 2021-10-26 17:22:09 --> Loader Class Initialized
+INFO - 2021-10-26 17:22:09 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:22:09 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:22:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:22:09 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:22:09 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:22:09 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:22:09 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:22:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:22:10 --> Parser Class Initialized
+INFO - 2021-10-26 17:22:10 --> Model Class Initialized
+INFO - 2021-10-26 17:22:10 --> Model Class Initialized
+INFO - 2021-10-26 17:22:10 --> Controller Class Initialized
+INFO - 2021-10-26 17:22:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:22:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:22:10 --> Could not find the language line "today"
+INFO - 2021-10-26 17:22:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:22:10 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:22:10 --> Model Class Initialized
+INFO - 2021-10-26 17:22:10 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:22:10 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:22:10 --> Upload Class Initialized
+ERROR - 2021-10-26 17:22:10 --> Severity: error --> Exception: Class 'PHPExcel_IOFactory' not found C:\wamp64\www\Reactor\sma\controllers\Products.php 1239
+INFO - 2021-10-26 17:23:11 --> Config Class Initialized
+INFO - 2021-10-26 17:23:11 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:23:11 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:23:11 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:23:11 --> URI Class Initialized
+INFO - 2021-10-26 17:23:11 --> Router Class Initialized
+INFO - 2021-10-26 17:23:11 --> Output Class Initialized
+INFO - 2021-10-26 17:23:11 --> Security Class Initialized
+INFO - 2021-10-26 17:23:11 --> CRSF cookie sent
+INFO - 2021-10-26 17:23:11 --> CSRF token verified
+DEBUG - 2021-10-26 17:23:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:23:11 --> Input Class Initialized
+INFO - 2021-10-26 17:23:11 --> Language Class Initialized
+INFO - 2021-10-26 17:23:11 --> Loader Class Initialized
+INFO - 2021-10-26 17:23:11 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:23:11 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:23:11 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:23:11 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:23:11 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:23:11 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:23:11 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:23:11 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:23:11 --> Parser Class Initialized
+INFO - 2021-10-26 17:23:11 --> Model Class Initialized
+INFO - 2021-10-26 17:23:11 --> Model Class Initialized
+INFO - 2021-10-26 17:23:11 --> Controller Class Initialized
+INFO - 2021-10-26 17:23:11 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:23:11 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:23:11 --> Could not find the language line "today"
+INFO - 2021-10-26 17:23:11 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:23:11 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:23:11 --> Model Class Initialized
+INFO - 2021-10-26 17:23:11 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:23:11 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:23:11 --> Upload Class Initialized
+ERROR - 2021-10-26 17:23:11 --> Severity: Notice --> Undefined variable: objReader C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+ERROR - 2021-10-26 17:23:11 --> Severity: error --> Exception: Call to a member function load() on null C:\wamp64\www\Reactor\sma\controllers\Products.php 1241
+INFO - 2021-10-26 17:24:18 --> Config Class Initialized
+INFO - 2021-10-26 17:24:18 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:24:18 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:24:18 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:24:18 --> URI Class Initialized
+INFO - 2021-10-26 17:24:18 --> Router Class Initialized
+INFO - 2021-10-26 17:24:18 --> Output Class Initialized
+INFO - 2021-10-26 17:24:18 --> Security Class Initialized
+INFO - 2021-10-26 17:24:18 --> CRSF cookie sent
+INFO - 2021-10-26 17:24:18 --> CSRF token verified
+DEBUG - 2021-10-26 17:24:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:24:18 --> Input Class Initialized
+INFO - 2021-10-26 17:24:18 --> Language Class Initialized
+INFO - 2021-10-26 17:24:18 --> Loader Class Initialized
+INFO - 2021-10-26 17:24:18 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:24:18 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:24:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:24:18 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:24:18 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:24:18 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:24:18 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:24:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:24:18 --> Parser Class Initialized
+INFO - 2021-10-26 17:24:18 --> Model Class Initialized
+INFO - 2021-10-26 17:24:18 --> Model Class Initialized
+INFO - 2021-10-26 17:24:18 --> Controller Class Initialized
+INFO - 2021-10-26 17:24:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:24:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:24:18 --> Could not find the language line "today"
+INFO - 2021-10-26 17:24:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:24:18 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:24:18 --> Model Class Initialized
+INFO - 2021-10-26 17:24:18 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:24:18 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:24:18 --> Upload Class Initialized
+ERROR - 2021-10-26 17:24:18 --> Severity: error --> Exception: Could not open listado_de_productos_2021-10-26_11_35.xls for reading! File does not exist. C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 348
+INFO - 2021-10-26 17:24:44 --> Config Class Initialized
+INFO - 2021-10-26 17:24:44 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:24:44 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:24:44 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:24:44 --> URI Class Initialized
+INFO - 2021-10-26 17:24:44 --> Router Class Initialized
+INFO - 2021-10-26 17:24:44 --> Output Class Initialized
+INFO - 2021-10-26 17:24:44 --> Security Class Initialized
+INFO - 2021-10-26 17:24:44 --> CRSF cookie sent
+INFO - 2021-10-26 17:24:44 --> CSRF token verified
+DEBUG - 2021-10-26 17:24:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:24:44 --> Input Class Initialized
+INFO - 2021-10-26 17:24:44 --> Language Class Initialized
+INFO - 2021-10-26 17:24:44 --> Loader Class Initialized
+INFO - 2021-10-26 17:24:44 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:24:44 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:24:44 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:24:44 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:24:44 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:24:44 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:24:44 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:24:44 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:24:44 --> Parser Class Initialized
+INFO - 2021-10-26 17:24:44 --> Model Class Initialized
+INFO - 2021-10-26 17:24:44 --> Model Class Initialized
+INFO - 2021-10-26 17:24:44 --> Controller Class Initialized
+INFO - 2021-10-26 17:24:44 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:24:44 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:24:44 --> Could not find the language line "today"
+INFO - 2021-10-26 17:24:44 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:24:44 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:24:44 --> Model Class Initialized
+INFO - 2021-10-26 17:24:44 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:24:44 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:24:44 --> Upload Class Initialized
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 327
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 330
+ERROR - 2021-10-26 17:24:44 --> Severity: Notice --> Trying to get property of non-object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 366
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 366
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 327
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 330
+ERROR - 2021-10-26 17:24:44 --> Severity: Notice --> Trying to get property of non-object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 403
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 403
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 327
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::getFromName(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 330
+ERROR - 2021-10-26 17:24:44 --> Severity: Notice --> Trying to get property of non-object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 1717
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 1717
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> ZipArchive::close(): Invalid or uninitialized Zip object C:\wamp64\www\Reactor\sma\third_party\PHPExcel\PHPExcel\Reader\Excel2007.php 1751
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:24:44 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1272
+ERROR - 2021-10-26 17:24:44 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:25:24 --> Config Class Initialized
+INFO - 2021-10-26 17:25:24 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:25:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:25:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:25:24 --> URI Class Initialized
+INFO - 2021-10-26 17:25:24 --> Router Class Initialized
+INFO - 2021-10-26 17:25:24 --> Output Class Initialized
+INFO - 2021-10-26 17:25:24 --> Security Class Initialized
+INFO - 2021-10-26 17:25:24 --> CRSF cookie sent
+INFO - 2021-10-26 17:25:24 --> CSRF token verified
+DEBUG - 2021-10-26 17:25:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:25:24 --> Input Class Initialized
+INFO - 2021-10-26 17:25:24 --> Language Class Initialized
+INFO - 2021-10-26 17:25:24 --> Loader Class Initialized
+INFO - 2021-10-26 17:25:24 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:25:24 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:25:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:25:24 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:25:24 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:25:24 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:25:24 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:25:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:25:24 --> Parser Class Initialized
+INFO - 2021-10-26 17:25:24 --> Model Class Initialized
+INFO - 2021-10-26 17:25:24 --> Model Class Initialized
+INFO - 2021-10-26 17:25:24 --> Controller Class Initialized
+INFO - 2021-10-26 17:25:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:25:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:25:24 --> Could not find the language line "today"
+INFO - 2021-10-26 17:25:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:25:24 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:25:24 --> Model Class Initialized
+INFO - 2021-10-26 17:25:24 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:25:24 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:25:24 --> Upload Class Initialized
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1267
+ERROR - 2021-10-26 17:25:24 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1272
+ERROR - 2021-10-26 17:25:24 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\sma\controllers\Products.php:1243) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:29:17 --> Config Class Initialized
+INFO - 2021-10-26 17:29:17 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:29:17 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:29:17 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:29:17 --> URI Class Initialized
+INFO - 2021-10-26 17:29:17 --> Router Class Initialized
+INFO - 2021-10-26 17:29:17 --> Output Class Initialized
+INFO - 2021-10-26 17:29:17 --> Security Class Initialized
+INFO - 2021-10-26 17:29:17 --> CRSF cookie sent
+INFO - 2021-10-26 17:29:17 --> CSRF token verified
+DEBUG - 2021-10-26 17:29:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:29:17 --> Input Class Initialized
+INFO - 2021-10-26 17:29:17 --> Language Class Initialized
+INFO - 2021-10-26 17:29:17 --> Loader Class Initialized
+INFO - 2021-10-26 17:29:17 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:29:17 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:29:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:29:17 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:29:17 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:29:17 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:29:17 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:29:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:29:18 --> Parser Class Initialized
+INFO - 2021-10-26 17:29:18 --> Model Class Initialized
+INFO - 2021-10-26 17:29:18 --> Model Class Initialized
+INFO - 2021-10-26 17:29:18 --> Controller Class Initialized
+INFO - 2021-10-26 17:29:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:29:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:29:18 --> Could not find the language line "today"
+INFO - 2021-10-26 17:29:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:29:18 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:29:18 --> Model Class Initialized
+INFO - 2021-10-26 17:29:18 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:29:18 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:29:18 --> Upload Class Initialized
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1265
+ERROR - 2021-10-26 17:29:18 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1270
+ERROR - 2021-10-26 17:29:18 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:31:20 --> Config Class Initialized
+INFO - 2021-10-26 17:31:20 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:31:20 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:31:20 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:31:20 --> URI Class Initialized
+INFO - 2021-10-26 17:31:20 --> Router Class Initialized
+INFO - 2021-10-26 17:31:20 --> Output Class Initialized
+INFO - 2021-10-26 17:31:20 --> Security Class Initialized
+INFO - 2021-10-26 17:31:20 --> CRSF cookie sent
+INFO - 2021-10-26 17:31:20 --> CSRF token verified
+DEBUG - 2021-10-26 17:31:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:31:20 --> Input Class Initialized
+INFO - 2021-10-26 17:31:20 --> Language Class Initialized
+INFO - 2021-10-26 17:31:20 --> Loader Class Initialized
+INFO - 2021-10-26 17:31:20 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:31:20 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:31:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:31:20 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:31:20 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:31:20 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:31:20 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:31:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:31:20 --> Parser Class Initialized
+INFO - 2021-10-26 17:31:20 --> Model Class Initialized
+INFO - 2021-10-26 17:31:20 --> Model Class Initialized
+INFO - 2021-10-26 17:31:20 --> Controller Class Initialized
+INFO - 2021-10-26 17:31:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:31:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:31:20 --> Could not find the language line "today"
+INFO - 2021-10-26 17:31:20 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:31:20 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:31:20 --> Model Class Initialized
+INFO - 2021-10-26 17:31:20 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:31:20 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:31:20 --> Upload Class Initialized
+ERROR - 2021-10-26 17:31:20 --> Severity: Notice --> Undefined variable: objPHPExcel C:\wamp64\www\Reactor\sma\controllers\Products.php 1244
+ERROR - 2021-10-26 17:31:20 --> Severity: error --> Exception: Call to a member function getActiveSheet() on null C:\wamp64\www\Reactor\sma\controllers\Products.php 1244
+INFO - 2021-10-26 17:31:50 --> Config Class Initialized
+INFO - 2021-10-26 17:31:50 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:31:50 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:31:50 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:31:50 --> URI Class Initialized
+INFO - 2021-10-26 17:31:50 --> Router Class Initialized
+INFO - 2021-10-26 17:31:50 --> Output Class Initialized
+INFO - 2021-10-26 17:31:50 --> Security Class Initialized
+INFO - 2021-10-26 17:31:50 --> CRSF cookie sent
+INFO - 2021-10-26 17:31:50 --> CSRF token verified
+DEBUG - 2021-10-26 17:31:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:31:50 --> Input Class Initialized
+INFO - 2021-10-26 17:31:50 --> Language Class Initialized
+INFO - 2021-10-26 17:31:50 --> Loader Class Initialized
+INFO - 2021-10-26 17:31:50 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:31:50 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:31:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:31:50 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:31:50 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:31:50 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:31:50 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:31:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:31:50 --> Parser Class Initialized
+INFO - 2021-10-26 17:31:50 --> Model Class Initialized
+INFO - 2021-10-26 17:31:50 --> Model Class Initialized
+INFO - 2021-10-26 17:31:50 --> Controller Class Initialized
+INFO - 2021-10-26 17:31:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:31:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:31:50 --> Could not find the language line "today"
+INFO - 2021-10-26 17:31:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:31:50 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:31:50 --> Model Class Initialized
+INFO - 2021-10-26 17:31:51 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:31:51 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:31:51 --> Upload Class Initialized
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> array_combine(): Both parameters should have an equal number of elements C:\wamp64\www\Reactor\sma\controllers\Products.php 1283
+ERROR - 2021-10-26 17:31:51 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1288
+ERROR - 2021-10-26 17:31:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\wamp64\www\Reactor\system\core\Exceptions.php:272) C:\wamp64\www\Reactor\system\helpers\url_helper.php 564
+INFO - 2021-10-26 17:33:23 --> Config Class Initialized
+INFO - 2021-10-26 17:33:23 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:33:23 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:33:23 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:33:23 --> URI Class Initialized
+INFO - 2021-10-26 17:33:23 --> Router Class Initialized
+INFO - 2021-10-26 17:33:23 --> Output Class Initialized
+INFO - 2021-10-26 17:33:23 --> Security Class Initialized
+INFO - 2021-10-26 17:33:23 --> CRSF cookie sent
+INFO - 2021-10-26 17:33:23 --> CSRF token verified
+DEBUG - 2021-10-26 17:33:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:33:23 --> Input Class Initialized
+INFO - 2021-10-26 17:33:23 --> Language Class Initialized
+INFO - 2021-10-26 17:33:23 --> Loader Class Initialized
+INFO - 2021-10-26 17:33:23 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:33:23 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:33:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:33:23 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:33:23 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:33:23 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:33:23 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:33:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:33:23 --> Parser Class Initialized
+INFO - 2021-10-26 17:33:23 --> Model Class Initialized
+INFO - 2021-10-26 17:33:23 --> Model Class Initialized
+INFO - 2021-10-26 17:33:23 --> Controller Class Initialized
+INFO - 2021-10-26 17:33:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:33:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:33:23 --> Could not find the language line "today"
+INFO - 2021-10-26 17:33:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:33:23 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:33:23 --> Model Class Initialized
+INFO - 2021-10-26 17:33:23 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:33:23 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:33:23 --> Upload Class Initialized
+ERROR - 2021-10-26 17:33:23 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1272
+INFO - 2021-10-26 17:33:24 --> Config Class Initialized
+INFO - 2021-10-26 17:33:24 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:33:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:33:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:33:24 --> URI Class Initialized
+INFO - 2021-10-26 17:33:24 --> Router Class Initialized
+INFO - 2021-10-26 17:33:24 --> Output Class Initialized
+INFO - 2021-10-26 17:33:24 --> Security Class Initialized
+INFO - 2021-10-26 17:33:24 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:33:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:33:24 --> Input Class Initialized
+INFO - 2021-10-26 17:33:24 --> Language Class Initialized
+INFO - 2021-10-26 17:33:24 --> Loader Class Initialized
+INFO - 2021-10-26 17:33:24 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:33:24 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:33:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:33:24 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:33:24 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:33:24 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:33:24 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:33:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:33:24 --> Parser Class Initialized
+INFO - 2021-10-26 17:33:24 --> Model Class Initialized
+INFO - 2021-10-26 17:33:24 --> Model Class Initialized
+INFO - 2021-10-26 17:33:24 --> Controller Class Initialized
+INFO - 2021-10-26 17:33:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:33:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "today"
+INFO - 2021-10-26 17:33:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:33:24 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:33:24 --> Model Class Initialized
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:33:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-26 17:33:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:33:24 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:33:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:33:24 --> Final output sent to browser
+DEBUG - 2021-10-26 17:33:24 --> Total execution time: 0.1747
+INFO - 2021-10-26 17:33:24 --> Config Class Initialized
+INFO - 2021-10-26 17:33:24 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:33:24 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:33:24 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:33:24 --> URI Class Initialized
+INFO - 2021-10-26 17:33:24 --> Router Class Initialized
+INFO - 2021-10-26 17:33:24 --> Output Class Initialized
+INFO - 2021-10-26 17:33:24 --> Security Class Initialized
+INFO - 2021-10-26 17:33:24 --> CRSF cookie sent
+INFO - 2021-10-26 17:33:24 --> CSRF token verified
+DEBUG - 2021-10-26 17:33:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:33:24 --> Input Class Initialized
+INFO - 2021-10-26 17:33:24 --> Language Class Initialized
+INFO - 2021-10-26 17:33:25 --> Loader Class Initialized
+INFO - 2021-10-26 17:33:25 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:33:25 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:33:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:33:25 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:33:25 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:33:25 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:33:25 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:33:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:33:25 --> Parser Class Initialized
+INFO - 2021-10-26 17:33:25 --> Model Class Initialized
+INFO - 2021-10-26 17:33:25 --> Model Class Initialized
+INFO - 2021-10-26 17:33:25 --> Controller Class Initialized
+INFO - 2021-10-26 17:33:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:33:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:33:25 --> Could not find the language line "today"
+INFO - 2021-10-26 17:33:25 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:33:25 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:33:25 --> Model Class Initialized
+INFO - 2021-10-26 17:33:25 --> Final output sent to browser
+DEBUG - 2021-10-26 17:33:25 --> Total execution time: 0.2767
+INFO - 2021-10-26 17:33:34 --> Config Class Initialized
+INFO - 2021-10-26 17:33:34 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:33:34 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:33:34 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:33:34 --> URI Class Initialized
+INFO - 2021-10-26 17:33:34 --> Router Class Initialized
+INFO - 2021-10-26 17:33:34 --> Output Class Initialized
+INFO - 2021-10-26 17:33:34 --> Security Class Initialized
+INFO - 2021-10-26 17:33:34 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:33:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:33:34 --> Input Class Initialized
+INFO - 2021-10-26 17:33:34 --> Language Class Initialized
+INFO - 2021-10-26 17:33:34 --> Loader Class Initialized
+INFO - 2021-10-26 17:33:34 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:33:34 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:33:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:33:34 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:33:34 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:33:34 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:33:34 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:33:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:33:34 --> Parser Class Initialized
+INFO - 2021-10-26 17:33:34 --> Model Class Initialized
+INFO - 2021-10-26 17:33:34 --> Model Class Initialized
+INFO - 2021-10-26 17:33:34 --> Controller Class Initialized
+INFO - 2021-10-26 17:33:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:33:34 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "today"
+INFO - 2021-10-26 17:33:34 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:33:34 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:33:34 --> Model Class Initialized
+INFO - 2021-10-26 17:33:34 --> Helper loaded: security_helper
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:33:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 17:33:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:33:34 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:33:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:33:34 --> Final output sent to browser
+DEBUG - 2021-10-26 17:33:34 --> Total execution time: 0.2979
+INFO - 2021-10-26 17:33:37 --> Config Class Initialized
+INFO - 2021-10-26 17:33:37 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:33:37 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:33:37 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:33:37 --> URI Class Initialized
+INFO - 2021-10-26 17:33:37 --> Router Class Initialized
+INFO - 2021-10-26 17:33:37 --> Output Class Initialized
+INFO - 2021-10-26 17:33:37 --> Security Class Initialized
+INFO - 2021-10-26 17:33:37 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:33:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:33:37 --> Input Class Initialized
+INFO - 2021-10-26 17:33:37 --> Language Class Initialized
+INFO - 2021-10-26 17:33:37 --> Loader Class Initialized
+INFO - 2021-10-26 17:33:37 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:33:37 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:33:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:33:37 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:33:37 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:33:37 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:33:37 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:33:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:33:37 --> Parser Class Initialized
+INFO - 2021-10-26 17:33:37 --> Model Class Initialized
+INFO - 2021-10-26 17:33:37 --> Model Class Initialized
+INFO - 2021-10-26 17:33:37 --> Controller Class Initialized
+INFO - 2021-10-26 17:33:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:33:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:33:37 --> Could not find the language line "today"
+INFO - 2021-10-26 17:33:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:33:37 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:33:37 --> Model Class Initialized
+INFO - 2021-10-26 17:33:37 --> Final output sent to browser
+DEBUG - 2021-10-26 17:33:37 --> Total execution time: 0.3405
+INFO - 2021-10-26 17:34:30 --> Config Class Initialized
+INFO - 2021-10-26 17:34:30 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:34:30 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:34:30 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:34:30 --> URI Class Initialized
+INFO - 2021-10-26 17:34:30 --> Router Class Initialized
+INFO - 2021-10-26 17:34:30 --> Output Class Initialized
+INFO - 2021-10-26 17:34:30 --> Security Class Initialized
+INFO - 2021-10-26 17:34:30 --> CRSF cookie sent
+INFO - 2021-10-26 17:34:30 --> CSRF token verified
+DEBUG - 2021-10-26 17:34:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:34:30 --> Input Class Initialized
+INFO - 2021-10-26 17:34:30 --> Language Class Initialized
+INFO - 2021-10-26 17:34:30 --> Loader Class Initialized
+INFO - 2021-10-26 17:34:30 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:34:30 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:34:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:34:30 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:34:30 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:34:30 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:34:30 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:34:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:34:30 --> Parser Class Initialized
+INFO - 2021-10-26 17:34:30 --> Model Class Initialized
+INFO - 2021-10-26 17:34:30 --> Model Class Initialized
+INFO - 2021-10-26 17:34:30 --> Controller Class Initialized
+INFO - 2021-10-26 17:34:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:34:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:34:30 --> Could not find the language line "today"
+INFO - 2021-10-26 17:34:30 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:34:30 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:34:30 --> Model Class Initialized
+INFO - 2021-10-26 17:34:30 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:34:30 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:34:30 --> Upload Class Initialized
+ERROR - 2021-10-26 17:34:30 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1272
+INFO - 2021-10-26 17:34:30 --> Config Class Initialized
+INFO - 2021-10-26 17:34:30 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:34:30 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:34:30 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:34:30 --> URI Class Initialized
+INFO - 2021-10-26 17:34:30 --> Router Class Initialized
+INFO - 2021-10-26 17:34:30 --> Output Class Initialized
+INFO - 2021-10-26 17:34:30 --> Security Class Initialized
+INFO - 2021-10-26 17:34:30 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:34:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:34:30 --> Input Class Initialized
+INFO - 2021-10-26 17:34:30 --> Language Class Initialized
+INFO - 2021-10-26 17:34:30 --> Loader Class Initialized
+INFO - 2021-10-26 17:34:31 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:34:31 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:34:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:34:31 --> Parser Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+INFO - 2021-10-26 17:34:31 --> Controller Class Initialized
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "today"
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:34:31 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:34:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-26 17:34:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:34:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:34:31 --> Final output sent to browser
+DEBUG - 2021-10-26 17:34:31 --> Total execution time: 0.1279
+INFO - 2021-10-26 17:34:31 --> Config Class Initialized
+INFO - 2021-10-26 17:34:31 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:34:31 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:34:31 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:34:31 --> URI Class Initialized
+INFO - 2021-10-26 17:34:31 --> Router Class Initialized
+INFO - 2021-10-26 17:34:31 --> Output Class Initialized
+INFO - 2021-10-26 17:34:31 --> Security Class Initialized
+INFO - 2021-10-26 17:34:31 --> CRSF cookie sent
+INFO - 2021-10-26 17:34:31 --> CSRF token verified
+DEBUG - 2021-10-26 17:34:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:34:31 --> Input Class Initialized
+INFO - 2021-10-26 17:34:31 --> Language Class Initialized
+INFO - 2021-10-26 17:34:31 --> Loader Class Initialized
+INFO - 2021-10-26 17:34:31 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:34:31 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:34:31 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:34:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:34:31 --> Parser Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+INFO - 2021-10-26 17:34:31 --> Controller Class Initialized
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:34:31 --> Could not find the language line "today"
+INFO - 2021-10-26 17:34:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:34:31 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:34:31 --> Model Class Initialized
+INFO - 2021-10-26 17:34:31 --> Final output sent to browser
+DEBUG - 2021-10-26 17:34:31 --> Total execution time: 0.2736
+INFO - 2021-10-26 17:37:49 --> Config Class Initialized
+INFO - 2021-10-26 17:37:49 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:37:49 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:37:49 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:37:49 --> URI Class Initialized
+INFO - 2021-10-26 17:37:49 --> Router Class Initialized
+INFO - 2021-10-26 17:37:49 --> Output Class Initialized
+INFO - 2021-10-26 17:37:49 --> Security Class Initialized
+INFO - 2021-10-26 17:37:49 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:37:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:37:49 --> Input Class Initialized
+INFO - 2021-10-26 17:37:49 --> Language Class Initialized
+INFO - 2021-10-26 17:37:49 --> Loader Class Initialized
+INFO - 2021-10-26 17:37:49 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:37:49 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:37:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:37:49 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:37:49 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:37:49 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:37:49 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:37:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:37:49 --> Parser Class Initialized
+INFO - 2021-10-26 17:37:49 --> Model Class Initialized
+INFO - 2021-10-26 17:37:49 --> Model Class Initialized
+INFO - 2021-10-26 17:37:49 --> Controller Class Initialized
+INFO - 2021-10-26 17:37:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:37:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "today"
+INFO - 2021-10-26 17:37:49 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:37:49 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:37:49 --> Model Class Initialized
+INFO - 2021-10-26 17:37:49 --> Helper loaded: security_helper
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:37:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 17:37:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:37:49 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:37:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:37:49 --> Final output sent to browser
+DEBUG - 2021-10-26 17:37:49 --> Total execution time: 0.1594
+INFO - 2021-10-26 17:37:57 --> Config Class Initialized
+INFO - 2021-10-26 17:37:57 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:37:57 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:37:57 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:37:57 --> URI Class Initialized
+INFO - 2021-10-26 17:37:57 --> Router Class Initialized
+INFO - 2021-10-26 17:37:57 --> Output Class Initialized
+INFO - 2021-10-26 17:37:57 --> Security Class Initialized
+INFO - 2021-10-26 17:37:57 --> CRSF cookie sent
+INFO - 2021-10-26 17:37:57 --> CSRF token verified
+DEBUG - 2021-10-26 17:37:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:37:57 --> Input Class Initialized
+INFO - 2021-10-26 17:37:57 --> Language Class Initialized
+INFO - 2021-10-26 17:37:57 --> Loader Class Initialized
+INFO - 2021-10-26 17:37:57 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:37:57 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:37:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:37:57 --> Parser Class Initialized
+INFO - 2021-10-26 17:37:57 --> Model Class Initialized
+INFO - 2021-10-26 17:37:57 --> Model Class Initialized
+INFO - 2021-10-26 17:37:57 --> Controller Class Initialized
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:37:57 --> Could not find the language line "today"
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:37:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:37:57 --> Model Class Initialized
+INFO - 2021-10-26 17:37:57 --> Helper loaded: security_helper
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-26 17:37:57 --> Upload Class Initialized
+ERROR - 2021-10-26 17:37:57 --> Severity: Notice --> Undefined variable: rw C:\wamp64\www\Reactor\sma\controllers\Products.php 1271
+INFO - 2021-10-26 17:37:57 --> Config Class Initialized
+INFO - 2021-10-26 17:37:57 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:37:57 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:37:57 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:37:57 --> URI Class Initialized
+INFO - 2021-10-26 17:37:57 --> Router Class Initialized
+INFO - 2021-10-26 17:37:57 --> Output Class Initialized
+INFO - 2021-10-26 17:37:57 --> Security Class Initialized
+INFO - 2021-10-26 17:37:57 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:37:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:37:57 --> Input Class Initialized
+INFO - 2021-10-26 17:37:57 --> Language Class Initialized
+INFO - 2021-10-26 17:37:57 --> Loader Class Initialized
+INFO - 2021-10-26 17:37:57 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:37:57 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:37:57 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:37:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:37:57 --> Parser Class Initialized
+INFO - 2021-10-26 17:37:57 --> Model Class Initialized
+INFO - 2021-10-26 17:37:57 --> Model Class Initialized
+INFO - 2021-10-26 17:37:57 --> Controller Class Initialized
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:37:57 --> Could not find the language line "today"
+INFO - 2021-10-26 17:37:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:37:57 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:37:58 --> Model Class Initialized
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:37:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-26 17:37:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:37:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:37:58 --> Final output sent to browser
+DEBUG - 2021-10-26 17:37:58 --> Total execution time: 0.1517
+INFO - 2021-10-26 17:37:58 --> Config Class Initialized
+INFO - 2021-10-26 17:37:58 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:37:58 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:37:58 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:37:58 --> URI Class Initialized
+INFO - 2021-10-26 17:37:58 --> Router Class Initialized
+INFO - 2021-10-26 17:37:58 --> Output Class Initialized
+INFO - 2021-10-26 17:37:58 --> Security Class Initialized
+INFO - 2021-10-26 17:37:58 --> CRSF cookie sent
+INFO - 2021-10-26 17:37:58 --> CSRF token verified
+DEBUG - 2021-10-26 17:37:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:37:58 --> Input Class Initialized
+INFO - 2021-10-26 17:37:58 --> Language Class Initialized
+INFO - 2021-10-26 17:37:58 --> Loader Class Initialized
+INFO - 2021-10-26 17:37:58 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:37:58 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:37:58 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:37:58 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:37:58 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:37:58 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:37:58 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:37:58 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:37:58 --> Parser Class Initialized
+INFO - 2021-10-26 17:37:58 --> Model Class Initialized
+INFO - 2021-10-26 17:37:58 --> Model Class Initialized
+INFO - 2021-10-26 17:37:58 --> Controller Class Initialized
+INFO - 2021-10-26 17:37:58 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:37:58 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:37:58 --> Could not find the language line "today"
+INFO - 2021-10-26 17:37:58 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:37:58 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:37:58 --> Model Class Initialized
+INFO - 2021-10-26 17:37:58 --> Final output sent to browser
+DEBUG - 2021-10-26 17:37:58 --> Total execution time: 0.2053
+INFO - 2021-10-26 17:38:05 --> Config Class Initialized
+INFO - 2021-10-26 17:38:05 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:38:05 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:38:05 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:38:05 --> URI Class Initialized
+INFO - 2021-10-26 17:38:05 --> Router Class Initialized
+INFO - 2021-10-26 17:38:05 --> Output Class Initialized
+INFO - 2021-10-26 17:38:05 --> Security Class Initialized
+INFO - 2021-10-26 17:38:05 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:38:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:38:05 --> Input Class Initialized
+INFO - 2021-10-26 17:38:05 --> Language Class Initialized
+INFO - 2021-10-26 17:38:05 --> Loader Class Initialized
+INFO - 2021-10-26 17:38:05 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:38:05 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:38:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:38:05 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:38:05 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:38:05 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:38:05 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:38:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:38:05 --> Parser Class Initialized
+INFO - 2021-10-26 17:38:05 --> Model Class Initialized
+INFO - 2021-10-26 17:38:05 --> Model Class Initialized
+INFO - 2021-10-26 17:38:05 --> Controller Class Initialized
+INFO - 2021-10-26 17:38:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:38:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "today"
+INFO - 2021-10-26 17:38:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:38:05 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:38:05 --> Model Class Initialized
+INFO - 2021-10-26 17:38:05 --> Helper loaded: security_helper
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:38:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-26 17:38:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:38:05 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:38:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:38:05 --> Final output sent to browser
+DEBUG - 2021-10-26 17:38:05 --> Total execution time: 0.1668
+INFO - 2021-10-26 17:38:06 --> Config Class Initialized
+INFO - 2021-10-26 17:38:06 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:38:06 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:38:06 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:38:06 --> URI Class Initialized
+INFO - 2021-10-26 17:38:06 --> Router Class Initialized
+INFO - 2021-10-26 17:38:06 --> Output Class Initialized
+INFO - 2021-10-26 17:38:06 --> Security Class Initialized
+INFO - 2021-10-26 17:38:06 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:38:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:38:06 --> Input Class Initialized
+INFO - 2021-10-26 17:38:06 --> Language Class Initialized
+INFO - 2021-10-26 17:38:06 --> Loader Class Initialized
+INFO - 2021-10-26 17:38:06 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:38:06 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:38:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:38:06 --> Parser Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Controller Class Initialized
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:38:06 --> Could not find the language line "today"
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:38:06 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Final output sent to browser
+DEBUG - 2021-10-26 17:38:06 --> Total execution time: 0.1539
+INFO - 2021-10-26 17:38:06 --> Config Class Initialized
+INFO - 2021-10-26 17:38:06 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:38:06 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:38:06 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:38:06 --> URI Class Initialized
+INFO - 2021-10-26 17:38:06 --> Router Class Initialized
+INFO - 2021-10-26 17:38:06 --> Output Class Initialized
+INFO - 2021-10-26 17:38:06 --> Security Class Initialized
+INFO - 2021-10-26 17:38:06 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:38:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:38:06 --> Input Class Initialized
+INFO - 2021-10-26 17:38:06 --> Language Class Initialized
+INFO - 2021-10-26 17:38:06 --> Loader Class Initialized
+INFO - 2021-10-26 17:38:06 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:38:06 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:38:06 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:38:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:38:06 --> Parser Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Controller Class Initialized
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:38:06 --> Could not find the language line "today"
+INFO - 2021-10-26 17:38:06 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-26 17:38:06 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:38:06 --> Model Class Initialized
+INFO - 2021-10-26 17:38:06 --> Final output sent to browser
+DEBUG - 2021-10-26 17:38:06 --> Total execution time: 0.1124
+INFO - 2021-10-26 17:38:17 --> Config Class Initialized
+INFO - 2021-10-26 17:38:17 --> Hooks Class Initialized
+DEBUG - 2021-10-26 17:38:17 --> UTF-8 Support Enabled
+INFO - 2021-10-26 17:38:17 --> Utf8 Class Initialized
+INFO - 2021-10-26 17:38:17 --> URI Class Initialized
+INFO - 2021-10-26 17:38:17 --> Router Class Initialized
+INFO - 2021-10-26 17:38:17 --> Output Class Initialized
+INFO - 2021-10-26 17:38:17 --> Security Class Initialized
+INFO - 2021-10-26 17:38:17 --> CRSF cookie sent
+DEBUG - 2021-10-26 17:38:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-26 17:38:17 --> Input Class Initialized
+INFO - 2021-10-26 17:38:17 --> Language Class Initialized
+INFO - 2021-10-26 17:38:17 --> Loader Class Initialized
+INFO - 2021-10-26 17:38:17 --> Helper loaded: url_helper
+INFO - 2021-10-26 17:38:17 --> Helper loaded: form_helper
+INFO - 2021-10-26 17:38:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-26 17:38:17 --> Helper loaded: language_helper
+INFO - 2021-10-26 17:38:17 --> Helper loaded: file_helper
+INFO - 2021-10-26 17:38:17 --> Helper loaded: date_helper
+INFO - 2021-10-26 17:38:17 --> Database Driver Class Initialized
+INFO - 2021-10-26 17:38:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-26 17:38:17 --> Parser Class Initialized
+INFO - 2021-10-26 17:38:17 --> Model Class Initialized
+INFO - 2021-10-26 17:38:17 --> Model Class Initialized
+INFO - 2021-10-26 17:38:17 --> Controller Class Initialized
+INFO - 2021-10-26 17:38:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-26 17:38:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "today"
+INFO - 2021-10-26 17:38:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-26 17:38:17 --> Form Validation Class Initialized
+INFO - 2021-10-26 17:38:17 --> Model Class Initialized
+INFO - 2021-10-26 17:38:17 --> Helper loaded: security_helper
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "backups"
+INFO - 2021-10-26 17:38:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-26 17:38:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "due"
+ERROR - 2021-10-26 17:38:17 --> Could not find the language line "transferring"
+INFO - 2021-10-26 17:38:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-26 17:38:17 --> Final output sent to browser
+DEBUG - 2021-10-26 17:38:17 --> Total execution time: 0.3075

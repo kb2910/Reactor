@@ -1207,6 +1207,7 @@ class Products extends MY_Controller
 
     function update_price()
     {
+        $this->load->library('excel'); 
         $this->sma->checkPermissions('xls');
         $this->load->helper('security');
         $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
@@ -1223,7 +1224,6 @@ class Products extends MY_Controller
                 $this->load->library('upload');
                 $config['upload_path'] = $this->digital_upload_path;
                 $config['allowed_types'] = 'xls';
-                $config['max_size'] = $this->allowed_file_size;
                 $config['overwrite'] = TRUE;
 
                 $this->upload->initialize($config);
@@ -1234,29 +1234,35 @@ class Products extends MY_Controller
                     redirect("products/update_price");
                 }
 
-                $csv = $this->upload->file_name;
 
-                $arrResult = array();
-                $handle = fopen($this->digital_upload_path . $csv, "r");
-               
-
-                if ($handle) {
-                    while (($row = fgets($handle)) !== FALSE) {
-                        $arrResult[] = $row;
+                $file  = PHPExcel_IOFactory::createReader('Excel5');
+                $array = $file->load($this->digital_upload_path .$this->upload->file_name);
+                $cell_collection = $array->getActiveSheet()->getCellCollection();
+                foreach ($cell_collection as $cell) {
+                    $column = $array->getActiveSheet()->getCell($cell)->getColumn();
+                    $row = $array->getActiveSheet()->getCell($cell)->getRow();
+                    $data_value = $array->getActiveSheet()->getCell($cell)->getValue();
+                    //header will/should be in row 1 only. of course this can be modified to suit your need.
+                    if ($row == 1) {
+                        $header[$row][$column] = $data_value;
+                    } else {
+                        $arr_data[$row][$column] = $data_value;
                     }
-                    fclose($handle);
                 }
 
-                $titles = array_shift($arrResult);
-               
+                //send the data in an array format
+                $data['header'] = $header;
+                $data['values'] = $arr_data;
+ 
+           
                 $keys = array('code','name','price');
 
                 $final = array();
 
-                foreach ($arrResult as $key => $value) {
-                    $final[] = array_combine($keys, $value);
+                foreach ($arr_data as $key => $value) {
+                      $final[] = array_combine($keys, $value);
                 }
-      
+
                 foreach ($final as $csv_pr) {
                     if (!$this->products_model->getProductByCode(trim($csv_pr['code']))) {
                         $this->session->set_flashdata('message', lang("check_product_code") . " (" . $csv_pr['code'] . "). " . lang("code_x_exist") . " " . lang("line_no") . " " . $rw);
