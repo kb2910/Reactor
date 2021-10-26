@@ -890,4 +890,14 @@ class Products_model extends CI_Model
         }
         return FALSE;
     }
+
+    
+    public function getProductsOfImport()  {
+        return $this->db
+          ->select('l.id,l.code,l.name, l.price')
+          ->from('products l')
+          ->order_by('l.name asc')
+          ->get()
+          ->result();
+      }
 }

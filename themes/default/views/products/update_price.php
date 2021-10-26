@@ -1,6 +1,6 @@
 <div class="box">
     <div class="box-header">
-        <h2 class="blue"><i class="fa-fw fa fa-plus"></i><?= lang('update_price_csv'); ?></h2>
+        <h2 class="blue"><i class="fa-fw fa fa-plus"></i><?= lang('update_price_title'); ?></h2>
     </div>
     <div class="box-content">
         <div class="row">
@@ -12,15 +12,23 @@
                 ?>
                 <div class="row">
                     <div class="col-md-12">
+                 
+                        <!--div class="well well-small">
+                            <a href="<--?php echo base_url(); ?>assets/csv/sample_product_price.csv"
+                               class="btn btn-primary pull-right"><i
+                                    class="fa fa-download"></i> <--?= lang("download_sample_file") ?></a>
 
+                            <span class="text-warning"><-?= lang("csv1");?></span><br/><-?= lang("csv2"); ?> <span
+                                class="text-info">(<-?= lang("product_code") . ', ' . lang("product_price"); ?>
+                                )</span> <-?= lang("csv3"); ?>
+
+                        </div-->
 
                         <div class="well well-small">
-                            <a href="<?php echo base_url(); ?>assets/csv/sample_product_price.csv"
-                               class="btn btn-primary pull-right"><i
-                                    class="fa fa-download"></i> <?= lang("download_sample_file") ?></a>
-                            <span class="text-warning"><?= lang("csv1"); ?></span><br/><?= lang("csv2"); ?> <span
+                          <a href="generar_excel/" class="btn btn-primary pull-right"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("download_sample_file") ?></a>
+                            <span class="text-warning"><?= lang("xls1"); ?></span><br/><?= lang("xls2"); ?> <span
                                 class="text-info">(<?= lang("product_code") . ', ' . lang("product_price"); ?>
-                                )</span> <?= lang("csv3"); ?>
+                                )</span> <?= lang("xls3"); ?>
 
                         </div>
 

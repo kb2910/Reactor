@@ -64,6 +64,7 @@ $lang['import_products_by_csv']                  =     "Agregar productos por CS
 $lang['category_code']                           =     "Código de categoría";
 $lang['subcategory_code']                        =     "Código de la Sub categoría";
 $lang['update_price_csv']                        =     "Actualizar precios de los productos por CSV";
+$lang['update_price_title']                      =     "Actualizar precios de los productos";
 $lang['delete_damage_product']                   =     "Eliminar producto dañado";
 $lang['edit_damage_details']                     =     "Editar Detalles de Daños";
 $lang['damage_quantity']                         =     "Cantidad dañada";

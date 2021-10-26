@@ -13,7 +13,7 @@ class Products extends MY_Controller
         $this->lang->load('products', $this->Settings->language);
         $this->load->library('form_validation');
         $this->load->model('products_model');
-        $this->digital_upload_path = 'files/';
+        $this->digital_upload_path = 'assets/uploads/xls/';
         $this->upload_path = 'assets/uploads/';
         $this->thumbs_path = 'assets/uploads/thumbs/';
         $this->image_types = 'gif|jpg|jpeg|png|tif';
@@ -1207,7 +1207,7 @@ class Products extends MY_Controller
 
     function update_price()
     {
-        $this->sma->checkPermissions('csv');
+        $this->sma->checkPermissions('xls');
         $this->load->helper('security');
         $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
 
@@ -1221,16 +1221,14 @@ class Products extends MY_Controller
             if (isset($_FILES["userfile"])) {
 
                 $this->load->library('upload');
-
                 $config['upload_path'] = $this->digital_upload_path;
-                $config['allowed_types'] = 'csv';
+                $config['allowed_types'] = 'xls';
                 $config['max_size'] = $this->allowed_file_size;
                 $config['overwrite'] = TRUE;
 
                 $this->upload->initialize($config);
 
                 if (!$this->upload->do_upload()) {
-
                     $error = $this->upload->display_errors();
                     $this->session->set_flashdata('error', $error);
                     redirect("products/update_price");
@@ -1240,22 +1238,25 @@ class Products extends MY_Controller
 
                 $arrResult = array();
                 $handle = fopen($this->digital_upload_path . $csv, "r");
+               
+
                 if ($handle) {
-                    while (($row = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                    while (($row = fgets($handle)) !== FALSE) {
                         $arrResult[] = $row;
                     }
                     fclose($handle);
                 }
-                $titles = array_shift($arrResult);
 
-                $keys = array('code', 'price');
+                $titles = array_shift($arrResult);
+               
+                $keys = array('code','name','price');
 
                 $final = array();
 
                 foreach ($arrResult as $key => $value) {
                     $final[] = array_combine($keys, $value);
                 }
-                $rw = 2;
+      
                 foreach ($final as $csv_pr) {
                     if (!$this->products_model->getProductByCode(trim($csv_pr['code']))) {
                         $this->session->set_flashdata('message', lang("check_product_code") . " (" . $csv_pr['code'] . "). " . lang("code_x_exist") . " " . lang("line_no") . " " . $rw);
@@ -1923,4 +1924,58 @@ class Products extends MY_Controller
     }
 
 
+    public function generar_excel(){
+        $llamadas = $this->products_model->getProductsOfImport();
+        if(count($llamadas) > 0){
+            //Cargamos la librería de excel.
+            $this->load->library('excel'); 
+            $this->excel->setActiveSheetIndex(0);
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:C1')
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:C1')
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+            $this->excel->getActiveSheet()->setTitle('Listados de Productos');
+            //Contador de filas
+            $contador = 1;
+            //Le aplicamos ancho las columnas.
+            $this->excel->getActiveSheet()->getColumnDimension('A')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+            //Le aplicamos negrita a los títulos de la cabecera.
+            $this->excel->getActiveSheet()->getStyle("A{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("B{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("C{$contador}")->getFont()->setBold(true);
+            //Definimos los títulos de la cabecera.
+            $this->excel->getActiveSheet()->setCellValue("A{$contador}", 'CODIGO');
+            $this->excel->getActiveSheet()->setCellValue("B{$contador}", 'NOMBRE');
+            $this->excel->getActiveSheet()->setCellValue("C{$contador}", 'PRECIO');
+            //Definimos la data del cuerpo.        
+            foreach($llamadas as $l){
+               //Incrementamos una fila más, para ir a la siguiente.
+               $contador++;
+               //Informacion de las filas de la consulta.
+               $this->excel->getActiveSheet()->setCellValue("A{$contador}", $l->code);
+               $this->excel->getActiveSheet()->setCellValue("B{$contador}", $l->name);
+               $this->excel->getActiveSheet()->setCellValue("C{$contador}", $l->price);
+            }
+            //Le ponemos un nombre al archivo que se va a generar.
+            $archivo = "listado_de_productos_".date('Y-m-d_H:i').".xls";
+            header('Content-Type: application/vnd.ms-excel');
+            header('Content-Disposition: attachment;filename="'.$archivo.'"');
+            header('Cache-Control: max-age=0');
+            $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+            //Hacemos una salida al navegador con el archivo Excel.
+            $objWriter->save('php://output');
+         }else{
+            echo 'No se han encontrado productos';
+            exit;        
+         }
+    }
 }

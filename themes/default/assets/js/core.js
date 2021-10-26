@@ -67,12 +67,12 @@ function cssStyle() {
 $('#csv_file').change(function(e) {
     v = $(this).val();
     if (v != '') {
-        var validExts = new Array(".csv");
+        var validExts = new Array(".xls");
         var fileExt = v;
         fileExt = fileExt.substring(fileExt.lastIndexOf('.'));
         if (validExts.indexOf(fileExt) < 0) {
             e.preventDefault();
-            bootbox.alert("Invalid file selected. Only .csv file is allowed.");
+            bootbox.alert("Invalid file selected. Only .xls file is allowed.");
             $(this).val(''); $(this).fileinput('clear');
             $('form[data-toggle="validator"]').bootstrapValidator('updateStatus', 'csv_file', 'NOT_VALIDATED');
             return false;
