@@ -1205,7 +1205,7 @@ class Products extends MY_Controller
 
     /* ---------------------------------------------------------------------------------------------- */
 
-    function update_price()
+    function update_price_excel()
     {
         $this->load->library('excel'); 
         $this->sma->checkPermissions('xls');
@@ -1269,6 +1269,21 @@ class Products extends MY_Controller
         if ($this->form_validation->run() == true && !empty($final)) {
             $this->products_model->updatePrice($final);
             $this->session->set_flashdata('message', lang("price_updated"));
+            $rw = 0;
+            $codeErrorMessage = "";
+            foreach ($final as $csv_pr) {
+                if (!$this->products_model->getProductByCode(trim($csv_pr['code']))) {
+                    if($codeErrorMessage ==""){
+                        $codeErrorMessage = $csv_pr['code'];
+                    }else {
+                        $codeErrorMessage =  $codeErrorMessage.", ". $csv_pr['code'];
+                    } 
+                }
+                $rw++;
+            }
+            if($codeErrorMessage !==""){
+                $this->session->set_flashdata('error', lang("lists_code_x_exist") ."<br/> ".$codeErrorMessage);
+            }
             redirect('products');
         } else {
 
@@ -2059,4 +2074,234 @@ class Products extends MY_Controller
             $objWriter->save('php://output');
         
     }
+
+
+    /* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+    function import_excel()
+    {
+        $this->load->library('excel');
+        $this->sma->checkPermissions('xls');
+        $this->load->helper('security');
+        $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
+
+        if ($this->form_validation->run() == true) {
+
+            if (isset($_FILES["userfile"])) {
+                $this->load->library('upload');
+
+                $config['upload_path'] = $this->digital_upload_path;
+                $config['allowed_types'] = 'xls';
+                $config['max_size'] = $this->allowed_file_size;
+                $config['overwrite'] = TRUE;
+                $this->upload->initialize($config);
+                if (!$this->upload->do_upload()) {
+                    $error = $this->upload->display_errors();
+                    $this->session->set_flashdata('error', $error);
+                    redirect("products/import_csv");
+                }
+
+                $csv = $this->upload->file_name;
+
+                $file  = PHPExcel_IOFactory::createReader('Excel5');
+                $array = $file->load($this->digital_upload_path .$this->upload->file_name);
+                $cell_collection = $array->getActiveSheet()->getCellCollection();
+                foreach ($cell_collection as $cell) {
+                    $column = $array->getActiveSheet()->getCell($cell)->getColumn();
+                    $row = $array->getActiveSheet()->getCell($cell)->getRow();
+                    $data_value = $array->getActiveSheet()->getCell($cell)->getValue();
+                    //header will/should be in row 1 only. of course this can be modified to suit your need.
+                    if ($row == 1) {
+                        $header[$row][$column] = $data_value;
+                    } else {
+                        $arr_data[$row][$column] = $data_value;
+                    }
+                }
+
+                //send the data in an array format
+                $data['header'] = $header;
+                $data['values'] = $arr_data;
+
+
+                $keys = array('code', 'name', 'category_code', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'subcategory_code', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+
+                $final = array();
+
+                foreach ($arr_data as $key => $value) {
+                    $final[] = array_combine($keys, $value);
+                }
+                $rw = 2;
+                foreach ($final as $csv_pr) {
+                       $catd = $this->products_model->getCategoryByCode(trim($csv_pr['category_code']));
+                        $pr_code[] = trim($csv_pr['code']);
+                        $pr_name[] = trim($csv_pr['name']);
+                        $pr_cat[] = $catd->id;
+                        $pr_variants[] = trim($csv_pr['variants'] != 0 ? $csv_pr['variants'] :0);
+                        $pr_unit[] = trim($csv_pr['unit']);
+                        $tax_method[] = $csv_pr['tax_method'] == 'exclusive' ? 1 : 0;
+                        $prsubcat = $csv_pr['subcategory_code'] != 0 ? $this->products_model->getSubcategoryByCode($csv_pr['subcategory_code']) :0;
+                        $pr_subcat[] = $prsubcat ? $prsubcat->id : NULL;
+                        $pr_cost[] = trim($csv_pr['cost']);
+                        $pr_price[] = trim($csv_pr['price']);
+                        $pr_aq[] = trim($csv_pr['alert_quantity']);
+                        $tax_details = $this->products_model->getTaxRateByName(trim($csv_pr['tax_rate']));
+                        $pr_tax[] = $tax_details ? $tax_details->id : NULL;
+                        $cf1[] = trim($csv_pr['cf1'] == "" ? null :$csv_pr['cf1']);
+                        $cf2[] = trim($csv_pr['cf2'] == "" ? null :$csv_pr['cf2']);
+                        $cf3[] = trim($csv_pr['cf3'] == "" ? null :$csv_pr['cf3']);
+                        $cf4[] = trim($csv_pr['cf4'] == "" ? null :$csv_pr['cf4']);
+                        $cf5[] = trim($csv_pr['cf5'] == "" ? null :$csv_pr['cf5']);
+                        $cf6[] = trim($csv_pr['cf6'] == "" ? null :$csv_pr['cf6']);
+                    $rw++;
+                }
+            }
+
+            $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'subcategory_id', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+
+            $items = array();
+            foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_subcat, $pr_variants, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
+                $items[] = array_combine($ikeys, $value);
+            }
+
+         
+        }
+
+        $rw = 0;
+        $codeErrorMessage = "";
+        $catErrorMessage = "";
+        foreach ($items as $csv_pr) {
+            if ($this->products_model->getProductByCode(trim($csv_pr['code'])) != false) {
+                if($codeErrorMessage ==""){
+                    $codeErrorMessage = $csv_pr['code'];
+                }else {
+                    $codeErrorMessage =  $codeErrorMessage.", ". $csv_pr['code'];
+                } 
+            }
+
+            if ($this->products_model->getCategoryByCode(trim($csv_pr['category_code'])) != false) {
+                if($catErrorMessage ==""){
+                    $catErrorMessage = $csv_pr['code'];
+                }else {
+                    $catErrorMessage =  $catErrorMessage.", ". $csv_pr['code'];
+                } 
+            }
+            $rw++;
+        }
+        if($catErrorMessage !==""){
+            $this->session->set_flashdata('error', lang("lists_code_not_save_error_in_cat") ."<br/> ".$catErrorMessage);
+        }
+
+        if($codeErrorMessage !==""){
+            $this->session->set_flashdata('error', lang("lists_code_not_save") ."<br/> ".$codeErrorMessage);
+        }
+
+        if ($this->form_validation->run() == true && $this->products_model->add_products($items)) {
+            $this->session->set_flashdata('message', lang("products_added"));
+            redirect('products');
+        } else {
+
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+
+            $this->data['userfile'] = array('name' => 'userfile',
+                'id' => 'userfile',
+                'type' => 'text',
+                'value' => $this->form_validation->set_value('userfile')
+            );
+
+            $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('import_products_by_csv')));
+            $meta = array('page_title' => lang('import_products_by_csv'), 'bc' => $bc);
+            $this->page_construct('products/import_csv', $meta, $this->data);
+
+        }
+    }
+
+    /* ---------------------------------------------------------------------------------------------- */
+    
+
+      /* ---------------------------------------------------------------------------------------------- */
+
+      function update_price()
+      {
+          $this->sma->checkPermissions('csv');
+          $this->load->helper('security');
+          $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
+  
+          if ($this->form_validation->run() == true) {
+  
+              if (DEMO) {
+                  $this->session->set_flashdata('message', lang("disabled_in_demo"));
+                  redirect('welcome');
+              }
+  
+              if (isset($_FILES["userfile"])) {
+  
+                  $this->load->library('upload');
+  
+                  $config['upload_path'] = $this->digital_upload_path;
+                  $config['allowed_types'] = 'csv';
+                  $config['max_size'] = $this->allowed_file_size;
+                  $config['overwrite'] = TRUE;
+  
+                  $this->upload->initialize($config);
+  
+                  if (!$this->upload->do_upload()) {
+  
+                      $error = $this->upload->display_errors();
+                      $this->session->set_flashdata('error', $error);
+                      redirect("products/update_price");
+                  }
+  
+                  $csv = $this->upload->file_name;
+  
+                  $arrResult = array();
+                  $handle = fopen($this->digital_upload_path . $csv, "r");
+                  if ($handle) {
+                      while (($row = fgetcsv($handle, 1000, ",")) !== FALSE) {
+                          $arrResult[] = $row;
+                      }
+                      fclose($handle);
+                  }
+                  $titles = array_shift($arrResult);
+  
+                  $keys = array('code', 'price');
+  
+                  $final = array();
+  
+                  foreach ($arrResult as $key => $value) {
+                      $final[] = array_combine($keys, $value);
+                  }
+                  $rw = 2;
+                  foreach ($final as $csv_pr) {
+                      if (!$this->products_model->getProductByCode(trim($csv_pr['code']))) {
+                          $this->session->set_flashdata('message', lang("check_product_code") . " (" . $csv_pr['code'] . "). " . lang("code_x_exist") . " " . lang("line_no") . " " . $rw);
+                          redirect("product/update_price");
+                      }
+                      $rw++;
+                  }
+              }
+  
+          }
+  
+          if ($this->form_validation->run() == true && !empty($final)) {
+              $this->products_model->updatePrice($final);
+              $this->session->set_flashdata('message', lang("price_updated"));
+              redirect('products');
+          } else {
+  
+              $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+  
+              $this->data['userfile'] = array('name' => 'userfile',
+                  'id' => 'userfile',
+                  'type' => 'text',
+                  'value' => $this->form_validation->set_value('userfile')
+              );
+  
+              $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('update_price_csv')));
+              $meta = array('page_title' => lang('update_price_csv'), 'bc' => $bc);
+              $this->page_construct('products/update_price', $meta, $this->data);
+  
+          }
+      }
+  
+      /* ------------------------------------------------------------------------------- */
 }

@@ -57,12 +57,12 @@ $(document).ready(function(e) {
     $('#csv_file').change(function(e) {
 	v = $(this).val();
 	if (v != '') {
-	    var validExts = new Array(".xls");
+	    var validExts = new Array(".csv");
 	    var fileExt = v;
 	    fileExt = fileExt.substring(fileExt.lastIndexOf('.'));
 	    if (validExts.indexOf(fileExt) < 0) {
 		e.preventDefault();
-		bootbox.alert("Invalid file selected. Only .xls file is allowed.");
+		bootbox.alert("Invalid file selected. Only .csv file is allowed.");
 		$(this).val('');
 		$('form[data-toggle="validator"]').bootstrapValidator('updateStatus', 'csv_file', 'NOT_VALIDATED');
 		return false;
@@ -71,6 +71,23 @@ $(document).ready(function(e) {
 		return true;
 	}
     });
+    $('#xls_file').change(function(e) {
+        v = $(this).val();
+        if (v != '') {
+            var validExts = new Array(".xls");
+            var fileExt = v;
+            fileExt = fileExt.substring(fileExt.lastIndexOf('.'));
+            if (validExts.indexOf(fileExt) < 0) {
+            e.preventDefault();
+            bootbox.alert("Invalid file selected. Only .xls file is allowed.");
+            $(this).val('');
+            $('form[data-toggle="validator"]').bootstrapValidator('updateStatus', 'xls_file', 'NOT_VALIDATED');
+            return false;
+            }
+            else
+            return true;
+        }
+        });
 });
 $(function() {
     $('.datetime').datetimepicker({format: site.dateFormats.js_ldate, language: 'sma', weekStart: 1, todayBtn: 1, autoclose: 1, todayHighlight: 1, startView: 2, forceParse: 0});
