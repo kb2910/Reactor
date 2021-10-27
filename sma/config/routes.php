@@ -67,3 +67,4 @@ $route['products/(:num)'] = 'products/index/$1';
 $route['purchases/(:num)'] = 'purchases/index/$1';
 $route['quotes/(:num)'] = 'quotes/index/$1';
 $route['generar_excel'] = 'products/generar_excel';
+$route['generar_excel_template'] = 'products/generar_excel_template';

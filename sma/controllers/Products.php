@@ -1262,14 +1262,6 @@ class Products extends MY_Controller
                 foreach ($arr_data as $key => $value) {
                       $final[] = array_combine($keys, $value);
                 }
-
-                foreach ($final as $csv_pr) {
-                    if (!$this->products_model->getProductByCode(trim($csv_pr['code']))) {
-                        $this->session->set_flashdata('message', lang("check_product_code") . " (" . $csv_pr['code'] . "). " . lang("code_x_exist") . " " . lang("line_no") . " " . $rw);
-                        redirect("product/update_price");
-                    }
-                    $rw++;
-                }
             }
 
         }
@@ -1983,5 +1975,88 @@ class Products extends MY_Controller
             echo 'No se han encontrado productos';
             exit;        
          }
+    }
+
+
+    public function generar_excel_template(){
+            //Cargamos la librería de excel.
+            $this->load->library('excel'); 
+            $this->excel->setActiveSheetIndex(0);
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:Q1')
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:Q1')
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+            $this->excel->getActiveSheet()->setTitle('Plantillas de productos');
+            //Contador de filas
+            $contador=1;
+            $this->excel->getActiveSheet()->getColumnDimension('A')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('D')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('E')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('F')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('G')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('H')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('I')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('J')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('K')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('L')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('M')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('N')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('O')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('P')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('Q')->setAutoSize(true);
+            //Le aplicamos negrita a los títulos de la cabecera.
+            $this->excel->getActiveSheet()->getStyle("A{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("B{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("C{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("D{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("E{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("F{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("G{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("H{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("I{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("J{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("K{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("L{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("M{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("N{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("O{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("P{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("Q{$contador}")->getFont()->setBold(true);
+            //Definimos los títulos de la cabecera.
+            $this->excel->getActiveSheet()->setCellValue("A{$contador}", 'CODIGO');
+            $this->excel->getActiveSheet()->setCellValue("B{$contador}", 'NOMBRE');
+            $this->excel->getActiveSheet()->setCellValue("C{$contador}", 'CATEGORIA');
+            $this->excel->getActiveSheet()->setCellValue("D{$contador}", 'UNIDAD');
+            $this->excel->getActiveSheet()->setCellValue("E{$contador}", 'COSTO');
+            $this->excel->getActiveSheet()->setCellValue("F{$contador}", 'PRECIO');
+            $this->excel->getActiveSheet()->setCellValue("G{$contador}", 'CANTIDAD ALERTA');
+            $this->excel->getActiveSheet()->setCellValue("H{$contador}", 'IMPUESTO');
+            $this->excel->getActiveSheet()->setCellValue("I{$contador}", 'METODO IMPUESTO');
+            $this->excel->getActiveSheet()->setCellValue("J{$contador}", 'SUBCATEGORIA');
+            $this->excel->getActiveSheet()->setCellValue("K{$contador}", 'PRODUCTS VARIANTS SEPARATED BY |');
+            $this->excel->getActiveSheet()->setCellValue("L{$contador}", 'CUSTOMEN FIELD 1');
+            $this->excel->getActiveSheet()->setCellValue("M{$contador}", 'CUSTOMEN FIELD 2');
+            $this->excel->getActiveSheet()->setCellValue("N{$contador}", 'CUSTOMEN FIELD 3');
+            $this->excel->getActiveSheet()->setCellValue("O{$contador}", 'CUSTOMEN FIELD 4');
+            $this->excel->getActiveSheet()->setCellValue("P{$contador}", 'CUSTOMEN FIELD 5');
+            $this->excel->getActiveSheet()->setCellValue("Q{$contador}", 'CUSTOMEN FIELD 6');
+            //Le ponemos un nombre al archivo que se va a generar.
+            $archivo = "plantilla_de_productos_".date('Y-m-d_H:i').".xls";
+            header('Content-Type: application/vnd.ms-excel');
+            header('Content-Disposition: attachment;filename="'.$archivo.'"');
+            header('Cache-Control: max-age=0');
+            $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+            //Hacemos una salida al navegador con el archivo Excel.
+            $objWriter->save('php://output');
+        
     }
 }

@@ -13,15 +13,24 @@
                 <div class="row">
                     <div class="col-md-12">
 
+
                         <div class="well well-small">
-                            <a href="<?php echo base_url(); ?>assets/csv/sample_products.csv"
-                               class="btn btn-primary pull-right"><i
-                                    class="fa fa-download"></i> <?= lang("download_sample_file") ?></a>
-                            <span class="text-warning"><?= lang("csv1"); ?></span><br/><?= lang("csv2"); ?> <span
-                                class="text-info">(<?= lang("product_code") . ', ' . lang("product_name") . ', ' . lang("category_code") . ', ' . lang("product_unit") . ', ' . lang("product_cost") . ', ' . lang("product_price") . ', ' . lang("alert_quantity") . ', ' . lang("product_tax") . ', ' . lang("tax_method") . ', ' . lang("subcategory_code") . ', ' . lang("product_variants_sep_by"); ?>
-                                )</span> <?= lang("csv3"); ?>
+                          <a href="generar_excel_template/" class="btn btn-primary pull-right"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("download_sample_file") ?></a>
+                            <span class="text-warning"><?= lang("xls1"); ?></span><br/><?= lang("xls2"); ?> <span
+                                class="text-info">(<?= lang("product_code") . ', ' . lang("product_price"); ?>
+                                )</span> <?= lang("xls3"); ?>
 
                         </div>
+
+                        <!--div class="well well-small">
+                            <a href="<!-?php echo base_url(); ?>assets/csv/sample_products.csv"
+                               class="btn btn-primary pull-right"><i
+                                    class="fa fa-download"></i> <!-?= lang("download_sample_file") ?></a>
+                            <span class="text-warning"><!?= lang("csv1"); ?></span><br/><!?= lang("csv2"); ?> <span
+                                class="text-info">(<1?= lang("product_code") . ', ' . lang("product_name") . ', ' . lang("category_code") . ', ' . lang("product_unit") . ', ' . lang("product_cost") . ', ' . lang("product_price") . ', ' . lang("alert_quantity") . ', ' . lang("product_tax") . ', ' . lang("tax_method") . ', ' . lang("subcategory_code") . ', ' . lang("product_variants_sep_by"); ?>
+                                )</span> <!?= lang("csv3"); ?>
+
+                        </div-->
 
                         <div class="col-md-12">
                             <div class="form-group">
