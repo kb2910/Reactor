@@ -9,15 +9,15 @@
                     <div class="col-md-12">
  
                         <ul class="nav nav-tabs">
-                            <li class="active"><a data-toggle="tab" href="#rules"><i class="fa fa-list-ol" aria-hidden="true"></i> Normas</a></li>
-                            <li><a data-toggle="tab" href="#excel"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel</a></li>
-                            <li><a data-toggle="tab" href="#csv"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
+                            <li class="active"><a data-toggle="tab" href="#rulesTabs"><i class="fa fa-list-ol" aria-hidden="true"></i> Normas</a></li>
+                            <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel</a></li>
+                            <li><a data-toggle="tab" href="#csvTabs"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
                         </ul>
 
 
 
                             <div class="tab-content">
-                                    <div id="rules" class="tab-pane fade in active">
+                                    <div id="rulesTabs" class="tab-pane fade in active">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="panel panel-default">
@@ -47,7 +47,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div id="excel" class="tab-pane fade">
+                                <div id="excelTabs" class="tab-pane fade">
                                 <?php
                                     $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');
                                     echo form_open_multipart("products/update_price_excel", $attrib)
@@ -71,7 +71,7 @@
                                     </div>
                                     <?= form_close(); ?>
                                 </div>
-                                <div id="csv" class="tab-pane fade">
+                                <div id="csvTabs" class="tab-pane fade">
             
                                     <?php
                                     $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');

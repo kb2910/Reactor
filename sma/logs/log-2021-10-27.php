@@ -23178,3 +23178,68 @@ ERROR - 2021-10-27 14:14:50 --> Could not find the language line "transferring"
 INFO - 2021-10-27 14:14:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
 INFO - 2021-10-27 14:14:50 --> Final output sent to browser
 DEBUG - 2021-10-27 14:14:50 --> Total execution time: 0.2163
+INFO - 2021-10-27 14:31:25 --> Config Class Initialized
+INFO - 2021-10-27 14:31:25 --> Hooks Class Initialized
+DEBUG - 2021-10-27 14:31:25 --> UTF-8 Support Enabled
+INFO - 2021-10-27 14:31:25 --> Utf8 Class Initialized
+INFO - 2021-10-27 14:31:25 --> URI Class Initialized
+INFO - 2021-10-27 14:31:25 --> Router Class Initialized
+INFO - 2021-10-27 14:31:25 --> Output Class Initialized
+INFO - 2021-10-27 14:31:25 --> Security Class Initialized
+INFO - 2021-10-27 14:31:25 --> CRSF cookie sent
+DEBUG - 2021-10-27 14:31:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-27 14:31:25 --> Input Class Initialized
+INFO - 2021-10-27 14:31:25 --> Language Class Initialized
+INFO - 2021-10-27 14:31:25 --> Loader Class Initialized
+INFO - 2021-10-27 14:31:25 --> Helper loaded: url_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: form_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: language_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: file_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: date_helper
+INFO - 2021-10-27 14:31:25 --> Database Driver Class Initialized
+INFO - 2021-10-27 14:31:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-27 14:31:25 --> Parser Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+INFO - 2021-10-27 14:31:25 --> Controller Class Initialized
+INFO - 2021-10-27 14:31:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-27 14:31:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-27 14:31:25 --> Could not find the language line "today"
+INFO - 2021-10-27 14:31:25 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-10-27 14:31:25 --> Form Validation Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+DEBUG - 2021-10-27 14:31:25 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-10-27 14:31:25 --> Config Class Initialized
+INFO - 2021-10-27 14:31:25 --> Hooks Class Initialized
+DEBUG - 2021-10-27 14:31:25 --> UTF-8 Support Enabled
+INFO - 2021-10-27 14:31:25 --> Utf8 Class Initialized
+INFO - 2021-10-27 14:31:25 --> URI Class Initialized
+INFO - 2021-10-27 14:31:25 --> Router Class Initialized
+INFO - 2021-10-27 14:31:25 --> Output Class Initialized
+INFO - 2021-10-27 14:31:25 --> Security Class Initialized
+INFO - 2021-10-27 14:31:25 --> CRSF cookie sent
+DEBUG - 2021-10-27 14:31:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-27 14:31:25 --> Input Class Initialized
+INFO - 2021-10-27 14:31:25 --> Language Class Initialized
+INFO - 2021-10-27 14:31:25 --> Loader Class Initialized
+INFO - 2021-10-27 14:31:25 --> Helper loaded: url_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: form_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: language_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: file_helper
+INFO - 2021-10-27 14:31:25 --> Helper loaded: date_helper
+INFO - 2021-10-27 14:31:25 --> Database Driver Class Initialized
+INFO - 2021-10-27 14:31:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-27 14:31:25 --> Parser Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+INFO - 2021-10-27 14:31:25 --> Controller Class Initialized
+INFO - 2021-10-27 14:31:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-27 14:31:25 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-10-27 14:31:25 --> Form Validation Class Initialized
+INFO - 2021-10-27 14:31:25 --> Model Class Initialized
+DEBUG - 2021-10-27 14:31:25 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-10-27 14:31:25 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-10-27 14:31:25 --> Final output sent to browser
+DEBUG - 2021-10-27 14:31:25 --> Total execution time: 0.1631
