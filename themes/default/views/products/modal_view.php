@@ -9,19 +9,24 @@
 
             <div class="row">
                 <div class="col-xs-5">
-                    <img id="pr-image" src="<?= base_url() ?>assets/uploads/<?= $product->image ?>"
-                    alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+                            <?php if($product->image_url_external !== 'no_image.png' ){ ?>
+                                <img src=" <?= $product->image_url_external ?>"
+                                alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+                            <?php } else { ?>
+                                <img src="<?= base_url() ?>assets/uploads/<?= $product->image ?>"
+                                     alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
 
-                    <div id="multiimages" class="padding10">
-                        <?php if (!empty($images)) {
-                            echo '<a class="img-thumbnail change_img" href="' . base_url() . 'assets/uploads/' . $product->image . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $product->image . '" alt="' . $product->image . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
-                            foreach ($images as $ph) {
-                                echo '<a class="img-thumbnail change_img" href="' . base_url() . 'assets/uploads/' . $ph->photo . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $ph->photo . '" alt="' . $ph->photo . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
-                            }
-                        }
-                        ?>
-                        <div class="clearfix"></div>
-                    </div>
+                                <div id="multiimages" class="padding10">
+                                    <?php if (!empty($images)) {
+                                        echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $product->image . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $product->image . '" alt="' . $product->image . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        foreach ($images as $ph) {
+                                            echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $ph->photo . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $ph->photo . '" alt="' . $ph->photo . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        }
+                                    }
+                                    ?>
+                                    <div class="clearfix"></div>
+                                </div>
+                            <?php } ?>
                 </div>
                 <div class="col-xs-7">
                     <div class="table-responsive">

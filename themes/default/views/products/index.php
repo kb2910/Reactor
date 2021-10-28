@@ -152,7 +152,6 @@
                             <th style="min-width:40px; width: 40px; text-align: center;"><?php echo $this->lang->line("image"); ?></th>
                             <th></th>
                             <th></th>
-                            <th></th>
                             <?php
                             if ($Owner || $Admin) {
                                 echo '<th></th>';

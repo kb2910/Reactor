@@ -90,7 +90,7 @@ class Products extends MY_Controller
                 ->group_by("warehouses_products.product_id");
         } else {
             $this->datatables
-                ->select($this->db->dbprefix('products') . ".id as productid, " . $this->db->dbprefix('products') . ".image as image, " . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity", FALSE)
+                ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity", FALSE)
                 ->from('products')
                 ->join('categories', 'products.category_id=categories.id', 'left')
                 ->group_by("products.id");
@@ -1998,13 +1998,13 @@ class Products extends MY_Controller
             $this->load->library('excel'); 
             $this->excel->setActiveSheetIndex(0);
             $this->excel->getActiveSheet()
-                ->getStyle('A1:Q1')
+                ->getStyle('A1:R1')
                 ->getFill()
                 ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
                 ->getStartColor()
                 ->setRGB('FFD700');
             $this->excel->getActiveSheet()
-                ->getStyle('A1:Q1')
+                ->getStyle('A1:R1')
                 ->getFont()
                 ->getColor()
                 ->setRGB('FFFFFF');
@@ -2028,6 +2028,7 @@ class Products extends MY_Controller
             $this->excel->getActiveSheet()->getColumnDimension('O')->setAutoSize(true);
             $this->excel->getActiveSheet()->getColumnDimension('P')->setAutoSize(true);
             $this->excel->getActiveSheet()->getColumnDimension('Q')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('R')->setAutoSize(true);
             //Le aplicamos negrita a los títulos de la cabecera.
             $this->excel->getActiveSheet()->getStyle("A{$contador}")->getFont()->setBold(true);
             $this->excel->getActiveSheet()->getStyle("B{$contador}")->getFont()->setBold(true);
@@ -2046,6 +2047,7 @@ class Products extends MY_Controller
             $this->excel->getActiveSheet()->getStyle("O{$contador}")->getFont()->setBold(true);
             $this->excel->getActiveSheet()->getStyle("P{$contador}")->getFont()->setBold(true);
             $this->excel->getActiveSheet()->getStyle("Q{$contador}")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("R{$contador}")->getFont()->setBold(true);
             //Definimos los títulos de la cabecera.
             $this->excel->getActiveSheet()->setCellValue("A{$contador}", 'CODIGO');
             $this->excel->getActiveSheet()->setCellValue("B{$contador}", 'NOMBRE');
@@ -2056,14 +2058,15 @@ class Products extends MY_Controller
             $this->excel->getActiveSheet()->setCellValue("G{$contador}", 'CANTIDAD ALERTA');
             $this->excel->getActiveSheet()->setCellValue("H{$contador}", 'IMPUESTO');
             $this->excel->getActiveSheet()->setCellValue("I{$contador}", 'METODO IMPUESTO');
-            $this->excel->getActiveSheet()->setCellValue("J{$contador}", 'SUBCATEGORIA');
-            $this->excel->getActiveSheet()->setCellValue("K{$contador}", 'PRODUCTS VARIANTS SEPARATED BY |');
-            $this->excel->getActiveSheet()->setCellValue("L{$contador}", 'CUSTOMEN FIELD 1');
-            $this->excel->getActiveSheet()->setCellValue("M{$contador}", 'CUSTOMEN FIELD 2');
-            $this->excel->getActiveSheet()->setCellValue("N{$contador}", 'CUSTOMEN FIELD 3');
-            $this->excel->getActiveSheet()->setCellValue("O{$contador}", 'CUSTOMEN FIELD 4');
-            $this->excel->getActiveSheet()->setCellValue("P{$contador}", 'CUSTOMEN FIELD 5');
-            $this->excel->getActiveSheet()->setCellValue("Q{$contador}", 'CUSTOMEN FIELD 6');
+            $this->excel->getActiveSheet()->setCellValue("J{$contador}", 'IMAGEN URL EXTERNAL');
+            $this->excel->getActiveSheet()->setCellValue("K{$contador}", 'SUBCATEGORIA');
+            $this->excel->getActiveSheet()->setCellValue("L{$contador}", 'PRODUCTS VARIANTS SEPARATED BY |');
+            $this->excel->getActiveSheet()->setCellValue("M{$contador}", 'CUSTOMEN FIELD 1');
+            $this->excel->getActiveSheet()->setCellValue("N{$contador}", 'CUSTOMEN FIELD 2');
+            $this->excel->getActiveSheet()->setCellValue("O{$contador}", 'CUSTOMEN FIELD 3');
+            $this->excel->getActiveSheet()->setCellValue("P{$contador}", 'CUSTOMEN FIELD 4');
+            $this->excel->getActiveSheet()->setCellValue("Q{$contador}", 'CUSTOMEN FIELD 5');
+            $this->excel->getActiveSheet()->setCellValue("R{$contador}", 'CUSTOMEN FIELD 6');
             //Le ponemos un nombre al archivo que se va a generar.
             $archivo = "plantilla_de_productos_".date('Y-m-d_H:i').".xls";
             header('Content-Type: application/vnd.ms-excel');
@@ -2123,7 +2126,7 @@ class Products extends MY_Controller
                 $data['values'] = $arr_data;
 
 
-                $keys = array('code', 'name', 'category_code', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'subcategory_code', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+                $keys = array('code', 'name', 'category_code', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'image_url_external','subcategory_code', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
 
                 $final = array();
 
@@ -2144,6 +2147,7 @@ class Products extends MY_Controller
                         $pr_cost[] = trim($csv_pr['cost']);
                         $pr_price[] = trim($csv_pr['price']);
                         $pr_aq[] = trim($csv_pr['alert_quantity']);
+                        $pr_imgExt[] = $csv_pr['image_url_external'] == '0' ? 'no_image.png' : $csv_pr['image_url_external'];
                         $tax_details = $this->products_model->getTaxRateByName(trim($csv_pr['tax_rate']));
                         $pr_tax[] = $tax_details ? $tax_details->id : NULL;
                         $cf1[] = trim($csv_pr['cf1'] == "" ? null :$csv_pr['cf1']);
@@ -2156,10 +2160,10 @@ class Products extends MY_Controller
                 }
             }
 
-            $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'subcategory_id', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+            $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity','tax_rate', 'tax_method', 'image_url_external', 'subcategory_id', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
 
             $items = array();
-            foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_subcat, $pr_variants, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
+            foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_imgExt, $pr_subcat, $pr_variants, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
                 $items[] = array_combine($ikeys, $value);
             }
 

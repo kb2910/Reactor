@@ -6675,3 +6675,13311 @@ INFO - 2021-10-28 09:44:37 --> Form Validation Class Initialized
 INFO - 2021-10-28 09:44:37 --> Model Class Initialized
 INFO - 2021-10-28 09:44:37 --> Final output sent to browser
 DEBUG - 2021-10-28 09:44:37 --> Total execution time: 0.2896
+INFO - 2021-10-28 09:45:57 --> Config Class Initialized
+INFO - 2021-10-28 09:45:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:45:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:45:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:45:57 --> URI Class Initialized
+INFO - 2021-10-28 09:45:57 --> Router Class Initialized
+INFO - 2021-10-28 09:45:57 --> Output Class Initialized
+INFO - 2021-10-28 09:45:57 --> Security Class Initialized
+INFO - 2021-10-28 09:45:57 --> CRSF cookie sent
+DEBUG - 2021-10-28 09:45:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:45:57 --> Input Class Initialized
+INFO - 2021-10-28 09:45:57 --> Language Class Initialized
+INFO - 2021-10-28 09:45:57 --> Loader Class Initialized
+INFO - 2021-10-28 09:45:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:45:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:45:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:45:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:45:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:45:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:45:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:45:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:45:57 --> Parser Class Initialized
+INFO - 2021-10-28 09:45:57 --> Model Class Initialized
+INFO - 2021-10-28 09:45:57 --> Model Class Initialized
+INFO - 2021-10-28 09:45:57 --> Controller Class Initialized
+INFO - 2021-10-28 09:45:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:45:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "today"
+INFO - 2021-10-28 09:45:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:45:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:45:57 --> Model Class Initialized
+INFO - 2021-10-28 09:45:57 --> Helper loaded: security_helper
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "backups"
+INFO - 2021-10-28 09:45:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-28 09:45:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/update_price.php
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "due"
+ERROR - 2021-10-28 09:45:57 --> Could not find the language line "transferring"
+INFO - 2021-10-28 09:45:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 09:45:57 --> Final output sent to browser
+DEBUG - 2021-10-28 09:45:57 --> Total execution time: 0.2001
+INFO - 2021-10-28 09:46:13 --> Config Class Initialized
+INFO - 2021-10-28 09:46:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:46:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:46:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:46:13 --> URI Class Initialized
+INFO - 2021-10-28 09:46:13 --> Router Class Initialized
+INFO - 2021-10-28 09:46:13 --> Output Class Initialized
+INFO - 2021-10-28 09:46:13 --> Security Class Initialized
+INFO - 2021-10-28 09:46:13 --> CRSF cookie sent
+DEBUG - 2021-10-28 09:46:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:46:13 --> Input Class Initialized
+INFO - 2021-10-28 09:46:13 --> Language Class Initialized
+INFO - 2021-10-28 09:46:13 --> Loader Class Initialized
+INFO - 2021-10-28 09:46:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:46:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:46:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:46:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:46:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:46:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:46:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:46:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:46:13 --> Parser Class Initialized
+INFO - 2021-10-28 09:46:13 --> Model Class Initialized
+INFO - 2021-10-28 09:46:13 --> Model Class Initialized
+INFO - 2021-10-28 09:46:13 --> Controller Class Initialized
+INFO - 2021-10-28 09:46:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:46:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "today"
+INFO - 2021-10-28 09:46:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:46:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:46:13 --> Model Class Initialized
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "backups"
+INFO - 2021-10-28 09:46:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 09:46:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "due"
+ERROR - 2021-10-28 09:46:13 --> Could not find the language line "transferring"
+INFO - 2021-10-28 09:46:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 09:46:13 --> Final output sent to browser
+DEBUG - 2021-10-28 09:46:13 --> Total execution time: 0.1842
+INFO - 2021-10-28 09:46:14 --> Config Class Initialized
+INFO - 2021-10-28 09:46:14 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:46:14 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:46:14 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:46:14 --> URI Class Initialized
+INFO - 2021-10-28 09:46:14 --> Router Class Initialized
+INFO - 2021-10-28 09:46:14 --> Output Class Initialized
+INFO - 2021-10-28 09:46:14 --> Security Class Initialized
+INFO - 2021-10-28 09:46:14 --> CRSF cookie sent
+INFO - 2021-10-28 09:46:14 --> CSRF token verified
+DEBUG - 2021-10-28 09:46:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:46:14 --> Input Class Initialized
+INFO - 2021-10-28 09:46:14 --> Language Class Initialized
+INFO - 2021-10-28 09:46:14 --> Loader Class Initialized
+INFO - 2021-10-28 09:46:14 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:46:14 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:46:14 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:46:14 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:46:14 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:46:14 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:46:14 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:46:14 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:46:14 --> Parser Class Initialized
+INFO - 2021-10-28 09:46:14 --> Model Class Initialized
+INFO - 2021-10-28 09:46:14 --> Model Class Initialized
+INFO - 2021-10-28 09:46:14 --> Controller Class Initialized
+INFO - 2021-10-28 09:46:14 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:46:14 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:46:14 --> Could not find the language line "today"
+INFO - 2021-10-28 09:46:14 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:46:14 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:46:14 --> Model Class Initialized
+INFO - 2021-10-28 09:46:14 --> Final output sent to browser
+DEBUG - 2021-10-28 09:46:14 --> Total execution time: 0.3057
+INFO - 2021-10-28 09:46:30 --> Config Class Initialized
+INFO - 2021-10-28 09:46:30 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:46:30 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:46:30 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:46:30 --> URI Class Initialized
+INFO - 2021-10-28 09:46:30 --> Router Class Initialized
+INFO - 2021-10-28 09:46:30 --> Output Class Initialized
+INFO - 2021-10-28 09:46:30 --> Security Class Initialized
+INFO - 2021-10-28 09:46:30 --> CRSF cookie sent
+INFO - 2021-10-28 09:46:30 --> CSRF token verified
+DEBUG - 2021-10-28 09:46:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:46:30 --> Input Class Initialized
+INFO - 2021-10-28 09:46:30 --> Language Class Initialized
+INFO - 2021-10-28 09:46:30 --> Loader Class Initialized
+INFO - 2021-10-28 09:46:30 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:46:30 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:46:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:46:30 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:46:30 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:46:30 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:46:30 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:46:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:46:30 --> Parser Class Initialized
+INFO - 2021-10-28 09:46:30 --> Model Class Initialized
+INFO - 2021-10-28 09:46:30 --> Model Class Initialized
+INFO - 2021-10-28 09:46:30 --> Controller Class Initialized
+INFO - 2021-10-28 09:46:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:46:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:46:30 --> Could not find the language line "today"
+INFO - 2021-10-28 09:46:30 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:46:30 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:46:30 --> Model Class Initialized
+INFO - 2021-10-28 09:46:30 --> Final output sent to browser
+DEBUG - 2021-10-28 09:46:30 --> Total execution time: 0.1565
+INFO - 2021-10-28 09:57:57 --> Config Class Initialized
+INFO - 2021-10-28 09:57:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:57:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:57:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:57:57 --> URI Class Initialized
+INFO - 2021-10-28 09:57:57 --> Router Class Initialized
+INFO - 2021-10-28 09:57:57 --> Output Class Initialized
+INFO - 2021-10-28 09:57:57 --> Security Class Initialized
+INFO - 2021-10-28 09:57:57 --> CRSF cookie sent
+DEBUG - 2021-10-28 09:57:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:57:57 --> Input Class Initialized
+INFO - 2021-10-28 09:57:57 --> Language Class Initialized
+INFO - 2021-10-28 09:57:57 --> Loader Class Initialized
+INFO - 2021-10-28 09:57:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:57:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:57:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:57:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:57:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:57:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:57:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:57:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:57:57 --> Parser Class Initialized
+INFO - 2021-10-28 09:57:57 --> Model Class Initialized
+INFO - 2021-10-28 09:57:57 --> Model Class Initialized
+INFO - 2021-10-28 09:57:57 --> Controller Class Initialized
+INFO - 2021-10-28 09:57:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:57:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "today"
+INFO - 2021-10-28 09:57:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:57:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:57:57 --> Model Class Initialized
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "backups"
+INFO - 2021-10-28 09:57:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 09:57:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "due"
+ERROR - 2021-10-28 09:57:57 --> Could not find the language line "transferring"
+INFO - 2021-10-28 09:57:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 09:57:57 --> Final output sent to browser
+DEBUG - 2021-10-28 09:57:57 --> Total execution time: 0.1204
+INFO - 2021-10-28 09:57:58 --> Config Class Initialized
+INFO - 2021-10-28 09:57:58 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:57:58 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:57:58 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:57:58 --> URI Class Initialized
+INFO - 2021-10-28 09:57:58 --> Router Class Initialized
+INFO - 2021-10-28 09:57:58 --> Output Class Initialized
+INFO - 2021-10-28 09:57:58 --> Security Class Initialized
+INFO - 2021-10-28 09:57:58 --> CRSF cookie sent
+INFO - 2021-10-28 09:57:58 --> CSRF token verified
+DEBUG - 2021-10-28 09:57:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:57:58 --> Input Class Initialized
+INFO - 2021-10-28 09:57:58 --> Language Class Initialized
+INFO - 2021-10-28 09:57:58 --> Loader Class Initialized
+INFO - 2021-10-28 09:57:58 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:57:58 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:57:58 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:57:58 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:57:58 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:57:58 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:57:58 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:57:58 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:57:58 --> Parser Class Initialized
+INFO - 2021-10-28 09:57:58 --> Model Class Initialized
+INFO - 2021-10-28 09:57:58 --> Model Class Initialized
+INFO - 2021-10-28 09:57:58 --> Controller Class Initialized
+INFO - 2021-10-28 09:57:58 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:57:58 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:57:58 --> Could not find the language line "today"
+INFO - 2021-10-28 09:57:58 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:57:58 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:57:58 --> Model Class Initialized
+INFO - 2021-10-28 09:57:58 --> Final output sent to browser
+DEBUG - 2021-10-28 09:57:58 --> Total execution time: 0.2052
+INFO - 2021-10-28 09:58:01 --> Config Class Initialized
+INFO - 2021-10-28 09:58:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:58:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:58:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:58:01 --> URI Class Initialized
+INFO - 2021-10-28 09:58:01 --> Router Class Initialized
+INFO - 2021-10-28 09:58:01 --> Output Class Initialized
+INFO - 2021-10-28 09:58:01 --> Security Class Initialized
+INFO - 2021-10-28 09:58:01 --> CRSF cookie sent
+INFO - 2021-10-28 09:58:01 --> CSRF token verified
+DEBUG - 2021-10-28 09:58:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:58:01 --> Input Class Initialized
+INFO - 2021-10-28 09:58:01 --> Language Class Initialized
+INFO - 2021-10-28 09:58:01 --> Loader Class Initialized
+INFO - 2021-10-28 09:58:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:58:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:58:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:58:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:58:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:58:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:58:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:58:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:58:01 --> Parser Class Initialized
+INFO - 2021-10-28 09:58:01 --> Model Class Initialized
+INFO - 2021-10-28 09:58:01 --> Model Class Initialized
+INFO - 2021-10-28 09:58:01 --> Controller Class Initialized
+INFO - 2021-10-28 09:58:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:58:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:58:01 --> Could not find the language line "today"
+INFO - 2021-10-28 09:58:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:58:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:58:01 --> Model Class Initialized
+INFO - 2021-10-28 09:58:01 --> Final output sent to browser
+DEBUG - 2021-10-28 09:58:01 --> Total execution time: 0.1370
+INFO - 2021-10-28 09:58:02 --> Config Class Initialized
+INFO - 2021-10-28 09:58:02 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:58:02 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:58:02 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:58:02 --> URI Class Initialized
+INFO - 2021-10-28 09:58:02 --> Router Class Initialized
+INFO - 2021-10-28 09:58:02 --> Output Class Initialized
+INFO - 2021-10-28 09:58:02 --> Security Class Initialized
+INFO - 2021-10-28 09:58:02 --> CRSF cookie sent
+INFO - 2021-10-28 09:58:02 --> CSRF token verified
+DEBUG - 2021-10-28 09:58:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:58:02 --> Input Class Initialized
+INFO - 2021-10-28 09:58:02 --> Language Class Initialized
+INFO - 2021-10-28 09:58:02 --> Loader Class Initialized
+INFO - 2021-10-28 09:58:02 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:58:02 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:58:02 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:58:02 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:58:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:58:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:58:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:58:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:58:02 --> Parser Class Initialized
+INFO - 2021-10-28 09:58:02 --> Model Class Initialized
+INFO - 2021-10-28 09:58:02 --> Model Class Initialized
+INFO - 2021-10-28 09:58:02 --> Controller Class Initialized
+INFO - 2021-10-28 09:58:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:58:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:58:02 --> Could not find the language line "today"
+INFO - 2021-10-28 09:58:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:58:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:58:02 --> Model Class Initialized
+INFO - 2021-10-28 09:58:02 --> Final output sent to browser
+DEBUG - 2021-10-28 09:58:02 --> Total execution time: 0.1519
+INFO - 2021-10-28 09:58:09 --> Config Class Initialized
+INFO - 2021-10-28 09:58:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 09:58:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 09:58:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 09:58:09 --> URI Class Initialized
+INFO - 2021-10-28 09:58:09 --> Router Class Initialized
+INFO - 2021-10-28 09:58:09 --> Output Class Initialized
+INFO - 2021-10-28 09:58:09 --> Security Class Initialized
+INFO - 2021-10-28 09:58:09 --> CRSF cookie sent
+INFO - 2021-10-28 09:58:09 --> CSRF token verified
+DEBUG - 2021-10-28 09:58:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 09:58:09 --> Input Class Initialized
+INFO - 2021-10-28 09:58:09 --> Language Class Initialized
+INFO - 2021-10-28 09:58:09 --> Loader Class Initialized
+INFO - 2021-10-28 09:58:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 09:58:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 09:58:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 09:58:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 09:58:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 09:58:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 09:58:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 09:58:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 09:58:09 --> Parser Class Initialized
+INFO - 2021-10-28 09:58:09 --> Model Class Initialized
+INFO - 2021-10-28 09:58:09 --> Model Class Initialized
+INFO - 2021-10-28 09:58:09 --> Controller Class Initialized
+INFO - 2021-10-28 09:58:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 09:58:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 09:58:09 --> Could not find the language line "today"
+INFO - 2021-10-28 09:58:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 09:58:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 09:58:09 --> Model Class Initialized
+INFO - 2021-10-28 09:58:09 --> Final output sent to browser
+DEBUG - 2021-10-28 09:58:09 --> Total execution time: 0.1597
+INFO - 2021-10-28 10:00:03 --> Config Class Initialized
+INFO - 2021-10-28 10:00:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:00:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:00:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:00:03 --> URI Class Initialized
+INFO - 2021-10-28 10:00:03 --> Router Class Initialized
+INFO - 2021-10-28 10:00:03 --> Output Class Initialized
+INFO - 2021-10-28 10:00:03 --> Security Class Initialized
+INFO - 2021-10-28 10:00:03 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:00:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:00:03 --> Input Class Initialized
+INFO - 2021-10-28 10:00:03 --> Language Class Initialized
+INFO - 2021-10-28 10:00:03 --> Loader Class Initialized
+INFO - 2021-10-28 10:00:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:00:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:00:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:00:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:00:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:00:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:00:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:00:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:00:03 --> Parser Class Initialized
+INFO - 2021-10-28 10:00:03 --> Model Class Initialized
+INFO - 2021-10-28 10:00:03 --> Model Class Initialized
+INFO - 2021-10-28 10:00:03 --> Controller Class Initialized
+INFO - 2021-10-28 10:00:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:00:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "today"
+INFO - 2021-10-28 10:00:03 --> Language file loaded: language/spanish/settings_lang.php
+INFO - 2021-10-28 10:00:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:00:03 --> Model Class Initialized
+INFO - 2021-10-28 10:00:03 --> Encrypt Class Initialized
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:00:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "sac"
+INFO - 2021-10-28 10:00:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/settings/index.php
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:00:03 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:00:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:00:03 --> Final output sent to browser
+DEBUG - 2021-10-28 10:00:03 --> Total execution time: 0.3023
+INFO - 2021-10-28 10:02:43 --> Config Class Initialized
+INFO - 2021-10-28 10:02:43 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:02:43 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:02:43 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:02:43 --> URI Class Initialized
+INFO - 2021-10-28 10:02:43 --> Router Class Initialized
+INFO - 2021-10-28 10:02:43 --> Output Class Initialized
+INFO - 2021-10-28 10:02:43 --> Security Class Initialized
+INFO - 2021-10-28 10:02:43 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:02:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:02:43 --> Input Class Initialized
+INFO - 2021-10-28 10:02:43 --> Language Class Initialized
+INFO - 2021-10-28 10:02:43 --> Loader Class Initialized
+INFO - 2021-10-28 10:02:43 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:02:43 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:02:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:02:43 --> Parser Class Initialized
+INFO - 2021-10-28 10:02:43 --> Model Class Initialized
+INFO - 2021-10-28 10:02:43 --> Model Class Initialized
+INFO - 2021-10-28 10:02:43 --> Controller Class Initialized
+INFO - 2021-10-28 10:02:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:02:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "today"
+INFO - 2021-10-28 10:02:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:02:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:02:43 --> Model Class Initialized
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:02:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 10:02:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:02:43 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:02:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:02:43 --> Final output sent to browser
+DEBUG - 2021-10-28 10:02:43 --> Total execution time: 0.1818
+INFO - 2021-10-28 10:02:43 --> Config Class Initialized
+INFO - 2021-10-28 10:02:43 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:02:43 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:02:43 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:02:43 --> URI Class Initialized
+INFO - 2021-10-28 10:02:43 --> Router Class Initialized
+INFO - 2021-10-28 10:02:43 --> Output Class Initialized
+INFO - 2021-10-28 10:02:43 --> Security Class Initialized
+INFO - 2021-10-28 10:02:43 --> CRSF cookie sent
+INFO - 2021-10-28 10:02:43 --> CSRF token verified
+DEBUG - 2021-10-28 10:02:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:02:43 --> Input Class Initialized
+INFO - 2021-10-28 10:02:43 --> Language Class Initialized
+INFO - 2021-10-28 10:02:43 --> Loader Class Initialized
+INFO - 2021-10-28 10:02:43 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:02:43 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:02:44 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:02:44 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:02:44 --> Parser Class Initialized
+INFO - 2021-10-28 10:02:44 --> Model Class Initialized
+INFO - 2021-10-28 10:02:44 --> Model Class Initialized
+INFO - 2021-10-28 10:02:44 --> Controller Class Initialized
+INFO - 2021-10-28 10:02:44 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:02:44 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:02:44 --> Could not find the language line "today"
+INFO - 2021-10-28 10:02:44 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:02:44 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:02:44 --> Model Class Initialized
+INFO - 2021-10-28 10:02:44 --> Final output sent to browser
+DEBUG - 2021-10-28 10:02:44 --> Total execution time: 0.3903
+INFO - 2021-10-28 10:02:54 --> Config Class Initialized
+INFO - 2021-10-28 10:02:54 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:02:54 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:02:54 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:02:54 --> URI Class Initialized
+INFO - 2021-10-28 10:02:54 --> Router Class Initialized
+INFO - 2021-10-28 10:02:54 --> Output Class Initialized
+INFO - 2021-10-28 10:02:54 --> Security Class Initialized
+INFO - 2021-10-28 10:02:54 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:02:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:02:54 --> Input Class Initialized
+INFO - 2021-10-28 10:02:54 --> Language Class Initialized
+INFO - 2021-10-28 10:02:54 --> Loader Class Initialized
+INFO - 2021-10-28 10:02:54 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:02:54 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:02:54 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:02:54 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:02:54 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:02:54 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:02:54 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:02:54 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:02:54 --> Parser Class Initialized
+INFO - 2021-10-28 10:02:54 --> Model Class Initialized
+INFO - 2021-10-28 10:02:54 --> Model Class Initialized
+INFO - 2021-10-28 10:02:54 --> Controller Class Initialized
+INFO - 2021-10-28 10:02:54 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:02:54 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "today"
+INFO - 2021-10-28 10:02:54 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:02:54 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:02:54 --> Model Class Initialized
+INFO - 2021-10-28 10:02:54 --> Helper loaded: security_helper
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:02:54 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 10:02:54 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:02:54 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:02:54 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:02:54 --> Final output sent to browser
+DEBUG - 2021-10-28 10:02:54 --> Total execution time: 0.2834
+INFO - 2021-10-28 10:02:55 --> Config Class Initialized
+INFO - 2021-10-28 10:02:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:02:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:02:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:02:55 --> URI Class Initialized
+INFO - 2021-10-28 10:02:55 --> Router Class Initialized
+INFO - 2021-10-28 10:02:55 --> Output Class Initialized
+INFO - 2021-10-28 10:02:55 --> Security Class Initialized
+INFO - 2021-10-28 10:02:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:02:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:02:55 --> Input Class Initialized
+INFO - 2021-10-28 10:02:55 --> Language Class Initialized
+INFO - 2021-10-28 10:02:55 --> Loader Class Initialized
+INFO - 2021-10-28 10:02:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:02:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:02:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:02:55 --> Parser Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Controller Class Initialized
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:02:55 --> Could not find the language line "today"
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:02:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Final output sent to browser
+DEBUG - 2021-10-28 10:02:55 --> Total execution time: 0.1588
+INFO - 2021-10-28 10:02:55 --> Config Class Initialized
+INFO - 2021-10-28 10:02:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:02:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:02:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:02:55 --> URI Class Initialized
+INFO - 2021-10-28 10:02:55 --> Router Class Initialized
+INFO - 2021-10-28 10:02:55 --> Output Class Initialized
+INFO - 2021-10-28 10:02:55 --> Security Class Initialized
+INFO - 2021-10-28 10:02:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:02:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:02:55 --> Input Class Initialized
+INFO - 2021-10-28 10:02:55 --> Language Class Initialized
+INFO - 2021-10-28 10:02:55 --> Loader Class Initialized
+INFO - 2021-10-28 10:02:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:02:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:02:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:02:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:02:55 --> Parser Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Controller Class Initialized
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:02:55 --> Could not find the language line "today"
+INFO - 2021-10-28 10:02:55 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-28 10:02:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:02:55 --> Model Class Initialized
+INFO - 2021-10-28 10:02:55 --> Final output sent to browser
+DEBUG - 2021-10-28 10:02:55 --> Total execution time: 0.1858
+INFO - 2021-10-28 10:03:19 --> Config Class Initialized
+INFO - 2021-10-28 10:03:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:03:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:03:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:03:19 --> Config Class Initialized
+INFO - 2021-10-28 10:03:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:03:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:03:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:03:19 --> URI Class Initialized
+INFO - 2021-10-28 10:03:19 --> Router Class Initialized
+INFO - 2021-10-28 10:03:19 --> Output Class Initialized
+INFO - 2021-10-28 10:03:19 --> Security Class Initialized
+INFO - 2021-10-28 10:03:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:03:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:03:19 --> Input Class Initialized
+INFO - 2021-10-28 10:03:19 --> Language Class Initialized
+INFO - 2021-10-28 10:03:19 --> Loader Class Initialized
+INFO - 2021-10-28 10:03:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:03:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:03:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:03:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:03:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:03:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:03:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:03:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:03:19 --> Parser Class Initialized
+INFO - 2021-10-28 10:03:19 --> Model Class Initialized
+INFO - 2021-10-28 10:03:19 --> Model Class Initialized
+INFO - 2021-10-28 10:03:19 --> Controller Class Initialized
+INFO - 2021-10-28 10:03:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:03:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:03:19 --> Could not find the language line "today"
+INFO - 2021-10-28 10:03:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 10:03:20 --> Final output sent to browser
+DEBUG - 2021-10-28 10:03:20 --> Total execution time: 0.1734
+INFO - 2021-10-28 10:03:29 --> Config Class Initialized
+INFO - 2021-10-28 10:03:30 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:03:30 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:03:30 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:03:30 --> URI Class Initialized
+INFO - 2021-10-28 10:03:30 --> Router Class Initialized
+INFO - 2021-10-28 10:03:30 --> Output Class Initialized
+INFO - 2021-10-28 10:03:30 --> Security Class Initialized
+INFO - 2021-10-28 10:03:30 --> CRSF cookie sent
+INFO - 2021-10-28 10:03:30 --> CSRF token verified
+DEBUG - 2021-10-28 10:03:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:03:30 --> Input Class Initialized
+INFO - 2021-10-28 10:03:30 --> Language Class Initialized
+INFO - 2021-10-28 10:03:30 --> Loader Class Initialized
+INFO - 2021-10-28 10:03:30 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:03:30 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:03:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:03:30 --> Parser Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+INFO - 2021-10-28 10:03:30 --> Controller Class Initialized
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "today"
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:03:30 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+INFO - 2021-10-28 10:03:30 --> Helper loaded: security_helper
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 10:03:30 --> Upload Class Initialized
+INFO - 2021-10-28 10:03:30 --> Image Lib Class Initialized
+DEBUG - 2021-10-28 10:03:30 --> Image_lib class already loaded. Second attempt ignored.
+INFO - 2021-10-28 10:03:30 --> 0
+INFO - 2021-10-28 10:03:30 --> syncProductQty
+INFO - 2021-10-28 10:03:30 --> 3
+INFO - 2021-10-28 10:03:30 --> balance_qty
+INFO - 2021-10-28 10:03:30 --> 
+INFO - 2021-10-28 10:03:30 --> warehouses_products standart
+INFO - 2021-10-28 10:03:30 --> 3
+INFO - 2021-10-28 10:03:30 --> 3
+INFO - 2021-10-28 10:03:30 --> 
+ERROR - 2021-10-28 10:03:30 --> Query error: Column 'quantity' cannot be null - Invalid query: UPDATE `sma_warehouses_products` SET `quantity` = NULL
+WHERE `product_id` = '3'
+AND `warehouse_id` = '3'
+INFO - 2021-10-28 10:03:30 --> Config Class Initialized
+INFO - 2021-10-28 10:03:30 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:03:30 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:03:30 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:03:30 --> URI Class Initialized
+INFO - 2021-10-28 10:03:30 --> Router Class Initialized
+INFO - 2021-10-28 10:03:30 --> Output Class Initialized
+INFO - 2021-10-28 10:03:30 --> Security Class Initialized
+INFO - 2021-10-28 10:03:30 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:03:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:03:30 --> Input Class Initialized
+INFO - 2021-10-28 10:03:30 --> Language Class Initialized
+INFO - 2021-10-28 10:03:30 --> Loader Class Initialized
+INFO - 2021-10-28 10:03:30 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:03:30 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:03:30 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:03:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:03:30 --> Parser Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+INFO - 2021-10-28 10:03:30 --> Controller Class Initialized
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "today"
+INFO - 2021-10-28 10:03:30 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:03:30 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:03:30 --> Model Class Initialized
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:03:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 10:03:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:03:30 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:03:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:03:30 --> Final output sent to browser
+DEBUG - 2021-10-28 10:03:30 --> Total execution time: 0.1508
+INFO - 2021-10-28 10:03:31 --> Config Class Initialized
+INFO - 2021-10-28 10:03:31 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:03:31 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:03:31 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:03:31 --> URI Class Initialized
+INFO - 2021-10-28 10:03:31 --> Router Class Initialized
+INFO - 2021-10-28 10:03:31 --> Output Class Initialized
+INFO - 2021-10-28 10:03:31 --> Security Class Initialized
+INFO - 2021-10-28 10:03:31 --> CRSF cookie sent
+INFO - 2021-10-28 10:03:31 --> CSRF token verified
+DEBUG - 2021-10-28 10:03:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:03:31 --> Input Class Initialized
+INFO - 2021-10-28 10:03:31 --> Language Class Initialized
+INFO - 2021-10-28 10:03:31 --> Loader Class Initialized
+INFO - 2021-10-28 10:03:31 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:03:31 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:03:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:03:31 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:03:31 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:03:31 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:03:31 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:03:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:03:31 --> Parser Class Initialized
+INFO - 2021-10-28 10:03:31 --> Model Class Initialized
+INFO - 2021-10-28 10:03:31 --> Model Class Initialized
+INFO - 2021-10-28 10:03:31 --> Controller Class Initialized
+INFO - 2021-10-28 10:03:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:03:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:03:31 --> Could not find the language line "today"
+INFO - 2021-10-28 10:03:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:03:31 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:03:31 --> Model Class Initialized
+INFO - 2021-10-28 10:03:31 --> Final output sent to browser
+DEBUG - 2021-10-28 10:03:31 --> Total execution time: 0.2749
+INFO - 2021-10-28 10:08:22 --> Config Class Initialized
+INFO - 2021-10-28 10:08:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:08:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:08:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:08:22 --> URI Class Initialized
+INFO - 2021-10-28 10:08:22 --> Router Class Initialized
+INFO - 2021-10-28 10:08:22 --> Output Class Initialized
+INFO - 2021-10-28 10:08:22 --> Security Class Initialized
+INFO - 2021-10-28 10:08:22 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:08:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:08:22 --> Input Class Initialized
+INFO - 2021-10-28 10:08:22 --> Language Class Initialized
+INFO - 2021-10-28 10:08:22 --> Loader Class Initialized
+INFO - 2021-10-28 10:08:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:08:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:08:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:08:22 --> Parser Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Controller Class Initialized
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "today"
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:08:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Helper loaded: security_helper
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:08:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 10:08:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:08:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:08:22 --> Final output sent to browser
+DEBUG - 2021-10-28 10:08:22 --> Total execution time: 0.3239
+INFO - 2021-10-28 10:08:22 --> Config Class Initialized
+INFO - 2021-10-28 10:08:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:08:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:08:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:08:22 --> URI Class Initialized
+INFO - 2021-10-28 10:08:22 --> Router Class Initialized
+INFO - 2021-10-28 10:08:22 --> Output Class Initialized
+INFO - 2021-10-28 10:08:22 --> Security Class Initialized
+INFO - 2021-10-28 10:08:22 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:08:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:08:22 --> Input Class Initialized
+INFO - 2021-10-28 10:08:22 --> Language Class Initialized
+INFO - 2021-10-28 10:08:22 --> Loader Class Initialized
+INFO - 2021-10-28 10:08:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:08:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:08:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:08:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:08:22 --> Parser Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Controller Class Initialized
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:08:22 --> Could not find the language line "today"
+INFO - 2021-10-28 10:08:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:08:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:08:22 --> Model Class Initialized
+INFO - 2021-10-28 10:08:22 --> Final output sent to browser
+DEBUG - 2021-10-28 10:08:22 --> Total execution time: 0.0494
+INFO - 2021-10-28 10:08:23 --> Config Class Initialized
+INFO - 2021-10-28 10:08:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:08:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:08:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:08:23 --> URI Class Initialized
+INFO - 2021-10-28 10:08:23 --> Router Class Initialized
+INFO - 2021-10-28 10:08:23 --> Output Class Initialized
+INFO - 2021-10-28 10:08:23 --> Security Class Initialized
+INFO - 2021-10-28 10:08:23 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:08:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:08:23 --> Input Class Initialized
+INFO - 2021-10-28 10:08:23 --> Language Class Initialized
+INFO - 2021-10-28 10:08:23 --> Loader Class Initialized
+INFO - 2021-10-28 10:08:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:08:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:08:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:08:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:08:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:08:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:08:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:08:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:08:23 --> Parser Class Initialized
+INFO - 2021-10-28 10:08:23 --> Model Class Initialized
+INFO - 2021-10-28 10:08:23 --> Model Class Initialized
+INFO - 2021-10-28 10:08:23 --> Controller Class Initialized
+INFO - 2021-10-28 10:08:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:08:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:08:23 --> Could not find the language line "today"
+INFO - 2021-10-28 10:08:23 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-28 10:08:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:08:23 --> Model Class Initialized
+INFO - 2021-10-28 10:08:23 --> Final output sent to browser
+DEBUG - 2021-10-28 10:08:23 --> Total execution time: 0.0514
+INFO - 2021-10-28 10:19:52 --> Config Class Initialized
+INFO - 2021-10-28 10:19:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:19:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:19:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:19:52 --> URI Class Initialized
+INFO - 2021-10-28 10:19:52 --> Router Class Initialized
+INFO - 2021-10-28 10:19:52 --> Output Class Initialized
+INFO - 2021-10-28 10:19:52 --> Security Class Initialized
+INFO - 2021-10-28 10:19:52 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:19:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:19:52 --> Input Class Initialized
+INFO - 2021-10-28 10:19:52 --> Language Class Initialized
+INFO - 2021-10-28 10:19:52 --> Loader Class Initialized
+INFO - 2021-10-28 10:19:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:19:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:19:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:19:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:19:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:19:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:19:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:19:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:19:52 --> Parser Class Initialized
+INFO - 2021-10-28 10:19:52 --> Model Class Initialized
+INFO - 2021-10-28 10:19:52 --> Model Class Initialized
+INFO - 2021-10-28 10:19:52 --> Controller Class Initialized
+INFO - 2021-10-28 10:19:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:19:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "today"
+INFO - 2021-10-28 10:19:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:19:52 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:19:52 --> Model Class Initialized
+INFO - 2021-10-28 10:19:52 --> Helper loaded: security_helper
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "backups"
+INFO - 2021-10-28 10:19:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 10:19:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "due"
+ERROR - 2021-10-28 10:19:52 --> Could not find the language line "transferring"
+INFO - 2021-10-28 10:19:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 10:19:52 --> Final output sent to browser
+DEBUG - 2021-10-28 10:19:52 --> Total execution time: 0.1928
+INFO - 2021-10-28 10:20:24 --> Config Class Initialized
+INFO - 2021-10-28 10:20:24 --> Hooks Class Initialized
+DEBUG - 2021-10-28 10:20:24 --> UTF-8 Support Enabled
+INFO - 2021-10-28 10:20:24 --> Utf8 Class Initialized
+INFO - 2021-10-28 10:20:24 --> URI Class Initialized
+INFO - 2021-10-28 10:20:24 --> Router Class Initialized
+INFO - 2021-10-28 10:20:24 --> Output Class Initialized
+INFO - 2021-10-28 10:20:24 --> Security Class Initialized
+INFO - 2021-10-28 10:20:24 --> CRSF cookie sent
+DEBUG - 2021-10-28 10:20:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 10:20:24 --> Input Class Initialized
+INFO - 2021-10-28 10:20:24 --> Language Class Initialized
+INFO - 2021-10-28 10:20:24 --> Loader Class Initialized
+INFO - 2021-10-28 10:20:24 --> Helper loaded: url_helper
+INFO - 2021-10-28 10:20:24 --> Helper loaded: form_helper
+INFO - 2021-10-28 10:20:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 10:20:24 --> Helper loaded: language_helper
+INFO - 2021-10-28 10:20:24 --> Helper loaded: file_helper
+INFO - 2021-10-28 10:20:24 --> Helper loaded: date_helper
+INFO - 2021-10-28 10:20:24 --> Database Driver Class Initialized
+INFO - 2021-10-28 10:20:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 10:20:24 --> Parser Class Initialized
+INFO - 2021-10-28 10:20:24 --> Model Class Initialized
+INFO - 2021-10-28 10:20:24 --> Model Class Initialized
+INFO - 2021-10-28 10:20:24 --> Controller Class Initialized
+INFO - 2021-10-28 10:20:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 10:20:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 10:20:24 --> Could not find the language line "today"
+INFO - 2021-10-28 10:20:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 10:20:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 10:20:24 --> Model Class Initialized
+INFO - 2021-10-28 10:20:25 --> Final output sent to browser
+DEBUG - 2021-10-28 10:20:25 --> Total execution time: 0.4332
+INFO - 2021-10-28 11:49:17 --> Config Class Initialized
+INFO - 2021-10-28 11:49:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:49:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:49:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:49:17 --> URI Class Initialized
+INFO - 2021-10-28 11:49:17 --> Router Class Initialized
+INFO - 2021-10-28 11:49:17 --> Output Class Initialized
+INFO - 2021-10-28 11:49:17 --> Security Class Initialized
+INFO - 2021-10-28 11:49:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 11:49:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 11:49:17 --> Input Class Initialized
+INFO - 2021-10-28 11:49:17 --> Language Class Initialized
+INFO - 2021-10-28 11:49:17 --> Loader Class Initialized
+INFO - 2021-10-28 11:49:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 11:49:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 11:49:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 11:49:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 11:49:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 11:49:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 11:49:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 11:49:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 11:49:17 --> Parser Class Initialized
+INFO - 2021-10-28 11:49:17 --> Model Class Initialized
+INFO - 2021-10-28 11:49:17 --> Model Class Initialized
+INFO - 2021-10-28 11:49:17 --> Controller Class Initialized
+INFO - 2021-10-28 11:49:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 11:49:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "today"
+INFO - 2021-10-28 11:49:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 11:49:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 11:49:17 --> Model Class Initialized
+INFO - 2021-10-28 11:49:17 --> Helper loaded: security_helper
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 11:49:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 11:49:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 11:49:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 11:49:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 11:49:17 --> Final output sent to browser
+DEBUG - 2021-10-28 11:49:17 --> Total execution time: 0.1522
+INFO - 2021-10-28 11:53:08 --> Config Class Initialized
+INFO - 2021-10-28 11:53:08 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:53:08 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:53:08 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:53:08 --> URI Class Initialized
+INFO - 2021-10-28 11:53:08 --> Router Class Initialized
+INFO - 2021-10-28 11:53:08 --> Output Class Initialized
+INFO - 2021-10-28 11:53:08 --> Security Class Initialized
+INFO - 2021-10-28 11:53:08 --> CRSF cookie sent
+DEBUG - 2021-10-28 11:53:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 11:53:08 --> Input Class Initialized
+INFO - 2021-10-28 11:53:08 --> Language Class Initialized
+INFO - 2021-10-28 11:53:08 --> Loader Class Initialized
+INFO - 2021-10-28 11:53:08 --> Helper loaded: url_helper
+INFO - 2021-10-28 11:53:08 --> Helper loaded: form_helper
+INFO - 2021-10-28 11:53:08 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 11:53:08 --> Helper loaded: language_helper
+INFO - 2021-10-28 11:53:08 --> Helper loaded: file_helper
+INFO - 2021-10-28 11:53:08 --> Helper loaded: date_helper
+INFO - 2021-10-28 11:53:08 --> Database Driver Class Initialized
+INFO - 2021-10-28 11:53:08 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 11:53:08 --> Parser Class Initialized
+INFO - 2021-10-28 11:53:08 --> Model Class Initialized
+INFO - 2021-10-28 11:53:08 --> Model Class Initialized
+INFO - 2021-10-28 11:53:08 --> Controller Class Initialized
+INFO - 2021-10-28 11:53:08 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 11:53:08 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 11:53:08 --> Could not find the language line "today"
+INFO - 2021-10-28 11:53:08 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 11:53:08 --> Form Validation Class Initialized
+INFO - 2021-10-28 11:53:09 --> Model Class Initialized
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "backups"
+INFO - 2021-10-28 11:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 11:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "due"
+ERROR - 2021-10-28 11:53:09 --> Could not find the language line "transferring"
+INFO - 2021-10-28 11:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 11:53:09 --> Final output sent to browser
+DEBUG - 2021-10-28 11:53:09 --> Total execution time: 0.2928
+INFO - 2021-10-28 11:53:09 --> Config Class Initialized
+INFO - 2021-10-28 11:53:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:53:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:53:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:53:09 --> URI Class Initialized
+INFO - 2021-10-28 11:53:09 --> Router Class Initialized
+INFO - 2021-10-28 11:53:09 --> Output Class Initialized
+INFO - 2021-10-28 11:53:09 --> Security Class Initialized
+INFO - 2021-10-28 11:53:09 --> CRSF cookie sent
+INFO - 2021-10-28 11:53:09 --> CSRF token verified
+DEBUG - 2021-10-28 11:53:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 11:53:09 --> Input Class Initialized
+INFO - 2021-10-28 11:53:09 --> Language Class Initialized
+INFO - 2021-10-28 11:53:10 --> Loader Class Initialized
+INFO - 2021-10-28 11:53:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 11:53:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 11:53:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 11:53:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 11:53:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 11:53:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 11:53:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 11:53:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 11:53:10 --> Parser Class Initialized
+INFO - 2021-10-28 11:53:10 --> Model Class Initialized
+INFO - 2021-10-28 11:53:10 --> Model Class Initialized
+INFO - 2021-10-28 11:53:10 --> Controller Class Initialized
+INFO - 2021-10-28 11:53:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 11:53:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 11:53:10 --> Could not find the language line "today"
+INFO - 2021-10-28 11:53:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 11:53:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 11:53:10 --> Model Class Initialized
+INFO - 2021-10-28 11:53:10 --> Final output sent to browser
+DEBUG - 2021-10-28 11:53:10 --> Total execution time: 0.5350
+INFO - 2021-10-28 11:53:17 --> Config Class Initialized
+INFO - 2021-10-28 11:53:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:53:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:53:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:58:37 --> Config Class Initialized
+INFO - 2021-10-28 11:58:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:58:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:58:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:58:37 --> URI Class Initialized
+INFO - 2021-10-28 11:58:37 --> Router Class Initialized
+INFO - 2021-10-28 11:58:37 --> Output Class Initialized
+INFO - 2021-10-28 11:58:37 --> Security Class Initialized
+INFO - 2021-10-28 11:58:37 --> CRSF cookie sent
+DEBUG - 2021-10-28 11:58:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 11:58:37 --> Input Class Initialized
+INFO - 2021-10-28 11:58:37 --> Language Class Initialized
+INFO - 2021-10-28 11:58:37 --> Loader Class Initialized
+INFO - 2021-10-28 11:58:38 --> Helper loaded: url_helper
+INFO - 2021-10-28 11:58:38 --> Helper loaded: form_helper
+INFO - 2021-10-28 11:58:38 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 11:58:38 --> Helper loaded: language_helper
+INFO - 2021-10-28 11:58:38 --> Helper loaded: file_helper
+INFO - 2021-10-28 11:58:38 --> Helper loaded: date_helper
+INFO - 2021-10-28 11:58:38 --> Database Driver Class Initialized
+INFO - 2021-10-28 11:58:38 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 11:58:38 --> Parser Class Initialized
+INFO - 2021-10-28 11:58:38 --> Model Class Initialized
+INFO - 2021-10-28 11:58:38 --> Model Class Initialized
+INFO - 2021-10-28 11:58:38 --> Controller Class Initialized
+INFO - 2021-10-28 11:58:38 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 11:58:38 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "today"
+INFO - 2021-10-28 11:58:38 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 11:58:38 --> Form Validation Class Initialized
+INFO - 2021-10-28 11:58:38 --> Model Class Initialized
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "backups"
+INFO - 2021-10-28 11:58:38 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 11:58:38 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "due"
+ERROR - 2021-10-28 11:58:38 --> Could not find the language line "transferring"
+INFO - 2021-10-28 11:58:38 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 11:58:38 --> Final output sent to browser
+DEBUG - 2021-10-28 11:58:38 --> Total execution time: 0.2609
+INFO - 2021-10-28 11:58:42 --> Config Class Initialized
+INFO - 2021-10-28 11:58:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 11:58:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 11:58:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 11:58:42 --> URI Class Initialized
+INFO - 2021-10-28 11:58:42 --> Router Class Initialized
+INFO - 2021-10-28 11:58:42 --> Output Class Initialized
+INFO - 2021-10-28 11:58:42 --> Security Class Initialized
+INFO - 2021-10-28 11:58:42 --> CRSF cookie sent
+INFO - 2021-10-28 11:58:42 --> CSRF token verified
+DEBUG - 2021-10-28 11:58:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 11:58:42 --> Input Class Initialized
+INFO - 2021-10-28 11:58:42 --> Language Class Initialized
+INFO - 2021-10-28 11:58:42 --> Loader Class Initialized
+INFO - 2021-10-28 11:58:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 11:58:43 --> Helper loaded: form_helper
+INFO - 2021-10-28 11:58:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 11:58:43 --> Helper loaded: language_helper
+INFO - 2021-10-28 11:58:43 --> Helper loaded: file_helper
+INFO - 2021-10-28 11:58:43 --> Helper loaded: date_helper
+INFO - 2021-10-28 11:58:43 --> Database Driver Class Initialized
+INFO - 2021-10-28 11:58:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 11:58:43 --> Parser Class Initialized
+INFO - 2021-10-28 11:58:43 --> Model Class Initialized
+INFO - 2021-10-28 11:58:43 --> Model Class Initialized
+INFO - 2021-10-28 11:58:43 --> Controller Class Initialized
+INFO - 2021-10-28 11:58:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 11:58:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 11:58:43 --> Could not find the language line "today"
+INFO - 2021-10-28 11:58:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 11:58:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 11:58:43 --> Model Class Initialized
+INFO - 2021-10-28 11:58:43 --> Final output sent to browser
+DEBUG - 2021-10-28 11:58:43 --> Total execution time: 0.3786
+INFO - 2021-10-28 12:00:30 --> Config Class Initialized
+INFO - 2021-10-28 12:00:30 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:00:30 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:00:30 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:00:30 --> URI Class Initialized
+INFO - 2021-10-28 12:00:30 --> Router Class Initialized
+INFO - 2021-10-28 12:00:30 --> Output Class Initialized
+INFO - 2021-10-28 12:00:30 --> Security Class Initialized
+INFO - 2021-10-28 12:00:30 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:00:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:00:30 --> Input Class Initialized
+INFO - 2021-10-28 12:00:30 --> Language Class Initialized
+INFO - 2021-10-28 12:00:30 --> Loader Class Initialized
+INFO - 2021-10-28 12:00:30 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:00:30 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:00:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:00:30 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:00:30 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:00:30 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:00:30 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:00:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:00:30 --> Parser Class Initialized
+INFO - 2021-10-28 12:00:30 --> Model Class Initialized
+INFO - 2021-10-28 12:00:30 --> Model Class Initialized
+INFO - 2021-10-28 12:00:30 --> Controller Class Initialized
+INFO - 2021-10-28 12:00:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:00:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "today"
+INFO - 2021-10-28 12:00:30 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:00:30 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:00:30 --> Model Class Initialized
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:00:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:00:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:00:30 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:00:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:00:30 --> Final output sent to browser
+DEBUG - 2021-10-28 12:00:30 --> Total execution time: 0.1687
+INFO - 2021-10-28 12:00:31 --> Config Class Initialized
+INFO - 2021-10-28 12:00:31 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:00:31 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:00:31 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:00:31 --> URI Class Initialized
+INFO - 2021-10-28 12:00:31 --> Router Class Initialized
+INFO - 2021-10-28 12:00:31 --> Output Class Initialized
+INFO - 2021-10-28 12:00:31 --> Security Class Initialized
+INFO - 2021-10-28 12:00:31 --> CRSF cookie sent
+INFO - 2021-10-28 12:00:31 --> CSRF token verified
+DEBUG - 2021-10-28 12:00:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:00:31 --> Input Class Initialized
+INFO - 2021-10-28 12:00:31 --> Language Class Initialized
+INFO - 2021-10-28 12:00:31 --> Loader Class Initialized
+INFO - 2021-10-28 12:00:31 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:00:31 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:00:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:00:31 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:00:31 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:00:31 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:00:31 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:00:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:00:31 --> Parser Class Initialized
+INFO - 2021-10-28 12:00:31 --> Model Class Initialized
+INFO - 2021-10-28 12:00:31 --> Model Class Initialized
+INFO - 2021-10-28 12:00:31 --> Controller Class Initialized
+INFO - 2021-10-28 12:00:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:00:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:00:31 --> Could not find the language line "today"
+INFO - 2021-10-28 12:00:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:00:31 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:00:31 --> Model Class Initialized
+INFO - 2021-10-28 12:00:31 --> Final output sent to browser
+DEBUG - 2021-10-28 12:00:31 --> Total execution time: 0.2420
+INFO - 2021-10-28 12:01:28 --> Config Class Initialized
+INFO - 2021-10-28 12:01:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:01:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:01:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:01:28 --> URI Class Initialized
+INFO - 2021-10-28 12:01:28 --> Router Class Initialized
+INFO - 2021-10-28 12:01:28 --> Output Class Initialized
+INFO - 2021-10-28 12:01:28 --> Security Class Initialized
+INFO - 2021-10-28 12:01:28 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:01:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:01:28 --> Input Class Initialized
+INFO - 2021-10-28 12:01:28 --> Language Class Initialized
+INFO - 2021-10-28 12:01:28 --> Loader Class Initialized
+INFO - 2021-10-28 12:01:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:01:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:01:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:01:28 --> Parser Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+INFO - 2021-10-28 12:01:28 --> Controller Class Initialized
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "today"
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:01:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:01:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:01:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:01:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:01:28 --> Final output sent to browser
+DEBUG - 2021-10-28 12:01:28 --> Total execution time: 0.1884
+INFO - 2021-10-28 12:01:28 --> Config Class Initialized
+INFO - 2021-10-28 12:01:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:01:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:01:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:01:28 --> URI Class Initialized
+INFO - 2021-10-28 12:01:28 --> Router Class Initialized
+INFO - 2021-10-28 12:01:28 --> Output Class Initialized
+INFO - 2021-10-28 12:01:28 --> Security Class Initialized
+INFO - 2021-10-28 12:01:28 --> CRSF cookie sent
+INFO - 2021-10-28 12:01:28 --> CSRF token verified
+DEBUG - 2021-10-28 12:01:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:01:28 --> Input Class Initialized
+INFO - 2021-10-28 12:01:28 --> Language Class Initialized
+INFO - 2021-10-28 12:01:28 --> Loader Class Initialized
+INFO - 2021-10-28 12:01:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:01:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:01:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:01:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:01:28 --> Parser Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+INFO - 2021-10-28 12:01:28 --> Controller Class Initialized
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:01:28 --> Could not find the language line "today"
+INFO - 2021-10-28 12:01:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:01:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:01:28 --> Model Class Initialized
+INFO - 2021-10-28 12:01:28 --> Final output sent to browser
+DEBUG - 2021-10-28 12:01:28 --> Total execution time: 0.2367
+INFO - 2021-10-28 12:02:02 --> Config Class Initialized
+INFO - 2021-10-28 12:02:02 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:02:02 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:02:02 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:02:02 --> URI Class Initialized
+INFO - 2021-10-28 12:02:02 --> Router Class Initialized
+INFO - 2021-10-28 12:02:02 --> Output Class Initialized
+INFO - 2021-10-28 12:02:02 --> Security Class Initialized
+INFO - 2021-10-28 12:02:02 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:02:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:02:02 --> Input Class Initialized
+INFO - 2021-10-28 12:02:02 --> Language Class Initialized
+INFO - 2021-10-28 12:02:02 --> Loader Class Initialized
+INFO - 2021-10-28 12:02:02 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:02:02 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:02:02 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:02:02 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:02:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:02:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:02:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:02:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:02:02 --> Parser Class Initialized
+INFO - 2021-10-28 12:02:02 --> Model Class Initialized
+INFO - 2021-10-28 12:02:02 --> Model Class Initialized
+INFO - 2021-10-28 12:02:02 --> Controller Class Initialized
+INFO - 2021-10-28 12:02:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:02:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "today"
+INFO - 2021-10-28 12:02:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:02:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:02:02 --> Model Class Initialized
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:02:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:02:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:02:02 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:02:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:02:02 --> Final output sent to browser
+DEBUG - 2021-10-28 12:02:02 --> Total execution time: 0.2429
+INFO - 2021-10-28 12:02:03 --> Config Class Initialized
+INFO - 2021-10-28 12:02:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:02:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:02:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:02:03 --> URI Class Initialized
+INFO - 2021-10-28 12:02:03 --> Router Class Initialized
+INFO - 2021-10-28 12:02:03 --> Output Class Initialized
+INFO - 2021-10-28 12:02:03 --> Security Class Initialized
+INFO - 2021-10-28 12:02:03 --> CRSF cookie sent
+INFO - 2021-10-28 12:02:03 --> CSRF token verified
+DEBUG - 2021-10-28 12:02:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:02:03 --> Input Class Initialized
+INFO - 2021-10-28 12:02:03 --> Language Class Initialized
+INFO - 2021-10-28 12:02:03 --> Loader Class Initialized
+INFO - 2021-10-28 12:02:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:02:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:02:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:02:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:02:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:02:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:02:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:02:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:02:03 --> Parser Class Initialized
+INFO - 2021-10-28 12:02:03 --> Model Class Initialized
+INFO - 2021-10-28 12:02:03 --> Model Class Initialized
+INFO - 2021-10-28 12:02:03 --> Controller Class Initialized
+INFO - 2021-10-28 12:02:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:02:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:02:03 --> Could not find the language line "today"
+INFO - 2021-10-28 12:02:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:02:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:02:03 --> Model Class Initialized
+INFO - 2021-10-28 12:02:03 --> Final output sent to browser
+DEBUG - 2021-10-28 12:02:03 --> Total execution time: 0.3557
+INFO - 2021-10-28 12:03:14 --> Config Class Initialized
+INFO - 2021-10-28 12:03:14 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:03:14 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:03:14 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:03:14 --> URI Class Initialized
+INFO - 2021-10-28 12:03:14 --> Router Class Initialized
+INFO - 2021-10-28 12:03:14 --> Output Class Initialized
+INFO - 2021-10-28 12:03:14 --> Security Class Initialized
+INFO - 2021-10-28 12:03:14 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:03:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:03:14 --> Input Class Initialized
+INFO - 2021-10-28 12:03:14 --> Language Class Initialized
+INFO - 2021-10-28 12:03:14 --> Loader Class Initialized
+INFO - 2021-10-28 12:03:14 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:03:14 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:03:14 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:03:14 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:03:14 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:03:14 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:03:14 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:03:14 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:03:14 --> Parser Class Initialized
+INFO - 2021-10-28 12:03:14 --> Model Class Initialized
+INFO - 2021-10-28 12:03:14 --> Model Class Initialized
+INFO - 2021-10-28 12:03:14 --> Controller Class Initialized
+INFO - 2021-10-28 12:03:14 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:03:14 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "today"
+INFO - 2021-10-28 12:03:14 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:03:14 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:03:14 --> Model Class Initialized
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:03:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:03:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:03:14 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:03:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:03:14 --> Final output sent to browser
+DEBUG - 2021-10-28 12:03:14 --> Total execution time: 0.2273
+INFO - 2021-10-28 12:03:15 --> Config Class Initialized
+INFO - 2021-10-28 12:03:15 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:03:15 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:03:15 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:03:15 --> URI Class Initialized
+INFO - 2021-10-28 12:03:15 --> Router Class Initialized
+INFO - 2021-10-28 12:03:15 --> Output Class Initialized
+INFO - 2021-10-28 12:03:15 --> Security Class Initialized
+INFO - 2021-10-28 12:03:15 --> CRSF cookie sent
+INFO - 2021-10-28 12:03:15 --> CSRF token verified
+DEBUG - 2021-10-28 12:03:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:03:15 --> Input Class Initialized
+INFO - 2021-10-28 12:03:15 --> Language Class Initialized
+INFO - 2021-10-28 12:03:15 --> Loader Class Initialized
+INFO - 2021-10-28 12:03:15 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:03:15 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:03:15 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:03:15 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:03:15 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:03:15 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:03:15 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:03:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:03:15 --> Parser Class Initialized
+INFO - 2021-10-28 12:03:15 --> Model Class Initialized
+INFO - 2021-10-28 12:03:15 --> Model Class Initialized
+INFO - 2021-10-28 12:03:15 --> Controller Class Initialized
+INFO - 2021-10-28 12:03:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:03:15 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:03:15 --> Could not find the language line "today"
+INFO - 2021-10-28 12:03:15 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:03:15 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:03:15 --> Model Class Initialized
+INFO - 2021-10-28 12:03:15 --> Final output sent to browser
+DEBUG - 2021-10-28 12:03:15 --> Total execution time: 0.3629
+INFO - 2021-10-28 12:03:56 --> Config Class Initialized
+INFO - 2021-10-28 12:03:56 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:03:56 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:03:56 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:03:56 --> URI Class Initialized
+INFO - 2021-10-28 12:03:56 --> Router Class Initialized
+INFO - 2021-10-28 12:03:56 --> Output Class Initialized
+INFO - 2021-10-28 12:03:56 --> Security Class Initialized
+INFO - 2021-10-28 12:03:56 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:03:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:03:56 --> Input Class Initialized
+INFO - 2021-10-28 12:03:56 --> Language Class Initialized
+INFO - 2021-10-28 12:03:56 --> Loader Class Initialized
+INFO - 2021-10-28 12:03:56 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:03:56 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:03:56 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:03:56 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:03:56 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:03:56 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:03:56 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:03:56 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:03:56 --> Parser Class Initialized
+INFO - 2021-10-28 12:03:56 --> Model Class Initialized
+INFO - 2021-10-28 12:03:56 --> Model Class Initialized
+INFO - 2021-10-28 12:03:56 --> Controller Class Initialized
+INFO - 2021-10-28 12:03:56 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:03:56 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "today"
+INFO - 2021-10-28 12:03:56 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:03:56 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:03:56 --> Model Class Initialized
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:03:56 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "sync_quantity"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "image_url_external"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "image_url_external"
+INFO - 2021-10-28 12:03:56 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:03:56 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:03:56 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:03:56 --> Final output sent to browser
+DEBUG - 2021-10-28 12:03:56 --> Total execution time: 0.2211
+INFO - 2021-10-28 12:03:57 --> Config Class Initialized
+INFO - 2021-10-28 12:03:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:03:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:03:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:03:57 --> URI Class Initialized
+INFO - 2021-10-28 12:03:57 --> Router Class Initialized
+INFO - 2021-10-28 12:03:57 --> Output Class Initialized
+INFO - 2021-10-28 12:03:57 --> Security Class Initialized
+INFO - 2021-10-28 12:03:57 --> CRSF cookie sent
+INFO - 2021-10-28 12:03:57 --> CSRF token verified
+DEBUG - 2021-10-28 12:03:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:03:57 --> Input Class Initialized
+INFO - 2021-10-28 12:03:57 --> Language Class Initialized
+INFO - 2021-10-28 12:03:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:03:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:03:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:03:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:03:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:03:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:03:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:03:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:03:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:03:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:03:57 --> Model Class Initialized
+INFO - 2021-10-28 12:03:57 --> Model Class Initialized
+INFO - 2021-10-28 12:03:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:03:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:03:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:03:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:03:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:03:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:03:57 --> Model Class Initialized
+INFO - 2021-10-28 12:03:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:03:57 --> Total execution time: 0.2029
+INFO - 2021-10-28 12:04:41 --> Config Class Initialized
+INFO - 2021-10-28 12:04:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:04:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:04:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:04:41 --> URI Class Initialized
+INFO - 2021-10-28 12:04:41 --> Router Class Initialized
+INFO - 2021-10-28 12:04:41 --> Output Class Initialized
+INFO - 2021-10-28 12:04:41 --> Security Class Initialized
+INFO - 2021-10-28 12:04:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:04:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:04:41 --> Input Class Initialized
+INFO - 2021-10-28 12:04:41 --> Language Class Initialized
+INFO - 2021-10-28 12:04:41 --> Loader Class Initialized
+INFO - 2021-10-28 12:04:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:04:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:04:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:04:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:04:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:04:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:04:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:04:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:04:41 --> Parser Class Initialized
+INFO - 2021-10-28 12:04:41 --> Model Class Initialized
+INFO - 2021-10-28 12:04:41 --> Model Class Initialized
+INFO - 2021-10-28 12:04:41 --> Controller Class Initialized
+INFO - 2021-10-28 12:04:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:04:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:04:41 --> Could not find the language line "today"
+INFO - 2021-10-28 12:04:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:04:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:04:41 --> Model Class Initialized
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:04:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:04:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:04:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:04:42 --> Final output sent to browser
+DEBUG - 2021-10-28 12:04:42 --> Total execution time: 0.1587
+INFO - 2021-10-28 12:04:42 --> Config Class Initialized
+INFO - 2021-10-28 12:04:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:04:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:04:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:04:42 --> URI Class Initialized
+INFO - 2021-10-28 12:04:42 --> Router Class Initialized
+INFO - 2021-10-28 12:04:42 --> Output Class Initialized
+INFO - 2021-10-28 12:04:42 --> Security Class Initialized
+INFO - 2021-10-28 12:04:42 --> CRSF cookie sent
+INFO - 2021-10-28 12:04:42 --> CSRF token verified
+DEBUG - 2021-10-28 12:04:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:04:42 --> Input Class Initialized
+INFO - 2021-10-28 12:04:42 --> Language Class Initialized
+INFO - 2021-10-28 12:04:42 --> Loader Class Initialized
+INFO - 2021-10-28 12:04:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:04:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:04:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:04:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:04:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:04:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:04:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:04:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:04:42 --> Parser Class Initialized
+INFO - 2021-10-28 12:04:42 --> Model Class Initialized
+INFO - 2021-10-28 12:04:42 --> Model Class Initialized
+INFO - 2021-10-28 12:04:42 --> Controller Class Initialized
+INFO - 2021-10-28 12:04:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:04:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:04:42 --> Could not find the language line "today"
+INFO - 2021-10-28 12:04:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:04:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:04:42 --> Model Class Initialized
+INFO - 2021-10-28 12:04:42 --> Final output sent to browser
+DEBUG - 2021-10-28 12:04:42 --> Total execution time: 0.2076
+INFO - 2021-10-28 12:05:54 --> Config Class Initialized
+INFO - 2021-10-28 12:05:54 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:05:54 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:05:54 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:05:54 --> URI Class Initialized
+INFO - 2021-10-28 12:05:54 --> Router Class Initialized
+INFO - 2021-10-28 12:05:54 --> Output Class Initialized
+INFO - 2021-10-28 12:05:54 --> Security Class Initialized
+INFO - 2021-10-28 12:05:54 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:05:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:05:54 --> Input Class Initialized
+INFO - 2021-10-28 12:05:54 --> Language Class Initialized
+ERROR - 2021-10-28 12:05:54 --> Severity: error --> Exception: syntax error, unexpected '.' C:\wamp64\www\Reactor\sma\controllers\Products.php 93
+INFO - 2021-10-28 12:06:13 --> Config Class Initialized
+INFO - 2021-10-28 12:06:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:06:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:06:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:06:13 --> URI Class Initialized
+INFO - 2021-10-28 12:06:13 --> Router Class Initialized
+INFO - 2021-10-28 12:06:13 --> Output Class Initialized
+INFO - 2021-10-28 12:06:13 --> Security Class Initialized
+INFO - 2021-10-28 12:06:13 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:06:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:06:13 --> Input Class Initialized
+INFO - 2021-10-28 12:06:13 --> Language Class Initialized
+INFO - 2021-10-28 12:06:13 --> Loader Class Initialized
+INFO - 2021-10-28 12:06:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:06:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:06:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:06:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:06:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:06:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:06:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:06:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:06:13 --> Parser Class Initialized
+INFO - 2021-10-28 12:06:13 --> Model Class Initialized
+INFO - 2021-10-28 12:06:13 --> Model Class Initialized
+INFO - 2021-10-28 12:06:13 --> Controller Class Initialized
+INFO - 2021-10-28 12:06:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:06:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "today"
+INFO - 2021-10-28 12:06:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:06:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:06:13 --> Model Class Initialized
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:06:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:06:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:06:13 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:06:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:06:13 --> Final output sent to browser
+DEBUG - 2021-10-28 12:06:13 --> Total execution time: 0.2420
+INFO - 2021-10-28 12:06:14 --> Config Class Initialized
+INFO - 2021-10-28 12:06:14 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:06:14 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:06:14 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:06:14 --> URI Class Initialized
+INFO - 2021-10-28 12:06:14 --> Router Class Initialized
+INFO - 2021-10-28 12:06:14 --> Output Class Initialized
+INFO - 2021-10-28 12:06:14 --> Security Class Initialized
+INFO - 2021-10-28 12:06:14 --> CRSF cookie sent
+INFO - 2021-10-28 12:06:14 --> CSRF token verified
+DEBUG - 2021-10-28 12:06:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:06:14 --> Input Class Initialized
+INFO - 2021-10-28 12:06:14 --> Language Class Initialized
+INFO - 2021-10-28 12:06:14 --> Loader Class Initialized
+INFO - 2021-10-28 12:06:14 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:06:14 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:06:14 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:06:14 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:06:14 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:06:14 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:06:14 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:06:14 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:06:14 --> Parser Class Initialized
+INFO - 2021-10-28 12:06:14 --> Model Class Initialized
+INFO - 2021-10-28 12:06:14 --> Model Class Initialized
+INFO - 2021-10-28 12:06:14 --> Controller Class Initialized
+INFO - 2021-10-28 12:06:14 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:06:14 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:06:14 --> Could not find the language line "today"
+INFO - 2021-10-28 12:06:14 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:06:14 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:06:14 --> Model Class Initialized
+INFO - 2021-10-28 12:06:14 --> Final output sent to browser
+DEBUG - 2021-10-28 12:06:14 --> Total execution time: 0.4001
+INFO - 2021-10-28 12:08:17 --> Config Class Initialized
+INFO - 2021-10-28 12:08:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:08:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:08:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:08:17 --> URI Class Initialized
+INFO - 2021-10-28 12:08:17 --> Router Class Initialized
+INFO - 2021-10-28 12:08:17 --> Output Class Initialized
+INFO - 2021-10-28 12:08:17 --> Security Class Initialized
+INFO - 2021-10-28 12:08:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:08:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:08:17 --> Input Class Initialized
+INFO - 2021-10-28 12:08:17 --> Language Class Initialized
+INFO - 2021-10-28 12:08:17 --> Loader Class Initialized
+INFO - 2021-10-28 12:08:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:08:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:08:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:08:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:08:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:08:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:08:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:08:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:08:17 --> Parser Class Initialized
+INFO - 2021-10-28 12:08:17 --> Model Class Initialized
+INFO - 2021-10-28 12:08:17 --> Model Class Initialized
+INFO - 2021-10-28 12:08:17 --> Controller Class Initialized
+INFO - 2021-10-28 12:08:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:08:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "today"
+INFO - 2021-10-28 12:08:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:08:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:08:17 --> Model Class Initialized
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:08:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:08:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:08:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:08:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:08:17 --> Final output sent to browser
+DEBUG - 2021-10-28 12:08:17 --> Total execution time: 0.2811
+INFO - 2021-10-28 12:08:18 --> Config Class Initialized
+INFO - 2021-10-28 12:08:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:08:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:08:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:08:18 --> URI Class Initialized
+INFO - 2021-10-28 12:08:18 --> Router Class Initialized
+INFO - 2021-10-28 12:08:18 --> Output Class Initialized
+INFO - 2021-10-28 12:08:18 --> Security Class Initialized
+INFO - 2021-10-28 12:08:18 --> CRSF cookie sent
+INFO - 2021-10-28 12:08:18 --> CSRF token verified
+DEBUG - 2021-10-28 12:08:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:08:18 --> Input Class Initialized
+INFO - 2021-10-28 12:08:18 --> Language Class Initialized
+INFO - 2021-10-28 12:08:18 --> Loader Class Initialized
+INFO - 2021-10-28 12:08:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:08:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:08:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:08:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:08:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:08:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:08:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:08:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:08:18 --> Parser Class Initialized
+INFO - 2021-10-28 12:08:18 --> Model Class Initialized
+INFO - 2021-10-28 12:08:18 --> Model Class Initialized
+INFO - 2021-10-28 12:08:18 --> Controller Class Initialized
+INFO - 2021-10-28 12:08:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:08:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:08:18 --> Could not find the language line "today"
+INFO - 2021-10-28 12:08:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:08:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:08:18 --> Model Class Initialized
+INFO - 2021-10-28 12:08:18 --> Final output sent to browser
+DEBUG - 2021-10-28 12:08:18 --> Total execution time: 0.3218
+INFO - 2021-10-28 12:12:57 --> Config Class Initialized
+INFO - 2021-10-28 12:12:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:12:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:12:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:12:57 --> URI Class Initialized
+INFO - 2021-10-28 12:12:57 --> Router Class Initialized
+INFO - 2021-10-28 12:12:57 --> Output Class Initialized
+INFO - 2021-10-28 12:12:57 --> Security Class Initialized
+INFO - 2021-10-28 12:12:57 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:12:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:12:57 --> Input Class Initialized
+INFO - 2021-10-28 12:12:57 --> Language Class Initialized
+INFO - 2021-10-28 12:12:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:12:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:12:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:12:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:12:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:12:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:12:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:12:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:12:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:12:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:12:57 --> Model Class Initialized
+INFO - 2021-10-28 12:12:57 --> Model Class Initialized
+INFO - 2021-10-28 12:12:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:12:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:12:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:12:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:12:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:12:57 --> Model Class Initialized
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:12:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:12:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:12:57 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:12:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:12:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:12:57 --> Total execution time: 0.2528
+INFO - 2021-10-28 12:12:58 --> Config Class Initialized
+INFO - 2021-10-28 12:12:58 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:12:58 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:12:58 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:12:58 --> URI Class Initialized
+INFO - 2021-10-28 12:12:58 --> Router Class Initialized
+INFO - 2021-10-28 12:12:58 --> Output Class Initialized
+INFO - 2021-10-28 12:12:58 --> Security Class Initialized
+INFO - 2021-10-28 12:12:58 --> CRSF cookie sent
+INFO - 2021-10-28 12:12:58 --> CSRF token verified
+DEBUG - 2021-10-28 12:12:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:12:58 --> Input Class Initialized
+INFO - 2021-10-28 12:12:58 --> Language Class Initialized
+INFO - 2021-10-28 12:12:58 --> Loader Class Initialized
+INFO - 2021-10-28 12:12:58 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:12:58 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:12:58 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:12:58 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:12:58 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:12:58 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:12:58 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:12:58 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:12:58 --> Parser Class Initialized
+INFO - 2021-10-28 12:12:58 --> Model Class Initialized
+INFO - 2021-10-28 12:12:58 --> Model Class Initialized
+INFO - 2021-10-28 12:12:58 --> Controller Class Initialized
+INFO - 2021-10-28 12:12:58 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:12:58 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:12:58 --> Could not find the language line "today"
+INFO - 2021-10-28 12:12:58 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:12:58 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:12:58 --> Model Class Initialized
+ERROR - 2021-10-28 12:12:58 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? sma_products.image_url_external : sma_products.image) as image, sma_products.c' at line 1 - Invalid query: SELECT sma_products.id as productid, (sma_products.image != 'no_image.png'? sma_products.image_url_external : sma_products.image) as image, sma_products.code as code, sma_products.name as name, sma_categories.name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity
+FROM `sma_products`
+LEFT JOIN `sma_categories` ON `sma_products`.`category_id`=`sma_categories`.`id`
+GROUP BY `sma_products`.`id`
+ORDER BY `code` ASC, `name` ASC
+ LIMIT 10
+ERROR - 2021-10-28 12:12:58 --> Severity: error --> Exception: Call to a member function result_array() on boolean C:\wamp64\www\Reactor\sma\libraries\Datatables.php 367
+INFO - 2021-10-28 12:13:19 --> Config Class Initialized
+INFO - 2021-10-28 12:13:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:13:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:13:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:13:19 --> URI Class Initialized
+INFO - 2021-10-28 12:13:19 --> Router Class Initialized
+INFO - 2021-10-28 12:13:19 --> Output Class Initialized
+INFO - 2021-10-28 12:13:19 --> Security Class Initialized
+INFO - 2021-10-28 12:13:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:13:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:13:19 --> Input Class Initialized
+INFO - 2021-10-28 12:13:19 --> Language Class Initialized
+INFO - 2021-10-28 12:13:19 --> Loader Class Initialized
+INFO - 2021-10-28 12:13:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:13:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:13:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:13:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:13:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:13:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:13:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:13:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:13:19 --> Parser Class Initialized
+INFO - 2021-10-28 12:13:19 --> Model Class Initialized
+INFO - 2021-10-28 12:13:19 --> Model Class Initialized
+INFO - 2021-10-28 12:13:19 --> Controller Class Initialized
+INFO - 2021-10-28 12:13:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:13:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "today"
+INFO - 2021-10-28 12:13:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:13:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:13:19 --> Model Class Initialized
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:13:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:13:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:13:19 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:13:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:13:19 --> Final output sent to browser
+DEBUG - 2021-10-28 12:13:19 --> Total execution time: 0.2985
+INFO - 2021-10-28 12:13:20 --> Config Class Initialized
+INFO - 2021-10-28 12:13:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:13:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:13:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:13:20 --> URI Class Initialized
+INFO - 2021-10-28 12:13:20 --> Router Class Initialized
+INFO - 2021-10-28 12:13:20 --> Output Class Initialized
+INFO - 2021-10-28 12:13:20 --> Security Class Initialized
+INFO - 2021-10-28 12:13:20 --> CRSF cookie sent
+INFO - 2021-10-28 12:13:20 --> CSRF token verified
+DEBUG - 2021-10-28 12:13:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:13:20 --> Input Class Initialized
+INFO - 2021-10-28 12:13:20 --> Language Class Initialized
+INFO - 2021-10-28 12:13:20 --> Loader Class Initialized
+INFO - 2021-10-28 12:13:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:13:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:13:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:13:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:13:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:13:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:13:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:13:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:13:20 --> Parser Class Initialized
+INFO - 2021-10-28 12:13:20 --> Model Class Initialized
+INFO - 2021-10-28 12:13:20 --> Model Class Initialized
+INFO - 2021-10-28 12:13:20 --> Controller Class Initialized
+INFO - 2021-10-28 12:13:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:13:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:13:20 --> Could not find the language line "today"
+INFO - 2021-10-28 12:13:20 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:13:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:13:20 --> Model Class Initialized
+ERROR - 2021-10-28 12:13:20 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? sma_products.image_url_external : sma_products.image) as image, sma_products.c' at line 1 - Invalid query: SELECT sma_products.id as productid, (sma_products.image != 'no_image.png'? sma_products.image_url_external : sma_products.image) as image, sma_products.code as code, sma_products.name as name, sma_categories.name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity
+FROM `sma_products`
+LEFT JOIN `sma_categories` ON `sma_products`.`category_id`=`sma_categories`.`id`
+GROUP BY `sma_products`.`id`
+ORDER BY `code` ASC, `name` ASC
+ LIMIT 10
+ERROR - 2021-10-28 12:13:20 --> Severity: error --> Exception: Call to a member function result_array() on boolean C:\wamp64\www\Reactor\sma\libraries\Datatables.php 367
+INFO - 2021-10-28 12:13:56 --> Config Class Initialized
+INFO - 2021-10-28 12:13:56 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:13:56 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:13:56 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:13:56 --> URI Class Initialized
+INFO - 2021-10-28 12:13:56 --> Router Class Initialized
+INFO - 2021-10-28 12:13:56 --> Output Class Initialized
+INFO - 2021-10-28 12:13:56 --> Security Class Initialized
+INFO - 2021-10-28 12:13:56 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:13:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:13:56 --> Input Class Initialized
+INFO - 2021-10-28 12:13:56 --> Language Class Initialized
+INFO - 2021-10-28 12:13:56 --> Loader Class Initialized
+INFO - 2021-10-28 12:13:56 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:13:56 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:13:56 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:13:56 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:13:56 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:13:56 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:13:56 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:13:56 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:13:56 --> Parser Class Initialized
+INFO - 2021-10-28 12:13:56 --> Model Class Initialized
+INFO - 2021-10-28 12:13:56 --> Model Class Initialized
+INFO - 2021-10-28 12:13:56 --> Controller Class Initialized
+INFO - 2021-10-28 12:13:56 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:13:56 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:13:56 --> Could not find the language line "today"
+INFO - 2021-10-28 12:13:56 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:13:56 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:13:56 --> Model Class Initialized
+ERROR - 2021-10-28 12:13:56 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:13:56 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:13:56 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:13:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:13:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:13:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:13:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:13:57 --> Total execution time: 0.2676
+INFO - 2021-10-28 12:13:57 --> Config Class Initialized
+INFO - 2021-10-28 12:13:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:13:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:13:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:13:57 --> URI Class Initialized
+INFO - 2021-10-28 12:13:57 --> Router Class Initialized
+INFO - 2021-10-28 12:13:57 --> Output Class Initialized
+INFO - 2021-10-28 12:13:57 --> Security Class Initialized
+INFO - 2021-10-28 12:13:57 --> CRSF cookie sent
+INFO - 2021-10-28 12:13:57 --> CSRF token verified
+DEBUG - 2021-10-28 12:13:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:13:57 --> Input Class Initialized
+INFO - 2021-10-28 12:13:57 --> Language Class Initialized
+INFO - 2021-10-28 12:13:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:13:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:13:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:13:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:13:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:13:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:13:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:13:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:13:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:13:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:13:57 --> Model Class Initialized
+INFO - 2021-10-28 12:13:57 --> Model Class Initialized
+INFO - 2021-10-28 12:13:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:13:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:13:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:13:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:13:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:13:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:13:57 --> Model Class Initialized
+ERROR - 2021-10-28 12:13:57 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '? sma_products.image_url_external : sma_products.image as image, sma_products.co' at line 1 - Invalid query: SELECT sma_products.id as productid, sma_products.image != 'no_image.png'? sma_products.image_url_external : sma_products.image as image, sma_products.code as code, sma_products.name as name, sma_categories.name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity
+FROM `sma_products`
+LEFT JOIN `sma_categories` ON `sma_products`.`category_id`=`sma_categories`.`id`
+GROUP BY `sma_products`.`id`
+ORDER BY `code` ASC, `name` ASC
+ LIMIT 10
+ERROR - 2021-10-28 12:13:57 --> Severity: error --> Exception: Call to a member function result_array() on boolean C:\wamp64\www\Reactor\sma\libraries\Datatables.php 367
+INFO - 2021-10-28 12:17:55 --> Config Class Initialized
+INFO - 2021-10-28 12:17:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:17:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:17:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:17:55 --> URI Class Initialized
+INFO - 2021-10-28 12:17:55 --> Router Class Initialized
+INFO - 2021-10-28 12:17:55 --> Output Class Initialized
+INFO - 2021-10-28 12:17:55 --> Security Class Initialized
+INFO - 2021-10-28 12:17:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:17:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:17:55 --> Input Class Initialized
+INFO - 2021-10-28 12:17:55 --> Language Class Initialized
+INFO - 2021-10-28 12:17:55 --> Loader Class Initialized
+INFO - 2021-10-28 12:17:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:17:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:17:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:17:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:17:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:17:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:17:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:17:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:17:55 --> Parser Class Initialized
+INFO - 2021-10-28 12:17:55 --> Model Class Initialized
+INFO - 2021-10-28 12:17:55 --> Model Class Initialized
+INFO - 2021-10-28 12:17:55 --> Controller Class Initialized
+INFO - 2021-10-28 12:17:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:17:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "today"
+INFO - 2021-10-28 12:17:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:17:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:17:55 --> Model Class Initialized
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:17:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:17:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:17:55 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:17:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:17:55 --> Final output sent to browser
+DEBUG - 2021-10-28 12:17:55 --> Total execution time: 0.2093
+INFO - 2021-10-28 12:17:56 --> Config Class Initialized
+INFO - 2021-10-28 12:17:56 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:17:56 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:17:56 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:17:56 --> URI Class Initialized
+INFO - 2021-10-28 12:17:56 --> Router Class Initialized
+INFO - 2021-10-28 12:17:56 --> Output Class Initialized
+INFO - 2021-10-28 12:17:56 --> Security Class Initialized
+INFO - 2021-10-28 12:17:56 --> CRSF cookie sent
+INFO - 2021-10-28 12:17:56 --> CSRF token verified
+DEBUG - 2021-10-28 12:17:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:17:56 --> Input Class Initialized
+INFO - 2021-10-28 12:17:56 --> Language Class Initialized
+INFO - 2021-10-28 12:17:56 --> Loader Class Initialized
+INFO - 2021-10-28 12:17:56 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:17:56 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:17:56 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:17:56 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:17:56 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:17:56 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:17:56 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:17:56 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:17:56 --> Parser Class Initialized
+INFO - 2021-10-28 12:17:56 --> Model Class Initialized
+INFO - 2021-10-28 12:17:56 --> Model Class Initialized
+INFO - 2021-10-28 12:17:56 --> Controller Class Initialized
+INFO - 2021-10-28 12:17:56 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:17:56 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:17:56 --> Could not find the language line "today"
+INFO - 2021-10-28 12:17:56 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:17:56 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:17:56 --> Model Class Initialized
+INFO - 2021-10-28 12:17:56 --> Final output sent to browser
+DEBUG - 2021-10-28 12:17:56 --> Total execution time: 0.4706
+INFO - 2021-10-28 12:19:27 --> Config Class Initialized
+INFO - 2021-10-28 12:19:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:19:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:19:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:19:27 --> URI Class Initialized
+INFO - 2021-10-28 12:19:27 --> Router Class Initialized
+INFO - 2021-10-28 12:19:27 --> Output Class Initialized
+INFO - 2021-10-28 12:19:27 --> Security Class Initialized
+INFO - 2021-10-28 12:19:27 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:19:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:19:27 --> Input Class Initialized
+INFO - 2021-10-28 12:19:27 --> Language Class Initialized
+INFO - 2021-10-28 12:19:27 --> Loader Class Initialized
+INFO - 2021-10-28 12:19:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:19:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:19:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:19:27 --> Parser Class Initialized
+INFO - 2021-10-28 12:19:27 --> Model Class Initialized
+INFO - 2021-10-28 12:19:27 --> Model Class Initialized
+INFO - 2021-10-28 12:19:27 --> Controller Class Initialized
+INFO - 2021-10-28 12:19:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:19:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "today"
+INFO - 2021-10-28 12:19:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:19:27 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:19:27 --> Model Class Initialized
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:19:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:19:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:19:27 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:19:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:19:27 --> Final output sent to browser
+DEBUG - 2021-10-28 12:19:27 --> Total execution time: 0.1338
+INFO - 2021-10-28 12:19:27 --> Config Class Initialized
+INFO - 2021-10-28 12:19:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:19:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:19:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:19:27 --> URI Class Initialized
+INFO - 2021-10-28 12:19:27 --> Router Class Initialized
+INFO - 2021-10-28 12:19:27 --> Output Class Initialized
+INFO - 2021-10-28 12:19:27 --> Security Class Initialized
+INFO - 2021-10-28 12:19:27 --> CRSF cookie sent
+INFO - 2021-10-28 12:19:27 --> CSRF token verified
+DEBUG - 2021-10-28 12:19:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:19:27 --> Input Class Initialized
+INFO - 2021-10-28 12:19:27 --> Language Class Initialized
+INFO - 2021-10-28 12:19:27 --> Loader Class Initialized
+INFO - 2021-10-28 12:19:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:19:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:19:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:19:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:19:27 --> Parser Class Initialized
+INFO - 2021-10-28 12:19:27 --> Model Class Initialized
+INFO - 2021-10-28 12:19:27 --> Model Class Initialized
+INFO - 2021-10-28 12:19:27 --> Controller Class Initialized
+INFO - 2021-10-28 12:19:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:19:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:19:28 --> Could not find the language line "today"
+INFO - 2021-10-28 12:19:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:19:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:19:28 --> Model Class Initialized
+INFO - 2021-10-28 12:19:28 --> Final output sent to browser
+DEBUG - 2021-10-28 12:19:28 --> Total execution time: 0.2635
+INFO - 2021-10-28 12:22:45 --> Config Class Initialized
+INFO - 2021-10-28 12:22:45 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:22:45 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:22:45 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:22:45 --> URI Class Initialized
+INFO - 2021-10-28 12:22:45 --> Router Class Initialized
+INFO - 2021-10-28 12:22:45 --> Output Class Initialized
+INFO - 2021-10-28 12:22:45 --> Security Class Initialized
+INFO - 2021-10-28 12:22:45 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:22:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:22:45 --> Input Class Initialized
+INFO - 2021-10-28 12:22:45 --> Language Class Initialized
+INFO - 2021-10-28 12:22:45 --> Loader Class Initialized
+INFO - 2021-10-28 12:22:45 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:22:45 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:22:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:22:45 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:22:45 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:22:45 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:22:45 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:22:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:22:45 --> Parser Class Initialized
+INFO - 2021-10-28 12:22:45 --> Model Class Initialized
+INFO - 2021-10-28 12:22:45 --> Model Class Initialized
+INFO - 2021-10-28 12:22:45 --> Controller Class Initialized
+INFO - 2021-10-28 12:22:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:22:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "today"
+INFO - 2021-10-28 12:22:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:22:45 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:22:45 --> Model Class Initialized
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:22:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:22:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:22:45 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:22:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:22:45 --> Final output sent to browser
+DEBUG - 2021-10-28 12:22:45 --> Total execution time: 0.1744
+INFO - 2021-10-28 12:22:46 --> Config Class Initialized
+INFO - 2021-10-28 12:22:46 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:22:46 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:22:46 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:22:46 --> URI Class Initialized
+INFO - 2021-10-28 12:22:46 --> Router Class Initialized
+INFO - 2021-10-28 12:22:46 --> Output Class Initialized
+INFO - 2021-10-28 12:22:46 --> Security Class Initialized
+INFO - 2021-10-28 12:22:46 --> CRSF cookie sent
+INFO - 2021-10-28 12:22:46 --> CSRF token verified
+DEBUG - 2021-10-28 12:22:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:22:46 --> Input Class Initialized
+INFO - 2021-10-28 12:22:46 --> Language Class Initialized
+INFO - 2021-10-28 12:22:46 --> Loader Class Initialized
+INFO - 2021-10-28 12:22:46 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:22:46 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:22:46 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:22:46 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:22:46 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:22:46 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:22:46 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:22:46 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:22:46 --> Parser Class Initialized
+INFO - 2021-10-28 12:22:46 --> Model Class Initialized
+INFO - 2021-10-28 12:22:46 --> Model Class Initialized
+INFO - 2021-10-28 12:22:46 --> Controller Class Initialized
+INFO - 2021-10-28 12:22:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:22:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:22:46 --> Could not find the language line "today"
+INFO - 2021-10-28 12:22:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:22:46 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:22:46 --> Model Class Initialized
+INFO - 2021-10-28 12:22:46 --> Final output sent to browser
+DEBUG - 2021-10-28 12:22:46 --> Total execution time: 0.0711
+INFO - 2021-10-28 12:31:38 --> Config Class Initialized
+INFO - 2021-10-28 12:31:38 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:31:38 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:31:38 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:31:38 --> URI Class Initialized
+INFO - 2021-10-28 12:31:38 --> Router Class Initialized
+INFO - 2021-10-28 12:31:38 --> Output Class Initialized
+INFO - 2021-10-28 12:31:38 --> Security Class Initialized
+INFO - 2021-10-28 12:31:38 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:31:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:31:38 --> Input Class Initialized
+INFO - 2021-10-28 12:31:39 --> Language Class Initialized
+INFO - 2021-10-28 12:31:39 --> Loader Class Initialized
+INFO - 2021-10-28 12:31:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:31:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:31:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:31:39 --> Parser Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+INFO - 2021-10-28 12:31:39 --> Controller Class Initialized
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "today"
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:31:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:31:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:31:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:31:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:31:39 --> Final output sent to browser
+DEBUG - 2021-10-28 12:31:39 --> Total execution time: 0.0612
+INFO - 2021-10-28 12:31:39 --> Config Class Initialized
+INFO - 2021-10-28 12:31:39 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:31:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:31:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:31:39 --> URI Class Initialized
+INFO - 2021-10-28 12:31:39 --> Router Class Initialized
+INFO - 2021-10-28 12:31:39 --> Output Class Initialized
+INFO - 2021-10-28 12:31:39 --> Security Class Initialized
+INFO - 2021-10-28 12:31:39 --> CRSF cookie sent
+INFO - 2021-10-28 12:31:39 --> CSRF token verified
+DEBUG - 2021-10-28 12:31:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:31:39 --> Input Class Initialized
+INFO - 2021-10-28 12:31:39 --> Language Class Initialized
+INFO - 2021-10-28 12:31:39 --> Loader Class Initialized
+INFO - 2021-10-28 12:31:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:31:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:31:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:31:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:31:39 --> Parser Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+INFO - 2021-10-28 12:31:39 --> Controller Class Initialized
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:31:39 --> Could not find the language line "today"
+INFO - 2021-10-28 12:31:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:31:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:31:39 --> Model Class Initialized
+INFO - 2021-10-28 12:31:39 --> Final output sent to browser
+DEBUG - 2021-10-28 12:31:39 --> Total execution time: 0.0695
+INFO - 2021-10-28 12:37:27 --> Config Class Initialized
+INFO - 2021-10-28 12:37:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:37:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:37:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:37:27 --> URI Class Initialized
+INFO - 2021-10-28 12:37:27 --> Router Class Initialized
+INFO - 2021-10-28 12:37:27 --> Output Class Initialized
+INFO - 2021-10-28 12:37:27 --> Security Class Initialized
+INFO - 2021-10-28 12:37:27 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:37:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:37:27 --> Input Class Initialized
+INFO - 2021-10-28 12:37:27 --> Language Class Initialized
+INFO - 2021-10-28 12:37:27 --> Loader Class Initialized
+INFO - 2021-10-28 12:37:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:37:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:37:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:37:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:37:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:37:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:37:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:37:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:37:27 --> Parser Class Initialized
+INFO - 2021-10-28 12:37:27 --> Model Class Initialized
+INFO - 2021-10-28 12:37:27 --> Model Class Initialized
+INFO - 2021-10-28 12:37:27 --> Controller Class Initialized
+INFO - 2021-10-28 12:37:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:37:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "today"
+INFO - 2021-10-28 12:37:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:37:27 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:37:27 --> Model Class Initialized
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:37:27 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:37:27 --> Final output sent to browser
+DEBUG - 2021-10-28 12:37:27 --> Total execution time: 0.1005
+INFO - 2021-10-28 12:37:51 --> Config Class Initialized
+INFO - 2021-10-28 12:37:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:37:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:37:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:37:51 --> URI Class Initialized
+INFO - 2021-10-28 12:37:51 --> Router Class Initialized
+INFO - 2021-10-28 12:37:51 --> Output Class Initialized
+INFO - 2021-10-28 12:37:51 --> Security Class Initialized
+INFO - 2021-10-28 12:37:51 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:37:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:37:51 --> Input Class Initialized
+INFO - 2021-10-28 12:37:51 --> Language Class Initialized
+INFO - 2021-10-28 12:37:51 --> Loader Class Initialized
+INFO - 2021-10-28 12:37:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:37:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:37:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:37:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:37:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:37:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:37:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:37:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:37:51 --> Parser Class Initialized
+INFO - 2021-10-28 12:37:51 --> Model Class Initialized
+INFO - 2021-10-28 12:37:51 --> Model Class Initialized
+INFO - 2021-10-28 12:37:51 --> Controller Class Initialized
+INFO - 2021-10-28 12:37:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:37:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "today"
+INFO - 2021-10-28 12:37:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:37:52 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:37:52 --> Model Class Initialized
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:37:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:37:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:37:52 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:37:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:37:52 --> Final output sent to browser
+DEBUG - 2021-10-28 12:37:52 --> Total execution time: 0.1064
+INFO - 2021-10-28 12:37:52 --> Config Class Initialized
+INFO - 2021-10-28 12:37:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:37:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:37:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:37:53 --> URI Class Initialized
+INFO - 2021-10-28 12:37:53 --> Router Class Initialized
+INFO - 2021-10-28 12:37:53 --> Output Class Initialized
+INFO - 2021-10-28 12:37:53 --> Security Class Initialized
+INFO - 2021-10-28 12:37:53 --> CRSF cookie sent
+INFO - 2021-10-28 12:37:53 --> CSRF token verified
+DEBUG - 2021-10-28 12:37:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:37:53 --> Input Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language Class Initialized
+INFO - 2021-10-28 12:37:53 --> Loader Class Initialized
+INFO - 2021-10-28 12:37:53 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:37:53 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:37:53 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:37:53 --> Parser Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Controller Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:37:53 --> Could not find the language line "today"
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:37:53 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Final output sent to browser
+DEBUG - 2021-10-28 12:37:53 --> Total execution time: 0.0935
+INFO - 2021-10-28 12:37:53 --> Config Class Initialized
+INFO - 2021-10-28 12:37:53 --> Config Class Initialized
+INFO - 2021-10-28 12:37:53 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:37:53 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:37:53 --> Hooks Class Initialized
+INFO - 2021-10-28 12:37:53 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:37:53 --> URI Class Initialized
+INFO - 2021-10-28 12:37:53 --> Router Class Initialized
+DEBUG - 2021-10-28 12:37:53 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:37:53 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:37:53 --> URI Class Initialized
+INFO - 2021-10-28 12:37:53 --> Output Class Initialized
+INFO - 2021-10-28 12:37:53 --> Security Class Initialized
+INFO - 2021-10-28 12:37:53 --> Router Class Initialized
+INFO - 2021-10-28 12:37:53 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:37:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:37:53 --> Input Class Initialized
+INFO - 2021-10-28 12:37:53 --> Output Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language Class Initialized
+INFO - 2021-10-28 12:37:53 --> Loader Class Initialized
+INFO - 2021-10-28 12:37:53 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:37:53 --> Security Class Initialized
+INFO - 2021-10-28 12:37:53 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:37:53 --> CRSF cookie sent
+INFO - 2021-10-28 12:37:53 --> Helper loaded: language_helper
+DEBUG - 2021-10-28 12:37:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:37:53 --> Input Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language Class Initialized
+INFO - 2021-10-28 12:37:53 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:37:53 --> Loader Class Initialized
+INFO - 2021-10-28 12:37:53 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:37:53 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:37:53 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:37:53 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:37:53 --> Parser Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Controller Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:37:53 --> Could not find the language line "today"
+INFO - 2021-10-28 12:37:53 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:37:53 --> Final output sent to browser
+DEBUG - 2021-10-28 12:37:53 --> Total execution time: 0.0872
+INFO - 2021-10-28 12:37:53 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:37:53 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:37:53 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:37:53 --> Parser Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Model Class Initialized
+INFO - 2021-10-28 12:37:53 --> Controller Class Initialized
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:37:53 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:37:53 --> Could not find the language line "today"
+INFO - 2021-10-28 12:37:53 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:37:53 --> Final output sent to browser
+DEBUG - 2021-10-28 12:37:53 --> Total execution time: 0.1603
+INFO - 2021-10-28 12:40:10 --> Config Class Initialized
+INFO - 2021-10-28 12:40:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:40:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:10 --> URI Class Initialized
+INFO - 2021-10-28 12:40:10 --> Router Class Initialized
+INFO - 2021-10-28 12:40:10 --> Output Class Initialized
+INFO - 2021-10-28 12:40:10 --> Security Class Initialized
+INFO - 2021-10-28 12:40:10 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:10 --> Input Class Initialized
+INFO - 2021-10-28 12:40:10 --> Language Class Initialized
+INFO - 2021-10-28 12:40:10 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:10 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+INFO - 2021-10-28 12:40:10 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:40:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:40:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:40:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:40:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:40:10 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:10 --> Total execution time: 0.1294
+INFO - 2021-10-28 12:40:10 --> Config Class Initialized
+INFO - 2021-10-28 12:40:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:40:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:10 --> URI Class Initialized
+INFO - 2021-10-28 12:40:10 --> Router Class Initialized
+INFO - 2021-10-28 12:40:10 --> Output Class Initialized
+INFO - 2021-10-28 12:40:10 --> Security Class Initialized
+INFO - 2021-10-28 12:40:10 --> CRSF cookie sent
+INFO - 2021-10-28 12:40:10 --> CSRF token verified
+DEBUG - 2021-10-28 12:40:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:10 --> Input Class Initialized
+INFO - 2021-10-28 12:40:10 --> Language Class Initialized
+INFO - 2021-10-28 12:40:10 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:10 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+INFO - 2021-10-28 12:40:10 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:10 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:40:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:40:10 --> Model Class Initialized
+INFO - 2021-10-28 12:40:10 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:10 --> Total execution time: 0.1223
+INFO - 2021-10-28 12:40:11 --> Config Class Initialized
+INFO - 2021-10-28 12:40:11 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:40:11 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:11 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:11 --> URI Class Initialized
+INFO - 2021-10-28 12:40:11 --> Router Class Initialized
+INFO - 2021-10-28 12:40:11 --> Output Class Initialized
+INFO - 2021-10-28 12:40:11 --> Security Class Initialized
+INFO - 2021-10-28 12:40:11 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:11 --> Input Class Initialized
+INFO - 2021-10-28 12:40:11 --> Language Class Initialized
+INFO - 2021-10-28 12:40:11 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:11 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:11 --> Config Class Initialized
+INFO - 2021-10-28 12:40:11 --> Hooks Class Initialized
+INFO - 2021-10-28 12:40:11 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:11 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:11 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:11 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:11 --> Model Class Initialized
+INFO - 2021-10-28 12:40:11 --> Model Class Initialized
+INFO - 2021-10-28 12:40:11 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:11 --> Language file loaded: language/spanish/sma_lang.php
+DEBUG - 2021-10-28 12:40:11 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:11 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:11 --> URI Class Initialized
+INFO - 2021-10-28 12:40:11 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:11 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:11 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:40:11 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:11 --> Total execution time: 0.0995
+INFO - 2021-10-28 12:40:11 --> Router Class Initialized
+INFO - 2021-10-28 12:40:11 --> Output Class Initialized
+INFO - 2021-10-28 12:40:11 --> Security Class Initialized
+INFO - 2021-10-28 12:40:11 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:11 --> Input Class Initialized
+INFO - 2021-10-28 12:40:11 --> Language Class Initialized
+INFO - 2021-10-28 12:40:11 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:11 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:11 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:11 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:11 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:11 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:11 --> Model Class Initialized
+INFO - 2021-10-28 12:40:11 --> Model Class Initialized
+INFO - 2021-10-28 12:40:11 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:11 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:11 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:11 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:11 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:40:11 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:11 --> Total execution time: 0.2125
+INFO - 2021-10-28 12:40:17 --> Config Class Initialized
+INFO - 2021-10-28 12:40:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:40:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:17 --> URI Class Initialized
+INFO - 2021-10-28 12:40:17 --> Router Class Initialized
+INFO - 2021-10-28 12:40:17 --> Output Class Initialized
+INFO - 2021-10-28 12:40:17 --> Security Class Initialized
+INFO - 2021-10-28 12:40:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:17 --> Input Class Initialized
+INFO - 2021-10-28 12:40:17 --> Language Class Initialized
+INFO - 2021-10-28 12:40:17 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:17 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:17 --> Model Class Initialized
+INFO - 2021-10-28 12:40:17 --> Model Class Initialized
+INFO - 2021-10-28 12:40:17 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:40:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:40:17 --> Model Class Initialized
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:40:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:40:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:40:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:40:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:40:17 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:17 --> Total execution time: 0.0742
+INFO - 2021-10-28 12:40:18 --> Config Class Initialized
+INFO - 2021-10-28 12:40:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:40:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:18 --> URI Class Initialized
+INFO - 2021-10-28 12:40:18 --> Router Class Initialized
+INFO - 2021-10-28 12:40:18 --> Output Class Initialized
+INFO - 2021-10-28 12:40:18 --> Security Class Initialized
+INFO - 2021-10-28 12:40:18 --> CRSF cookie sent
+INFO - 2021-10-28 12:40:18 --> CSRF token verified
+DEBUG - 2021-10-28 12:40:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:18 --> Input Class Initialized
+INFO - 2021-10-28 12:40:18 --> Language Class Initialized
+INFO - 2021-10-28 12:40:18 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:18 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:18 --> Model Class Initialized
+INFO - 2021-10-28 12:40:18 --> Model Class Initialized
+INFO - 2021-10-28 12:40:18 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:18 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:40:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:40:18 --> Model Class Initialized
+INFO - 2021-10-28 12:40:18 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:18 --> Total execution time: 0.2452
+INFO - 2021-10-28 12:40:19 --> Config Class Initialized
+INFO - 2021-10-28 12:40:19 --> Hooks Class Initialized
+INFO - 2021-10-28 12:40:19 --> Config Class Initialized
+DEBUG - 2021-10-28 12:40:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:19 --> Hooks Class Initialized
+INFO - 2021-10-28 12:40:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:19 --> URI Class Initialized
+DEBUG - 2021-10-28 12:40:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:40:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:40:19 --> Router Class Initialized
+INFO - 2021-10-28 12:40:19 --> URI Class Initialized
+INFO - 2021-10-28 12:40:19 --> Output Class Initialized
+INFO - 2021-10-28 12:40:19 --> Router Class Initialized
+INFO - 2021-10-28 12:40:19 --> Security Class Initialized
+INFO - 2021-10-28 12:40:19 --> Output Class Initialized
+INFO - 2021-10-28 12:40:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:19 --> Input Class Initialized
+INFO - 2021-10-28 12:40:19 --> Security Class Initialized
+INFO - 2021-10-28 12:40:19 --> Language Class Initialized
+INFO - 2021-10-28 12:40:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:40:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:40:19 --> Input Class Initialized
+INFO - 2021-10-28 12:40:19 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:19 --> Language Class Initialized
+INFO - 2021-10-28 12:40:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:19 --> Loader Class Initialized
+INFO - 2021-10-28 12:40:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:40:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:40:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:40:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:40:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:19 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:19 --> Model Class Initialized
+INFO - 2021-10-28 12:40:19 --> Model Class Initialized
+INFO - 2021-10-28 12:40:19 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:19 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:40:19 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:19 --> Total execution time: 0.0540
+INFO - 2021-10-28 12:40:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:40:19 --> Parser Class Initialized
+INFO - 2021-10-28 12:40:19 --> Model Class Initialized
+INFO - 2021-10-28 12:40:19 --> Model Class Initialized
+INFO - 2021-10-28 12:40:19 --> Controller Class Initialized
+INFO - 2021-10-28 12:40:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:40:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:40:19 --> Could not find the language line "today"
+INFO - 2021-10-28 12:40:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:40:19 --> Final output sent to browser
+DEBUG - 2021-10-28 12:40:19 --> Total execution time: 0.1256
+INFO - 2021-10-28 12:41:03 --> Config Class Initialized
+INFO - 2021-10-28 12:41:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:03 --> URI Class Initialized
+INFO - 2021-10-28 12:41:03 --> Router Class Initialized
+INFO - 2021-10-28 12:41:03 --> Output Class Initialized
+INFO - 2021-10-28 12:41:03 --> Security Class Initialized
+INFO - 2021-10-28 12:41:03 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:41:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:03 --> Input Class Initialized
+INFO - 2021-10-28 12:41:03 --> Language Class Initialized
+INFO - 2021-10-28 12:41:03 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:03 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:03 --> Model Class Initialized
+INFO - 2021-10-28 12:41:03 --> Model Class Initialized
+INFO - 2021-10-28 12:41:03 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:41:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:41:03 --> Model Class Initialized
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:41:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:41:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:41:03 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:41:04 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:41:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:41:04 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:04 --> Total execution time: 0.0867
+INFO - 2021-10-28 12:41:04 --> Config Class Initialized
+INFO - 2021-10-28 12:41:04 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:04 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:04 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:04 --> URI Class Initialized
+INFO - 2021-10-28 12:41:04 --> Router Class Initialized
+INFO - 2021-10-28 12:41:04 --> Output Class Initialized
+INFO - 2021-10-28 12:41:04 --> Security Class Initialized
+INFO - 2021-10-28 12:41:04 --> CRSF cookie sent
+INFO - 2021-10-28 12:41:04 --> CSRF token verified
+DEBUG - 2021-10-28 12:41:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:04 --> Input Class Initialized
+INFO - 2021-10-28 12:41:04 --> Language Class Initialized
+INFO - 2021-10-28 12:41:04 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:04 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:04 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:04 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:04 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:04 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:04 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:04 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:04 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:04 --> Model Class Initialized
+INFO - 2021-10-28 12:41:04 --> Model Class Initialized
+INFO - 2021-10-28 12:41:04 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:04 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:04 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:04 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:41:04 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:41:04 --> Model Class Initialized
+INFO - 2021-10-28 12:41:04 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:04 --> Total execution time: 0.0848
+INFO - 2021-10-28 12:41:05 --> Config Class Initialized
+INFO - 2021-10-28 12:41:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:05 --> URI Class Initialized
+INFO - 2021-10-28 12:41:05 --> Router Class Initialized
+INFO - 2021-10-28 12:41:05 --> Config Class Initialized
+INFO - 2021-10-28 12:41:05 --> Hooks Class Initialized
+INFO - 2021-10-28 12:41:05 --> Output Class Initialized
+INFO - 2021-10-28 12:41:05 --> Security Class Initialized
+DEBUG - 2021-10-28 12:41:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:05 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:41:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:05 --> URI Class Initialized
+INFO - 2021-10-28 12:41:05 --> Input Class Initialized
+INFO - 2021-10-28 12:41:05 --> Router Class Initialized
+INFO - 2021-10-28 12:41:05 --> Language Class Initialized
+INFO - 2021-10-28 12:41:05 --> Output Class Initialized
+INFO - 2021-10-28 12:41:05 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:05 --> Security Class Initialized
+INFO - 2021-10-28 12:41:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:05 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:41:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:05 --> Input Class Initialized
+INFO - 2021-10-28 12:41:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:05 --> Language Class Initialized
+INFO - 2021-10-28 12:41:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:05 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:05 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:05 --> Model Class Initialized
+INFO - 2021-10-28 12:41:05 --> Model Class Initialized
+INFO - 2021-10-28 12:41:05 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:05 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:41:05 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:05 --> Total execution time: 0.0627
+INFO - 2021-10-28 12:41:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:05 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:05 --> Model Class Initialized
+INFO - 2021-10-28 12:41:05 --> Model Class Initialized
+INFO - 2021-10-28 12:41:05 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:05 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:41:05 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:05 --> Total execution time: 0.1450
+INFO - 2021-10-28 12:41:57 --> Config Class Initialized
+INFO - 2021-10-28 12:41:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:57 --> URI Class Initialized
+INFO - 2021-10-28 12:41:57 --> Router Class Initialized
+INFO - 2021-10-28 12:41:57 --> Output Class Initialized
+INFO - 2021-10-28 12:41:57 --> Security Class Initialized
+INFO - 2021-10-28 12:41:57 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:57 --> Input Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language Class Initialized
+INFO - 2021-10-28 12:41:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:41:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:41:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:41:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:41:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:41:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:57 --> Total execution time: 0.0588
+INFO - 2021-10-28 12:41:57 --> Config Class Initialized
+INFO - 2021-10-28 12:41:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:57 --> URI Class Initialized
+INFO - 2021-10-28 12:41:57 --> Router Class Initialized
+INFO - 2021-10-28 12:41:57 --> Output Class Initialized
+INFO - 2021-10-28 12:41:57 --> Security Class Initialized
+INFO - 2021-10-28 12:41:57 --> CRSF cookie sent
+INFO - 2021-10-28 12:41:57 --> CSRF token verified
+DEBUG - 2021-10-28 12:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:57 --> Input Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language Class Initialized
+INFO - 2021-10-28 12:41:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:41:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:57 --> Total execution time: 0.0548
+INFO - 2021-10-28 12:41:57 --> Config Class Initialized
+INFO - 2021-10-28 12:41:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:41:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:41:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:41:57 --> URI Class Initialized
+INFO - 2021-10-28 12:41:57 --> Router Class Initialized
+INFO - 2021-10-28 12:41:57 --> Output Class Initialized
+INFO - 2021-10-28 12:41:57 --> Security Class Initialized
+INFO - 2021-10-28 12:41:57 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:41:57 --> Input Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language Class Initialized
+INFO - 2021-10-28 12:41:57 --> Loader Class Initialized
+INFO - 2021-10-28 12:41:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:41:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:41:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:41:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:41:57 --> Parser Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Model Class Initialized
+INFO - 2021-10-28 12:41:57 --> Controller Class Initialized
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:41:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:41:57 --> Could not find the language line "today"
+INFO - 2021-10-28 12:41:57 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:41:57 --> Final output sent to browser
+DEBUG - 2021-10-28 12:41:57 --> Total execution time: 0.0378
+INFO - 2021-10-28 12:50:28 --> Config Class Initialized
+INFO - 2021-10-28 12:50:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:50:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:50:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:50:28 --> URI Class Initialized
+INFO - 2021-10-28 12:50:28 --> Router Class Initialized
+INFO - 2021-10-28 12:50:28 --> Output Class Initialized
+INFO - 2021-10-28 12:50:28 --> Security Class Initialized
+INFO - 2021-10-28 12:50:28 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:50:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:50:28 --> Input Class Initialized
+INFO - 2021-10-28 12:50:28 --> Language Class Initialized
+INFO - 2021-10-28 12:50:28 --> Loader Class Initialized
+INFO - 2021-10-28 12:50:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:50:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:50:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:50:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:50:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:50:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:50:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:50:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:50:28 --> Parser Class Initialized
+INFO - 2021-10-28 12:50:28 --> Model Class Initialized
+INFO - 2021-10-28 12:50:28 --> Model Class Initialized
+INFO - 2021-10-28 12:50:28 --> Controller Class Initialized
+INFO - 2021-10-28 12:50:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:50:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "today"
+INFO - 2021-10-28 12:50:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:50:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:50:28 --> Model Class Initialized
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:50:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:50:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:50:28 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:50:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:50:28 --> Final output sent to browser
+DEBUG - 2021-10-28 12:50:28 --> Total execution time: 0.1176
+INFO - 2021-10-28 12:50:28 --> Config Class Initialized
+INFO - 2021-10-28 12:50:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:50:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:50:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:50:28 --> URI Class Initialized
+INFO - 2021-10-28 12:50:28 --> Router Class Initialized
+INFO - 2021-10-28 12:50:28 --> Output Class Initialized
+INFO - 2021-10-28 12:50:28 --> Security Class Initialized
+INFO - 2021-10-28 12:50:28 --> CRSF cookie sent
+INFO - 2021-10-28 12:50:28 --> CSRF token verified
+DEBUG - 2021-10-28 12:50:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:50:28 --> Input Class Initialized
+INFO - 2021-10-28 12:50:28 --> Language Class Initialized
+INFO - 2021-10-28 12:50:28 --> Loader Class Initialized
+INFO - 2021-10-28 12:50:29 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:50:29 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:50:29 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:50:29 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:50:29 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:50:29 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:50:29 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:50:29 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:50:29 --> Parser Class Initialized
+INFO - 2021-10-28 12:50:29 --> Model Class Initialized
+INFO - 2021-10-28 12:50:29 --> Model Class Initialized
+INFO - 2021-10-28 12:50:29 --> Controller Class Initialized
+INFO - 2021-10-28 12:50:29 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:50:29 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:50:29 --> Could not find the language line "today"
+INFO - 2021-10-28 12:50:29 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:50:29 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:50:29 --> Model Class Initialized
+INFO - 2021-10-28 12:50:29 --> Final output sent to browser
+DEBUG - 2021-10-28 12:50:29 --> Total execution time: 0.1116
+INFO - 2021-10-28 12:50:45 --> Config Class Initialized
+INFO - 2021-10-28 12:50:45 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:50:45 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:50:45 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:50:45 --> URI Class Initialized
+INFO - 2021-10-28 12:50:45 --> Router Class Initialized
+INFO - 2021-10-28 12:50:45 --> Output Class Initialized
+INFO - 2021-10-28 12:50:45 --> Security Class Initialized
+INFO - 2021-10-28 12:50:45 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:50:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:50:45 --> Input Class Initialized
+INFO - 2021-10-28 12:50:45 --> Language Class Initialized
+INFO - 2021-10-28 12:50:45 --> Loader Class Initialized
+INFO - 2021-10-28 12:50:45 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:50:45 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:50:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:50:45 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:50:45 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:50:45 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:50:45 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:50:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:50:45 --> Parser Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+INFO - 2021-10-28 12:50:46 --> Controller Class Initialized
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:50:46 --> Could not find the language line "today"
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:50:46 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+ERROR - 2021-10-28 12:50:46 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 12:50:46 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 12:50:46 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 12:50:46 --> Final output sent to browser
+DEBUG - 2021-10-28 12:50:46 --> Total execution time: 0.3217
+INFO - 2021-10-28 12:50:46 --> Config Class Initialized
+INFO - 2021-10-28 12:50:46 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:50:46 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:50:46 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:50:46 --> URI Class Initialized
+INFO - 2021-10-28 12:50:46 --> Router Class Initialized
+INFO - 2021-10-28 12:50:46 --> Output Class Initialized
+INFO - 2021-10-28 12:50:46 --> Security Class Initialized
+INFO - 2021-10-28 12:50:46 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:50:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:50:46 --> Input Class Initialized
+INFO - 2021-10-28 12:50:46 --> Language Class Initialized
+INFO - 2021-10-28 12:50:46 --> Loader Class Initialized
+INFO - 2021-10-28 12:50:46 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:50:46 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:50:46 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:50:46 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:50:46 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:50:46 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:50:46 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:50:46 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:50:46 --> Parser Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+INFO - 2021-10-28 12:50:46 --> Controller Class Initialized
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:50:46 --> Could not find the language line "today"
+INFO - 2021-10-28 12:50:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:50:46 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:50:46 --> Model Class Initialized
+DEBUG - 2021-10-28 12:50:46 --> Zend Class Initialized
+DEBUG - 2021-10-28 12:50:46 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 12:50:46 --> Final output sent to browser
+DEBUG - 2021-10-28 12:50:46 --> Total execution time: 0.1067
+INFO - 2021-10-28 12:52:00 --> Config Class Initialized
+INFO - 2021-10-28 12:52:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:52:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:52:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:52:00 --> URI Class Initialized
+INFO - 2021-10-28 12:52:00 --> Router Class Initialized
+INFO - 2021-10-28 12:52:00 --> Output Class Initialized
+INFO - 2021-10-28 12:52:00 --> Security Class Initialized
+INFO - 2021-10-28 12:52:00 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:52:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:52:00 --> Input Class Initialized
+INFO - 2021-10-28 12:52:00 --> Language Class Initialized
+INFO - 2021-10-28 12:52:00 --> Loader Class Initialized
+INFO - 2021-10-28 12:52:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:52:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:52:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:52:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:52:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:52:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:52:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:52:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:52:00 --> Parser Class Initialized
+INFO - 2021-10-28 12:52:00 --> Model Class Initialized
+INFO - 2021-10-28 12:52:00 --> Model Class Initialized
+INFO - 2021-10-28 12:52:00 --> Controller Class Initialized
+INFO - 2021-10-28 12:52:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:52:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "today"
+INFO - 2021-10-28 12:52:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:52:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:52:00 --> Model Class Initialized
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:52:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:52:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:52:00 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:52:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:52:00 --> Final output sent to browser
+DEBUG - 2021-10-28 12:52:00 --> Total execution time: 0.0555
+INFO - 2021-10-28 12:52:01 --> Config Class Initialized
+INFO - 2021-10-28 12:52:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:52:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:52:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:52:01 --> URI Class Initialized
+INFO - 2021-10-28 12:52:01 --> Router Class Initialized
+INFO - 2021-10-28 12:52:01 --> Output Class Initialized
+INFO - 2021-10-28 12:52:01 --> Security Class Initialized
+INFO - 2021-10-28 12:52:01 --> CRSF cookie sent
+INFO - 2021-10-28 12:52:01 --> CSRF token verified
+DEBUG - 2021-10-28 12:52:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:52:01 --> Input Class Initialized
+INFO - 2021-10-28 12:52:01 --> Language Class Initialized
+INFO - 2021-10-28 12:52:01 --> Loader Class Initialized
+INFO - 2021-10-28 12:52:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:52:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:52:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:52:01 --> Parser Class Initialized
+INFO - 2021-10-28 12:52:01 --> Model Class Initialized
+INFO - 2021-10-28 12:52:01 --> Model Class Initialized
+INFO - 2021-10-28 12:52:01 --> Controller Class Initialized
+INFO - 2021-10-28 12:52:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:52:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:52:01 --> Could not find the language line "today"
+INFO - 2021-10-28 12:52:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:52:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:52:01 --> Model Class Initialized
+INFO - 2021-10-28 12:52:01 --> Final output sent to browser
+DEBUG - 2021-10-28 12:52:01 --> Total execution time: 0.0669
+INFO - 2021-10-28 12:52:01 --> Config Class Initialized
+INFO - 2021-10-28 12:52:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:52:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:52:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:52:01 --> URI Class Initialized
+INFO - 2021-10-28 12:52:01 --> Router Class Initialized
+INFO - 2021-10-28 12:52:01 --> Output Class Initialized
+INFO - 2021-10-28 12:52:01 --> Security Class Initialized
+INFO - 2021-10-28 12:52:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:52:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:52:01 --> Input Class Initialized
+INFO - 2021-10-28 12:52:01 --> Language Class Initialized
+INFO - 2021-10-28 12:52:01 --> Loader Class Initialized
+INFO - 2021-10-28 12:52:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:52:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:52:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:52:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:52:01 --> Parser Class Initialized
+INFO - 2021-10-28 12:52:01 --> Model Class Initialized
+INFO - 2021-10-28 12:52:01 --> Model Class Initialized
+INFO - 2021-10-28 12:52:01 --> Controller Class Initialized
+INFO - 2021-10-28 12:52:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:52:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:52:01 --> Could not find the language line "today"
+INFO - 2021-10-28 12:52:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:52:01 --> Final output sent to browser
+DEBUG - 2021-10-28 12:52:01 --> Total execution time: 0.0381
+INFO - 2021-10-28 12:58:19 --> Config Class Initialized
+INFO - 2021-10-28 12:58:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:58:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:58:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:58:19 --> URI Class Initialized
+INFO - 2021-10-28 12:58:19 --> Router Class Initialized
+INFO - 2021-10-28 12:58:19 --> Output Class Initialized
+INFO - 2021-10-28 12:58:19 --> Security Class Initialized
+INFO - 2021-10-28 12:58:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:58:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:58:19 --> Input Class Initialized
+INFO - 2021-10-28 12:58:19 --> Language Class Initialized
+INFO - 2021-10-28 12:58:19 --> Loader Class Initialized
+INFO - 2021-10-28 12:58:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:58:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:58:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:58:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:58:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:58:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:58:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:58:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:58:19 --> Parser Class Initialized
+INFO - 2021-10-28 12:58:19 --> Model Class Initialized
+INFO - 2021-10-28 12:58:19 --> Model Class Initialized
+INFO - 2021-10-28 12:58:19 --> Controller Class Initialized
+INFO - 2021-10-28 12:58:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:58:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "today"
+INFO - 2021-10-28 12:58:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:58:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:58:19 --> Model Class Initialized
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "backups"
+INFO - 2021-10-28 12:58:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 12:58:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "due"
+ERROR - 2021-10-28 12:58:19 --> Could not find the language line "transferring"
+INFO - 2021-10-28 12:58:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 12:58:19 --> Final output sent to browser
+DEBUG - 2021-10-28 12:58:19 --> Total execution time: 0.1284
+INFO - 2021-10-28 12:58:20 --> Config Class Initialized
+INFO - 2021-10-28 12:58:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:58:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:58:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:58:20 --> URI Class Initialized
+INFO - 2021-10-28 12:58:20 --> Router Class Initialized
+INFO - 2021-10-28 12:58:20 --> Output Class Initialized
+INFO - 2021-10-28 12:58:20 --> Security Class Initialized
+INFO - 2021-10-28 12:58:20 --> CRSF cookie sent
+INFO - 2021-10-28 12:58:20 --> CSRF token verified
+DEBUG - 2021-10-28 12:58:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:58:20 --> Input Class Initialized
+INFO - 2021-10-28 12:58:20 --> Language Class Initialized
+INFO - 2021-10-28 12:58:20 --> Loader Class Initialized
+INFO - 2021-10-28 12:58:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:58:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:58:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:58:20 --> Parser Class Initialized
+INFO - 2021-10-28 12:58:20 --> Model Class Initialized
+INFO - 2021-10-28 12:58:20 --> Model Class Initialized
+INFO - 2021-10-28 12:58:20 --> Controller Class Initialized
+INFO - 2021-10-28 12:58:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:58:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:58:20 --> Could not find the language line "today"
+INFO - 2021-10-28 12:58:20 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 12:58:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 12:58:20 --> Model Class Initialized
+INFO - 2021-10-28 12:58:20 --> Final output sent to browser
+DEBUG - 2021-10-28 12:58:20 --> Total execution time: 0.1031
+INFO - 2021-10-28 12:58:20 --> Config Class Initialized
+INFO - 2021-10-28 12:58:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 12:58:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 12:58:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 12:58:20 --> URI Class Initialized
+INFO - 2021-10-28 12:58:20 --> Router Class Initialized
+INFO - 2021-10-28 12:58:20 --> Output Class Initialized
+INFO - 2021-10-28 12:58:20 --> Security Class Initialized
+INFO - 2021-10-28 12:58:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 12:58:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 12:58:20 --> Input Class Initialized
+INFO - 2021-10-28 12:58:20 --> Language Class Initialized
+INFO - 2021-10-28 12:58:20 --> Loader Class Initialized
+INFO - 2021-10-28 12:58:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 12:58:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 12:58:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 12:58:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 12:58:20 --> Parser Class Initialized
+INFO - 2021-10-28 12:58:20 --> Model Class Initialized
+INFO - 2021-10-28 12:58:20 --> Model Class Initialized
+INFO - 2021-10-28 12:58:20 --> Controller Class Initialized
+INFO - 2021-10-28 12:58:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 12:58:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 12:58:20 --> Could not find the language line "today"
+INFO - 2021-10-28 12:58:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 12:58:20 --> Final output sent to browser
+DEBUG - 2021-10-28 12:58:20 --> Total execution time: 0.0553
+INFO - 2021-10-28 13:06:47 --> Config Class Initialized
+INFO - 2021-10-28 13:06:47 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:47 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:47 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:47 --> URI Class Initialized
+INFO - 2021-10-28 13:06:47 --> Router Class Initialized
+INFO - 2021-10-28 13:06:47 --> Output Class Initialized
+INFO - 2021-10-28 13:06:47 --> Security Class Initialized
+INFO - 2021-10-28 13:06:47 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:06:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:47 --> Input Class Initialized
+INFO - 2021-10-28 13:06:47 --> Language Class Initialized
+INFO - 2021-10-28 13:06:47 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:47 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:47 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:47 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:47 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:47 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:47 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:47 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:47 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:47 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:47 --> Model Class Initialized
+INFO - 2021-10-28 13:06:47 --> Model Class Initialized
+INFO - 2021-10-28 13:06:47 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:47 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:47 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:47 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:06:47 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:06:47 --> Model Class Initialized
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:06:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:06:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:06:47 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:06:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:06:47 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:47 --> Total execution time: 0.1248
+INFO - 2021-10-28 13:06:48 --> Config Class Initialized
+INFO - 2021-10-28 13:06:48 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:48 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:48 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:48 --> URI Class Initialized
+INFO - 2021-10-28 13:06:48 --> Router Class Initialized
+INFO - 2021-10-28 13:06:48 --> Output Class Initialized
+INFO - 2021-10-28 13:06:48 --> Security Class Initialized
+INFO - 2021-10-28 13:06:48 --> CRSF cookie sent
+INFO - 2021-10-28 13:06:48 --> CSRF token verified
+DEBUG - 2021-10-28 13:06:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:48 --> Input Class Initialized
+INFO - 2021-10-28 13:06:48 --> Language Class Initialized
+INFO - 2021-10-28 13:06:48 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:48 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:48 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:48 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:48 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:48 --> Model Class Initialized
+INFO - 2021-10-28 13:06:48 --> Model Class Initialized
+INFO - 2021-10-28 13:06:48 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:48 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:48 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:48 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:48 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:06:48 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:06:48 --> Model Class Initialized
+INFO - 2021-10-28 13:06:48 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:48 --> Total execution time: 0.1036
+INFO - 2021-10-28 13:06:48 --> Config Class Initialized
+INFO - 2021-10-28 13:06:48 --> Hooks Class Initialized
+INFO - 2021-10-28 13:06:48 --> Config Class Initialized
+INFO - 2021-10-28 13:06:48 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:48 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:48 --> Utf8 Class Initialized
+DEBUG - 2021-10-28 13:06:48 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:48 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:48 --> URI Class Initialized
+INFO - 2021-10-28 13:06:48 --> URI Class Initialized
+INFO - 2021-10-28 13:06:48 --> Router Class Initialized
+INFO - 2021-10-28 13:06:48 --> Output Class Initialized
+INFO - 2021-10-28 13:06:48 --> Router Class Initialized
+INFO - 2021-10-28 13:06:48 --> Security Class Initialized
+INFO - 2021-10-28 13:06:48 --> Output Class Initialized
+INFO - 2021-10-28 13:06:48 --> Security Class Initialized
+INFO - 2021-10-28 13:06:48 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:06:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:48 --> Input Class Initialized
+INFO - 2021-10-28 13:06:48 --> Language Class Initialized
+INFO - 2021-10-28 13:06:48 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:48 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:48 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:48 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:49 --> Model Class Initialized
+INFO - 2021-10-28 13:06:49 --> Model Class Initialized
+INFO - 2021-10-28 13:06:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:06:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:49 --> Input Class Initialized
+INFO - 2021-10-28 13:06:49 --> Language Class Initialized
+INFO - 2021-10-28 13:06:49 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:06:49 --> Loader Class Initialized
+ERROR - 2021-10-28 13:06:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:06:49 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:49 --> Total execution time: 0.0746
+INFO - 2021-10-28 13:06:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:49 --> Model Class Initialized
+INFO - 2021-10-28 13:06:49 --> Model Class Initialized
+INFO - 2021-10-28 13:06:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:06:49 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:49 --> Total execution time: 0.1455
+INFO - 2021-10-28 13:06:51 --> Config Class Initialized
+INFO - 2021-10-28 13:06:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:51 --> URI Class Initialized
+INFO - 2021-10-28 13:06:51 --> Router Class Initialized
+INFO - 2021-10-28 13:06:51 --> Output Class Initialized
+INFO - 2021-10-28 13:06:51 --> Security Class Initialized
+INFO - 2021-10-28 13:06:51 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:06:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:51 --> Input Class Initialized
+INFO - 2021-10-28 13:06:51 --> Language Class Initialized
+INFO - 2021-10-28 13:06:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:51 --> Model Class Initialized
+INFO - 2021-10-28 13:06:51 --> Model Class Initialized
+INFO - 2021-10-28 13:06:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:06:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:06:51 --> Model Class Initialized
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:06:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:06:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:06:51 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:06:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:06:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:51 --> Total execution time: 0.0692
+INFO - 2021-10-28 13:06:52 --> Config Class Initialized
+INFO - 2021-10-28 13:06:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:52 --> URI Class Initialized
+INFO - 2021-10-28 13:06:52 --> Router Class Initialized
+INFO - 2021-10-28 13:06:52 --> Output Class Initialized
+INFO - 2021-10-28 13:06:52 --> Security Class Initialized
+INFO - 2021-10-28 13:06:52 --> CRSF cookie sent
+INFO - 2021-10-28 13:06:52 --> CSRF token verified
+DEBUG - 2021-10-28 13:06:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:52 --> Input Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language Class Initialized
+INFO - 2021-10-28 13:06:52 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:52 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:52 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:06:52 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:52 --> Total execution time: 0.0980
+INFO - 2021-10-28 13:06:52 --> Config Class Initialized
+INFO - 2021-10-28 13:06:52 --> Hooks Class Initialized
+INFO - 2021-10-28 13:06:52 --> Config Class Initialized
+INFO - 2021-10-28 13:06:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:06:52 --> UTF-8 Support Enabled
+DEBUG - 2021-10-28 13:06:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:06:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:06:52 --> URI Class Initialized
+INFO - 2021-10-28 13:06:52 --> URI Class Initialized
+INFO - 2021-10-28 13:06:52 --> Router Class Initialized
+INFO - 2021-10-28 13:06:52 --> Router Class Initialized
+INFO - 2021-10-28 13:06:52 --> Output Class Initialized
+INFO - 2021-10-28 13:06:52 --> Output Class Initialized
+INFO - 2021-10-28 13:06:52 --> Security Class Initialized
+INFO - 2021-10-28 13:06:52 --> Security Class Initialized
+INFO - 2021-10-28 13:06:52 --> CRSF cookie sent
+INFO - 2021-10-28 13:06:52 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:06:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-10-28 13:06:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:06:52 --> Input Class Initialized
+INFO - 2021-10-28 13:06:52 --> Input Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language Class Initialized
+INFO - 2021-10-28 13:06:52 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:52 --> Loader Class Initialized
+INFO - 2021-10-28 13:06:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:06:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:06:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:06:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:52 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:52 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:06:52 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:52 --> Total execution time: 0.1139
+INFO - 2021-10-28 13:06:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:06:52 --> Parser Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Model Class Initialized
+INFO - 2021-10-28 13:06:52 --> Controller Class Initialized
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:06:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:06:52 --> Could not find the language line "today"
+INFO - 2021-10-28 13:06:52 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:06:52 --> Final output sent to browser
+DEBUG - 2021-10-28 13:06:52 --> Total execution time: 0.1791
+INFO - 2021-10-28 13:07:04 --> Config Class Initialized
+INFO - 2021-10-28 13:07:04 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:04 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:04 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:04 --> URI Class Initialized
+INFO - 2021-10-28 13:07:04 --> Router Class Initialized
+INFO - 2021-10-28 13:07:04 --> Output Class Initialized
+INFO - 2021-10-28 13:07:04 --> Security Class Initialized
+INFO - 2021-10-28 13:07:04 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:07:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:04 --> Input Class Initialized
+INFO - 2021-10-28 13:07:04 --> Language Class Initialized
+INFO - 2021-10-28 13:07:04 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:04 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:04 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:04 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:04 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:04 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:04 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:04 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:04 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:04 --> Model Class Initialized
+INFO - 2021-10-28 13:07:04 --> Model Class Initialized
+INFO - 2021-10-28 13:07:04 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:04 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:04 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:07:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:07:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:07:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:07:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:07:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:05 --> Total execution time: 0.0759
+INFO - 2021-10-28 13:07:05 --> Config Class Initialized
+INFO - 2021-10-28 13:07:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:05 --> URI Class Initialized
+INFO - 2021-10-28 13:07:05 --> Router Class Initialized
+INFO - 2021-10-28 13:07:05 --> Output Class Initialized
+INFO - 2021-10-28 13:07:05 --> Security Class Initialized
+INFO - 2021-10-28 13:07:05 --> CRSF cookie sent
+INFO - 2021-10-28 13:07:05 --> CSRF token verified
+DEBUG - 2021-10-28 13:07:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:05 --> Input Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language Class Initialized
+INFO - 2021-10-28 13:07:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:07:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:05 --> Total execution time: 0.1057
+INFO - 2021-10-28 13:07:05 --> Config Class Initialized
+INFO - 2021-10-28 13:07:05 --> Hooks Class Initialized
+INFO - 2021-10-28 13:07:05 --> Config Class Initialized
+INFO - 2021-10-28 13:07:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:05 --> Utf8 Class Initialized
+DEBUG - 2021-10-28 13:07:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:05 --> URI Class Initialized
+INFO - 2021-10-28 13:07:05 --> URI Class Initialized
+INFO - 2021-10-28 13:07:05 --> Router Class Initialized
+INFO - 2021-10-28 13:07:05 --> Router Class Initialized
+INFO - 2021-10-28 13:07:05 --> Output Class Initialized
+INFO - 2021-10-28 13:07:05 --> Output Class Initialized
+INFO - 2021-10-28 13:07:05 --> Security Class Initialized
+INFO - 2021-10-28 13:07:05 --> Security Class Initialized
+INFO - 2021-10-28 13:07:05 --> CRSF cookie sent
+INFO - 2021-10-28 13:07:05 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:07:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-10-28 13:07:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:05 --> Input Class Initialized
+INFO - 2021-10-28 13:07:05 --> Input Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language Class Initialized
+INFO - 2021-10-28 13:07:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:07:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:05 --> Total execution time: 0.0551
+INFO - 2021-10-28 13:07:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Model Class Initialized
+INFO - 2021-10-28 13:07:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:07:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:05 --> Total execution time: 0.2069
+INFO - 2021-10-28 13:07:15 --> Config Class Initialized
+INFO - 2021-10-28 13:07:15 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:15 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:15 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:15 --> URI Class Initialized
+INFO - 2021-10-28 13:07:15 --> Router Class Initialized
+INFO - 2021-10-28 13:07:15 --> Output Class Initialized
+INFO - 2021-10-28 13:07:15 --> Security Class Initialized
+INFO - 2021-10-28 13:07:15 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:07:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:15 --> Input Class Initialized
+INFO - 2021-10-28 13:07:15 --> Language Class Initialized
+INFO - 2021-10-28 13:07:15 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:15 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:15 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:15 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:15 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:15 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:15 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:15 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:15 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:15 --> Model Class Initialized
+INFO - 2021-10-28 13:07:15 --> Model Class Initialized
+INFO - 2021-10-28 13:07:15 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:15 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:15 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:07:15 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:07:15 --> Model Class Initialized
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:07:15 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:07:15 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:07:15 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:07:15 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:07:15 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:15 --> Total execution time: 0.0664
+INFO - 2021-10-28 13:07:16 --> Config Class Initialized
+INFO - 2021-10-28 13:07:16 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:16 --> URI Class Initialized
+INFO - 2021-10-28 13:07:16 --> Router Class Initialized
+INFO - 2021-10-28 13:07:16 --> Output Class Initialized
+INFO - 2021-10-28 13:07:16 --> Security Class Initialized
+INFO - 2021-10-28 13:07:16 --> CRSF cookie sent
+INFO - 2021-10-28 13:07:16 --> CSRF token verified
+DEBUG - 2021-10-28 13:07:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:16 --> Input Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language Class Initialized
+INFO - 2021-10-28 13:07:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:07:16 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:16 --> Total execution time: 0.0844
+INFO - 2021-10-28 13:07:16 --> Config Class Initialized
+INFO - 2021-10-28 13:07:16 --> Hooks Class Initialized
+INFO - 2021-10-28 13:07:16 --> Config Class Initialized
+INFO - 2021-10-28 13:07:16 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:07:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:16 --> URI Class Initialized
+INFO - 2021-10-28 13:07:16 --> Router Class Initialized
+INFO - 2021-10-28 13:07:16 --> Output Class Initialized
+INFO - 2021-10-28 13:07:16 --> Security Class Initialized
+INFO - 2021-10-28 13:07:16 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:07:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:16 --> Input Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language Class Initialized
+INFO - 2021-10-28 13:07:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/sma_lang.php
+DEBUG - 2021-10-28 13:07:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:07:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:07:16 --> URI Class Initialized
+INFO - 2021-10-28 13:07:16 --> Router Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:07:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:16 --> Total execution time: 0.1379
+INFO - 2021-10-28 13:07:16 --> Output Class Initialized
+INFO - 2021-10-28 13:07:16 --> Security Class Initialized
+INFO - 2021-10-28 13:07:16 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:07:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:07:16 --> Input Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language Class Initialized
+INFO - 2021-10-28 13:07:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:07:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:07:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:07:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:07:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:07:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Model Class Initialized
+INFO - 2021-10-28 13:07:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:07:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:07:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:07:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:07:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:07:16 --> Total execution time: 0.2075
+INFO - 2021-10-28 13:08:13 --> Config Class Initialized
+INFO - 2021-10-28 13:08:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:08:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:08:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:08:13 --> URI Class Initialized
+INFO - 2021-10-28 13:08:13 --> Router Class Initialized
+INFO - 2021-10-28 13:08:13 --> Output Class Initialized
+INFO - 2021-10-28 13:08:13 --> Security Class Initialized
+INFO - 2021-10-28 13:08:13 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:08:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:08:13 --> Input Class Initialized
+INFO - 2021-10-28 13:08:13 --> Language Class Initialized
+INFO - 2021-10-28 13:08:13 --> Loader Class Initialized
+INFO - 2021-10-28 13:08:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:08:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:08:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:08:13 --> Parser Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+INFO - 2021-10-28 13:08:13 --> Controller Class Initialized
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "today"
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:08:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:08:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:08:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:08:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:08:13 --> Final output sent to browser
+DEBUG - 2021-10-28 13:08:13 --> Total execution time: 0.0500
+INFO - 2021-10-28 13:08:13 --> Config Class Initialized
+INFO - 2021-10-28 13:08:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:08:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:08:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:08:13 --> URI Class Initialized
+INFO - 2021-10-28 13:08:13 --> Router Class Initialized
+INFO - 2021-10-28 13:08:13 --> Output Class Initialized
+INFO - 2021-10-28 13:08:13 --> Security Class Initialized
+INFO - 2021-10-28 13:08:13 --> CRSF cookie sent
+INFO - 2021-10-28 13:08:13 --> CSRF token verified
+DEBUG - 2021-10-28 13:08:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:08:13 --> Input Class Initialized
+INFO - 2021-10-28 13:08:13 --> Language Class Initialized
+INFO - 2021-10-28 13:08:13 --> Loader Class Initialized
+INFO - 2021-10-28 13:08:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:08:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:08:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:08:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:08:13 --> Parser Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+INFO - 2021-10-28 13:08:13 --> Controller Class Initialized
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:08:13 --> Could not find the language line "today"
+INFO - 2021-10-28 13:08:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:08:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:08:13 --> Model Class Initialized
+INFO - 2021-10-28 13:08:13 --> Final output sent to browser
+DEBUG - 2021-10-28 13:08:13 --> Total execution time: 0.0594
+INFO - 2021-10-28 13:08:50 --> Config Class Initialized
+INFO - 2021-10-28 13:08:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:08:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:08:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:08:50 --> URI Class Initialized
+INFO - 2021-10-28 13:08:50 --> Router Class Initialized
+INFO - 2021-10-28 13:08:50 --> Output Class Initialized
+INFO - 2021-10-28 13:08:50 --> Security Class Initialized
+INFO - 2021-10-28 13:08:50 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:08:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:08:50 --> Input Class Initialized
+INFO - 2021-10-28 13:08:50 --> Language Class Initialized
+INFO - 2021-10-28 13:08:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:08:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:08:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:08:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:08:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:08:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:08:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:08:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:08:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:08:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:08:50 --> Model Class Initialized
+INFO - 2021-10-28 13:08:50 --> Model Class Initialized
+INFO - 2021-10-28 13:08:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:08:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:08:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:08:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:08:50 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:08:50 --> Model Class Initialized
+INFO - 2021-10-28 13:08:50 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:08:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:08:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:08:50 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:08:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:08:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:08:50 --> Total execution time: 0.1487
+INFO - 2021-10-28 13:08:53 --> Config Class Initialized
+INFO - 2021-10-28 13:08:53 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:08:53 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:08:53 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:08:53 --> URI Class Initialized
+INFO - 2021-10-28 13:08:53 --> Router Class Initialized
+INFO - 2021-10-28 13:08:54 --> Output Class Initialized
+INFO - 2021-10-28 13:08:54 --> Security Class Initialized
+INFO - 2021-10-28 13:08:54 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:08:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:08:54 --> Input Class Initialized
+INFO - 2021-10-28 13:08:54 --> Language Class Initialized
+INFO - 2021-10-28 13:08:54 --> Loader Class Initialized
+INFO - 2021-10-28 13:08:54 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:08:54 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:08:54 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:08:54 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:08:54 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:08:54 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:08:54 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:08:54 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:08:54 --> Parser Class Initialized
+INFO - 2021-10-28 13:08:54 --> Model Class Initialized
+INFO - 2021-10-28 13:08:54 --> Model Class Initialized
+INFO - 2021-10-28 13:08:54 --> Controller Class Initialized
+INFO - 2021-10-28 13:08:54 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:08:54 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:08:54 --> Could not find the language line "today"
+INFO - 2021-10-28 13:08:54 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:08:54 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:08:54 --> Model Class Initialized
+INFO - 2021-10-28 13:08:54 --> Final output sent to browser
+DEBUG - 2021-10-28 13:08:54 --> Total execution time: 0.2838
+INFO - 2021-10-28 13:09:01 --> Config Class Initialized
+INFO - 2021-10-28 13:09:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:09:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:09:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:09:01 --> URI Class Initialized
+INFO - 2021-10-28 13:09:01 --> Router Class Initialized
+INFO - 2021-10-28 13:09:01 --> Output Class Initialized
+INFO - 2021-10-28 13:09:01 --> Security Class Initialized
+INFO - 2021-10-28 13:09:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:09:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:09:01 --> Input Class Initialized
+INFO - 2021-10-28 13:09:01 --> Language Class Initialized
+INFO - 2021-10-28 13:09:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:09:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:09:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:09:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:09:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:09:01 --> Model Class Initialized
+INFO - 2021-10-28 13:09:01 --> Model Class Initialized
+INFO - 2021-10-28 13:09:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:09:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:09:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:09:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:09:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:09:01 --> Model Class Initialized
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:09:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:09:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:09:01 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:09:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:09:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:09:01 --> Total execution time: 0.1949
+INFO - 2021-10-28 13:09:01 --> Config Class Initialized
+INFO - 2021-10-28 13:09:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:09:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:09:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:09:01 --> URI Class Initialized
+INFO - 2021-10-28 13:09:01 --> Router Class Initialized
+INFO - 2021-10-28 13:09:01 --> Output Class Initialized
+INFO - 2021-10-28 13:09:01 --> Security Class Initialized
+INFO - 2021-10-28 13:09:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:09:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:09:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:09:01 --> Input Class Initialized
+INFO - 2021-10-28 13:09:01 --> Language Class Initialized
+INFO - 2021-10-28 13:09:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:09:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:09:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:09:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:09:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:09:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:09:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:09:02 --> Parser Class Initialized
+INFO - 2021-10-28 13:09:02 --> Model Class Initialized
+INFO - 2021-10-28 13:09:02 --> Model Class Initialized
+INFO - 2021-10-28 13:09:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:09:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:09:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:09:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:09:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:09:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:09:02 --> Model Class Initialized
+INFO - 2021-10-28 13:09:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:09:02 --> Total execution time: 0.2909
+INFO - 2021-10-28 13:11:04 --> Config Class Initialized
+INFO - 2021-10-28 13:11:04 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:11:04 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:11:04 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:11:04 --> URI Class Initialized
+INFO - 2021-10-28 13:11:04 --> Router Class Initialized
+INFO - 2021-10-28 13:11:04 --> Output Class Initialized
+INFO - 2021-10-28 13:11:04 --> Security Class Initialized
+INFO - 2021-10-28 13:11:04 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:11:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:11:04 --> Input Class Initialized
+INFO - 2021-10-28 13:11:04 --> Language Class Initialized
+INFO - 2021-10-28 13:11:04 --> Loader Class Initialized
+INFO - 2021-10-28 13:11:04 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:11:04 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:11:04 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:11:04 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:11:04 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:11:04 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:11:04 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:11:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:11:04 --> Parser Class Initialized
+INFO - 2021-10-28 13:11:04 --> Model Class Initialized
+INFO - 2021-10-28 13:11:04 --> Model Class Initialized
+INFO - 2021-10-28 13:11:04 --> Controller Class Initialized
+INFO - 2021-10-28 13:11:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:11:04 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "today"
+INFO - 2021-10-28 13:11:04 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:11:04 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:11:04 --> Model Class Initialized
+INFO - 2021-10-28 13:11:04 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:11:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:11:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:11:04 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:11:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:11:04 --> Final output sent to browser
+DEBUG - 2021-10-28 13:11:04 --> Total execution time: 0.1305
+INFO - 2021-10-28 13:11:21 --> Config Class Initialized
+INFO - 2021-10-28 13:11:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:11:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:11:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:11:21 --> URI Class Initialized
+INFO - 2021-10-28 13:11:21 --> Router Class Initialized
+INFO - 2021-10-28 13:11:21 --> Output Class Initialized
+INFO - 2021-10-28 13:11:21 --> Security Class Initialized
+INFO - 2021-10-28 13:11:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:11:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:11:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:11:21 --> Input Class Initialized
+INFO - 2021-10-28 13:11:21 --> Language Class Initialized
+INFO - 2021-10-28 13:11:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:11:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:11:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:11:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:11:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:11:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:11:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:11:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:11:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:11:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:11:21 --> Model Class Initialized
+INFO - 2021-10-28 13:11:21 --> Model Class Initialized
+INFO - 2021-10-28 13:11:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:11:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:11:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:11:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:11:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:11:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:11:21 --> Model Class Initialized
+INFO - 2021-10-28 13:11:21 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:11:21 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:11:21 --> Upload Class Initialized
+INFO - 2021-10-28 13:11:21 --> Config Class Initialized
+INFO - 2021-10-28 13:11:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:11:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:11:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:11:21 --> URI Class Initialized
+INFO - 2021-10-28 13:11:21 --> Router Class Initialized
+INFO - 2021-10-28 13:11:21 --> Output Class Initialized
+INFO - 2021-10-28 13:11:21 --> Security Class Initialized
+INFO - 2021-10-28 13:11:21 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:11:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:11:21 --> Input Class Initialized
+INFO - 2021-10-28 13:11:21 --> Language Class Initialized
+INFO - 2021-10-28 13:11:22 --> Loader Class Initialized
+INFO - 2021-10-28 13:11:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:11:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:11:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:11:22 --> Parser Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+INFO - 2021-10-28 13:11:22 --> Controller Class Initialized
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:11:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:11:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:11:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:11:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:11:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:11:22 --> Total execution time: 0.1168
+INFO - 2021-10-28 13:11:22 --> Config Class Initialized
+INFO - 2021-10-28 13:11:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:11:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:11:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:11:22 --> URI Class Initialized
+INFO - 2021-10-28 13:11:22 --> Router Class Initialized
+INFO - 2021-10-28 13:11:22 --> Output Class Initialized
+INFO - 2021-10-28 13:11:22 --> Security Class Initialized
+INFO - 2021-10-28 13:11:22 --> CRSF cookie sent
+INFO - 2021-10-28 13:11:22 --> CSRF token verified
+DEBUG - 2021-10-28 13:11:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:11:22 --> Input Class Initialized
+INFO - 2021-10-28 13:11:22 --> Language Class Initialized
+INFO - 2021-10-28 13:11:22 --> Loader Class Initialized
+INFO - 2021-10-28 13:11:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:11:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:11:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:11:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:11:22 --> Parser Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+INFO - 2021-10-28 13:11:22 --> Controller Class Initialized
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:11:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:11:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:11:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:11:22 --> Model Class Initialized
+INFO - 2021-10-28 13:11:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:11:22 --> Total execution time: 0.1995
+INFO - 2021-10-28 13:13:03 --> Config Class Initialized
+INFO - 2021-10-28 13:13:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:03 --> URI Class Initialized
+INFO - 2021-10-28 13:13:03 --> Router Class Initialized
+INFO - 2021-10-28 13:13:03 --> Output Class Initialized
+INFO - 2021-10-28 13:13:03 --> Security Class Initialized
+INFO - 2021-10-28 13:13:03 --> CRSF cookie sent
+INFO - 2021-10-28 13:13:03 --> CSRF token verified
+DEBUG - 2021-10-28 13:13:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:03 --> Input Class Initialized
+INFO - 2021-10-28 13:13:03 --> Language Class Initialized
+INFO - 2021-10-28 13:13:03 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:03 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:03 --> Model Class Initialized
+INFO - 2021-10-28 13:13:03 --> Model Class Initialized
+INFO - 2021-10-28 13:13:03 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:03 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:03 --> Model Class Initialized
+INFO - 2021-10-28 13:13:03 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:13:04 --> Config Class Initialized
+INFO - 2021-10-28 13:13:04 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:04 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:04 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:04 --> URI Class Initialized
+INFO - 2021-10-28 13:13:04 --> Router Class Initialized
+INFO - 2021-10-28 13:13:04 --> Output Class Initialized
+INFO - 2021-10-28 13:13:04 --> Security Class Initialized
+INFO - 2021-10-28 13:13:04 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:13:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:04 --> Input Class Initialized
+INFO - 2021-10-28 13:13:04 --> Language Class Initialized
+INFO - 2021-10-28 13:13:04 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:04 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:04 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:04 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:04 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:04 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:04 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:04 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:04 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:04 --> Model Class Initialized
+INFO - 2021-10-28 13:13:04 --> Model Class Initialized
+INFO - 2021-10-28 13:13:04 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:04 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:04 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:04 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:04 --> Model Class Initialized
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:13:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:13:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:13:04 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:13:04 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:13:04 --> Final output sent to browser
+DEBUG - 2021-10-28 13:13:04 --> Total execution time: 0.2702
+INFO - 2021-10-28 13:13:05 --> Config Class Initialized
+INFO - 2021-10-28 13:13:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:05 --> URI Class Initialized
+INFO - 2021-10-28 13:13:05 --> Router Class Initialized
+INFO - 2021-10-28 13:13:05 --> Output Class Initialized
+INFO - 2021-10-28 13:13:05 --> Security Class Initialized
+INFO - 2021-10-28 13:13:05 --> CRSF cookie sent
+INFO - 2021-10-28 13:13:05 --> CSRF token verified
+DEBUG - 2021-10-28 13:13:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:05 --> Input Class Initialized
+INFO - 2021-10-28 13:13:05 --> Language Class Initialized
+INFO - 2021-10-28 13:13:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:05 --> Model Class Initialized
+INFO - 2021-10-28 13:13:05 --> Model Class Initialized
+INFO - 2021-10-28 13:13:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:05 --> Model Class Initialized
+INFO - 2021-10-28 13:13:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:13:05 --> Total execution time: 0.4194
+INFO - 2021-10-28 13:13:10 --> Config Class Initialized
+INFO - 2021-10-28 13:13:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:10 --> URI Class Initialized
+INFO - 2021-10-28 13:13:10 --> Router Class Initialized
+INFO - 2021-10-28 13:13:10 --> Output Class Initialized
+INFO - 2021-10-28 13:13:10 --> Security Class Initialized
+INFO - 2021-10-28 13:13:10 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:13:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:10 --> Input Class Initialized
+INFO - 2021-10-28 13:13:10 --> Language Class Initialized
+INFO - 2021-10-28 13:13:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:10 --> Model Class Initialized
+INFO - 2021-10-28 13:13:10 --> Model Class Initialized
+INFO - 2021-10-28 13:13:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:10 --> Model Class Initialized
+INFO - 2021-10-28 13:13:10 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:13:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:13:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:13:10 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:13:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:13:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:13:10 --> Total execution time: 0.1722
+INFO - 2021-10-28 13:13:19 --> Config Class Initialized
+INFO - 2021-10-28 13:13:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:19 --> URI Class Initialized
+INFO - 2021-10-28 13:13:19 --> Router Class Initialized
+INFO - 2021-10-28 13:13:19 --> Output Class Initialized
+INFO - 2021-10-28 13:13:19 --> Security Class Initialized
+INFO - 2021-10-28 13:13:19 --> CRSF cookie sent
+INFO - 2021-10-28 13:13:19 --> CSRF token verified
+DEBUG - 2021-10-28 13:13:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:19 --> Input Class Initialized
+INFO - 2021-10-28 13:13:19 --> Language Class Initialized
+INFO - 2021-10-28 13:13:19 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:19 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:19 --> Model Class Initialized
+INFO - 2021-10-28 13:13:19 --> Model Class Initialized
+INFO - 2021-10-28 13:13:19 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:19 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:19 --> Model Class Initialized
+INFO - 2021-10-28 13:13:20 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:13:20 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:13:20 --> Upload Class Initialized
+ERROR - 2021-10-28 13:13:20 --> Query error: Incorrect decimal value: 'NT' for column 'alert_quantity' at row 1 - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `image_url_external`, `tax_rate`, `tax_method`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB10', 'MTB10', '19', 'UNIDAD', '12', '12', 'NT', '1', NULL, 0, NULL, '', '', '', '', '', '')
+ERROR - 2021-10-28 13:13:20 --> Query error: Incorrect decimal value: 'NT' for column 'alert_quantity' at row 1 - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `image_url_external`, `tax_rate`, `tax_method`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB11', 'MTB11', '19', 'kilos', '20', '20', 'NT', '1', NULL, 1, NULL, '', '', '', '', '', '')
+INFO - 2021-10-28 13:13:20 --> Config Class Initialized
+INFO - 2021-10-28 13:13:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:20 --> URI Class Initialized
+INFO - 2021-10-28 13:13:20 --> Router Class Initialized
+INFO - 2021-10-28 13:13:20 --> Output Class Initialized
+INFO - 2021-10-28 13:13:20 --> Security Class Initialized
+INFO - 2021-10-28 13:13:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:13:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:20 --> Input Class Initialized
+INFO - 2021-10-28 13:13:20 --> Language Class Initialized
+INFO - 2021-10-28 13:13:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:20 --> Model Class Initialized
+INFO - 2021-10-28 13:13:20 --> Model Class Initialized
+INFO - 2021-10-28 13:13:20 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:20 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:20 --> Model Class Initialized
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:13:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:13:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:13:20 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:13:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:13:20 --> Final output sent to browser
+DEBUG - 2021-10-28 13:13:20 --> Total execution time: 0.2084
+INFO - 2021-10-28 13:13:21 --> Config Class Initialized
+INFO - 2021-10-28 13:13:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:13:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:13:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:13:21 --> URI Class Initialized
+INFO - 2021-10-28 13:13:21 --> Router Class Initialized
+INFO - 2021-10-28 13:13:21 --> Output Class Initialized
+INFO - 2021-10-28 13:13:21 --> Security Class Initialized
+INFO - 2021-10-28 13:13:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:13:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:13:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:13:21 --> Input Class Initialized
+INFO - 2021-10-28 13:13:21 --> Language Class Initialized
+INFO - 2021-10-28 13:13:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:13:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:13:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:13:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:13:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:13:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:13:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:13:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:13:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:13:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:13:21 --> Model Class Initialized
+INFO - 2021-10-28 13:13:21 --> Model Class Initialized
+INFO - 2021-10-28 13:13:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:13:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:13:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:13:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:13:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:13:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:13:21 --> Model Class Initialized
+INFO - 2021-10-28 13:13:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:13:21 --> Total execution time: 0.3499
+INFO - 2021-10-28 13:14:05 --> Config Class Initialized
+INFO - 2021-10-28 13:14:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:14:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:14:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:14:05 --> URI Class Initialized
+INFO - 2021-10-28 13:14:05 --> Router Class Initialized
+INFO - 2021-10-28 13:14:05 --> Output Class Initialized
+INFO - 2021-10-28 13:14:05 --> Security Class Initialized
+INFO - 2021-10-28 13:14:05 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:14:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:14:05 --> Input Class Initialized
+INFO - 2021-10-28 13:14:05 --> Language Class Initialized
+INFO - 2021-10-28 13:14:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:14:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:14:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:14:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:14:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:14:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:14:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:14:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:14:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:14:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:14:05 --> Model Class Initialized
+INFO - 2021-10-28 13:14:05 --> Model Class Initialized
+INFO - 2021-10-28 13:14:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:14:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:14:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:14:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:14:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:14:05 --> Model Class Initialized
+INFO - 2021-10-28 13:14:05 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:14:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:14:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:14:05 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:14:05 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:14:05 --> Final output sent to browser
+DEBUG - 2021-10-28 13:14:05 --> Total execution time: 0.2083
+INFO - 2021-10-28 13:14:17 --> Config Class Initialized
+INFO - 2021-10-28 13:14:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:14:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:14:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:14:17 --> URI Class Initialized
+INFO - 2021-10-28 13:14:17 --> Router Class Initialized
+INFO - 2021-10-28 13:14:17 --> Output Class Initialized
+INFO - 2021-10-28 13:14:17 --> Security Class Initialized
+INFO - 2021-10-28 13:14:17 --> CRSF cookie sent
+INFO - 2021-10-28 13:14:17 --> CSRF token verified
+DEBUG - 2021-10-28 13:14:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:14:17 --> Input Class Initialized
+INFO - 2021-10-28 13:14:17 --> Language Class Initialized
+INFO - 2021-10-28 13:14:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:14:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:14:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:14:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:14:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:14:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:14:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:14:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:14:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:14:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:14:17 --> Model Class Initialized
+INFO - 2021-10-28 13:14:17 --> Model Class Initialized
+INFO - 2021-10-28 13:14:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:14:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:14:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:14:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:14:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:14:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:14:17 --> Model Class Initialized
+INFO - 2021-10-28 13:14:17 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:14:17 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:14:17 --> Upload Class Initialized
+ERROR - 2021-10-28 13:14:17 --> Query error: Incorrect decimal value: 'NT' for column 'alert_quantity' at row 1 - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `image_url_external`, `tax_rate`, `tax_method`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB10', 'MTB10', '19', 'UNIDAD', '12', '12', 'NT', '1', NULL, 0, NULL, '', '', '', '', '', '')
+ERROR - 2021-10-28 13:14:17 --> Query error: Incorrect decimal value: 'NT' for column 'alert_quantity' at row 1 - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `image_url_external`, `tax_rate`, `tax_method`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB11', 'MTB11', '19', 'kilos', '20', '20', 'NT', '1', NULL, 1, NULL, '', '', '', '', '', '')
+INFO - 2021-10-28 13:14:18 --> Config Class Initialized
+INFO - 2021-10-28 13:14:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:14:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:14:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:14:18 --> URI Class Initialized
+INFO - 2021-10-28 13:14:18 --> Router Class Initialized
+INFO - 2021-10-28 13:14:18 --> Output Class Initialized
+INFO - 2021-10-28 13:14:18 --> Security Class Initialized
+INFO - 2021-10-28 13:14:18 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:14:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:14:18 --> Input Class Initialized
+INFO - 2021-10-28 13:14:18 --> Language Class Initialized
+INFO - 2021-10-28 13:14:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:14:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:14:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:14:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:14:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+INFO - 2021-10-28 13:14:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:14:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:14:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:14:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:14:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:14:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:14:18 --> Total execution time: 0.2087
+INFO - 2021-10-28 13:14:18 --> Config Class Initialized
+INFO - 2021-10-28 13:14:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:14:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:14:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:14:18 --> URI Class Initialized
+INFO - 2021-10-28 13:14:18 --> Router Class Initialized
+INFO - 2021-10-28 13:14:18 --> Output Class Initialized
+INFO - 2021-10-28 13:14:18 --> Security Class Initialized
+INFO - 2021-10-28 13:14:18 --> CRSF cookie sent
+INFO - 2021-10-28 13:14:18 --> CSRF token verified
+DEBUG - 2021-10-28 13:14:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:14:18 --> Input Class Initialized
+INFO - 2021-10-28 13:14:18 --> Language Class Initialized
+INFO - 2021-10-28 13:14:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:14:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:14:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:14:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:14:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:14:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+INFO - 2021-10-28 13:14:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:14:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:14:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:14:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:14:18 --> Model Class Initialized
+INFO - 2021-10-28 13:14:19 --> Final output sent to browser
+DEBUG - 2021-10-28 13:14:19 --> Total execution time: 0.3108
+INFO - 2021-10-28 13:15:13 --> Config Class Initialized
+INFO - 2021-10-28 13:15:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:15:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:15:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:15:13 --> URI Class Initialized
+INFO - 2021-10-28 13:15:13 --> Router Class Initialized
+INFO - 2021-10-28 13:15:13 --> Output Class Initialized
+INFO - 2021-10-28 13:15:13 --> Security Class Initialized
+INFO - 2021-10-28 13:15:13 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:15:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:15:13 --> Input Class Initialized
+INFO - 2021-10-28 13:15:13 --> Language Class Initialized
+INFO - 2021-10-28 13:15:13 --> Loader Class Initialized
+INFO - 2021-10-28 13:15:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:15:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:15:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:15:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:15:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:15:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:15:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:15:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:15:13 --> Parser Class Initialized
+INFO - 2021-10-28 13:15:13 --> Model Class Initialized
+INFO - 2021-10-28 13:15:13 --> Model Class Initialized
+INFO - 2021-10-28 13:15:13 --> Controller Class Initialized
+INFO - 2021-10-28 13:15:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:15:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "today"
+INFO - 2021-10-28 13:15:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:15:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:15:13 --> Model Class Initialized
+INFO - 2021-10-28 13:15:13 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:15:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:15:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:15:13 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:15:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:15:13 --> Final output sent to browser
+DEBUG - 2021-10-28 13:15:13 --> Total execution time: 0.1465
+INFO - 2021-10-28 13:15:21 --> Config Class Initialized
+INFO - 2021-10-28 13:15:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:15:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:15:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:15:21 --> URI Class Initialized
+INFO - 2021-10-28 13:15:21 --> Router Class Initialized
+INFO - 2021-10-28 13:15:21 --> Output Class Initialized
+INFO - 2021-10-28 13:15:21 --> Security Class Initialized
+INFO - 2021-10-28 13:15:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:15:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:15:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:15:21 --> Input Class Initialized
+INFO - 2021-10-28 13:15:21 --> Language Class Initialized
+INFO - 2021-10-28 13:15:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:15:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:15:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:15:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:15:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:15:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:15:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:15:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:15:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:15:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:15:21 --> Model Class Initialized
+INFO - 2021-10-28 13:15:21 --> Model Class Initialized
+INFO - 2021-10-28 13:15:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:15:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:15:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:15:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:15:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:15:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:15:21 --> Model Class Initialized
+INFO - 2021-10-28 13:15:21 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:15:21 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:15:21 --> Upload Class Initialized
+INFO - 2021-10-28 13:15:22 --> Config Class Initialized
+INFO - 2021-10-28 13:15:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:15:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:15:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:15:22 --> URI Class Initialized
+INFO - 2021-10-28 13:15:22 --> Router Class Initialized
+INFO - 2021-10-28 13:15:22 --> Output Class Initialized
+INFO - 2021-10-28 13:15:22 --> Security Class Initialized
+INFO - 2021-10-28 13:15:22 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:15:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:15:22 --> Input Class Initialized
+INFO - 2021-10-28 13:15:22 --> Language Class Initialized
+INFO - 2021-10-28 13:15:22 --> Loader Class Initialized
+INFO - 2021-10-28 13:15:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:15:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:15:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:15:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:15:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:15:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:15:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:15:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:15:22 --> Parser Class Initialized
+INFO - 2021-10-28 13:15:22 --> Model Class Initialized
+INFO - 2021-10-28 13:15:22 --> Model Class Initialized
+INFO - 2021-10-28 13:15:22 --> Controller Class Initialized
+INFO - 2021-10-28 13:15:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:15:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:15:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:15:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:15:22 --> Model Class Initialized
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:15:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:15:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:15:22 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:15:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:15:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:15:22 --> Total execution time: 0.1299
+INFO - 2021-10-28 13:15:23 --> Config Class Initialized
+INFO - 2021-10-28 13:15:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:15:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:15:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:15:23 --> URI Class Initialized
+INFO - 2021-10-28 13:15:23 --> Router Class Initialized
+INFO - 2021-10-28 13:15:23 --> Output Class Initialized
+INFO - 2021-10-28 13:15:23 --> Security Class Initialized
+INFO - 2021-10-28 13:15:23 --> CRSF cookie sent
+INFO - 2021-10-28 13:15:23 --> CSRF token verified
+DEBUG - 2021-10-28 13:15:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:15:23 --> Input Class Initialized
+INFO - 2021-10-28 13:15:23 --> Language Class Initialized
+INFO - 2021-10-28 13:15:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:15:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:15:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:15:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:15:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:15:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:15:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:15:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:15:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:15:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:15:23 --> Model Class Initialized
+INFO - 2021-10-28 13:15:23 --> Model Class Initialized
+INFO - 2021-10-28 13:15:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:15:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:15:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:15:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:15:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:15:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:15:23 --> Model Class Initialized
+INFO - 2021-10-28 13:15:23 --> Final output sent to browser
+DEBUG - 2021-10-28 13:15:23 --> Total execution time: 0.2224
+INFO - 2021-10-28 13:17:40 --> Config Class Initialized
+INFO - 2021-10-28 13:17:40 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:17:40 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:17:40 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:17:40 --> URI Class Initialized
+INFO - 2021-10-28 13:17:40 --> Router Class Initialized
+INFO - 2021-10-28 13:17:40 --> Output Class Initialized
+INFO - 2021-10-28 13:17:40 --> Security Class Initialized
+INFO - 2021-10-28 13:17:40 --> CRSF cookie sent
+INFO - 2021-10-28 13:17:40 --> CSRF token verified
+DEBUG - 2021-10-28 13:17:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:17:40 --> Input Class Initialized
+INFO - 2021-10-28 13:17:40 --> Language Class Initialized
+INFO - 2021-10-28 13:17:40 --> Loader Class Initialized
+INFO - 2021-10-28 13:17:40 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:17:40 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:17:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:17:40 --> Parser Class Initialized
+INFO - 2021-10-28 13:17:40 --> Model Class Initialized
+INFO - 2021-10-28 13:17:40 --> Model Class Initialized
+INFO - 2021-10-28 13:17:40 --> Controller Class Initialized
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:17:40 --> Could not find the language line "today"
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:17:40 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:17:40 --> Model Class Initialized
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:17:40 --> Config Class Initialized
+INFO - 2021-10-28 13:17:40 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:17:40 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:17:40 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:17:40 --> URI Class Initialized
+INFO - 2021-10-28 13:17:40 --> Router Class Initialized
+INFO - 2021-10-28 13:17:40 --> Output Class Initialized
+INFO - 2021-10-28 13:17:40 --> Security Class Initialized
+INFO - 2021-10-28 13:17:40 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:17:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:17:40 --> Input Class Initialized
+INFO - 2021-10-28 13:17:40 --> Language Class Initialized
+INFO - 2021-10-28 13:17:40 --> Loader Class Initialized
+INFO - 2021-10-28 13:17:40 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:17:40 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:17:40 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:17:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:17:40 --> Parser Class Initialized
+INFO - 2021-10-28 13:17:40 --> Model Class Initialized
+INFO - 2021-10-28 13:17:40 --> Model Class Initialized
+INFO - 2021-10-28 13:17:40 --> Controller Class Initialized
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:17:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:17:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:17:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:17:41 --> Model Class Initialized
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:17:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:17:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:17:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:17:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:17:41 --> Total execution time: 0.2336
+INFO - 2021-10-28 13:17:41 --> Config Class Initialized
+INFO - 2021-10-28 13:17:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:17:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:17:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:17:41 --> URI Class Initialized
+INFO - 2021-10-28 13:17:41 --> Router Class Initialized
+INFO - 2021-10-28 13:17:41 --> Output Class Initialized
+INFO - 2021-10-28 13:17:41 --> Security Class Initialized
+INFO - 2021-10-28 13:17:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:17:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:17:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:17:41 --> Input Class Initialized
+INFO - 2021-10-28 13:17:41 --> Language Class Initialized
+INFO - 2021-10-28 13:17:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:17:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:17:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:17:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:17:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:17:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:17:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:17:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:17:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:17:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:17:41 --> Model Class Initialized
+INFO - 2021-10-28 13:17:41 --> Model Class Initialized
+INFO - 2021-10-28 13:17:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:17:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:17:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:17:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:17:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:17:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:17:41 --> Model Class Initialized
+INFO - 2021-10-28 13:17:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:17:41 --> Total execution time: 0.3357
+INFO - 2021-10-28 13:17:50 --> Config Class Initialized
+INFO - 2021-10-28 13:17:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:17:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:17:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:17:50 --> URI Class Initialized
+INFO - 2021-10-28 13:17:50 --> Router Class Initialized
+INFO - 2021-10-28 13:17:50 --> Output Class Initialized
+INFO - 2021-10-28 13:17:50 --> Security Class Initialized
+INFO - 2021-10-28 13:17:50 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:17:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:17:50 --> Input Class Initialized
+INFO - 2021-10-28 13:17:50 --> Language Class Initialized
+INFO - 2021-10-28 13:17:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:17:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:17:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:17:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:17:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:17:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:17:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:17:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:17:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:17:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:17:50 --> Model Class Initialized
+INFO - 2021-10-28 13:17:50 --> Model Class Initialized
+INFO - 2021-10-28 13:17:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:17:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:17:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:17:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:17:50 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:17:50 --> Model Class Initialized
+INFO - 2021-10-28 13:17:50 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:17:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:17:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:17:50 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:17:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:17:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:17:50 --> Total execution time: 0.2177
+INFO - 2021-10-28 13:18:23 --> Config Class Initialized
+INFO - 2021-10-28 13:18:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:18:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:18:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:18:23 --> URI Class Initialized
+INFO - 2021-10-28 13:18:23 --> Router Class Initialized
+INFO - 2021-10-28 13:18:23 --> Output Class Initialized
+INFO - 2021-10-28 13:18:23 --> Security Class Initialized
+INFO - 2021-10-28 13:18:23 --> CRSF cookie sent
+INFO - 2021-10-28 13:18:23 --> CSRF token verified
+DEBUG - 2021-10-28 13:18:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:18:23 --> Input Class Initialized
+INFO - 2021-10-28 13:18:23 --> Language Class Initialized
+INFO - 2021-10-28 13:18:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:18:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:18:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:18:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:18:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:18:23 --> Model Class Initialized
+INFO - 2021-10-28 13:18:23 --> Model Class Initialized
+INFO - 2021-10-28 13:18:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:18:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:18:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:18:23 --> Model Class Initialized
+INFO - 2021-10-28 13:18:23 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:18:23 --> Upload Class Initialized
+INFO - 2021-10-28 13:18:23 --> Config Class Initialized
+INFO - 2021-10-28 13:18:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:18:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:18:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:18:23 --> URI Class Initialized
+INFO - 2021-10-28 13:18:23 --> Router Class Initialized
+INFO - 2021-10-28 13:18:23 --> Output Class Initialized
+INFO - 2021-10-28 13:18:23 --> Security Class Initialized
+INFO - 2021-10-28 13:18:23 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:18:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:18:23 --> Input Class Initialized
+INFO - 2021-10-28 13:18:23 --> Language Class Initialized
+INFO - 2021-10-28 13:18:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:18:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:18:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:18:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:18:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:18:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:18:23 --> Model Class Initialized
+INFO - 2021-10-28 13:18:23 --> Model Class Initialized
+INFO - 2021-10-28 13:18:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:18:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:18:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:18:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:18:24 --> Model Class Initialized
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:18:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:18:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:18:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:18:24 --> Final output sent to browser
+DEBUG - 2021-10-28 13:18:24 --> Total execution time: 0.1287
+INFO - 2021-10-28 13:18:24 --> Config Class Initialized
+INFO - 2021-10-28 13:18:24 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:18:24 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:18:24 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:18:24 --> URI Class Initialized
+INFO - 2021-10-28 13:18:24 --> Router Class Initialized
+INFO - 2021-10-28 13:18:24 --> Output Class Initialized
+INFO - 2021-10-28 13:18:24 --> Security Class Initialized
+INFO - 2021-10-28 13:18:24 --> CRSF cookie sent
+INFO - 2021-10-28 13:18:24 --> CSRF token verified
+DEBUG - 2021-10-28 13:18:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:18:24 --> Input Class Initialized
+INFO - 2021-10-28 13:18:24 --> Language Class Initialized
+INFO - 2021-10-28 13:18:24 --> Loader Class Initialized
+INFO - 2021-10-28 13:18:24 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:18:24 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:18:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:18:24 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:18:24 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:18:24 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:18:24 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:18:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:18:24 --> Parser Class Initialized
+INFO - 2021-10-28 13:18:24 --> Model Class Initialized
+INFO - 2021-10-28 13:18:24 --> Model Class Initialized
+INFO - 2021-10-28 13:18:24 --> Controller Class Initialized
+INFO - 2021-10-28 13:18:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:18:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:18:24 --> Could not find the language line "today"
+INFO - 2021-10-28 13:18:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:18:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:18:24 --> Model Class Initialized
+INFO - 2021-10-28 13:18:24 --> Final output sent to browser
+DEBUG - 2021-10-28 13:18:24 --> Total execution time: 0.2840
+INFO - 2021-10-28 13:20:42 --> Config Class Initialized
+INFO - 2021-10-28 13:20:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:20:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:20:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:20:42 --> URI Class Initialized
+INFO - 2021-10-28 13:20:42 --> Router Class Initialized
+INFO - 2021-10-28 13:20:42 --> Output Class Initialized
+INFO - 2021-10-28 13:20:42 --> Security Class Initialized
+INFO - 2021-10-28 13:20:42 --> CRSF cookie sent
+INFO - 2021-10-28 13:20:42 --> CSRF token verified
+DEBUG - 2021-10-28 13:20:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:20:42 --> Input Class Initialized
+INFO - 2021-10-28 13:20:42 --> Language Class Initialized
+INFO - 2021-10-28 13:20:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:20:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:20:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:20:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:20:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:20:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:20:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:20:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:20:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:20:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:20:42 --> Model Class Initialized
+INFO - 2021-10-28 13:20:42 --> Model Class Initialized
+INFO - 2021-10-28 13:20:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:20:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "today"
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:20:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:20:43 --> Model Class Initialized
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:20:43 --> Config Class Initialized
+INFO - 2021-10-28 13:20:43 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:20:43 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:20:43 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:20:43 --> URI Class Initialized
+INFO - 2021-10-28 13:20:43 --> Router Class Initialized
+INFO - 2021-10-28 13:20:43 --> Output Class Initialized
+INFO - 2021-10-28 13:20:43 --> Security Class Initialized
+INFO - 2021-10-28 13:20:43 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:20:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:20:43 --> Input Class Initialized
+INFO - 2021-10-28 13:20:43 --> Language Class Initialized
+INFO - 2021-10-28 13:20:43 --> Loader Class Initialized
+INFO - 2021-10-28 13:20:43 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:20:43 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:20:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:20:43 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:20:43 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:20:43 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:20:43 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:20:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:20:43 --> Parser Class Initialized
+INFO - 2021-10-28 13:20:43 --> Model Class Initialized
+INFO - 2021-10-28 13:20:43 --> Model Class Initialized
+INFO - 2021-10-28 13:20:43 --> Controller Class Initialized
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "today"
+INFO - 2021-10-28 13:20:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:20:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:20:43 --> Model Class Initialized
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:20:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:20:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:20:43 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:20:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:20:43 --> Final output sent to browser
+DEBUG - 2021-10-28 13:20:43 --> Total execution time: 0.1874
+INFO - 2021-10-28 13:20:44 --> Config Class Initialized
+INFO - 2021-10-28 13:20:44 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:20:44 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:20:44 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:20:44 --> URI Class Initialized
+INFO - 2021-10-28 13:20:44 --> Router Class Initialized
+INFO - 2021-10-28 13:20:44 --> Output Class Initialized
+INFO - 2021-10-28 13:20:44 --> Security Class Initialized
+INFO - 2021-10-28 13:20:44 --> CRSF cookie sent
+INFO - 2021-10-28 13:20:44 --> CSRF token verified
+DEBUG - 2021-10-28 13:20:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:20:44 --> Input Class Initialized
+INFO - 2021-10-28 13:20:44 --> Language Class Initialized
+INFO - 2021-10-28 13:20:44 --> Loader Class Initialized
+INFO - 2021-10-28 13:20:44 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:20:44 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:20:44 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:20:44 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:20:44 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:20:44 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:20:44 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:20:44 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:20:44 --> Parser Class Initialized
+INFO - 2021-10-28 13:20:44 --> Model Class Initialized
+INFO - 2021-10-28 13:20:44 --> Model Class Initialized
+INFO - 2021-10-28 13:20:44 --> Controller Class Initialized
+INFO - 2021-10-28 13:20:44 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:20:44 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:20:44 --> Could not find the language line "today"
+INFO - 2021-10-28 13:20:44 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:20:44 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:20:44 --> Model Class Initialized
+INFO - 2021-10-28 13:20:44 --> Final output sent to browser
+DEBUG - 2021-10-28 13:20:44 --> Total execution time: 0.3786
+INFO - 2021-10-28 13:20:49 --> Config Class Initialized
+INFO - 2021-10-28 13:20:49 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:20:49 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:20:49 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:20:49 --> URI Class Initialized
+INFO - 2021-10-28 13:20:49 --> Router Class Initialized
+INFO - 2021-10-28 13:20:49 --> Output Class Initialized
+INFO - 2021-10-28 13:20:49 --> Security Class Initialized
+INFO - 2021-10-28 13:20:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:20:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:20:49 --> Input Class Initialized
+INFO - 2021-10-28 13:20:49 --> Language Class Initialized
+INFO - 2021-10-28 13:20:49 --> Loader Class Initialized
+INFO - 2021-10-28 13:20:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:20:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:20:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:20:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:20:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:20:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:20:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:20:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:20:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:20:49 --> Model Class Initialized
+INFO - 2021-10-28 13:20:49 --> Model Class Initialized
+INFO - 2021-10-28 13:20:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:20:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:20:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:20:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:20:50 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:20:50 --> Model Class Initialized
+INFO - 2021-10-28 13:20:50 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:20:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:20:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:20:50 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:20:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:20:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:20:50 --> Total execution time: 0.2337
+INFO - 2021-10-28 13:21:00 --> Config Class Initialized
+INFO - 2021-10-28 13:21:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:21:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:21:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:21:00 --> URI Class Initialized
+INFO - 2021-10-28 13:21:00 --> Router Class Initialized
+INFO - 2021-10-28 13:21:00 --> Output Class Initialized
+INFO - 2021-10-28 13:21:00 --> Security Class Initialized
+INFO - 2021-10-28 13:21:00 --> CRSF cookie sent
+INFO - 2021-10-28 13:21:00 --> CSRF token verified
+DEBUG - 2021-10-28 13:21:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:21:00 --> Input Class Initialized
+INFO - 2021-10-28 13:21:00 --> Language Class Initialized
+INFO - 2021-10-28 13:21:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:21:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:21:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:21:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:21:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:21:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:21:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:21:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:21:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:21:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:21:00 --> Model Class Initialized
+INFO - 2021-10-28 13:21:00 --> Model Class Initialized
+INFO - 2021-10-28 13:21:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:21:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:21:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:21:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:21:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:21:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:21:00 --> Model Class Initialized
+INFO - 2021-10-28 13:21:00 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:21:00 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:21:00 --> Upload Class Initialized
+INFO - 2021-10-28 13:21:01 --> Config Class Initialized
+INFO - 2021-10-28 13:21:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:21:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:21:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:21:01 --> URI Class Initialized
+INFO - 2021-10-28 13:21:01 --> Router Class Initialized
+INFO - 2021-10-28 13:21:01 --> Output Class Initialized
+INFO - 2021-10-28 13:21:01 --> Security Class Initialized
+INFO - 2021-10-28 13:21:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:21:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:21:01 --> Input Class Initialized
+INFO - 2021-10-28 13:21:01 --> Language Class Initialized
+INFO - 2021-10-28 13:21:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:21:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:21:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:21:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:21:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:21:01 --> Model Class Initialized
+INFO - 2021-10-28 13:21:01 --> Model Class Initialized
+INFO - 2021-10-28 13:21:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:21:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:21:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:21:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:21:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:21:01 --> Model Class Initialized
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:21:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:21:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:21:01 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:21:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:21:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:21:01 --> Total execution time: 0.2573
+INFO - 2021-10-28 13:21:01 --> Config Class Initialized
+INFO - 2021-10-28 13:21:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:21:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:21:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:21:01 --> URI Class Initialized
+INFO - 2021-10-28 13:21:01 --> Router Class Initialized
+INFO - 2021-10-28 13:21:01 --> Output Class Initialized
+INFO - 2021-10-28 13:21:01 --> Security Class Initialized
+INFO - 2021-10-28 13:21:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:21:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:21:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:21:01 --> Input Class Initialized
+INFO - 2021-10-28 13:21:01 --> Language Class Initialized
+INFO - 2021-10-28 13:21:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:21:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:21:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:21:02 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:21:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:21:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:21:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:21:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:21:02 --> Parser Class Initialized
+INFO - 2021-10-28 13:21:02 --> Model Class Initialized
+INFO - 2021-10-28 13:21:02 --> Model Class Initialized
+INFO - 2021-10-28 13:21:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:21:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:21:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:21:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:21:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:21:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:21:02 --> Model Class Initialized
+INFO - 2021-10-28 13:21:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:21:02 --> Total execution time: 0.4213
+INFO - 2021-10-28 13:22:21 --> Config Class Initialized
+INFO - 2021-10-28 13:22:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:21 --> URI Class Initialized
+INFO - 2021-10-28 13:22:21 --> Router Class Initialized
+INFO - 2021-10-28 13:22:21 --> Output Class Initialized
+INFO - 2021-10-28 13:22:21 --> Security Class Initialized
+INFO - 2021-10-28 13:22:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:22:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:22:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:21 --> Input Class Initialized
+INFO - 2021-10-28 13:22:21 --> Language Class Initialized
+INFO - 2021-10-28 13:22:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:21 --> Model Class Initialized
+INFO - 2021-10-28 13:22:21 --> Model Class Initialized
+INFO - 2021-10-28 13:22:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:21 --> Model Class Initialized
+INFO - 2021-10-28 13:22:21 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:22:21 --> Config Class Initialized
+INFO - 2021-10-28 13:22:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:21 --> URI Class Initialized
+INFO - 2021-10-28 13:22:21 --> Router Class Initialized
+INFO - 2021-10-28 13:22:21 --> Output Class Initialized
+INFO - 2021-10-28 13:22:21 --> Security Class Initialized
+INFO - 2021-10-28 13:22:21 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:22:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:21 --> Input Class Initialized
+INFO - 2021-10-28 13:22:21 --> Language Class Initialized
+INFO - 2021-10-28 13:22:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:21 --> Model Class Initialized
+INFO - 2021-10-28 13:22:21 --> Model Class Initialized
+INFO - 2021-10-28 13:22:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:22 --> Model Class Initialized
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:22:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:22:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:22:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:22:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:22:22 --> Total execution time: 0.1464
+INFO - 2021-10-28 13:22:22 --> Config Class Initialized
+INFO - 2021-10-28 13:22:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:22 --> URI Class Initialized
+INFO - 2021-10-28 13:22:22 --> Router Class Initialized
+INFO - 2021-10-28 13:22:22 --> Output Class Initialized
+INFO - 2021-10-28 13:22:22 --> Security Class Initialized
+INFO - 2021-10-28 13:22:22 --> CRSF cookie sent
+INFO - 2021-10-28 13:22:22 --> CSRF token verified
+DEBUG - 2021-10-28 13:22:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:22 --> Input Class Initialized
+INFO - 2021-10-28 13:22:22 --> Language Class Initialized
+INFO - 2021-10-28 13:22:22 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:22 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:22 --> Model Class Initialized
+INFO - 2021-10-28 13:22:22 --> Model Class Initialized
+INFO - 2021-10-28 13:22:22 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:22 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:22 --> Model Class Initialized
+INFO - 2021-10-28 13:22:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:22:22 --> Total execution time: 0.2186
+INFO - 2021-10-28 13:22:33 --> Config Class Initialized
+INFO - 2021-10-28 13:22:33 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:33 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:33 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:33 --> URI Class Initialized
+INFO - 2021-10-28 13:22:33 --> Router Class Initialized
+INFO - 2021-10-28 13:22:33 --> Output Class Initialized
+INFO - 2021-10-28 13:22:33 --> Security Class Initialized
+INFO - 2021-10-28 13:22:33 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:22:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:33 --> Input Class Initialized
+INFO - 2021-10-28 13:22:33 --> Language Class Initialized
+INFO - 2021-10-28 13:22:33 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:33 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:33 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:33 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:33 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:33 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:33 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:33 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:33 --> Model Class Initialized
+INFO - 2021-10-28 13:22:33 --> Model Class Initialized
+INFO - 2021-10-28 13:22:33 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:33 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:33 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:33 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:33 --> Model Class Initialized
+ERROR - 2021-10-28 13:22:34 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:22:34 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:22:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:22:34 --> Final output sent to browser
+DEBUG - 2021-10-28 13:22:34 --> Total execution time: 1.3315
+INFO - 2021-10-28 13:22:34 --> Config Class Initialized
+INFO - 2021-10-28 13:22:34 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:34 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:34 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:34 --> URI Class Initialized
+INFO - 2021-10-28 13:22:34 --> Router Class Initialized
+INFO - 2021-10-28 13:22:34 --> Output Class Initialized
+INFO - 2021-10-28 13:22:34 --> Security Class Initialized
+INFO - 2021-10-28 13:22:34 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:22:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:34 --> Input Class Initialized
+INFO - 2021-10-28 13:22:34 --> Language Class Initialized
+INFO - 2021-10-28 13:22:34 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:34 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:34 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:34 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:34 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:34 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:34 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:34 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:34 --> Model Class Initialized
+INFO - 2021-10-28 13:22:34 --> Model Class Initialized
+INFO - 2021-10-28 13:22:34 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:34 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:34 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:34 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:34 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:34 --> Model Class Initialized
+DEBUG - 2021-10-28 13:22:34 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:22:34 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:22:34 --> Final output sent to browser
+DEBUG - 2021-10-28 13:22:34 --> Total execution time: 0.2919
+INFO - 2021-10-28 13:22:49 --> Config Class Initialized
+INFO - 2021-10-28 13:22:49 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:49 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:49 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:49 --> URI Class Initialized
+INFO - 2021-10-28 13:22:49 --> Router Class Initialized
+INFO - 2021-10-28 13:22:49 --> Output Class Initialized
+INFO - 2021-10-28 13:22:49 --> Security Class Initialized
+INFO - 2021-10-28 13:22:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:22:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:49 --> Input Class Initialized
+INFO - 2021-10-28 13:22:49 --> Language Class Initialized
+INFO - 2021-10-28 13:22:49 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:49 --> Model Class Initialized
+INFO - 2021-10-28 13:22:49 --> Model Class Initialized
+INFO - 2021-10-28 13:22:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:49 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:49 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:49 --> Model Class Initialized
+INFO - 2021-10-28 13:22:49 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:22:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:22:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:22:49 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:22:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:22:49 --> Final output sent to browser
+DEBUG - 2021-10-28 13:22:49 --> Total execution time: 0.2220
+INFO - 2021-10-28 13:22:59 --> Config Class Initialized
+INFO - 2021-10-28 13:22:59 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:22:59 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:22:59 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:22:59 --> URI Class Initialized
+INFO - 2021-10-28 13:22:59 --> Router Class Initialized
+INFO - 2021-10-28 13:22:59 --> Output Class Initialized
+INFO - 2021-10-28 13:22:59 --> Security Class Initialized
+INFO - 2021-10-28 13:22:59 --> CRSF cookie sent
+INFO - 2021-10-28 13:22:59 --> CSRF token verified
+DEBUG - 2021-10-28 13:22:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:22:59 --> Input Class Initialized
+INFO - 2021-10-28 13:22:59 --> Language Class Initialized
+INFO - 2021-10-28 13:22:59 --> Loader Class Initialized
+INFO - 2021-10-28 13:22:59 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:22:59 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:22:59 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:22:59 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:22:59 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:22:59 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:22:59 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:22:59 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:22:59 --> Parser Class Initialized
+INFO - 2021-10-28 13:22:59 --> Model Class Initialized
+INFO - 2021-10-28 13:22:59 --> Model Class Initialized
+INFO - 2021-10-28 13:22:59 --> Controller Class Initialized
+INFO - 2021-10-28 13:22:59 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:22:59 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:22:59 --> Could not find the language line "today"
+INFO - 2021-10-28 13:22:59 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:22:59 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:22:59 --> Model Class Initialized
+INFO - 2021-10-28 13:22:59 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:22:59 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:22:59 --> Upload Class Initialized
+INFO - 2021-10-28 13:23:00 --> Config Class Initialized
+INFO - 2021-10-28 13:23:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:00 --> URI Class Initialized
+INFO - 2021-10-28 13:23:00 --> Router Class Initialized
+INFO - 2021-10-28 13:23:00 --> Output Class Initialized
+INFO - 2021-10-28 13:23:00 --> Security Class Initialized
+INFO - 2021-10-28 13:23:00 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:23:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:00 --> Input Class Initialized
+INFO - 2021-10-28 13:23:00 --> Language Class Initialized
+INFO - 2021-10-28 13:23:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:00 --> Model Class Initialized
+INFO - 2021-10-28 13:23:00 --> Model Class Initialized
+INFO - 2021-10-28 13:23:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:00 --> Model Class Initialized
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:23:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:23:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:23:00 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:23:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:23:00 --> Final output sent to browser
+DEBUG - 2021-10-28 13:23:00 --> Total execution time: 0.2751
+INFO - 2021-10-28 13:23:01 --> Config Class Initialized
+INFO - 2021-10-28 13:23:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:01 --> URI Class Initialized
+INFO - 2021-10-28 13:23:01 --> Router Class Initialized
+INFO - 2021-10-28 13:23:01 --> Output Class Initialized
+INFO - 2021-10-28 13:23:01 --> Security Class Initialized
+INFO - 2021-10-28 13:23:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:23:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:01 --> Input Class Initialized
+INFO - 2021-10-28 13:23:01 --> Language Class Initialized
+INFO - 2021-10-28 13:23:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:01 --> Model Class Initialized
+INFO - 2021-10-28 13:23:01 --> Model Class Initialized
+INFO - 2021-10-28 13:23:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:01 --> Model Class Initialized
+INFO - 2021-10-28 13:23:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:23:01 --> Total execution time: 0.4100
+INFO - 2021-10-28 13:23:50 --> Config Class Initialized
+INFO - 2021-10-28 13:23:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:50 --> URI Class Initialized
+INFO - 2021-10-28 13:23:50 --> Router Class Initialized
+INFO - 2021-10-28 13:23:50 --> Output Class Initialized
+INFO - 2021-10-28 13:23:50 --> Security Class Initialized
+INFO - 2021-10-28 13:23:50 --> CRSF cookie sent
+INFO - 2021-10-28 13:23:50 --> CSRF token verified
+DEBUG - 2021-10-28 13:23:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:50 --> Input Class Initialized
+INFO - 2021-10-28 13:23:50 --> Language Class Initialized
+INFO - 2021-10-28 13:23:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+INFO - 2021-10-28 13:23:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:23:51 --> Config Class Initialized
+INFO - 2021-10-28 13:23:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:51 --> URI Class Initialized
+INFO - 2021-10-28 13:23:51 --> Router Class Initialized
+INFO - 2021-10-28 13:23:51 --> Output Class Initialized
+INFO - 2021-10-28 13:23:51 --> Security Class Initialized
+INFO - 2021-10-28 13:23:51 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:23:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:51 --> Input Class Initialized
+INFO - 2021-10-28 13:23:51 --> Language Class Initialized
+INFO - 2021-10-28 13:23:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+INFO - 2021-10-28 13:23:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:51 --> Model Class Initialized
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:23:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:23:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:23:51 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:23:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:23:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:23:51 --> Total execution time: 0.1985
+INFO - 2021-10-28 13:23:52 --> Config Class Initialized
+INFO - 2021-10-28 13:23:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:52 --> URI Class Initialized
+INFO - 2021-10-28 13:23:52 --> Router Class Initialized
+INFO - 2021-10-28 13:23:52 --> Output Class Initialized
+INFO - 2021-10-28 13:23:52 --> Security Class Initialized
+INFO - 2021-10-28 13:23:52 --> CRSF cookie sent
+INFO - 2021-10-28 13:23:52 --> CSRF token verified
+DEBUG - 2021-10-28 13:23:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:52 --> Input Class Initialized
+INFO - 2021-10-28 13:23:52 --> Language Class Initialized
+INFO - 2021-10-28 13:23:52 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:52 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:52 --> Model Class Initialized
+INFO - 2021-10-28 13:23:52 --> Model Class Initialized
+INFO - 2021-10-28 13:23:52 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:52 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:52 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:52 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:52 --> Model Class Initialized
+INFO - 2021-10-28 13:23:52 --> Final output sent to browser
+DEBUG - 2021-10-28 13:23:52 --> Total execution time: 0.4398
+INFO - 2021-10-28 13:23:55 --> Config Class Initialized
+INFO - 2021-10-28 13:23:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:23:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:23:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:23:55 --> URI Class Initialized
+INFO - 2021-10-28 13:23:55 --> Router Class Initialized
+INFO - 2021-10-28 13:23:55 --> Output Class Initialized
+INFO - 2021-10-28 13:23:55 --> Security Class Initialized
+INFO - 2021-10-28 13:23:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:23:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:23:55 --> Input Class Initialized
+INFO - 2021-10-28 13:23:55 --> Language Class Initialized
+INFO - 2021-10-28 13:23:55 --> Loader Class Initialized
+INFO - 2021-10-28 13:23:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:23:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:23:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:23:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:23:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:23:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:23:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:23:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:23:55 --> Parser Class Initialized
+INFO - 2021-10-28 13:23:55 --> Model Class Initialized
+INFO - 2021-10-28 13:23:55 --> Model Class Initialized
+INFO - 2021-10-28 13:23:55 --> Controller Class Initialized
+INFO - 2021-10-28 13:23:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:23:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "today"
+INFO - 2021-10-28 13:23:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:23:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:23:55 --> Model Class Initialized
+INFO - 2021-10-28 13:23:55 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:23:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:23:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:23:55 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:23:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:23:55 --> Final output sent to browser
+DEBUG - 2021-10-28 13:23:55 --> Total execution time: 0.2514
+INFO - 2021-10-28 13:24:05 --> Config Class Initialized
+INFO - 2021-10-28 13:24:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:05 --> URI Class Initialized
+INFO - 2021-10-28 13:24:05 --> Router Class Initialized
+INFO - 2021-10-28 13:24:05 --> Output Class Initialized
+INFO - 2021-10-28 13:24:05 --> Security Class Initialized
+INFO - 2021-10-28 13:24:05 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:05 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:05 --> Input Class Initialized
+INFO - 2021-10-28 13:24:05 --> Language Class Initialized
+INFO - 2021-10-28 13:24:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:05 --> Model Class Initialized
+INFO - 2021-10-28 13:24:05 --> Model Class Initialized
+INFO - 2021-10-28 13:24:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:05 --> Model Class Initialized
+INFO - 2021-10-28 13:24:05 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:24:05 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:24:05 --> Upload Class Initialized
+INFO - 2021-10-28 13:24:06 --> Config Class Initialized
+INFO - 2021-10-28 13:24:06 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:06 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:06 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:06 --> URI Class Initialized
+INFO - 2021-10-28 13:24:06 --> Router Class Initialized
+INFO - 2021-10-28 13:24:06 --> Output Class Initialized
+INFO - 2021-10-28 13:24:06 --> Security Class Initialized
+INFO - 2021-10-28 13:24:06 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:24:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:06 --> Input Class Initialized
+INFO - 2021-10-28 13:24:06 --> Language Class Initialized
+INFO - 2021-10-28 13:24:06 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:06 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:06 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:06 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:06 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:06 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:06 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:06 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:06 --> Model Class Initialized
+INFO - 2021-10-28 13:24:06 --> Model Class Initialized
+INFO - 2021-10-28 13:24:06 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:06 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:06 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:06 --> Model Class Initialized
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:24:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:24:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:24:06 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:24:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:24:06 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:06 --> Total execution time: 0.1998
+INFO - 2021-10-28 13:24:07 --> Config Class Initialized
+INFO - 2021-10-28 13:24:07 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:07 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:07 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:07 --> URI Class Initialized
+INFO - 2021-10-28 13:24:07 --> Router Class Initialized
+INFO - 2021-10-28 13:24:07 --> Output Class Initialized
+INFO - 2021-10-28 13:24:07 --> Security Class Initialized
+INFO - 2021-10-28 13:24:07 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:07 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:07 --> Input Class Initialized
+INFO - 2021-10-28 13:24:07 --> Language Class Initialized
+INFO - 2021-10-28 13:24:07 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:07 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:07 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:07 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:07 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:07 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:07 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:07 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:07 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:07 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:07 --> Model Class Initialized
+INFO - 2021-10-28 13:24:07 --> Model Class Initialized
+INFO - 2021-10-28 13:24:07 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:07 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:07 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:07 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:07 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:07 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:07 --> Model Class Initialized
+INFO - 2021-10-28 13:24:07 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:07 --> Total execution time: 0.3973
+INFO - 2021-10-28 13:24:39 --> Config Class Initialized
+INFO - 2021-10-28 13:24:39 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:39 --> URI Class Initialized
+INFO - 2021-10-28 13:24:39 --> Router Class Initialized
+INFO - 2021-10-28 13:24:39 --> Output Class Initialized
+INFO - 2021-10-28 13:24:39 --> Security Class Initialized
+INFO - 2021-10-28 13:24:39 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:24:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:39 --> Input Class Initialized
+INFO - 2021-10-28 13:24:39 --> Language Class Initialized
+INFO - 2021-10-28 13:24:39 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:39 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:39 --> Model Class Initialized
+INFO - 2021-10-28 13:24:39 --> Model Class Initialized
+INFO - 2021-10-28 13:24:39 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:39 --> Model Class Initialized
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:24:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:24:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:24:39 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:24:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:24:39 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:39 --> Total execution time: 0.1285
+INFO - 2021-10-28 13:24:40 --> Config Class Initialized
+INFO - 2021-10-28 13:24:40 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:40 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:40 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:40 --> URI Class Initialized
+INFO - 2021-10-28 13:24:40 --> Router Class Initialized
+INFO - 2021-10-28 13:24:40 --> Output Class Initialized
+INFO - 2021-10-28 13:24:40 --> Security Class Initialized
+INFO - 2021-10-28 13:24:40 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:40 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:40 --> Input Class Initialized
+INFO - 2021-10-28 13:24:40 --> Language Class Initialized
+INFO - 2021-10-28 13:24:40 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:40 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:40 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:40 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:40 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:40 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:40 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:40 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:40 --> Model Class Initialized
+INFO - 2021-10-28 13:24:40 --> Model Class Initialized
+INFO - 2021-10-28 13:24:40 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:40 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:40 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:40 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:40 --> Model Class Initialized
+INFO - 2021-10-28 13:24:40 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:40 --> Total execution time: 0.2358
+INFO - 2021-10-28 13:24:46 --> Config Class Initialized
+INFO - 2021-10-28 13:24:46 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:46 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:46 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:46 --> URI Class Initialized
+INFO - 2021-10-28 13:24:46 --> Router Class Initialized
+INFO - 2021-10-28 13:24:46 --> Output Class Initialized
+INFO - 2021-10-28 13:24:46 --> Security Class Initialized
+INFO - 2021-10-28 13:24:46 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:46 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:46 --> Input Class Initialized
+INFO - 2021-10-28 13:24:46 --> Language Class Initialized
+INFO - 2021-10-28 13:24:46 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:46 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:46 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:46 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:46 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:46 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:46 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:46 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:46 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:46 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:46 --> Model Class Initialized
+INFO - 2021-10-28 13:24:46 --> Model Class Initialized
+INFO - 2021-10-28 13:24:46 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:46 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:46 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:46 --> Model Class Initialized
+INFO - 2021-10-28 13:24:46 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:24:46 --> Config Class Initialized
+INFO - 2021-10-28 13:24:46 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:46 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:46 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:47 --> URI Class Initialized
+INFO - 2021-10-28 13:24:47 --> Router Class Initialized
+INFO - 2021-10-28 13:24:47 --> Output Class Initialized
+INFO - 2021-10-28 13:24:47 --> Security Class Initialized
+INFO - 2021-10-28 13:24:47 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:24:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:47 --> Input Class Initialized
+INFO - 2021-10-28 13:24:47 --> Language Class Initialized
+INFO - 2021-10-28 13:24:47 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:47 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:47 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:47 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:47 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+INFO - 2021-10-28 13:24:47 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:47 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:24:47 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:24:47 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:47 --> Total execution time: 0.1162
+INFO - 2021-10-28 13:24:47 --> Config Class Initialized
+INFO - 2021-10-28 13:24:47 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:47 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:47 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:47 --> URI Class Initialized
+INFO - 2021-10-28 13:24:47 --> Router Class Initialized
+INFO - 2021-10-28 13:24:47 --> Output Class Initialized
+INFO - 2021-10-28 13:24:47 --> Security Class Initialized
+INFO - 2021-10-28 13:24:47 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:47 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:47 --> Input Class Initialized
+INFO - 2021-10-28 13:24:47 --> Language Class Initialized
+INFO - 2021-10-28 13:24:47 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:47 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:47 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:47 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:47 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:47 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+INFO - 2021-10-28 13:24:47 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:47 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:47 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:47 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:47 --> Model Class Initialized
+INFO - 2021-10-28 13:24:47 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:47 --> Total execution time: 0.2095
+INFO - 2021-10-28 13:24:50 --> Config Class Initialized
+INFO - 2021-10-28 13:24:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:50 --> URI Class Initialized
+INFO - 2021-10-28 13:24:50 --> Router Class Initialized
+INFO - 2021-10-28 13:24:50 --> Output Class Initialized
+INFO - 2021-10-28 13:24:50 --> Security Class Initialized
+INFO - 2021-10-28 13:24:50 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:24:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:50 --> Input Class Initialized
+INFO - 2021-10-28 13:24:50 --> Language Class Initialized
+INFO - 2021-10-28 13:24:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:50 --> Model Class Initialized
+INFO - 2021-10-28 13:24:50 --> Model Class Initialized
+INFO - 2021-10-28 13:24:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:50 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:50 --> Model Class Initialized
+INFO - 2021-10-28 13:24:50 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:24:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:24:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:24:50 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:24:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:24:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:50 --> Total execution time: 0.1373
+INFO - 2021-10-28 13:24:57 --> Config Class Initialized
+INFO - 2021-10-28 13:24:57 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:57 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:57 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:57 --> URI Class Initialized
+INFO - 2021-10-28 13:24:57 --> Router Class Initialized
+INFO - 2021-10-28 13:24:57 --> Output Class Initialized
+INFO - 2021-10-28 13:24:57 --> Security Class Initialized
+INFO - 2021-10-28 13:24:57 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:57 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:57 --> Input Class Initialized
+INFO - 2021-10-28 13:24:57 --> Language Class Initialized
+INFO - 2021-10-28 13:24:57 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:57 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:57 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:57 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:57 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:57 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:57 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:57 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:57 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:57 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:57 --> Model Class Initialized
+INFO - 2021-10-28 13:24:57 --> Model Class Initialized
+INFO - 2021-10-28 13:24:57 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:57 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:57 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:57 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:57 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:57 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:57 --> Model Class Initialized
+INFO - 2021-10-28 13:24:57 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:24:57 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:24:57 --> Upload Class Initialized
+INFO - 2021-10-28 13:24:58 --> Config Class Initialized
+INFO - 2021-10-28 13:24:58 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:58 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:58 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:58 --> URI Class Initialized
+INFO - 2021-10-28 13:24:58 --> Router Class Initialized
+INFO - 2021-10-28 13:24:58 --> Output Class Initialized
+INFO - 2021-10-28 13:24:58 --> Security Class Initialized
+INFO - 2021-10-28 13:24:58 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:24:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:58 --> Input Class Initialized
+INFO - 2021-10-28 13:24:58 --> Language Class Initialized
+INFO - 2021-10-28 13:24:58 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:58 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:58 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:58 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:58 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+INFO - 2021-10-28 13:24:58 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:58 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:24:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:24:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:24:58 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:24:58 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:58 --> Total execution time: 0.1150
+INFO - 2021-10-28 13:24:58 --> Config Class Initialized
+INFO - 2021-10-28 13:24:58 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:24:58 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:24:58 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:24:58 --> URI Class Initialized
+INFO - 2021-10-28 13:24:58 --> Router Class Initialized
+INFO - 2021-10-28 13:24:58 --> Output Class Initialized
+INFO - 2021-10-28 13:24:58 --> Security Class Initialized
+INFO - 2021-10-28 13:24:58 --> CRSF cookie sent
+INFO - 2021-10-28 13:24:58 --> CSRF token verified
+DEBUG - 2021-10-28 13:24:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:24:58 --> Input Class Initialized
+INFO - 2021-10-28 13:24:58 --> Language Class Initialized
+INFO - 2021-10-28 13:24:58 --> Loader Class Initialized
+INFO - 2021-10-28 13:24:58 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:24:58 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:24:58 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:24:58 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:24:58 --> Parser Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+INFO - 2021-10-28 13:24:58 --> Controller Class Initialized
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:24:58 --> Could not find the language line "today"
+INFO - 2021-10-28 13:24:58 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:24:58 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:24:58 --> Model Class Initialized
+INFO - 2021-10-28 13:24:59 --> Final output sent to browser
+DEBUG - 2021-10-28 13:24:59 --> Total execution time: 0.2072
+INFO - 2021-10-28 13:25:09 --> Config Class Initialized
+INFO - 2021-10-28 13:25:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:25:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:25:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:25:09 --> URI Class Initialized
+INFO - 2021-10-28 13:25:09 --> Router Class Initialized
+INFO - 2021-10-28 13:25:09 --> Output Class Initialized
+INFO - 2021-10-28 13:25:09 --> Security Class Initialized
+INFO - 2021-10-28 13:25:09 --> CRSF cookie sent
+INFO - 2021-10-28 13:25:09 --> CSRF token verified
+DEBUG - 2021-10-28 13:25:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:25:09 --> Input Class Initialized
+INFO - 2021-10-28 13:25:09 --> Language Class Initialized
+INFO - 2021-10-28 13:25:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:25:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:25:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:25:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:25:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:25:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:25:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:25:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:25:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:25:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:25:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:25:10 --> Config Class Initialized
+INFO - 2021-10-28 13:25:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:25:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:25:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:25:10 --> URI Class Initialized
+INFO - 2021-10-28 13:25:10 --> Router Class Initialized
+INFO - 2021-10-28 13:25:10 --> Output Class Initialized
+INFO - 2021-10-28 13:25:10 --> Security Class Initialized
+INFO - 2021-10-28 13:25:10 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:25:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:25:10 --> Input Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language Class Initialized
+INFO - 2021-10-28 13:25:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:25:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:25:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:25:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:25:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:25:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:25:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:25:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:25:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:25:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:25:10 --> Total execution time: 0.1195
+INFO - 2021-10-28 13:25:10 --> Config Class Initialized
+INFO - 2021-10-28 13:25:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:25:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:25:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:25:10 --> URI Class Initialized
+INFO - 2021-10-28 13:25:10 --> Router Class Initialized
+INFO - 2021-10-28 13:25:10 --> Output Class Initialized
+INFO - 2021-10-28 13:25:10 --> Security Class Initialized
+INFO - 2021-10-28 13:25:10 --> CRSF cookie sent
+INFO - 2021-10-28 13:25:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:25:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:25:10 --> Input Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language Class Initialized
+INFO - 2021-10-28 13:25:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:25:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:25:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:25:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:25:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:25:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:25:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:25:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:25:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:25:10 --> Model Class Initialized
+INFO - 2021-10-28 13:25:11 --> Final output sent to browser
+DEBUG - 2021-10-28 13:25:11 --> Total execution time: 0.2254
+INFO - 2021-10-28 13:28:03 --> Config Class Initialized
+INFO - 2021-10-28 13:28:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:28:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:28:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:28:03 --> URI Class Initialized
+INFO - 2021-10-28 13:28:03 --> Router Class Initialized
+INFO - 2021-10-28 13:28:03 --> Output Class Initialized
+INFO - 2021-10-28 13:28:03 --> Security Class Initialized
+INFO - 2021-10-28 13:28:03 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:28:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:28:03 --> Input Class Initialized
+INFO - 2021-10-28 13:28:03 --> Language Class Initialized
+INFO - 2021-10-28 13:28:03 --> Loader Class Initialized
+INFO - 2021-10-28 13:28:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:28:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:28:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:28:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:28:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:28:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:28:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:28:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:28:03 --> Parser Class Initialized
+INFO - 2021-10-28 13:28:03 --> Model Class Initialized
+INFO - 2021-10-28 13:28:03 --> Model Class Initialized
+INFO - 2021-10-28 13:28:03 --> Controller Class Initialized
+INFO - 2021-10-28 13:28:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:28:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "today"
+INFO - 2021-10-28 13:28:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:28:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:28:03 --> Model Class Initialized
+INFO - 2021-10-28 13:28:03 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:28:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:28:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:28:03 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:28:03 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:28:03 --> Final output sent to browser
+DEBUG - 2021-10-28 13:28:03 --> Total execution time: 0.1251
+INFO - 2021-10-28 13:28:17 --> Config Class Initialized
+INFO - 2021-10-28 13:28:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:28:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:28:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:28:17 --> URI Class Initialized
+INFO - 2021-10-28 13:28:17 --> Router Class Initialized
+INFO - 2021-10-28 13:28:17 --> Output Class Initialized
+INFO - 2021-10-28 13:28:17 --> Security Class Initialized
+INFO - 2021-10-28 13:28:17 --> CRSF cookie sent
+INFO - 2021-10-28 13:28:17 --> CSRF token verified
+DEBUG - 2021-10-28 13:28:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:28:17 --> Input Class Initialized
+INFO - 2021-10-28 13:28:17 --> Language Class Initialized
+INFO - 2021-10-28 13:28:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:28:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:28:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:28:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:28:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:28:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:28:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:28:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:28:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:28:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:28:17 --> Model Class Initialized
+INFO - 2021-10-28 13:28:17 --> Model Class Initialized
+INFO - 2021-10-28 13:28:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:28:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:28:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:28:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:28:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:28:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:28:17 --> Model Class Initialized
+INFO - 2021-10-28 13:28:17 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:28:17 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:28:17 --> Upload Class Initialized
+INFO - 2021-10-28 13:28:18 --> Config Class Initialized
+INFO - 2021-10-28 13:28:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:28:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:28:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:28:18 --> URI Class Initialized
+INFO - 2021-10-28 13:28:18 --> Router Class Initialized
+INFO - 2021-10-28 13:28:18 --> Output Class Initialized
+INFO - 2021-10-28 13:28:18 --> Security Class Initialized
+INFO - 2021-10-28 13:28:18 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:28:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:28:18 --> Input Class Initialized
+INFO - 2021-10-28 13:28:18 --> Language Class Initialized
+INFO - 2021-10-28 13:28:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:28:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:28:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:28:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:28:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:28:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:28:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:28:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:28:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:28:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:28:18 --> Model Class Initialized
+INFO - 2021-10-28 13:28:18 --> Model Class Initialized
+INFO - 2021-10-28 13:28:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:28:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:28:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:28:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:28:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:28:18 --> Model Class Initialized
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:28:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:28:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:28:18 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:28:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:28:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:28:18 --> Total execution time: 0.1104
+INFO - 2021-10-28 13:28:19 --> Config Class Initialized
+INFO - 2021-10-28 13:28:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:28:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:28:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:28:19 --> URI Class Initialized
+INFO - 2021-10-28 13:28:19 --> Router Class Initialized
+INFO - 2021-10-28 13:28:19 --> Output Class Initialized
+INFO - 2021-10-28 13:28:19 --> Security Class Initialized
+INFO - 2021-10-28 13:28:19 --> CRSF cookie sent
+INFO - 2021-10-28 13:28:19 --> CSRF token verified
+DEBUG - 2021-10-28 13:28:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:28:19 --> Input Class Initialized
+INFO - 2021-10-28 13:28:19 --> Language Class Initialized
+INFO - 2021-10-28 13:28:19 --> Loader Class Initialized
+INFO - 2021-10-28 13:28:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:28:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:28:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:28:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:28:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:28:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:28:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:28:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:28:19 --> Parser Class Initialized
+INFO - 2021-10-28 13:28:19 --> Model Class Initialized
+INFO - 2021-10-28 13:28:19 --> Model Class Initialized
+INFO - 2021-10-28 13:28:19 --> Controller Class Initialized
+INFO - 2021-10-28 13:28:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:28:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:28:19 --> Could not find the language line "today"
+INFO - 2021-10-28 13:28:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:28:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:28:19 --> Model Class Initialized
+INFO - 2021-10-28 13:28:19 --> Final output sent to browser
+DEBUG - 2021-10-28 13:28:19 --> Total execution time: 0.1842
+INFO - 2021-10-28 13:29:05 --> Config Class Initialized
+INFO - 2021-10-28 13:29:05 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:05 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:05 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:05 --> URI Class Initialized
+INFO - 2021-10-28 13:29:05 --> Router Class Initialized
+INFO - 2021-10-28 13:29:05 --> Output Class Initialized
+INFO - 2021-10-28 13:29:05 --> Security Class Initialized
+INFO - 2021-10-28 13:29:05 --> CRSF cookie sent
+INFO - 2021-10-28 13:29:05 --> CSRF token verified
+DEBUG - 2021-10-28 13:29:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:05 --> Input Class Initialized
+INFO - 2021-10-28 13:29:05 --> Language Class Initialized
+INFO - 2021-10-28 13:29:05 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:05 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:05 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:05 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:05 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:05 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:05 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:05 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:05 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:05 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:05 --> Model Class Initialized
+INFO - 2021-10-28 13:29:05 --> Model Class Initialized
+INFO - 2021-10-28 13:29:05 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:05 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:05 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:05 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:05 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:05 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:05 --> Model Class Initialized
+INFO - 2021-10-28 13:29:05 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:29:06 --> Config Class Initialized
+INFO - 2021-10-28 13:29:06 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:06 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:06 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:06 --> URI Class Initialized
+INFO - 2021-10-28 13:29:06 --> Router Class Initialized
+INFO - 2021-10-28 13:29:06 --> Output Class Initialized
+INFO - 2021-10-28 13:29:06 --> Security Class Initialized
+INFO - 2021-10-28 13:29:06 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:06 --> Input Class Initialized
+INFO - 2021-10-28 13:29:06 --> Language Class Initialized
+INFO - 2021-10-28 13:29:06 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:06 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:06 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:06 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+INFO - 2021-10-28 13:29:06 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:06 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:29:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:29:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:29:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:29:06 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:06 --> Total execution time: 0.1372
+INFO - 2021-10-28 13:29:06 --> Config Class Initialized
+INFO - 2021-10-28 13:29:06 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:06 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:06 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:06 --> URI Class Initialized
+INFO - 2021-10-28 13:29:06 --> Router Class Initialized
+INFO - 2021-10-28 13:29:06 --> Output Class Initialized
+INFO - 2021-10-28 13:29:06 --> Security Class Initialized
+INFO - 2021-10-28 13:29:06 --> CRSF cookie sent
+INFO - 2021-10-28 13:29:06 --> CSRF token verified
+DEBUG - 2021-10-28 13:29:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:06 --> Input Class Initialized
+INFO - 2021-10-28 13:29:06 --> Language Class Initialized
+INFO - 2021-10-28 13:29:06 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:06 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:06 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:06 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:06 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+INFO - 2021-10-28 13:29:06 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:06 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:06 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:06 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:06 --> Model Class Initialized
+INFO - 2021-10-28 13:29:06 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:06 --> Total execution time: 0.1994
+INFO - 2021-10-28 13:29:17 --> Config Class Initialized
+INFO - 2021-10-28 13:29:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:17 --> URI Class Initialized
+INFO - 2021-10-28 13:29:17 --> Router Class Initialized
+INFO - 2021-10-28 13:29:17 --> Output Class Initialized
+INFO - 2021-10-28 13:29:17 --> Security Class Initialized
+INFO - 2021-10-28 13:29:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:29:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:17 --> Input Class Initialized
+INFO - 2021-10-28 13:29:17 --> Language Class Initialized
+INFO - 2021-10-28 13:29:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:17 --> Model Class Initialized
+INFO - 2021-10-28 13:29:17 --> Model Class Initialized
+INFO - 2021-10-28 13:29:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:17 --> Model Class Initialized
+INFO - 2021-10-28 13:29:17 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:29:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:29:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:29:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:29:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:29:17 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:17 --> Total execution time: 0.1776
+INFO - 2021-10-28 13:29:27 --> Config Class Initialized
+INFO - 2021-10-28 13:29:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:27 --> URI Class Initialized
+INFO - 2021-10-28 13:29:27 --> Router Class Initialized
+INFO - 2021-10-28 13:29:27 --> Output Class Initialized
+INFO - 2021-10-28 13:29:27 --> Security Class Initialized
+INFO - 2021-10-28 13:29:27 --> CRSF cookie sent
+INFO - 2021-10-28 13:29:27 --> CSRF token verified
+DEBUG - 2021-10-28 13:29:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:27 --> Input Class Initialized
+INFO - 2021-10-28 13:29:27 --> Language Class Initialized
+INFO - 2021-10-28 13:29:27 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:27 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:27 --> Model Class Initialized
+INFO - 2021-10-28 13:29:27 --> Model Class Initialized
+INFO - 2021-10-28 13:29:27 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:27 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:27 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:27 --> Model Class Initialized
+INFO - 2021-10-28 13:29:27 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:29:27 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:29:27 --> Upload Class Initialized
+ERROR - 2021-10-28 13:29:28 --> Query error: Column 'image_url_external' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `tax_rate`, `tax_method`, `image_url_external`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB10', 'MTB10', '19', 'UNIDAD', '12', '12', '1', NULL, 1, NULL, NULL, '', '', '', '', '', '')
+ERROR - 2021-10-28 13:29:28 --> Query error: Column 'image_url_external' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `name`, `category_id`, `unit`, `cost`, `price`, `alert_quantity`, `tax_rate`, `tax_method`, `image_url_external`, `subcategory_id`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`) VALUES ('MTB11', 'MTB11', '19', 'kilos', '20', '20', '1', NULL, 1, NULL, NULL, '', '', '', '', '', '')
+INFO - 2021-10-28 13:29:28 --> Config Class Initialized
+INFO - 2021-10-28 13:29:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:28 --> URI Class Initialized
+INFO - 2021-10-28 13:29:28 --> Router Class Initialized
+INFO - 2021-10-28 13:29:28 --> Output Class Initialized
+INFO - 2021-10-28 13:29:28 --> Security Class Initialized
+INFO - 2021-10-28 13:29:28 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:29:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:28 --> Input Class Initialized
+INFO - 2021-10-28 13:29:28 --> Language Class Initialized
+INFO - 2021-10-28 13:29:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:28 --> Model Class Initialized
+INFO - 2021-10-28 13:29:28 --> Model Class Initialized
+INFO - 2021-10-28 13:29:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:28 --> Model Class Initialized
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:29:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:29:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:29:28 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:29:28 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:29:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:28 --> Total execution time: 0.2145
+INFO - 2021-10-28 13:29:29 --> Config Class Initialized
+INFO - 2021-10-28 13:29:29 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:29 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:29 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:29 --> URI Class Initialized
+INFO - 2021-10-28 13:29:29 --> Router Class Initialized
+INFO - 2021-10-28 13:29:29 --> Output Class Initialized
+INFO - 2021-10-28 13:29:29 --> Security Class Initialized
+INFO - 2021-10-28 13:29:29 --> CRSF cookie sent
+INFO - 2021-10-28 13:29:29 --> CSRF token verified
+DEBUG - 2021-10-28 13:29:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:29 --> Input Class Initialized
+INFO - 2021-10-28 13:29:29 --> Language Class Initialized
+INFO - 2021-10-28 13:29:29 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:29 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:29 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:29 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:29 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:29 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:29 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:29 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:29 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:29 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:29 --> Model Class Initialized
+INFO - 2021-10-28 13:29:29 --> Model Class Initialized
+INFO - 2021-10-28 13:29:29 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:29 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:29 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:29 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:29 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:29 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:29 --> Model Class Initialized
+INFO - 2021-10-28 13:29:29 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:29 --> Total execution time: 0.3959
+INFO - 2021-10-28 13:29:51 --> Config Class Initialized
+INFO - 2021-10-28 13:29:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:29:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:29:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:29:51 --> URI Class Initialized
+INFO - 2021-10-28 13:29:51 --> Router Class Initialized
+INFO - 2021-10-28 13:29:51 --> Output Class Initialized
+INFO - 2021-10-28 13:29:51 --> Security Class Initialized
+INFO - 2021-10-28 13:29:51 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:29:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:29:51 --> Input Class Initialized
+INFO - 2021-10-28 13:29:51 --> Language Class Initialized
+INFO - 2021-10-28 13:29:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:29:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:29:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:29:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:29:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:29:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:29:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:29:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:29:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:29:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:29:51 --> Model Class Initialized
+INFO - 2021-10-28 13:29:51 --> Model Class Initialized
+INFO - 2021-10-28 13:29:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:29:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:29:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:29:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:29:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:29:51 --> Model Class Initialized
+INFO - 2021-10-28 13:29:51 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:29:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:29:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:29:51 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:29:51 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:29:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:29:51 --> Total execution time: 0.1777
+INFO - 2021-10-28 13:30:00 --> Config Class Initialized
+INFO - 2021-10-28 13:30:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:30:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:30:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:30:00 --> URI Class Initialized
+INFO - 2021-10-28 13:30:00 --> Router Class Initialized
+INFO - 2021-10-28 13:30:00 --> Output Class Initialized
+INFO - 2021-10-28 13:30:00 --> Security Class Initialized
+INFO - 2021-10-28 13:30:00 --> CRSF cookie sent
+INFO - 2021-10-28 13:30:00 --> CSRF token verified
+DEBUG - 2021-10-28 13:30:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:30:00 --> Input Class Initialized
+INFO - 2021-10-28 13:30:00 --> Language Class Initialized
+INFO - 2021-10-28 13:30:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:30:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:30:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:30:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:30:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:30:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:30:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:30:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:30:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:30:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:30:00 --> Model Class Initialized
+INFO - 2021-10-28 13:30:00 --> Model Class Initialized
+INFO - 2021-10-28 13:30:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:30:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:30:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:30:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:30:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:30:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:30:00 --> Model Class Initialized
+INFO - 2021-10-28 13:30:00 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:30:00 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:30:00 --> Upload Class Initialized
+INFO - 2021-10-28 13:30:00 --> Config Class Initialized
+INFO - 2021-10-28 13:30:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:30:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:30:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:30:00 --> URI Class Initialized
+INFO - 2021-10-28 13:30:00 --> Router Class Initialized
+INFO - 2021-10-28 13:30:00 --> Output Class Initialized
+INFO - 2021-10-28 13:30:00 --> Security Class Initialized
+INFO - 2021-10-28 13:30:00 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:30:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:30:00 --> Input Class Initialized
+INFO - 2021-10-28 13:30:00 --> Language Class Initialized
+INFO - 2021-10-28 13:30:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:30:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:30:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:30:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:30:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+INFO - 2021-10-28 13:30:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:30:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:30:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:30:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:30:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:30:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:30:01 --> Total execution time: 0.1676
+INFO - 2021-10-28 13:30:01 --> Config Class Initialized
+INFO - 2021-10-28 13:30:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:30:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:30:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:30:01 --> URI Class Initialized
+INFO - 2021-10-28 13:30:01 --> Router Class Initialized
+INFO - 2021-10-28 13:30:01 --> Output Class Initialized
+INFO - 2021-10-28 13:30:01 --> Security Class Initialized
+INFO - 2021-10-28 13:30:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:30:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:30:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:30:01 --> Input Class Initialized
+INFO - 2021-10-28 13:30:01 --> Language Class Initialized
+INFO - 2021-10-28 13:30:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:30:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:30:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:30:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:30:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:30:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+INFO - 2021-10-28 13:30:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:30:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:30:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:30:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:30:01 --> Model Class Initialized
+INFO - 2021-10-28 13:30:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:30:02 --> Total execution time: 0.4049
+INFO - 2021-10-28 13:31:18 --> Config Class Initialized
+INFO - 2021-10-28 13:31:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:31:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:31:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:31:18 --> URI Class Initialized
+INFO - 2021-10-28 13:31:18 --> Router Class Initialized
+INFO - 2021-10-28 13:31:18 --> Output Class Initialized
+INFO - 2021-10-28 13:31:18 --> Security Class Initialized
+INFO - 2021-10-28 13:31:18 --> CRSF cookie sent
+INFO - 2021-10-28 13:31:18 --> CSRF token verified
+DEBUG - 2021-10-28 13:31:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:31:18 --> Input Class Initialized
+INFO - 2021-10-28 13:31:18 --> Language Class Initialized
+INFO - 2021-10-28 13:31:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:31:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:31:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:31:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:31:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+INFO - 2021-10-28 13:31:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:31:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:31:18 --> Config Class Initialized
+INFO - 2021-10-28 13:31:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:31:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:31:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:31:18 --> URI Class Initialized
+INFO - 2021-10-28 13:31:18 --> Router Class Initialized
+INFO - 2021-10-28 13:31:18 --> Output Class Initialized
+INFO - 2021-10-28 13:31:18 --> Security Class Initialized
+INFO - 2021-10-28 13:31:18 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:31:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:31:18 --> Input Class Initialized
+INFO - 2021-10-28 13:31:18 --> Language Class Initialized
+INFO - 2021-10-28 13:31:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:31:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:31:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:31:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:31:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:31:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+INFO - 2021-10-28 13:31:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:31:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:31:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:31:18 --> Model Class Initialized
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:31:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:31:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:31:18 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:31:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:31:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:31:18 --> Total execution time: 0.1202
+INFO - 2021-10-28 13:31:19 --> Config Class Initialized
+INFO - 2021-10-28 13:31:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:31:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:31:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:31:19 --> URI Class Initialized
+INFO - 2021-10-28 13:31:19 --> Router Class Initialized
+INFO - 2021-10-28 13:31:19 --> Output Class Initialized
+INFO - 2021-10-28 13:31:19 --> Security Class Initialized
+INFO - 2021-10-28 13:31:19 --> CRSF cookie sent
+INFO - 2021-10-28 13:31:19 --> CSRF token verified
+DEBUG - 2021-10-28 13:31:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:31:19 --> Input Class Initialized
+INFO - 2021-10-28 13:31:19 --> Language Class Initialized
+INFO - 2021-10-28 13:31:19 --> Loader Class Initialized
+INFO - 2021-10-28 13:31:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:31:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:31:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:31:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:31:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:31:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:31:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:31:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:31:19 --> Parser Class Initialized
+INFO - 2021-10-28 13:31:19 --> Model Class Initialized
+INFO - 2021-10-28 13:31:19 --> Model Class Initialized
+INFO - 2021-10-28 13:31:19 --> Controller Class Initialized
+INFO - 2021-10-28 13:31:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:31:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:31:19 --> Could not find the language line "today"
+INFO - 2021-10-28 13:31:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:31:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:31:19 --> Model Class Initialized
+INFO - 2021-10-28 13:31:19 --> Final output sent to browser
+DEBUG - 2021-10-28 13:31:19 --> Total execution time: 0.2358
+INFO - 2021-10-28 13:31:49 --> Config Class Initialized
+INFO - 2021-10-28 13:31:49 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:31:49 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:31:49 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:31:49 --> URI Class Initialized
+INFO - 2021-10-28 13:31:49 --> Router Class Initialized
+INFO - 2021-10-28 13:31:49 --> Output Class Initialized
+INFO - 2021-10-28 13:31:49 --> Security Class Initialized
+INFO - 2021-10-28 13:31:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:31:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:31:49 --> Input Class Initialized
+INFO - 2021-10-28 13:31:49 --> Language Class Initialized
+INFO - 2021-10-28 13:31:49 --> Loader Class Initialized
+INFO - 2021-10-28 13:31:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:31:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:31:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:31:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:31:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:31:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:31:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:31:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:31:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:31:49 --> Model Class Initialized
+INFO - 2021-10-28 13:31:49 --> Model Class Initialized
+INFO - 2021-10-28 13:31:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:31:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:31:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:31:49 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:31:49 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:31:49 --> Model Class Initialized
+INFO - 2021-10-28 13:31:49 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:31:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:31:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:31:49 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:31:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:31:49 --> Final output sent to browser
+DEBUG - 2021-10-28 13:31:49 --> Total execution time: 0.1286
+INFO - 2021-10-28 13:32:00 --> Config Class Initialized
+INFO - 2021-10-28 13:32:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:32:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:32:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:32:00 --> URI Class Initialized
+INFO - 2021-10-28 13:32:00 --> Router Class Initialized
+INFO - 2021-10-28 13:32:00 --> Output Class Initialized
+INFO - 2021-10-28 13:32:00 --> Security Class Initialized
+INFO - 2021-10-28 13:32:00 --> CRSF cookie sent
+INFO - 2021-10-28 13:32:00 --> CSRF token verified
+DEBUG - 2021-10-28 13:32:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:32:00 --> Input Class Initialized
+INFO - 2021-10-28 13:32:00 --> Language Class Initialized
+INFO - 2021-10-28 13:32:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:32:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:32:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:32:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:32:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:32:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:32:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:32:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:32:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:32:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:32:00 --> Model Class Initialized
+INFO - 2021-10-28 13:32:00 --> Model Class Initialized
+INFO - 2021-10-28 13:32:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:32:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:32:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:32:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:32:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:32:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:32:00 --> Model Class Initialized
+INFO - 2021-10-28 13:32:00 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:32:00 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:32:00 --> Upload Class Initialized
+INFO - 2021-10-28 13:32:01 --> Config Class Initialized
+INFO - 2021-10-28 13:32:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:32:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:32:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:32:01 --> URI Class Initialized
+INFO - 2021-10-28 13:32:01 --> Router Class Initialized
+INFO - 2021-10-28 13:32:01 --> Output Class Initialized
+INFO - 2021-10-28 13:32:01 --> Security Class Initialized
+INFO - 2021-10-28 13:32:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:32:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:32:01 --> Input Class Initialized
+INFO - 2021-10-28 13:32:01 --> Language Class Initialized
+INFO - 2021-10-28 13:32:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:32:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:32:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:32:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:32:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+INFO - 2021-10-28 13:32:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:32:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:32:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:32:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:32:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:32:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:32:01 --> Total execution time: 0.1269
+INFO - 2021-10-28 13:32:01 --> Config Class Initialized
+INFO - 2021-10-28 13:32:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:32:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:32:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:32:01 --> URI Class Initialized
+INFO - 2021-10-28 13:32:01 --> Router Class Initialized
+INFO - 2021-10-28 13:32:01 --> Output Class Initialized
+INFO - 2021-10-28 13:32:01 --> Security Class Initialized
+INFO - 2021-10-28 13:32:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:32:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:32:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:32:01 --> Input Class Initialized
+INFO - 2021-10-28 13:32:01 --> Language Class Initialized
+INFO - 2021-10-28 13:32:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:32:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:32:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:32:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:32:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:32:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+INFO - 2021-10-28 13:32:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:32:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:32:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:32:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:32:01 --> Model Class Initialized
+INFO - 2021-10-28 13:32:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:32:02 --> Total execution time: 0.2733
+INFO - 2021-10-28 13:34:07 --> Config Class Initialized
+INFO - 2021-10-28 13:34:07 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:34:07 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:34:07 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:34:07 --> URI Class Initialized
+INFO - 2021-10-28 13:34:07 --> Router Class Initialized
+INFO - 2021-10-28 13:34:07 --> Output Class Initialized
+INFO - 2021-10-28 13:34:07 --> Security Class Initialized
+INFO - 2021-10-28 13:34:07 --> CRSF cookie sent
+INFO - 2021-10-28 13:34:07 --> CSRF token verified
+DEBUG - 2021-10-28 13:34:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:34:07 --> Input Class Initialized
+INFO - 2021-10-28 13:34:07 --> Language Class Initialized
+INFO - 2021-10-28 13:34:07 --> Loader Class Initialized
+INFO - 2021-10-28 13:34:07 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:34:07 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:34:07 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:34:07 --> Parser Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+INFO - 2021-10-28 13:34:07 --> Controller Class Initialized
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "today"
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:34:07 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:34:07 --> Config Class Initialized
+INFO - 2021-10-28 13:34:07 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:34:07 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:34:07 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:34:07 --> URI Class Initialized
+INFO - 2021-10-28 13:34:07 --> Router Class Initialized
+INFO - 2021-10-28 13:34:07 --> Output Class Initialized
+INFO - 2021-10-28 13:34:07 --> Security Class Initialized
+INFO - 2021-10-28 13:34:07 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:34:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:34:07 --> Input Class Initialized
+INFO - 2021-10-28 13:34:07 --> Language Class Initialized
+INFO - 2021-10-28 13:34:07 --> Loader Class Initialized
+INFO - 2021-10-28 13:34:07 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:34:07 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:34:07 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:34:07 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:34:07 --> Parser Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+INFO - 2021-10-28 13:34:07 --> Controller Class Initialized
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "today"
+INFO - 2021-10-28 13:34:07 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:34:07 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:34:07 --> Model Class Initialized
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:34:07 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:34:07 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:34:07 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:34:07 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:34:07 --> Final output sent to browser
+DEBUG - 2021-10-28 13:34:07 --> Total execution time: 0.1551
+INFO - 2021-10-28 13:34:08 --> Config Class Initialized
+INFO - 2021-10-28 13:34:08 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:34:08 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:34:08 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:34:08 --> URI Class Initialized
+INFO - 2021-10-28 13:34:08 --> Router Class Initialized
+INFO - 2021-10-28 13:34:08 --> Output Class Initialized
+INFO - 2021-10-28 13:34:08 --> Security Class Initialized
+INFO - 2021-10-28 13:34:08 --> CRSF cookie sent
+INFO - 2021-10-28 13:34:08 --> CSRF token verified
+DEBUG - 2021-10-28 13:34:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:34:08 --> Input Class Initialized
+INFO - 2021-10-28 13:34:08 --> Language Class Initialized
+INFO - 2021-10-28 13:34:08 --> Loader Class Initialized
+INFO - 2021-10-28 13:34:08 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:34:08 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:34:08 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:34:08 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:34:08 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:34:08 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:34:08 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:34:08 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:34:08 --> Parser Class Initialized
+INFO - 2021-10-28 13:34:08 --> Model Class Initialized
+INFO - 2021-10-28 13:34:08 --> Model Class Initialized
+INFO - 2021-10-28 13:34:08 --> Controller Class Initialized
+INFO - 2021-10-28 13:34:08 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:34:08 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:34:08 --> Could not find the language line "today"
+INFO - 2021-10-28 13:34:08 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:34:08 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:34:08 --> Model Class Initialized
+INFO - 2021-10-28 13:34:08 --> Final output sent to browser
+DEBUG - 2021-10-28 13:34:08 --> Total execution time: 0.2767
+INFO - 2021-10-28 13:34:25 --> Config Class Initialized
+INFO - 2021-10-28 13:34:25 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:34:25 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:34:25 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:34:25 --> URI Class Initialized
+INFO - 2021-10-28 13:34:25 --> Router Class Initialized
+INFO - 2021-10-28 13:34:25 --> Output Class Initialized
+INFO - 2021-10-28 13:34:25 --> Security Class Initialized
+INFO - 2021-10-28 13:34:25 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:34:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:34:25 --> Input Class Initialized
+INFO - 2021-10-28 13:34:25 --> Language Class Initialized
+INFO - 2021-10-28 13:34:25 --> Loader Class Initialized
+INFO - 2021-10-28 13:34:25 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:34:25 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:34:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:34:25 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:34:25 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:34:25 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:34:25 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:34:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:34:25 --> Parser Class Initialized
+INFO - 2021-10-28 13:34:25 --> Model Class Initialized
+INFO - 2021-10-28 13:34:25 --> Model Class Initialized
+INFO - 2021-10-28 13:34:25 --> Controller Class Initialized
+INFO - 2021-10-28 13:34:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:34:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "today"
+INFO - 2021-10-28 13:34:25 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:34:25 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:34:25 --> Model Class Initialized
+INFO - 2021-10-28 13:34:25 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:34:25 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:34:25 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:34:25 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:34:25 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:34:25 --> Final output sent to browser
+DEBUG - 2021-10-28 13:34:25 --> Total execution time: 0.1223
+INFO - 2021-10-28 13:34:46 --> Config Class Initialized
+INFO - 2021-10-28 13:34:46 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:34:46 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:34:46 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:34:46 --> URI Class Initialized
+INFO - 2021-10-28 13:34:46 --> Router Class Initialized
+INFO - 2021-10-28 13:34:46 --> Output Class Initialized
+INFO - 2021-10-28 13:34:46 --> Security Class Initialized
+INFO - 2021-10-28 13:34:46 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:34:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:34:46 --> Input Class Initialized
+INFO - 2021-10-28 13:34:46 --> Language Class Initialized
+INFO - 2021-10-28 13:34:46 --> Loader Class Initialized
+INFO - 2021-10-28 13:34:46 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:34:46 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:34:46 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:34:46 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:34:46 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:34:46 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:34:46 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:34:46 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:34:46 --> Parser Class Initialized
+INFO - 2021-10-28 13:34:46 --> Model Class Initialized
+INFO - 2021-10-28 13:34:46 --> Model Class Initialized
+INFO - 2021-10-28 13:34:46 --> Controller Class Initialized
+INFO - 2021-10-28 13:34:46 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:34:46 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:34:46 --> Could not find the language line "today"
+INFO - 2021-10-28 13:34:46 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:34:46 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:34:46 --> Model Class Initialized
+INFO - 2021-10-28 13:34:46 --> Final output sent to browser
+DEBUG - 2021-10-28 13:34:46 --> Total execution time: 0.3315
+INFO - 2021-10-28 13:36:14 --> Config Class Initialized
+INFO - 2021-10-28 13:36:14 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:36:14 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:36:14 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:36:14 --> URI Class Initialized
+INFO - 2021-10-28 13:36:14 --> Router Class Initialized
+INFO - 2021-10-28 13:36:14 --> Output Class Initialized
+INFO - 2021-10-28 13:36:14 --> Security Class Initialized
+INFO - 2021-10-28 13:36:14 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:36:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:36:14 --> Input Class Initialized
+INFO - 2021-10-28 13:36:14 --> Language Class Initialized
+INFO - 2021-10-28 13:36:14 --> Loader Class Initialized
+INFO - 2021-10-28 13:36:14 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:36:14 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:36:14 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:36:14 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:36:14 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:36:14 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:36:14 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:36:14 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:36:14 --> Parser Class Initialized
+INFO - 2021-10-28 13:36:14 --> Model Class Initialized
+INFO - 2021-10-28 13:36:14 --> Model Class Initialized
+INFO - 2021-10-28 13:36:14 --> Controller Class Initialized
+INFO - 2021-10-28 13:36:14 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:36:14 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "today"
+INFO - 2021-10-28 13:36:14 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:36:14 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:36:14 --> Model Class Initialized
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:36:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:36:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:36:14 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:36:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:36:14 --> Final output sent to browser
+DEBUG - 2021-10-28 13:36:14 --> Total execution time: 0.2140
+INFO - 2021-10-28 13:36:15 --> Config Class Initialized
+INFO - 2021-10-28 13:36:15 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:36:15 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:36:15 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:36:15 --> URI Class Initialized
+INFO - 2021-10-28 13:36:15 --> Router Class Initialized
+INFO - 2021-10-28 13:36:15 --> Output Class Initialized
+INFO - 2021-10-28 13:36:15 --> Security Class Initialized
+INFO - 2021-10-28 13:36:15 --> CRSF cookie sent
+INFO - 2021-10-28 13:36:15 --> CSRF token verified
+DEBUG - 2021-10-28 13:36:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:36:15 --> Input Class Initialized
+INFO - 2021-10-28 13:36:15 --> Language Class Initialized
+INFO - 2021-10-28 13:36:15 --> Loader Class Initialized
+INFO - 2021-10-28 13:36:15 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:36:15 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:36:15 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:36:15 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:36:15 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:36:15 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:36:15 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:36:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:36:15 --> Parser Class Initialized
+INFO - 2021-10-28 13:36:15 --> Model Class Initialized
+INFO - 2021-10-28 13:36:15 --> Model Class Initialized
+INFO - 2021-10-28 13:36:15 --> Controller Class Initialized
+INFO - 2021-10-28 13:36:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:36:15 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:36:15 --> Could not find the language line "today"
+INFO - 2021-10-28 13:36:15 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:36:15 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:36:15 --> Model Class Initialized
+INFO - 2021-10-28 13:36:15 --> Final output sent to browser
+DEBUG - 2021-10-28 13:36:15 --> Total execution time: 0.3514
+INFO - 2021-10-28 13:36:19 --> Config Class Initialized
+INFO - 2021-10-28 13:36:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:36:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:36:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:36:19 --> URI Class Initialized
+INFO - 2021-10-28 13:36:19 --> Router Class Initialized
+INFO - 2021-10-28 13:36:19 --> Output Class Initialized
+INFO - 2021-10-28 13:36:19 --> Security Class Initialized
+INFO - 2021-10-28 13:36:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:36:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:36:19 --> Input Class Initialized
+INFO - 2021-10-28 13:36:19 --> Language Class Initialized
+INFO - 2021-10-28 13:36:19 --> Loader Class Initialized
+INFO - 2021-10-28 13:36:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:36:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:36:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:36:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:36:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:36:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:36:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:36:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:36:19 --> Parser Class Initialized
+INFO - 2021-10-28 13:36:19 --> Model Class Initialized
+INFO - 2021-10-28 13:36:19 --> Model Class Initialized
+INFO - 2021-10-28 13:36:19 --> Controller Class Initialized
+INFO - 2021-10-28 13:36:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:36:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "today"
+INFO - 2021-10-28 13:36:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:36:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:36:19 --> Model Class Initialized
+INFO - 2021-10-28 13:36:19 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:36:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:36:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:36:19 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:36:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:36:19 --> Final output sent to browser
+DEBUG - 2021-10-28 13:36:19 --> Total execution time: 0.2436
+INFO - 2021-10-28 13:37:26 --> Config Class Initialized
+INFO - 2021-10-28 13:37:26 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:37:26 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:37:26 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:37:26 --> URI Class Initialized
+INFO - 2021-10-28 13:37:26 --> Router Class Initialized
+INFO - 2021-10-28 13:37:26 --> Output Class Initialized
+INFO - 2021-10-28 13:37:26 --> Security Class Initialized
+INFO - 2021-10-28 13:37:26 --> CRSF cookie sent
+INFO - 2021-10-28 13:37:26 --> CSRF token verified
+DEBUG - 2021-10-28 13:37:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:37:26 --> Input Class Initialized
+INFO - 2021-10-28 13:37:26 --> Language Class Initialized
+INFO - 2021-10-28 13:37:26 --> Loader Class Initialized
+INFO - 2021-10-28 13:37:26 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:37:26 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:37:26 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:37:26 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:37:26 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:37:26 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:37:26 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:37:26 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:37:26 --> Parser Class Initialized
+INFO - 2021-10-28 13:37:26 --> Model Class Initialized
+INFO - 2021-10-28 13:37:26 --> Model Class Initialized
+INFO - 2021-10-28 13:37:26 --> Controller Class Initialized
+INFO - 2021-10-28 13:37:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:37:26 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:37:26 --> Could not find the language line "today"
+INFO - 2021-10-28 13:37:26 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:37:26 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:37:26 --> Model Class Initialized
+INFO - 2021-10-28 13:37:26 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:37:26 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:37:26 --> Upload Class Initialized
+INFO - 2021-10-28 13:37:27 --> Config Class Initialized
+INFO - 2021-10-28 13:37:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:37:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:37:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:37:27 --> URI Class Initialized
+INFO - 2021-10-28 13:37:27 --> Router Class Initialized
+INFO - 2021-10-28 13:37:27 --> Output Class Initialized
+INFO - 2021-10-28 13:37:27 --> Security Class Initialized
+INFO - 2021-10-28 13:37:27 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:37:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:37:27 --> Input Class Initialized
+INFO - 2021-10-28 13:37:27 --> Language Class Initialized
+INFO - 2021-10-28 13:37:27 --> Loader Class Initialized
+INFO - 2021-10-28 13:37:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:37:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:37:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:37:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:37:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:37:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:37:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:37:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:37:27 --> Parser Class Initialized
+INFO - 2021-10-28 13:37:27 --> Model Class Initialized
+INFO - 2021-10-28 13:37:27 --> Model Class Initialized
+INFO - 2021-10-28 13:37:27 --> Controller Class Initialized
+INFO - 2021-10-28 13:37:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:37:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "today"
+INFO - 2021-10-28 13:37:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:37:27 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:37:27 --> Model Class Initialized
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:37:27 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:37:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:37:27 --> Final output sent to browser
+DEBUG - 2021-10-28 13:37:27 --> Total execution time: 0.2265
+INFO - 2021-10-28 13:37:28 --> Config Class Initialized
+INFO - 2021-10-28 13:37:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:37:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:37:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:37:28 --> URI Class Initialized
+INFO - 2021-10-28 13:37:28 --> Router Class Initialized
+INFO - 2021-10-28 13:37:28 --> Output Class Initialized
+INFO - 2021-10-28 13:37:28 --> Security Class Initialized
+INFO - 2021-10-28 13:37:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:37:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:37:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:37:28 --> Input Class Initialized
+INFO - 2021-10-28 13:37:28 --> Language Class Initialized
+INFO - 2021-10-28 13:37:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:37:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:37:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:37:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:37:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:37:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:37:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:37:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:37:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:37:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:37:28 --> Model Class Initialized
+INFO - 2021-10-28 13:37:28 --> Model Class Initialized
+INFO - 2021-10-28 13:37:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:37:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:37:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:37:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:37:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:37:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:37:28 --> Model Class Initialized
+INFO - 2021-10-28 13:37:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:37:28 --> Total execution time: 0.4314
+INFO - 2021-10-28 13:38:21 --> Config Class Initialized
+INFO - 2021-10-28 13:38:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:38:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:38:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:38:21 --> URI Class Initialized
+INFO - 2021-10-28 13:38:21 --> Router Class Initialized
+INFO - 2021-10-28 13:38:21 --> Output Class Initialized
+INFO - 2021-10-28 13:38:21 --> Security Class Initialized
+INFO - 2021-10-28 13:38:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:38:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:38:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:38:21 --> Input Class Initialized
+INFO - 2021-10-28 13:38:21 --> Language Class Initialized
+INFO - 2021-10-28 13:38:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:38:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:38:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:38:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:38:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:38:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:38:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:38:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:38:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:38:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:38:21 --> Model Class Initialized
+INFO - 2021-10-28 13:38:21 --> Model Class Initialized
+INFO - 2021-10-28 13:38:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:38:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:38:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:38:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:38:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:38:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:38:21 --> Model Class Initialized
+INFO - 2021-10-28 13:38:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:38:21 --> Total execution time: 0.1386
+INFO - 2021-10-28 13:38:27 --> Config Class Initialized
+INFO - 2021-10-28 13:38:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:38:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:38:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:38:27 --> URI Class Initialized
+INFO - 2021-10-28 13:38:27 --> Router Class Initialized
+INFO - 2021-10-28 13:38:27 --> Output Class Initialized
+INFO - 2021-10-28 13:38:27 --> Security Class Initialized
+INFO - 2021-10-28 13:38:27 --> CRSF cookie sent
+INFO - 2021-10-28 13:38:27 --> CSRF token verified
+DEBUG - 2021-10-28 13:38:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:38:27 --> Input Class Initialized
+INFO - 2021-10-28 13:38:27 --> Language Class Initialized
+INFO - 2021-10-28 13:38:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:38:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:38:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:38:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:38:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:38:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:38:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:38:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:38:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:38:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:38:28 --> Model Class Initialized
+INFO - 2021-10-28 13:38:28 --> Model Class Initialized
+INFO - 2021-10-28 13:38:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:38:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:38:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:38:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:38:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:38:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:38:28 --> Model Class Initialized
+INFO - 2021-10-28 13:38:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:38:28 --> Total execution time: 0.1714
+INFO - 2021-10-28 13:39:36 --> Config Class Initialized
+INFO - 2021-10-28 13:39:36 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:39:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:39:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:39:36 --> URI Class Initialized
+INFO - 2021-10-28 13:39:36 --> Router Class Initialized
+INFO - 2021-10-28 13:39:36 --> Output Class Initialized
+INFO - 2021-10-28 13:39:36 --> Security Class Initialized
+INFO - 2021-10-28 13:39:36 --> CRSF cookie sent
+INFO - 2021-10-28 13:39:36 --> CSRF token verified
+DEBUG - 2021-10-28 13:39:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:39:36 --> Input Class Initialized
+INFO - 2021-10-28 13:39:36 --> Language Class Initialized
+INFO - 2021-10-28 13:39:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:39:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:39:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:39:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:39:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:39:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:39:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:39:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:39:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:39:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:39:36 --> Model Class Initialized
+INFO - 2021-10-28 13:39:36 --> Model Class Initialized
+INFO - 2021-10-28 13:39:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:39:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:39:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:39:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:39:36 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:39:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:39:36 --> Model Class Initialized
+INFO - 2021-10-28 13:39:36 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:39:37 --> Config Class Initialized
+INFO - 2021-10-28 13:39:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:39:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:39:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:39:37 --> URI Class Initialized
+INFO - 2021-10-28 13:39:37 --> Router Class Initialized
+INFO - 2021-10-28 13:39:37 --> Output Class Initialized
+INFO - 2021-10-28 13:39:37 --> Security Class Initialized
+INFO - 2021-10-28 13:39:37 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:39:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:39:37 --> Input Class Initialized
+INFO - 2021-10-28 13:39:37 --> Language Class Initialized
+INFO - 2021-10-28 13:39:37 --> Loader Class Initialized
+INFO - 2021-10-28 13:39:37 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:39:37 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:39:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:39:37 --> Parser Class Initialized
+INFO - 2021-10-28 13:39:37 --> Model Class Initialized
+INFO - 2021-10-28 13:39:37 --> Model Class Initialized
+INFO - 2021-10-28 13:39:37 --> Controller Class Initialized
+INFO - 2021-10-28 13:39:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:39:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "today"
+INFO - 2021-10-28 13:39:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:39:37 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:39:37 --> Model Class Initialized
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:39:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:39:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:39:37 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:39:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:39:37 --> Final output sent to browser
+DEBUG - 2021-10-28 13:39:37 --> Total execution time: 0.2777
+INFO - 2021-10-28 13:39:37 --> Config Class Initialized
+INFO - 2021-10-28 13:39:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:39:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:39:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:39:37 --> URI Class Initialized
+INFO - 2021-10-28 13:39:37 --> Router Class Initialized
+INFO - 2021-10-28 13:39:37 --> Output Class Initialized
+INFO - 2021-10-28 13:39:37 --> Security Class Initialized
+INFO - 2021-10-28 13:39:37 --> CRSF cookie sent
+INFO - 2021-10-28 13:39:37 --> CSRF token verified
+DEBUG - 2021-10-28 13:39:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:39:37 --> Input Class Initialized
+INFO - 2021-10-28 13:39:37 --> Language Class Initialized
+INFO - 2021-10-28 13:39:37 --> Loader Class Initialized
+INFO - 2021-10-28 13:39:37 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:39:37 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:39:37 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:39:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:39:37 --> Parser Class Initialized
+INFO - 2021-10-28 13:39:37 --> Model Class Initialized
+INFO - 2021-10-28 13:39:37 --> Model Class Initialized
+INFO - 2021-10-28 13:39:37 --> Controller Class Initialized
+INFO - 2021-10-28 13:39:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:39:38 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:39:38 --> Could not find the language line "today"
+INFO - 2021-10-28 13:39:38 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:39:38 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:39:38 --> Model Class Initialized
+INFO - 2021-10-28 13:39:38 --> Final output sent to browser
+DEBUG - 2021-10-28 13:39:38 --> Total execution time: 0.4120
+INFO - 2021-10-28 13:39:44 --> Config Class Initialized
+INFO - 2021-10-28 13:39:44 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:39:44 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:39:44 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:39:44 --> URI Class Initialized
+INFO - 2021-10-28 13:39:44 --> Router Class Initialized
+INFO - 2021-10-28 13:39:44 --> Output Class Initialized
+INFO - 2021-10-28 13:39:44 --> Security Class Initialized
+INFO - 2021-10-28 13:39:44 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:39:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:39:44 --> Input Class Initialized
+INFO - 2021-10-28 13:39:44 --> Language Class Initialized
+INFO - 2021-10-28 13:39:44 --> Loader Class Initialized
+INFO - 2021-10-28 13:39:44 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:39:44 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:39:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:39:45 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:39:45 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:39:45 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:39:45 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:39:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:39:45 --> Parser Class Initialized
+INFO - 2021-10-28 13:39:45 --> Model Class Initialized
+INFO - 2021-10-28 13:39:45 --> Model Class Initialized
+INFO - 2021-10-28 13:39:45 --> Controller Class Initialized
+INFO - 2021-10-28 13:39:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:39:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "today"
+INFO - 2021-10-28 13:39:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:39:45 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:39:45 --> Model Class Initialized
+INFO - 2021-10-28 13:39:45 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:39:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "product_variants_sep_by"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "product_variants_sep_by"
+INFO - 2021-10-28 13:39:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/import_csv.php
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:39:45 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:39:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:39:45 --> Final output sent to browser
+DEBUG - 2021-10-28 13:39:45 --> Total execution time: 0.2223
+INFO - 2021-10-28 13:40:00 --> Config Class Initialized
+INFO - 2021-10-28 13:40:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:40:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:40:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:40:00 --> URI Class Initialized
+INFO - 2021-10-28 13:40:00 --> Router Class Initialized
+INFO - 2021-10-28 13:40:00 --> Output Class Initialized
+INFO - 2021-10-28 13:40:00 --> Security Class Initialized
+INFO - 2021-10-28 13:40:00 --> CRSF cookie sent
+INFO - 2021-10-28 13:40:00 --> CSRF token verified
+DEBUG - 2021-10-28 13:40:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:40:00 --> Input Class Initialized
+INFO - 2021-10-28 13:40:00 --> Language Class Initialized
+INFO - 2021-10-28 13:40:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:40:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:40:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:40:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:40:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:40:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:40:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:40:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:40:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:40:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:40:00 --> Model Class Initialized
+INFO - 2021-10-28 13:40:00 --> Model Class Initialized
+INFO - 2021-10-28 13:40:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:40:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:40:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:40:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:40:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:40:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:40:00 --> Model Class Initialized
+INFO - 2021-10-28 13:40:00 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:40:00 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:40:00 --> Upload Class Initialized
+INFO - 2021-10-28 13:40:01 --> Config Class Initialized
+INFO - 2021-10-28 13:40:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:40:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:40:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:40:01 --> URI Class Initialized
+INFO - 2021-10-28 13:40:01 --> Router Class Initialized
+INFO - 2021-10-28 13:40:01 --> Output Class Initialized
+INFO - 2021-10-28 13:40:01 --> Security Class Initialized
+INFO - 2021-10-28 13:40:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:40:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:40:01 --> Input Class Initialized
+INFO - 2021-10-28 13:40:01 --> Language Class Initialized
+INFO - 2021-10-28 13:40:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:40:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:40:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:40:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:40:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:40:01 --> Model Class Initialized
+INFO - 2021-10-28 13:40:01 --> Model Class Initialized
+INFO - 2021-10-28 13:40:01 --> Controller Class Initialized
+INFO - 2021-10-28 13:40:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:40:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "today"
+INFO - 2021-10-28 13:40:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:40:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:40:01 --> Model Class Initialized
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:40:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:40:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:40:01 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:40:01 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:40:01 --> Final output sent to browser
+DEBUG - 2021-10-28 13:40:01 --> Total execution time: 0.2093
+INFO - 2021-10-28 13:40:01 --> Config Class Initialized
+INFO - 2021-10-28 13:40:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:40:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:40:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:40:01 --> URI Class Initialized
+INFO - 2021-10-28 13:40:01 --> Router Class Initialized
+INFO - 2021-10-28 13:40:01 --> Output Class Initialized
+INFO - 2021-10-28 13:40:01 --> Security Class Initialized
+INFO - 2021-10-28 13:40:01 --> CRSF cookie sent
+INFO - 2021-10-28 13:40:01 --> CSRF token verified
+DEBUG - 2021-10-28 13:40:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:40:01 --> Input Class Initialized
+INFO - 2021-10-28 13:40:01 --> Language Class Initialized
+INFO - 2021-10-28 13:40:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:40:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:40:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:40:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:40:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:40:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:40:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:40:02 --> Parser Class Initialized
+INFO - 2021-10-28 13:40:02 --> Model Class Initialized
+INFO - 2021-10-28 13:40:02 --> Model Class Initialized
+INFO - 2021-10-28 13:40:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:40:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:40:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:40:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:40:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:40:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:40:02 --> Model Class Initialized
+INFO - 2021-10-28 13:40:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:40:02 --> Total execution time: 0.4347
+INFO - 2021-10-28 13:41:16 --> Config Class Initialized
+INFO - 2021-10-28 13:41:16 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:16 --> URI Class Initialized
+INFO - 2021-10-28 13:41:16 --> Router Class Initialized
+INFO - 2021-10-28 13:41:16 --> Output Class Initialized
+INFO - 2021-10-28 13:41:16 --> Security Class Initialized
+INFO - 2021-10-28 13:41:16 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:16 --> Input Class Initialized
+INFO - 2021-10-28 13:41:16 --> Language Class Initialized
+INFO - 2021-10-28 13:41:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:16 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:41:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 13:41:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:41:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:41:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:16 --> Total execution time: 0.1726
+INFO - 2021-10-28 13:41:16 --> Config Class Initialized
+INFO - 2021-10-28 13:41:16 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:16 --> URI Class Initialized
+INFO - 2021-10-28 13:41:16 --> Router Class Initialized
+INFO - 2021-10-28 13:41:16 --> Output Class Initialized
+INFO - 2021-10-28 13:41:16 --> Security Class Initialized
+INFO - 2021-10-28 13:41:16 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:16 --> Input Class Initialized
+INFO - 2021-10-28 13:41:16 --> Language Class Initialized
+INFO - 2021-10-28 13:41:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:16 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:16 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:16 --> Model Class Initialized
+INFO - 2021-10-28 13:41:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:16 --> Total execution time: 0.1262
+INFO - 2021-10-28 13:41:21 --> Config Class Initialized
+INFO - 2021-10-28 13:41:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:21 --> URI Class Initialized
+INFO - 2021-10-28 13:41:21 --> Router Class Initialized
+INFO - 2021-10-28 13:41:21 --> Output Class Initialized
+INFO - 2021-10-28 13:41:21 --> Security Class Initialized
+INFO - 2021-10-28 13:41:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:41:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:21 --> Input Class Initialized
+INFO - 2021-10-28 13:41:21 --> Language Class Initialized
+INFO - 2021-10-28 13:41:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:41:21 --> Upload Class Initialized
+ERROR - 2021-10-28 13:41:21 --> Query error: Incorrect integer value: '' for column 'subcategory_id' at row 1 - Invalid query: UPDATE `sma_products` SET `code` = 'MTB08', `barcode_symbology` = 'code128', `name` = 'MTB08', `type` = 'standard', `category_id` = '11', `subcategory_id` = '', `cost` = '35.00', `price` = '40.00', `unit` = 'kilos', `tax_rate` = '', `tax_method` = '1', `alert_quantity` = '1.00', `track_quantity` = '1', `details` = '', `product_details` = '', `supplier1` = '', `supplier1price` = NULL, `supplier2` = NULL, `supplier2price` = NULL, `supplier3` = NULL, `supplier3price` = NULL, `supplier4` = NULL, `supplier4price` = NULL, `supplier5` = NULL, `supplier5price` = NULL, `cf1` = '', `cf2` = '', `cf3` = '', `cf4` = '', `cf5` = '', `cf6` = '', `quantity` = 0
+WHERE `id` = '60'
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:41:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 13:41:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:41:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:41:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:21 --> Total execution time: 0.1649
+INFO - 2021-10-28 13:41:21 --> Config Class Initialized
+INFO - 2021-10-28 13:41:21 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:21 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:21 --> URI Class Initialized
+INFO - 2021-10-28 13:41:21 --> Router Class Initialized
+INFO - 2021-10-28 13:41:21 --> Output Class Initialized
+INFO - 2021-10-28 13:41:21 --> Security Class Initialized
+INFO - 2021-10-28 13:41:21 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:21 --> Input Class Initialized
+INFO - 2021-10-28 13:41:21 --> Language Class Initialized
+INFO - 2021-10-28 13:41:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:21 --> Model Class Initialized
+INFO - 2021-10-28 13:41:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:21 --> Total execution time: 0.0988
+INFO - 2021-10-28 13:41:24 --> Config Class Initialized
+INFO - 2021-10-28 13:41:24 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:24 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:24 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:24 --> URI Class Initialized
+INFO - 2021-10-28 13:41:24 --> Router Class Initialized
+INFO - 2021-10-28 13:41:24 --> Output Class Initialized
+INFO - 2021-10-28 13:41:24 --> Security Class Initialized
+INFO - 2021-10-28 13:41:24 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:24 --> Input Class Initialized
+INFO - 2021-10-28 13:41:24 --> Language Class Initialized
+INFO - 2021-10-28 13:41:24 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:24 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:24 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:24 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+INFO - 2021-10-28 13:41:24 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:41:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:41:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:41:24 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:41:24 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:24 --> Total execution time: 0.1186
+INFO - 2021-10-28 13:41:24 --> Config Class Initialized
+INFO - 2021-10-28 13:41:24 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:24 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:24 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:24 --> URI Class Initialized
+INFO - 2021-10-28 13:41:24 --> Router Class Initialized
+INFO - 2021-10-28 13:41:24 --> Output Class Initialized
+INFO - 2021-10-28 13:41:24 --> Security Class Initialized
+INFO - 2021-10-28 13:41:24 --> CRSF cookie sent
+INFO - 2021-10-28 13:41:24 --> CSRF token verified
+DEBUG - 2021-10-28 13:41:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:24 --> Input Class Initialized
+INFO - 2021-10-28 13:41:24 --> Language Class Initialized
+INFO - 2021-10-28 13:41:24 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:24 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:24 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:24 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:24 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+INFO - 2021-10-28 13:41:24 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:24 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:24 --> Model Class Initialized
+INFO - 2021-10-28 13:41:24 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:24 --> Total execution time: 0.3024
+INFO - 2021-10-28 13:41:35 --> Config Class Initialized
+INFO - 2021-10-28 13:41:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:35 --> URI Class Initialized
+INFO - 2021-10-28 13:41:35 --> Router Class Initialized
+INFO - 2021-10-28 13:41:35 --> Output Class Initialized
+INFO - 2021-10-28 13:41:35 --> Security Class Initialized
+INFO - 2021-10-28 13:41:35 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:35 --> Input Class Initialized
+INFO - 2021-10-28 13:41:35 --> Language Class Initialized
+INFO - 2021-10-28 13:41:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:35 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:35 --> Model Class Initialized
+INFO - 2021-10-28 13:41:35 --> Model Class Initialized
+INFO - 2021-10-28 13:41:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:35 --> Model Class Initialized
+INFO - 2021-10-28 13:41:35 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:41:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 13:41:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:41:35 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:41:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:41:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:35 --> Total execution time: 0.1443
+INFO - 2021-10-28 13:41:36 --> Config Class Initialized
+INFO - 2021-10-28 13:41:36 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:36 --> URI Class Initialized
+INFO - 2021-10-28 13:41:36 --> Router Class Initialized
+INFO - 2021-10-28 13:41:36 --> Output Class Initialized
+INFO - 2021-10-28 13:41:36 --> Security Class Initialized
+INFO - 2021-10-28 13:41:36 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:36 --> Input Class Initialized
+INFO - 2021-10-28 13:41:36 --> Language Class Initialized
+INFO - 2021-10-28 13:41:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:36 --> Total execution time: 0.1357
+INFO - 2021-10-28 13:41:36 --> Config Class Initialized
+INFO - 2021-10-28 13:41:36 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:36 --> URI Class Initialized
+INFO - 2021-10-28 13:41:36 --> Router Class Initialized
+INFO - 2021-10-28 13:41:36 --> Output Class Initialized
+INFO - 2021-10-28 13:41:36 --> Security Class Initialized
+INFO - 2021-10-28 13:41:36 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:36 --> Input Class Initialized
+INFO - 2021-10-28 13:41:36 --> Language Class Initialized
+INFO - 2021-10-28 13:41:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:36 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-28 13:41:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:36 --> Model Class Initialized
+INFO - 2021-10-28 13:41:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:36 --> Total execution time: 0.0887
+INFO - 2021-10-28 13:41:41 --> Config Class Initialized
+INFO - 2021-10-28 13:41:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:41 --> URI Class Initialized
+INFO - 2021-10-28 13:41:41 --> Router Class Initialized
+INFO - 2021-10-28 13:41:41 --> Output Class Initialized
+INFO - 2021-10-28 13:41:41 --> Security Class Initialized
+INFO - 2021-10-28 13:41:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:41:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:41:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:41 --> Input Class Initialized
+INFO - 2021-10-28 13:41:41 --> Language Class Initialized
+INFO - 2021-10-28 13:41:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+INFO - 2021-10-28 13:41:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+INFO - 2021-10-28 13:41:41 --> Helper loaded: security_helper
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:41:41 --> Upload Class Initialized
+INFO - 2021-10-28 13:41:41 --> 0
+INFO - 2021-10-28 13:41:41 --> syncProductQty
+INFO - 2021-10-28 13:41:41 --> 3
+INFO - 2021-10-28 13:41:41 --> balance_qty
+INFO - 2021-10-28 13:41:41 --> 
+INFO - 2021-10-28 13:41:41 --> warehouses_products standart
+INFO - 2021-10-28 13:41:41 --> 3
+INFO - 2021-10-28 13:41:41 --> 3
+INFO - 2021-10-28 13:41:41 --> 
+ERROR - 2021-10-28 13:41:41 --> Query error: Column 'quantity' cannot be null - Invalid query: UPDATE `sma_warehouses_products` SET `quantity` = NULL
+WHERE `product_id` = '3'
+AND `warehouse_id` = '3'
+INFO - 2021-10-28 13:41:41 --> Config Class Initialized
+INFO - 2021-10-28 13:41:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:41 --> URI Class Initialized
+INFO - 2021-10-28 13:41:41 --> Router Class Initialized
+INFO - 2021-10-28 13:41:41 --> Output Class Initialized
+INFO - 2021-10-28 13:41:41 --> Security Class Initialized
+INFO - 2021-10-28 13:41:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:41:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:41 --> Input Class Initialized
+INFO - 2021-10-28 13:41:41 --> Language Class Initialized
+INFO - 2021-10-28 13:41:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+INFO - 2021-10-28 13:41:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:41 --> Model Class Initialized
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:41:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:41:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:41:41 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:41:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:41:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:41 --> Total execution time: 0.1585
+INFO - 2021-10-28 13:41:42 --> Config Class Initialized
+INFO - 2021-10-28 13:41:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:41:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:41:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:41:42 --> URI Class Initialized
+INFO - 2021-10-28 13:41:42 --> Router Class Initialized
+INFO - 2021-10-28 13:41:42 --> Output Class Initialized
+INFO - 2021-10-28 13:41:42 --> Security Class Initialized
+INFO - 2021-10-28 13:41:42 --> CRSF cookie sent
+INFO - 2021-10-28 13:41:42 --> CSRF token verified
+DEBUG - 2021-10-28 13:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:41:42 --> Input Class Initialized
+INFO - 2021-10-28 13:41:42 --> Language Class Initialized
+INFO - 2021-10-28 13:41:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:41:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:41:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:41:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:41:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:41:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:41:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:41:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:41:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:41:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:41:42 --> Model Class Initialized
+INFO - 2021-10-28 13:41:42 --> Model Class Initialized
+INFO - 2021-10-28 13:41:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:41:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:41:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:41:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:41:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:41:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:41:42 --> Model Class Initialized
+INFO - 2021-10-28 13:41:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:41:42 --> Total execution time: 0.2660
+INFO - 2021-10-28 13:43:16 --> Config Class Initialized
+INFO - 2021-10-28 13:43:16 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:16 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:16 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:16 --> URI Class Initialized
+INFO - 2021-10-28 13:43:16 --> Router Class Initialized
+INFO - 2021-10-28 13:43:16 --> Output Class Initialized
+INFO - 2021-10-28 13:43:16 --> Security Class Initialized
+INFO - 2021-10-28 13:43:16 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:16 --> Input Class Initialized
+INFO - 2021-10-28 13:43:16 --> Language Class Initialized
+INFO - 2021-10-28 13:43:16 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:16 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:16 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:16 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:16 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:16 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:16 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:16 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:16 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:16 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:16 --> Model Class Initialized
+INFO - 2021-10-28 13:43:16 --> Model Class Initialized
+INFO - 2021-10-28 13:43:16 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:16 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:16 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:16 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:16 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:16 --> Model Class Initialized
+INFO - 2021-10-28 13:43:16 --> Helper loaded: security_helper
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:43:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "add_more_variants"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "not_with_variants"
+INFO - 2021-10-28 13:43:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/edit.php
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:43:16 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:43:16 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:43:16 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:16 --> Total execution time: 0.1992
+INFO - 2021-10-28 13:43:17 --> Config Class Initialized
+INFO - 2021-10-28 13:43:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:17 --> URI Class Initialized
+INFO - 2021-10-28 13:43:17 --> Router Class Initialized
+INFO - 2021-10-28 13:43:17 --> Output Class Initialized
+INFO - 2021-10-28 13:43:17 --> Security Class Initialized
+INFO - 2021-10-28 13:43:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:17 --> Input Class Initialized
+INFO - 2021-10-28 13:43:17 --> Language Class Initialized
+INFO - 2021-10-28 13:43:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:17 --> Total execution time: 0.1381
+INFO - 2021-10-28 13:43:17 --> Config Class Initialized
+INFO - 2021-10-28 13:43:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:17 --> URI Class Initialized
+INFO - 2021-10-28 13:43:17 --> Router Class Initialized
+INFO - 2021-10-28 13:43:17 --> Output Class Initialized
+INFO - 2021-10-28 13:43:17 --> Security Class Initialized
+INFO - 2021-10-28 13:43:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:17 --> Input Class Initialized
+INFO - 2021-10-28 13:43:17 --> Language Class Initialized
+INFO - 2021-10-28 13:43:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:17 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-28 13:43:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:17 --> Model Class Initialized
+INFO - 2021-10-28 13:43:17 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:17 --> Total execution time: 0.1727
+INFO - 2021-10-28 13:43:23 --> Config Class Initialized
+INFO - 2021-10-28 13:43:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:23 --> URI Class Initialized
+INFO - 2021-10-28 13:43:23 --> Router Class Initialized
+INFO - 2021-10-28 13:43:23 --> Output Class Initialized
+INFO - 2021-10-28 13:43:23 --> Security Class Initialized
+INFO - 2021-10-28 13:43:23 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:23 --> Input Class Initialized
+INFO - 2021-10-28 13:43:23 --> Language Class Initialized
+INFO - 2021-10-28 13:43:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+INFO - 2021-10-28 13:43:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:43:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:43:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:43:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:43:23 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:23 --> Total execution time: 0.1334
+INFO - 2021-10-28 13:43:23 --> Config Class Initialized
+INFO - 2021-10-28 13:43:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:23 --> URI Class Initialized
+INFO - 2021-10-28 13:43:23 --> Router Class Initialized
+INFO - 2021-10-28 13:43:23 --> Output Class Initialized
+INFO - 2021-10-28 13:43:23 --> Security Class Initialized
+INFO - 2021-10-28 13:43:23 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:23 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:23 --> Input Class Initialized
+INFO - 2021-10-28 13:43:23 --> Language Class Initialized
+INFO - 2021-10-28 13:43:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+INFO - 2021-10-28 13:43:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:23 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:23 --> Model Class Initialized
+INFO - 2021-10-28 13:43:23 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:23 --> Total execution time: 0.2948
+INFO - 2021-10-28 13:43:26 --> Config Class Initialized
+INFO - 2021-10-28 13:43:26 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:26 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:26 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:26 --> URI Class Initialized
+INFO - 2021-10-28 13:43:26 --> Router Class Initialized
+INFO - 2021-10-28 13:43:26 --> Output Class Initialized
+INFO - 2021-10-28 13:43:26 --> Security Class Initialized
+INFO - 2021-10-28 13:43:26 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:26 --> Input Class Initialized
+INFO - 2021-10-28 13:43:26 --> Language Class Initialized
+INFO - 2021-10-28 13:43:26 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:26 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:26 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:26 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:26 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:26 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:26 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:26 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:26 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:26 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:26 --> Model Class Initialized
+INFO - 2021-10-28 13:43:26 --> Model Class Initialized
+INFO - 2021-10-28 13:43:26 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:26 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:26 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:26 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:26 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:26 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:26 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:43:26 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:43:26 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:43:26 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:43:26 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:43:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:43:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:43:27 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:27 --> Total execution time: 0.9308
+INFO - 2021-10-28 13:43:27 --> Config Class Initialized
+INFO - 2021-10-28 13:43:27 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:27 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:27 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:27 --> URI Class Initialized
+INFO - 2021-10-28 13:43:27 --> Router Class Initialized
+INFO - 2021-10-28 13:43:27 --> Output Class Initialized
+INFO - 2021-10-28 13:43:27 --> Security Class Initialized
+INFO - 2021-10-28 13:43:27 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:27 --> Input Class Initialized
+INFO - 2021-10-28 13:43:27 --> Language Class Initialized
+INFO - 2021-10-28 13:43:27 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:27 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:27 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:27 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:27 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:27 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:27 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:27 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:27 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:27 --> Model Class Initialized
+INFO - 2021-10-28 13:43:27 --> Model Class Initialized
+INFO - 2021-10-28 13:43:27 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:27 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:27 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:27 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:27 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:27 --> Model Class Initialized
+DEBUG - 2021-10-28 13:43:27 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:43:27 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:43:27 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:27 --> Total execution time: 0.1959
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Final output sent to browser
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> Total execution time: 0.1991
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:43:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Config Class Initialized
+INFO - 2021-10-28 13:43:28 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:28 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:28 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:28 --> URI Class Initialized
+INFO - 2021-10-28 13:43:28 --> Router Class Initialized
+INFO - 2021-10-28 13:43:28 --> Output Class Initialized
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Security Class Initialized
+INFO - 2021-10-28 13:43:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:28 --> Total execution time: 0.3571
+INFO - 2021-10-28 13:43:28 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:28 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:28 --> Input Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language Class Initialized
+INFO - 2021-10-28 13:43:28 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:28 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:28 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:43:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:28 --> Total execution time: 0.4438
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:43:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:28 --> Total execution time: 0.4988
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:28 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:43:28 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:43:28 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:28 --> Total execution time: 0.5516
+INFO - 2021-10-28 13:43:28 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:28 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Model Class Initialized
+INFO - 2021-10-28 13:43:28 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:28 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:29 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:29 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:29 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:43:29 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:29 --> Model Class Initialized
+INFO - 2021-10-28 13:43:29 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:29 --> Total execution time: 0.6116
+INFO - 2021-10-28 13:43:37 --> Config Class Initialized
+INFO - 2021-10-28 13:43:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:37 --> URI Class Initialized
+INFO - 2021-10-28 13:43:37 --> Router Class Initialized
+INFO - 2021-10-28 13:43:37 --> Output Class Initialized
+INFO - 2021-10-28 13:43:37 --> Security Class Initialized
+INFO - 2021-10-28 13:43:37 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:37 --> Input Class Initialized
+INFO - 2021-10-28 13:43:37 --> Language Class Initialized
+INFO - 2021-10-28 13:43:37 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:37 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:37 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:37 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:37 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:37 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:37 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:37 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:37 --> Model Class Initialized
+INFO - 2021-10-28 13:43:37 --> Model Class Initialized
+INFO - 2021-10-28 13:43:37 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:37 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:37 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:43:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:43:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:43:37 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:43:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:43:37 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:37 --> Total execution time: 0.1235
+INFO - 2021-10-28 13:43:37 --> Config Class Initialized
+INFO - 2021-10-28 13:43:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:37 --> URI Class Initialized
+INFO - 2021-10-28 13:43:37 --> Router Class Initialized
+INFO - 2021-10-28 13:43:37 --> Output Class Initialized
+INFO - 2021-10-28 13:43:38 --> Security Class Initialized
+INFO - 2021-10-28 13:43:38 --> CRSF cookie sent
+INFO - 2021-10-28 13:43:38 --> CSRF token verified
+DEBUG - 2021-10-28 13:43:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:38 --> Input Class Initialized
+INFO - 2021-10-28 13:43:38 --> Language Class Initialized
+INFO - 2021-10-28 13:43:38 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:38 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:38 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:38 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:38 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:38 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:38 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:38 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:38 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:38 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:38 --> Model Class Initialized
+INFO - 2021-10-28 13:43:38 --> Model Class Initialized
+INFO - 2021-10-28 13:43:38 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:38 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:38 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:38 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:38 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:38 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:38 --> Model Class Initialized
+INFO - 2021-10-28 13:43:38 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:38 --> Total execution time: 0.1931
+INFO - 2021-10-28 13:43:42 --> Config Class Initialized
+INFO - 2021-10-28 13:43:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:42 --> URI Class Initialized
+INFO - 2021-10-28 13:43:42 --> Router Class Initialized
+INFO - 2021-10-28 13:43:42 --> Output Class Initialized
+INFO - 2021-10-28 13:43:42 --> Security Class Initialized
+INFO - 2021-10-28 13:43:42 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:42 --> Input Class Initialized
+INFO - 2021-10-28 13:43:42 --> Language Class Initialized
+INFO - 2021-10-28 13:43:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:42 --> Model Class Initialized
+INFO - 2021-10-28 13:43:42 --> Model Class Initialized
+INFO - 2021-10-28 13:43:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:42 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:43 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:43:43 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:43:43 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:43:43 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:43:43 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:43 --> Total execution time: 0.6845
+INFO - 2021-10-28 13:43:43 --> Config Class Initialized
+INFO - 2021-10-28 13:43:43 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:43 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:43 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:43 --> URI Class Initialized
+INFO - 2021-10-28 13:43:43 --> Router Class Initialized
+INFO - 2021-10-28 13:43:43 --> Output Class Initialized
+INFO - 2021-10-28 13:43:43 --> Security Class Initialized
+INFO - 2021-10-28 13:43:43 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:43 --> Input Class Initialized
+INFO - 2021-10-28 13:43:43 --> Language Class Initialized
+INFO - 2021-10-28 13:43:43 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:43 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:43 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:43 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:43 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:43 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:43 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:43 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:43 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:43 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:43 --> Model Class Initialized
+INFO - 2021-10-28 13:43:43 --> Model Class Initialized
+INFO - 2021-10-28 13:43:43 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:43 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:43 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:43 --> Model Class Initialized
+DEBUG - 2021-10-28 13:43:43 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:43:43 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:43:43 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:43 --> Total execution time: 0.1854
+INFO - 2021-10-28 13:43:55 --> Config Class Initialized
+INFO - 2021-10-28 13:43:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:55 --> URI Class Initialized
+INFO - 2021-10-28 13:43:55 --> Router Class Initialized
+INFO - 2021-10-28 13:43:55 --> Output Class Initialized
+INFO - 2021-10-28 13:43:55 --> Security Class Initialized
+INFO - 2021-10-28 13:43:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:55 --> Input Class Initialized
+INFO - 2021-10-28 13:43:55 --> Language Class Initialized
+INFO - 2021-10-28 13:43:55 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:55 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+INFO - 2021-10-28 13:43:55 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:55 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+ERROR - 2021-10-28 13:43:55 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:43:55 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:43:55 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:43:55 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:55 --> Total execution time: 0.6762
+INFO - 2021-10-28 13:43:55 --> Config Class Initialized
+INFO - 2021-10-28 13:43:55 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:43:55 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:43:55 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:43:55 --> URI Class Initialized
+INFO - 2021-10-28 13:43:55 --> Router Class Initialized
+INFO - 2021-10-28 13:43:55 --> Output Class Initialized
+INFO - 2021-10-28 13:43:55 --> Security Class Initialized
+INFO - 2021-10-28 13:43:55 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:43:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:43:55 --> Input Class Initialized
+INFO - 2021-10-28 13:43:55 --> Language Class Initialized
+INFO - 2021-10-28 13:43:55 --> Loader Class Initialized
+INFO - 2021-10-28 13:43:55 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:43:55 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:43:55 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:43:55 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:43:55 --> Parser Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+INFO - 2021-10-28 13:43:55 --> Controller Class Initialized
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:43:55 --> Could not find the language line "today"
+INFO - 2021-10-28 13:43:55 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:43:55 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:43:55 --> Model Class Initialized
+DEBUG - 2021-10-28 13:43:55 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:43:55 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:43:55 --> Final output sent to browser
+DEBUG - 2021-10-28 13:43:55 --> Total execution time: 0.1117
+INFO - 2021-10-28 13:46:02 --> Config Class Initialized
+INFO - 2021-10-28 13:46:02 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:46:02 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:46:02 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:46:02 --> URI Class Initialized
+INFO - 2021-10-28 13:46:02 --> Router Class Initialized
+INFO - 2021-10-28 13:46:02 --> Output Class Initialized
+INFO - 2021-10-28 13:46:02 --> Security Class Initialized
+INFO - 2021-10-28 13:46:02 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:46:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:46:02 --> Input Class Initialized
+INFO - 2021-10-28 13:46:02 --> Language Class Initialized
+INFO - 2021-10-28 13:46:02 --> Loader Class Initialized
+INFO - 2021-10-28 13:46:02 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:46:02 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:46:02 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:46:02 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:46:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:46:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:46:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:46:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:46:02 --> Parser Class Initialized
+INFO - 2021-10-28 13:46:02 --> Model Class Initialized
+INFO - 2021-10-28 13:46:02 --> Model Class Initialized
+INFO - 2021-10-28 13:46:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:46:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:46:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:46:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:46:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:46:02 --> Model Class Initialized
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:46:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:46:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:46:02 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:46:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:46:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:46:02 --> Total execution time: 0.2005
+INFO - 2021-10-28 13:46:03 --> Config Class Initialized
+INFO - 2021-10-28 13:46:03 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:46:03 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:46:03 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:46:03 --> URI Class Initialized
+INFO - 2021-10-28 13:46:03 --> Router Class Initialized
+INFO - 2021-10-28 13:46:03 --> Output Class Initialized
+INFO - 2021-10-28 13:46:03 --> Security Class Initialized
+INFO - 2021-10-28 13:46:03 --> CRSF cookie sent
+INFO - 2021-10-28 13:46:03 --> CSRF token verified
+DEBUG - 2021-10-28 13:46:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:46:03 --> Input Class Initialized
+INFO - 2021-10-28 13:46:03 --> Language Class Initialized
+INFO - 2021-10-28 13:46:03 --> Loader Class Initialized
+INFO - 2021-10-28 13:46:03 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:46:03 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:46:03 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:46:03 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:46:03 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:46:03 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:46:03 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:46:03 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:46:03 --> Parser Class Initialized
+INFO - 2021-10-28 13:46:03 --> Model Class Initialized
+INFO - 2021-10-28 13:46:03 --> Model Class Initialized
+INFO - 2021-10-28 13:46:03 --> Controller Class Initialized
+INFO - 2021-10-28 13:46:03 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:46:03 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:46:03 --> Could not find the language line "today"
+INFO - 2021-10-28 13:46:03 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:46:03 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:46:03 --> Model Class Initialized
+INFO - 2021-10-28 13:46:03 --> Final output sent to browser
+DEBUG - 2021-10-28 13:46:03 --> Total execution time: 0.3422
+INFO - 2021-10-28 13:46:08 --> Config Class Initialized
+INFO - 2021-10-28 13:46:08 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:46:08 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:46:08 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:46:08 --> URI Class Initialized
+INFO - 2021-10-28 13:46:08 --> Router Class Initialized
+INFO - 2021-10-28 13:46:08 --> Output Class Initialized
+INFO - 2021-10-28 13:46:08 --> Security Class Initialized
+INFO - 2021-10-28 13:46:08 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:46:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:46:08 --> Input Class Initialized
+INFO - 2021-10-28 13:46:08 --> Language Class Initialized
+INFO - 2021-10-28 13:46:08 --> Loader Class Initialized
+INFO - 2021-10-28 13:46:08 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:46:08 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:46:08 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:46:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:46:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:46:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:46:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:46:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:46:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:46:09 --> Model Class Initialized
+INFO - 2021-10-28 13:46:09 --> Model Class Initialized
+INFO - 2021-10-28 13:46:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:46:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:46:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:46:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:46:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:46:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:46:09 --> Model Class Initialized
+ERROR - 2021-10-28 13:46:10 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:46:10 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:46:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:46:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:46:10 --> Total execution time: 1.5610
+INFO - 2021-10-28 13:46:10 --> Config Class Initialized
+INFO - 2021-10-28 13:46:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:46:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:46:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:46:10 --> URI Class Initialized
+INFO - 2021-10-28 13:46:10 --> Router Class Initialized
+INFO - 2021-10-28 13:46:10 --> Output Class Initialized
+INFO - 2021-10-28 13:46:10 --> Security Class Initialized
+INFO - 2021-10-28 13:46:10 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:46:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:46:10 --> Input Class Initialized
+INFO - 2021-10-28 13:46:10 --> Language Class Initialized
+INFO - 2021-10-28 13:46:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:46:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:46:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:46:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:46:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:46:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:46:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:46:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:46:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:46:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:46:10 --> Model Class Initialized
+INFO - 2021-10-28 13:46:10 --> Model Class Initialized
+INFO - 2021-10-28 13:46:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:46:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:46:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:46:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:46:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:46:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:46:10 --> Model Class Initialized
+DEBUG - 2021-10-28 13:46:10 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:46:10 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:46:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:46:10 --> Total execution time: 0.2422
+INFO - 2021-10-28 13:48:33 --> Config Class Initialized
+INFO - 2021-10-28 13:48:33 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:33 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:33 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:33 --> URI Class Initialized
+INFO - 2021-10-28 13:48:33 --> Router Class Initialized
+INFO - 2021-10-28 13:48:33 --> Output Class Initialized
+INFO - 2021-10-28 13:48:33 --> Security Class Initialized
+INFO - 2021-10-28 13:48:33 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:33 --> Input Class Initialized
+INFO - 2021-10-28 13:48:33 --> Language Class Initialized
+INFO - 2021-10-28 13:48:33 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:33 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:33 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:33 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+INFO - 2021-10-28 13:48:33 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:33 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:48:33 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:48:33 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:48:33 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:48:33 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:33 --> Total execution time: 0.1164
+INFO - 2021-10-28 13:48:33 --> Config Class Initialized
+INFO - 2021-10-28 13:48:33 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:33 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:33 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:33 --> URI Class Initialized
+INFO - 2021-10-28 13:48:33 --> Router Class Initialized
+INFO - 2021-10-28 13:48:33 --> Output Class Initialized
+INFO - 2021-10-28 13:48:33 --> Security Class Initialized
+INFO - 2021-10-28 13:48:33 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:33 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:33 --> Input Class Initialized
+INFO - 2021-10-28 13:48:33 --> Language Class Initialized
+INFO - 2021-10-28 13:48:33 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:33 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:33 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:33 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:33 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+INFO - 2021-10-28 13:48:33 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:33 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:33 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:33 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:33 --> Model Class Initialized
+INFO - 2021-10-28 13:48:33 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:33 --> Total execution time: 0.1738
+INFO - 2021-10-28 13:48:36 --> Config Class Initialized
+INFO - 2021-10-28 13:48:36 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:36 --> URI Class Initialized
+INFO - 2021-10-28 13:48:36 --> Router Class Initialized
+INFO - 2021-10-28 13:48:36 --> Output Class Initialized
+INFO - 2021-10-28 13:48:36 --> Security Class Initialized
+INFO - 2021-10-28 13:48:36 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:36 --> Input Class Initialized
+INFO - 2021-10-28 13:48:36 --> Language Class Initialized
+INFO - 2021-10-28 13:48:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:36 --> Model Class Initialized
+INFO - 2021-10-28 13:48:36 --> Model Class Initialized
+INFO - 2021-10-28 13:48:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:36 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:36 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:37 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:48:37 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:48:37 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:48:37 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:48:37 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:37 --> Total execution time: 0.6275
+INFO - 2021-10-28 13:48:37 --> Config Class Initialized
+INFO - 2021-10-28 13:48:37 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:37 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:37 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:37 --> URI Class Initialized
+INFO - 2021-10-28 13:48:37 --> Router Class Initialized
+INFO - 2021-10-28 13:48:37 --> Output Class Initialized
+INFO - 2021-10-28 13:48:37 --> Security Class Initialized
+INFO - 2021-10-28 13:48:37 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:37 --> Input Class Initialized
+INFO - 2021-10-28 13:48:37 --> Language Class Initialized
+INFO - 2021-10-28 13:48:37 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:37 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:37 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:37 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:37 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:37 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:37 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:37 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:37 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:37 --> Model Class Initialized
+INFO - 2021-10-28 13:48:37 --> Model Class Initialized
+INFO - 2021-10-28 13:48:37 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:37 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:37 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:37 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:37 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:37 --> Model Class Initialized
+DEBUG - 2021-10-28 13:48:37 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:48:37 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:48:37 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:37 --> Total execution time: 0.1269
+INFO - 2021-10-28 13:48:41 --> Config Class Initialized
+INFO - 2021-10-28 13:48:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:41 --> URI Class Initialized
+INFO - 2021-10-28 13:48:41 --> Router Class Initialized
+INFO - 2021-10-28 13:48:41 --> Output Class Initialized
+INFO - 2021-10-28 13:48:41 --> Security Class Initialized
+INFO - 2021-10-28 13:48:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:41 --> Input Class Initialized
+INFO - 2021-10-28 13:48:41 --> Language Class Initialized
+INFO - 2021-10-28 13:48:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+INFO - 2021-10-28 13:48:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:41 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:48:41 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\Reactor\themes\default\views\products\modal_view.php 185
+ERROR - 2021-10-28 13:48:41 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:48:41 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:48:41 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:48:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:41 --> Total execution time: 0.6395
+INFO - 2021-10-28 13:48:41 --> Config Class Initialized
+INFO - 2021-10-28 13:48:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:41 --> URI Class Initialized
+INFO - 2021-10-28 13:48:41 --> Router Class Initialized
+INFO - 2021-10-28 13:48:41 --> Output Class Initialized
+INFO - 2021-10-28 13:48:41 --> Security Class Initialized
+INFO - 2021-10-28 13:48:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:41 --> Input Class Initialized
+INFO - 2021-10-28 13:48:41 --> Language Class Initialized
+INFO - 2021-10-28 13:48:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+INFO - 2021-10-28 13:48:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:41 --> Model Class Initialized
+DEBUG - 2021-10-28 13:48:41 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:48:41 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:48:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:41 --> Total execution time: 0.1176
+INFO - 2021-10-28 13:48:44 --> Config Class Initialized
+INFO - 2021-10-28 13:48:44 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:44 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:44 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:44 --> URI Class Initialized
+INFO - 2021-10-28 13:48:44 --> Router Class Initialized
+INFO - 2021-10-28 13:48:44 --> Output Class Initialized
+INFO - 2021-10-28 13:48:44 --> Security Class Initialized
+INFO - 2021-10-28 13:48:44 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:44 --> Input Class Initialized
+INFO - 2021-10-28 13:48:44 --> Language Class Initialized
+INFO - 2021-10-28 13:48:44 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:44 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:44 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:44 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:44 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:44 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:44 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:44 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:44 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:44 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+INFO - 2021-10-28 13:48:45 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:45 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:45 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:45 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:48:45 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:48:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:48:45 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:45 --> Total execution time: 0.6810
+INFO - 2021-10-28 13:48:45 --> Config Class Initialized
+INFO - 2021-10-28 13:48:45 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:45 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:45 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:45 --> URI Class Initialized
+INFO - 2021-10-28 13:48:45 --> Router Class Initialized
+INFO - 2021-10-28 13:48:45 --> Output Class Initialized
+INFO - 2021-10-28 13:48:45 --> Security Class Initialized
+INFO - 2021-10-28 13:48:45 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:45 --> Input Class Initialized
+INFO - 2021-10-28 13:48:45 --> Language Class Initialized
+INFO - 2021-10-28 13:48:45 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:45 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:45 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:45 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:45 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:45 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:45 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:45 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:45 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+INFO - 2021-10-28 13:48:45 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:45 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:45 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:45 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:45 --> Model Class Initialized
+DEBUG - 2021-10-28 13:48:45 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:48:45 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:48:45 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:45 --> Total execution time: 0.1404
+INFO - 2021-10-28 13:48:49 --> Config Class Initialized
+INFO - 2021-10-28 13:48:49 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:49 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:49 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:49 --> URI Class Initialized
+INFO - 2021-10-28 13:48:49 --> Router Class Initialized
+INFO - 2021-10-28 13:48:49 --> Output Class Initialized
+INFO - 2021-10-28 13:48:49 --> Security Class Initialized
+INFO - 2021-10-28 13:48:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:49 --> Input Class Initialized
+INFO - 2021-10-28 13:48:49 --> Language Class Initialized
+INFO - 2021-10-28 13:48:49 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:49 --> Model Class Initialized
+INFO - 2021-10-28 13:48:49 --> Model Class Initialized
+INFO - 2021-10-28 13:48:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:49 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:49 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:49 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:49 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:48:49 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:48:49 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:48:49 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:48:49 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:48:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:48:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:48:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:50 --> Total execution time: 0.7917
+INFO - 2021-10-28 13:48:50 --> Config Class Initialized
+INFO - 2021-10-28 13:48:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:50 --> URI Class Initialized
+INFO - 2021-10-28 13:48:50 --> Router Class Initialized
+INFO - 2021-10-28 13:48:50 --> Output Class Initialized
+INFO - 2021-10-28 13:48:50 --> Security Class Initialized
+INFO - 2021-10-28 13:48:50 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:50 --> Input Class Initialized
+INFO - 2021-10-28 13:48:50 --> Language Class Initialized
+INFO - 2021-10-28 13:48:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:50 --> Config Class Initialized
+INFO - 2021-10-28 13:48:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:50 --> URI Class Initialized
+INFO - 2021-10-28 13:48:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:50 --> Router Class Initialized
+INFO - 2021-10-28 13:48:50 --> Model Class Initialized
+INFO - 2021-10-28 13:48:50 --> Output Class Initialized
+INFO - 2021-10-28 13:48:50 --> Model Class Initialized
+INFO - 2021-10-28 13:48:50 --> Security Class Initialized
+INFO - 2021-10-28 13:48:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:50 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:48:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:50 --> Input Class Initialized
+INFO - 2021-10-28 13:48:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:50 --> Language Class Initialized
+INFO - 2021-10-28 13:48:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:50 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/errors/circle.php
+INFO - 2021-10-28 13:48:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:50 --> Total execution time: 0.1027
+INFO - 2021-10-28 13:48:50 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:50 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:50 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:50 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:50 --> Model Class Initialized
+INFO - 2021-10-28 13:48:50 --> Model Class Initialized
+INFO - 2021-10-28 13:48:50 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:50 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:50 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:50 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:50 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:50 --> Model Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:48:50 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:50 --> Total execution time: 0.1865
+INFO - 2021-10-28 13:48:50 --> Config Class Initialized
+INFO - 2021-10-28 13:48:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:50 --> URI Class Initialized
+INFO - 2021-10-28 13:48:50 --> Router Class Initialized
+INFO - 2021-10-28 13:48:50 --> Output Class Initialized
+INFO - 2021-10-28 13:48:50 --> Security Class Initialized
+INFO - 2021-10-28 13:48:50 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:50 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:50 --> Input Class Initialized
+INFO - 2021-10-28 13:48:50 --> Language Class Initialized
+INFO - 2021-10-28 13:48:50 --> Config Class Initialized
+INFO - 2021-10-28 13:48:50 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:50 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:50 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:50 --> URI Class Initialized
+INFO - 2021-10-28 13:48:50 --> Router Class Initialized
+INFO - 2021-10-28 13:48:50 --> Output Class Initialized
+INFO - 2021-10-28 13:48:50 --> Security Class Initialized
+INFO - 2021-10-28 13:48:50 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:50 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:51 --> Input Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language Class Initialized
+INFO - 2021-10-28 13:48:51 --> Config Class Initialized
+INFO - 2021-10-28 13:48:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> URI Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> Router Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Output Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Security Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:51 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:51 --> Input Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language Class Initialized
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Config Class Initialized
+INFO - 2021-10-28 13:48:51 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:48:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.1242
+INFO - 2021-10-28 13:48:51 --> URI Class Initialized
+INFO - 2021-10-28 13:48:51 --> Router Class Initialized
+INFO - 2021-10-28 13:48:51 --> Output Class Initialized
+INFO - 2021-10-28 13:48:51 --> Security Class Initialized
+INFO - 2021-10-28 13:48:51 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:51 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:51 --> Input Class Initialized
+INFO - 2021-10-28 13:48:51 --> Config Class Initialized
+INFO - 2021-10-28 13:48:51 --> Hooks Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language Class Initialized
+DEBUG - 2021-10-28 13:48:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:51 --> URI Class Initialized
+INFO - 2021-10-28 13:48:51 --> Router Class Initialized
+INFO - 2021-10-28 13:48:51 --> Output Class Initialized
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> Security Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:51 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:51 --> Input Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Language Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:48:51 --> Config Class Initialized
+INFO - 2021-10-28 13:48:51 --> Hooks Class Initialized
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+DEBUG - 2021-10-28 13:48:51 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:48:51 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:48:51 --> URI Class Initialized
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.2126
+INFO - 2021-10-28 13:48:51 --> Router Class Initialized
+INFO - 2021-10-28 13:48:51 --> Output Class Initialized
+INFO - 2021-10-28 13:48:51 --> Security Class Initialized
+INFO - 2021-10-28 13:48:51 --> CRSF cookie sent
+INFO - 2021-10-28 13:48:51 --> CSRF token verified
+DEBUG - 2021-10-28 13:48:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:48:51 --> Input Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language Class Initialized
+INFO - 2021-10-28 13:48:51 --> Loader Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:48:51 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.4432
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.4262
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.5340
+INFO - 2021-10-28 13:48:51 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:48:51 --> Parser Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Controller Class Initialized
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:48:51 --> Could not find the language line "today"
+INFO - 2021-10-28 13:48:51 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:48:51 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:48:51 --> Model Class Initialized
+INFO - 2021-10-28 13:48:51 --> Final output sent to browser
+DEBUG - 2021-10-28 13:48:51 --> Total execution time: 0.6011
+INFO - 2021-10-28 13:49:01 --> Config Class Initialized
+INFO - 2021-10-28 13:49:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:01 --> URI Class Initialized
+INFO - 2021-10-28 13:49:01 --> Router Class Initialized
+INFO - 2021-10-28 13:49:01 --> Output Class Initialized
+INFO - 2021-10-28 13:49:01 --> Security Class Initialized
+INFO - 2021-10-28 13:49:01 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:49:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:01 --> Input Class Initialized
+INFO - 2021-10-28 13:49:01 --> Language Class Initialized
+INFO - 2021-10-28 13:49:01 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:01 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+INFO - 2021-10-28 13:49:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:49:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:49:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:49:02 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:49:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:02 --> Total execution time: 0.1261
+INFO - 2021-10-28 13:49:02 --> Config Class Initialized
+INFO - 2021-10-28 13:49:02 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:02 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:02 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:02 --> URI Class Initialized
+INFO - 2021-10-28 13:49:02 --> Router Class Initialized
+INFO - 2021-10-28 13:49:02 --> Output Class Initialized
+INFO - 2021-10-28 13:49:02 --> Security Class Initialized
+INFO - 2021-10-28 13:49:02 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:02 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:02 --> Input Class Initialized
+INFO - 2021-10-28 13:49:02 --> Language Class Initialized
+INFO - 2021-10-28 13:49:02 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:02 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:02 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:02 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:02 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:02 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:02 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:02 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:02 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:02 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+INFO - 2021-10-28 13:49:02 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:02 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:02 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:02 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:02 --> Model Class Initialized
+INFO - 2021-10-28 13:49:02 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:02 --> Total execution time: 0.2461
+INFO - 2021-10-28 13:49:09 --> Config Class Initialized
+INFO - 2021-10-28 13:49:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:09 --> URI Class Initialized
+INFO - 2021-10-28 13:49:09 --> Router Class Initialized
+INFO - 2021-10-28 13:49:09 --> Output Class Initialized
+INFO - 2021-10-28 13:49:09 --> Security Class Initialized
+INFO - 2021-10-28 13:49:09 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:49:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:09 --> Input Class Initialized
+INFO - 2021-10-28 13:49:09 --> Language Class Initialized
+INFO - 2021-10-28 13:49:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+INFO - 2021-10-28 13:49:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:49:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:49:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:49:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:49:09 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:09 --> Total execution time: 0.6371
+INFO - 2021-10-28 13:49:09 --> Config Class Initialized
+INFO - 2021-10-28 13:49:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:09 --> URI Class Initialized
+INFO - 2021-10-28 13:49:09 --> Router Class Initialized
+INFO - 2021-10-28 13:49:09 --> Output Class Initialized
+INFO - 2021-10-28 13:49:09 --> Security Class Initialized
+INFO - 2021-10-28 13:49:09 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:49:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:09 --> Input Class Initialized
+INFO - 2021-10-28 13:49:09 --> Language Class Initialized
+INFO - 2021-10-28 13:49:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+INFO - 2021-10-28 13:49:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:09 --> Model Class Initialized
+DEBUG - 2021-10-28 13:49:09 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:49:09 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:49:09 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:09 --> Total execution time: 0.1438
+INFO - 2021-10-28 13:49:09 --> Config Class Initialized
+INFO - 2021-10-28 13:49:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:09 --> URI Class Initialized
+INFO - 2021-10-28 13:49:09 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Config Class Initialized
+INFO - 2021-10-28 13:49:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:10 --> URI Class Initialized
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Config Class Initialized
+INFO - 2021-10-28 13:49:10 --> Hooks Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+DEBUG - 2021-10-28 13:49:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:49:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:10 --> URI Class Initialized
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.1358
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Config Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Hooks Class Initialized
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+DEBUG - 2021-10-28 13:49:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:10 --> URI Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Config Class Initialized
+INFO - 2021-10-28 13:49:10 --> Hooks Class Initialized
+INFO - 2021-10-28 13:49:10 --> Config Class Initialized
+INFO - 2021-10-28 13:49:10 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:10 --> URI Class Initialized
+INFO - 2021-10-28 13:49:10 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:10 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> URI Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Router Class Initialized
+INFO - 2021-10-28 13:49:10 --> Output Class Initialized
+INFO - 2021-10-28 13:49:10 --> Security Class Initialized
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+INFO - 2021-10-28 13:49:10 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:10 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.2539
+DEBUG - 2021-10-28 13:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:10 --> Input Class Initialized
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:10 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:10 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.3323
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.2981
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.4765
+INFO - 2021-10-28 13:49:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:10 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+INFO - 2021-10-28 13:49:10 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:10 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:10 --> Model Class Initialized
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:49:10 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:49:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:10 --> Total execution time: 0.5136
+INFO - 2021-10-28 13:49:35 --> Config Class Initialized
+INFO - 2021-10-28 13:49:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:35 --> URI Class Initialized
+INFO - 2021-10-28 13:49:35 --> Router Class Initialized
+INFO - 2021-10-28 13:49:35 --> Output Class Initialized
+INFO - 2021-10-28 13:49:35 --> Security Class Initialized
+INFO - 2021-10-28 13:49:35 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:49:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:35 --> Input Class Initialized
+INFO - 2021-10-28 13:49:35 --> Language Class Initialized
+INFO - 2021-10-28 13:49:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:35 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+INFO - 2021-10-28 13:49:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:49:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:49:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:49:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:49:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:35 --> Total execution time: 0.1772
+INFO - 2021-10-28 13:49:35 --> Config Class Initialized
+INFO - 2021-10-28 13:49:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:49:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:49:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:49:35 --> URI Class Initialized
+INFO - 2021-10-28 13:49:35 --> Router Class Initialized
+INFO - 2021-10-28 13:49:35 --> Output Class Initialized
+INFO - 2021-10-28 13:49:35 --> Security Class Initialized
+INFO - 2021-10-28 13:49:35 --> CRSF cookie sent
+INFO - 2021-10-28 13:49:35 --> CSRF token verified
+DEBUG - 2021-10-28 13:49:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:49:35 --> Input Class Initialized
+INFO - 2021-10-28 13:49:35 --> Language Class Initialized
+INFO - 2021-10-28 13:49:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:49:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:49:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:49:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:49:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:49:35 --> Parser Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+INFO - 2021-10-28 13:49:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:49:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:49:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:49:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:49:35 --> Model Class Initialized
+INFO - 2021-10-28 13:49:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:49:35 --> Total execution time: 0.3135
+INFO - 2021-10-28 13:52:34 --> Config Class Initialized
+INFO - 2021-10-28 13:52:34 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:34 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:34 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:34 --> URI Class Initialized
+INFO - 2021-10-28 13:52:34 --> Router Class Initialized
+INFO - 2021-10-28 13:52:34 --> Output Class Initialized
+INFO - 2021-10-28 13:52:34 --> Security Class Initialized
+INFO - 2021-10-28 13:52:34 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:52:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:34 --> Input Class Initialized
+INFO - 2021-10-28 13:52:34 --> Language Class Initialized
+INFO - 2021-10-28 13:52:34 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:34 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:34 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:34 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:34 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:34 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:34 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:34 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:34 --> Model Class Initialized
+INFO - 2021-10-28 13:52:34 --> Model Class Initialized
+INFO - 2021-10-28 13:52:34 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:34 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:34 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:52:34 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:34 --> Model Class Initialized
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:52:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:52:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:52:34 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:52:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:52:34 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:34 --> Total execution time: 0.1855
+INFO - 2021-10-28 13:52:35 --> Config Class Initialized
+INFO - 2021-10-28 13:52:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:35 --> URI Class Initialized
+INFO - 2021-10-28 13:52:35 --> Router Class Initialized
+INFO - 2021-10-28 13:52:35 --> Output Class Initialized
+INFO - 2021-10-28 13:52:35 --> Security Class Initialized
+INFO - 2021-10-28 13:52:35 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:35 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:35 --> Input Class Initialized
+INFO - 2021-10-28 13:52:35 --> Language Class Initialized
+INFO - 2021-10-28 13:52:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:35 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:35 --> Model Class Initialized
+INFO - 2021-10-28 13:52:35 --> Model Class Initialized
+INFO - 2021-10-28 13:52:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:52:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:35 --> Model Class Initialized
+INFO - 2021-10-28 13:52:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:35 --> Total execution time: 0.4332
+INFO - 2021-10-28 13:52:39 --> Config Class Initialized
+INFO - 2021-10-28 13:52:39 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:39 --> URI Class Initialized
+INFO - 2021-10-28 13:52:39 --> Router Class Initialized
+INFO - 2021-10-28 13:52:39 --> Output Class Initialized
+INFO - 2021-10-28 13:52:39 --> Security Class Initialized
+INFO - 2021-10-28 13:52:39 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:52:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:39 --> Input Class Initialized
+INFO - 2021-10-28 13:52:39 --> Language Class Initialized
+INFO - 2021-10-28 13:52:39 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:39 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:39 --> Model Class Initialized
+INFO - 2021-10-28 13:52:39 --> Model Class Initialized
+INFO - 2021-10-28 13:52:39 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:39 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:52:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:39 --> Model Class Initialized
+ERROR - 2021-10-28 13:52:39 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:52:39 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:52:39 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:52:39 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:52:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:52:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:52:40 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:52:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:52:40 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:40 --> Total execution time: 1.3245
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+INFO - 2021-10-28 13:52:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:52:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:52:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:41 --> Total execution time: 0.2446
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> CSRF token verified
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+INFO - 2021-10-28 13:52:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+ERROR - 2021-10-28 13:52:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:41 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:41 --> Model Class Initialized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+INFO - 2021-10-28 13:52:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:41 --> Total execution time: 0.3630
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:41 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:41 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:41 --> Input Class Initialized
+INFO - 2021-10-28 13:52:41 --> Language Class Initialized
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:41 --> Config Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:41 --> Hooks Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:41 --> Helper loaded: file_helper
+DEBUG - 2021-10-28 13:52:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:52:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:52:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:41 --> URI Class Initialized
+INFO - 2021-10-28 13:52:41 --> Router Class Initialized
+INFO - 2021-10-28 13:52:41 --> Output Class Initialized
+INFO - 2021-10-28 13:52:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:41 --> Security Class Initialized
+INFO - 2021-10-28 13:52:42 --> CRSF cookie sent
+INFO - 2021-10-28 13:52:42 --> CSRF token verified
+DEBUG - 2021-10-28 13:52:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:52:42 --> Input Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language Class Initialized
+INFO - 2021-10-28 13:52:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:52:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:52:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:52:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:52:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:52:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:52:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:52:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:52:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:42 --> Total execution time: 0.5908
+INFO - 2021-10-28 13:52:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:52:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:52:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:42 --> Total execution time: 0.7212
+INFO - 2021-10-28 13:52:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:52:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:42 --> Total execution time: 0.8670
+INFO - 2021-10-28 13:52:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:52:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:52:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:42 --> Total execution time: 0.8792
+INFO - 2021-10-28 13:52:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:52:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:52:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:52:42 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:52:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:52:42 --> Model Class Initialized
+INFO - 2021-10-28 13:52:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:52:42 --> Total execution time: 0.9663
+INFO - 2021-10-28 13:53:09 --> Config Class Initialized
+INFO - 2021-10-28 13:53:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:09 --> URI Class Initialized
+INFO - 2021-10-28 13:53:09 --> Router Class Initialized
+INFO - 2021-10-28 13:53:09 --> Output Class Initialized
+INFO - 2021-10-28 13:53:09 --> Security Class Initialized
+INFO - 2021-10-28 13:53:09 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:09 --> Input Class Initialized
+INFO - 2021-10-28 13:53:09 --> Language Class Initialized
+INFO - 2021-10-28 13:53:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+INFO - 2021-10-28 13:53:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:53:09 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:53:09 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:09 --> Total execution time: 0.1225
+INFO - 2021-10-28 13:53:09 --> Config Class Initialized
+INFO - 2021-10-28 13:53:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:09 --> URI Class Initialized
+INFO - 2021-10-28 13:53:09 --> Router Class Initialized
+INFO - 2021-10-28 13:53:09 --> Output Class Initialized
+INFO - 2021-10-28 13:53:09 --> Security Class Initialized
+INFO - 2021-10-28 13:53:09 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:09 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:09 --> Input Class Initialized
+INFO - 2021-10-28 13:53:09 --> Language Class Initialized
+INFO - 2021-10-28 13:53:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+INFO - 2021-10-28 13:53:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:09 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:09 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:09 --> Model Class Initialized
+INFO - 2021-10-28 13:53:09 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:09 --> Total execution time: 0.2942
+INFO - 2021-10-28 13:53:13 --> Config Class Initialized
+INFO - 2021-10-28 13:53:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:14 --> URI Class Initialized
+INFO - 2021-10-28 13:53:14 --> Router Class Initialized
+INFO - 2021-10-28 13:53:14 --> Output Class Initialized
+INFO - 2021-10-28 13:53:14 --> Security Class Initialized
+INFO - 2021-10-28 13:53:14 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:14 --> Input Class Initialized
+INFO - 2021-10-28 13:53:14 --> Language Class Initialized
+INFO - 2021-10-28 13:53:14 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:14 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:14 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:14 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:14 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:14 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:14 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:14 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:14 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:14 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:14 --> Model Class Initialized
+INFO - 2021-10-28 13:53:14 --> Model Class Initialized
+INFO - 2021-10-28 13:53:14 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:14 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:14 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:14 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:14 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:14 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:14 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:14 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:53:14 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:53:14 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:53:14 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:14 --> Total execution time: 0.8247
+INFO - 2021-10-28 13:53:14 --> Config Class Initialized
+INFO - 2021-10-28 13:53:14 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:14 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:14 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:14 --> URI Class Initialized
+INFO - 2021-10-28 13:53:14 --> Router Class Initialized
+INFO - 2021-10-28 13:53:14 --> Output Class Initialized
+INFO - 2021-10-28 13:53:14 --> Security Class Initialized
+INFO - 2021-10-28 13:53:14 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:14 --> Input Class Initialized
+INFO - 2021-10-28 13:53:14 --> Language Class Initialized
+INFO - 2021-10-28 13:53:14 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:15 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:15 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:15 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:15 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:15 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:15 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:15 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:15 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:15 --> Model Class Initialized
+INFO - 2021-10-28 13:53:15 --> Model Class Initialized
+INFO - 2021-10-28 13:53:15 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:15 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:15 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:15 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:15 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:15 --> Model Class Initialized
+DEBUG - 2021-10-28 13:53:15 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:53:15 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:53:15 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:15 --> Total execution time: 0.1936
+INFO - 2021-10-28 13:53:19 --> Config Class Initialized
+INFO - 2021-10-28 13:53:19 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:19 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:19 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:19 --> URI Class Initialized
+INFO - 2021-10-28 13:53:19 --> Router Class Initialized
+INFO - 2021-10-28 13:53:19 --> Output Class Initialized
+INFO - 2021-10-28 13:53:19 --> Security Class Initialized
+INFO - 2021-10-28 13:53:19 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:19 --> Input Class Initialized
+INFO - 2021-10-28 13:53:19 --> Language Class Initialized
+INFO - 2021-10-28 13:53:19 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:19 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:19 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:19 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:19 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:19 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:19 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:19 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:19 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:19 --> Model Class Initialized
+INFO - 2021-10-28 13:53:19 --> Model Class Initialized
+INFO - 2021-10-28 13:53:19 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:19 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:19 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:19 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:19 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:19 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:19 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:53:19 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:53:19 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:53:19 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:53:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "cal_2021-october"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:53:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:53:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:53:20 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:20 --> Total execution time: 0.8694
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Output Class Initialized
+INFO - 2021-10-28 13:53:20 --> Security Class Initialized
+INFO - 2021-10-28 13:53:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:20 --> Input Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language Class Initialized
+INFO - 2021-10-28 13:53:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+INFO - 2021-10-28 13:53:20 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:53:20 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:20 --> Total execution time: 0.1711
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Output Class Initialized
+INFO - 2021-10-28 13:53:20 --> Security Class Initialized
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Output Class Initialized
+INFO - 2021-10-28 13:53:20 --> Security Class Initialized
+INFO - 2021-10-28 13:53:20 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:20 --> CSRF token verified
+INFO - 2021-10-28 13:53:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:20 --> CSRF token verified
+INFO - 2021-10-28 13:53:20 --> Input Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:20 --> Input Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language Class Initialized
+INFO - 2021-10-28 13:53:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:20 --> Output Class Initialized
+INFO - 2021-10-28 13:53:20 --> Security Class Initialized
+INFO - 2021-10-28 13:53:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:20 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:20 --> CSRF token verified
+INFO - 2021-10-28 13:53:20 --> Session: Class initialized using 'database' driver.
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Output Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+INFO - 2021-10-28 13:53:20 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:20 --> Security Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:20 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:20 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:20 --> Input Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language Class Initialized
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:20 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:20 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:20 --> Model Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:20 --> Input Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:20 --> Final output sent to browser
+INFO - 2021-10-28 13:53:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:20 --> Language Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> Total execution time: 0.1879
+INFO - 2021-10-28 13:53:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:20 --> Config Class Initialized
+INFO - 2021-10-28 13:53:20 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:20 --> Database Driver Class Initialized
+DEBUG - 2021-10-28 13:53:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:20 --> URI Class Initialized
+INFO - 2021-10-28 13:53:20 --> Router Class Initialized
+INFO - 2021-10-28 13:53:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:21 --> Output Class Initialized
+INFO - 2021-10-28 13:53:21 --> Config Class Initialized
+INFO - 2021-10-28 13:53:21 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:21 --> Security Class Initialized
+INFO - 2021-10-28 13:53:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2021-10-28 13:53:21 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:53:21 --> Utf8 Class Initialized
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:21 --> URI Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:21 --> Router Class Initialized
+INFO - 2021-10-28 13:53:21 --> Output Class Initialized
+INFO - 2021-10-28 13:53:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Security Class Initialized
+INFO - 2021-10-28 13:53:21 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:21 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:21 --> Input Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language Class Initialized
+INFO - 2021-10-28 13:53:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:21 --> Input Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language Class Initialized
+INFO - 2021-10-28 13:53:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:21 --> Total execution time: 0.3590
+INFO - 2021-10-28 13:53:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:21 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:21 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:21 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:21 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:21 --> Total execution time: 0.4999
+INFO - 2021-10-28 13:53:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:21 --> Total execution time: 0.6472
+INFO - 2021-10-28 13:53:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:53:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:21 --> Total execution time: 0.6944
+INFO - 2021-10-28 13:53:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:21 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:21 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:21 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:21 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:21 --> Model Class Initialized
+INFO - 2021-10-28 13:53:21 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:21 --> Total execution time: 0.8017
+INFO - 2021-10-28 13:53:31 --> Config Class Initialized
+INFO - 2021-10-28 13:53:31 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:31 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:31 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:31 --> URI Class Initialized
+INFO - 2021-10-28 13:53:31 --> Router Class Initialized
+INFO - 2021-10-28 13:53:31 --> Output Class Initialized
+INFO - 2021-10-28 13:53:31 --> Security Class Initialized
+INFO - 2021-10-28 13:53:31 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:31 --> Input Class Initialized
+INFO - 2021-10-28 13:53:31 --> Language Class Initialized
+INFO - 2021-10-28 13:53:31 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:31 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:31 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:31 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+INFO - 2021-10-28 13:53:31 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:31 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:53:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:53:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:53:31 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:53:31 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:31 --> Total execution time: 0.1158
+INFO - 2021-10-28 13:53:31 --> Config Class Initialized
+INFO - 2021-10-28 13:53:31 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:31 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:31 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:31 --> URI Class Initialized
+INFO - 2021-10-28 13:53:31 --> Router Class Initialized
+INFO - 2021-10-28 13:53:31 --> Output Class Initialized
+INFO - 2021-10-28 13:53:31 --> Security Class Initialized
+INFO - 2021-10-28 13:53:31 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:31 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:31 --> Input Class Initialized
+INFO - 2021-10-28 13:53:31 --> Language Class Initialized
+INFO - 2021-10-28 13:53:31 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:31 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:31 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:31 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:31 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:31 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+INFO - 2021-10-28 13:53:31 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:31 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:31 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:31 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:31 --> Model Class Initialized
+INFO - 2021-10-28 13:53:31 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:31 --> Total execution time: 0.2496
+INFO - 2021-10-28 13:53:34 --> Config Class Initialized
+INFO - 2021-10-28 13:53:34 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:34 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:34 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:34 --> URI Class Initialized
+INFO - 2021-10-28 13:53:34 --> Router Class Initialized
+INFO - 2021-10-28 13:53:34 --> Output Class Initialized
+INFO - 2021-10-28 13:53:34 --> Security Class Initialized
+INFO - 2021-10-28 13:53:34 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:34 --> Input Class Initialized
+INFO - 2021-10-28 13:53:34 --> Language Class Initialized
+INFO - 2021-10-28 13:53:34 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:34 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:34 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:34 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:34 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:34 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:34 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:34 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:34 --> Model Class Initialized
+INFO - 2021-10-28 13:53:34 --> Model Class Initialized
+INFO - 2021-10-28 13:53:34 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:53:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "download_xls"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "save_image"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "sale_reference"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "product_qty"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "surcharges"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "pi"
+INFO - 2021-10-28 13:53:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/view.php
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:53:35 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:53:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:35 --> Total execution time: 0.7139
+INFO - 2021-10-28 13:53:35 --> Config Class Initialized
+INFO - 2021-10-28 13:53:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:35 --> URI Class Initialized
+INFO - 2021-10-28 13:53:35 --> Router Class Initialized
+INFO - 2021-10-28 13:53:35 --> Output Class Initialized
+INFO - 2021-10-28 13:53:35 --> Security Class Initialized
+INFO - 2021-10-28 13:53:35 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:35 --> Input Class Initialized
+INFO - 2021-10-28 13:53:35 --> Language Class Initialized
+INFO - 2021-10-28 13:53:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:35 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+INFO - 2021-10-28 13:53:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:35 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:35 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:53:35 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:35 --> Total execution time: 0.1453
+INFO - 2021-10-28 13:53:35 --> Config Class Initialized
+INFO - 2021-10-28 13:53:35 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:35 --> URI Class Initialized
+INFO - 2021-10-28 13:53:35 --> Router Class Initialized
+INFO - 2021-10-28 13:53:35 --> Output Class Initialized
+INFO - 2021-10-28 13:53:35 --> Security Class Initialized
+INFO - 2021-10-28 13:53:35 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:35 --> CSRF token verified
+INFO - 2021-10-28 13:53:35 --> Config Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:35 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:35 --> Input Class Initialized
+INFO - 2021-10-28 13:53:35 --> Language Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:35 --> URI Class Initialized
+INFO - 2021-10-28 13:53:35 --> Router Class Initialized
+INFO - 2021-10-28 13:53:35 --> Output Class Initialized
+INFO - 2021-10-28 13:53:35 --> Security Class Initialized
+INFO - 2021-10-28 13:53:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:35 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:35 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:35 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:35 --> Input Class Initialized
+INFO - 2021-10-28 13:53:35 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:35 --> Language Class Initialized
+INFO - 2021-10-28 13:53:35 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:35 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:35 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:35 --> Config Class Initialized
+INFO - 2021-10-28 13:53:35 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:35 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:35 --> Parser Class Initialized
+DEBUG - 2021-10-28 13:53:35 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+INFO - 2021-10-28 13:53:35 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:35 --> URI Class Initialized
+INFO - 2021-10-28 13:53:35 --> Model Class Initialized
+INFO - 2021-10-28 13:53:35 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:35 --> Router Class Initialized
+INFO - 2021-10-28 13:53:35 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:35 --> Output Class Initialized
+INFO - 2021-10-28 13:53:35 --> Security Class Initialized
+INFO - 2021-10-28 13:53:35 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:35 --> Language file loaded: language/spanish/calendar_lang.php
+INFO - 2021-10-28 13:53:35 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:36 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:36 --> Input Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:36 --> Config Class Initialized
+INFO - 2021-10-28 13:53:36 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: file_helper
+DEBUG - 2021-10-28 13:53:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:36 --> URI Class Initialized
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> Router Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:36 --> Output Class Initialized
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Security Class Initialized
+INFO - 2021-10-28 13:53:36 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:36 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:36 --> Input Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language Class Initialized
+INFO - 2021-10-28 13:53:36 --> Config Class Initialized
+INFO - 2021-10-28 13:53:36 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:36 --> URI Class Initialized
+INFO - 2021-10-28 13:53:36 --> Router Class Initialized
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.2776
+INFO - 2021-10-28 13:53:36 --> Output Class Initialized
+INFO - 2021-10-28 13:53:36 --> Security Class Initialized
+INFO - 2021-10-28 13:53:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:36 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:36 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:36 --> Input Class Initialized
+INFO - 2021-10-28 13:53:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:36 --> Config Class Initialized
+INFO - 2021-10-28 13:53:36 --> Hooks Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: cookie_helper
+DEBUG - 2021-10-28 13:53:36 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:36 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:36 --> URI Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:36 --> Router Class Initialized
+INFO - 2021-10-28 13:53:36 --> Output Class Initialized
+INFO - 2021-10-28 13:53:36 --> Security Class Initialized
+INFO - 2021-10-28 13:53:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:36 --> CSRF token verified
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/reports_lang.php
+DEBUG - 2021-10-28 13:53:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:36 --> Input Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language Class Initialized
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:36 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.4384
+INFO - 2021-10-28 13:53:36 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:36 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:36 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.4955
+INFO - 2021-10-28 13:53:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.5279
+INFO - 2021-10-28 13:53:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "delete_adjustment"
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "edit_adjustment"
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.5836
+INFO - 2021-10-28 13:53:36 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:36 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:36 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:36 --> Language file loaded: language/spanish/reports_lang.php
+INFO - 2021-10-28 13:53:36 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:36 --> Model Class Initialized
+INFO - 2021-10-28 13:53:36 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:36 --> Total execution time: 0.6524
+INFO - 2021-10-28 13:53:42 --> Config Class Initialized
+INFO - 2021-10-28 13:53:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:42 --> URI Class Initialized
+INFO - 2021-10-28 13:53:42 --> Router Class Initialized
+INFO - 2021-10-28 13:53:42 --> Output Class Initialized
+INFO - 2021-10-28 13:53:42 --> Security Class Initialized
+INFO - 2021-10-28 13:53:42 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:53:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:42 --> Input Class Initialized
+INFO - 2021-10-28 13:53:42 --> Language Class Initialized
+INFO - 2021-10-28 13:53:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:42 --> Model Class Initialized
+INFO - 2021-10-28 13:53:42 --> Model Class Initialized
+INFO - 2021-10-28 13:53:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:42 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:42 --> Model Class Initialized
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:53:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:53:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:53:42 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:53:42 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:53:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:42 --> Total execution time: 0.1638
+INFO - 2021-10-28 13:53:42 --> Config Class Initialized
+INFO - 2021-10-28 13:53:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:53:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:53:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:53:42 --> URI Class Initialized
+INFO - 2021-10-28 13:53:42 --> Router Class Initialized
+INFO - 2021-10-28 13:53:42 --> Output Class Initialized
+INFO - 2021-10-28 13:53:42 --> Security Class Initialized
+INFO - 2021-10-28 13:53:42 --> CRSF cookie sent
+INFO - 2021-10-28 13:53:42 --> CSRF token verified
+DEBUG - 2021-10-28 13:53:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:53:42 --> Input Class Initialized
+INFO - 2021-10-28 13:53:42 --> Language Class Initialized
+INFO - 2021-10-28 13:53:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:53:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:53:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:53:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:53:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:53:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:53:42 --> Model Class Initialized
+INFO - 2021-10-28 13:53:42 --> Model Class Initialized
+INFO - 2021-10-28 13:53:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:53:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:53:43 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:53:43 --> Could not find the language line "today"
+INFO - 2021-10-28 13:53:43 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:53:43 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:53:43 --> Model Class Initialized
+INFO - 2021-10-28 13:53:43 --> Final output sent to browser
+DEBUG - 2021-10-28 13:53:43 --> Total execution time: 0.3120
+INFO - 2021-10-28 13:55:12 --> Config Class Initialized
+INFO - 2021-10-28 13:55:12 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:12 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:12 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:12 --> URI Class Initialized
+INFO - 2021-10-28 13:55:12 --> Router Class Initialized
+INFO - 2021-10-28 13:55:12 --> Output Class Initialized
+INFO - 2021-10-28 13:55:12 --> Security Class Initialized
+INFO - 2021-10-28 13:55:12 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:12 --> Input Class Initialized
+INFO - 2021-10-28 13:55:12 --> Language Class Initialized
+INFO - 2021-10-28 13:55:12 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:12 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:12 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:12 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:12 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:12 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:12 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:13 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+INFO - 2021-10-28 13:55:13 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:55:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:55:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:55:13 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:55:13 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:13 --> Total execution time: 0.1822
+INFO - 2021-10-28 13:55:13 --> Config Class Initialized
+INFO - 2021-10-28 13:55:13 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:13 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:13 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:13 --> URI Class Initialized
+INFO - 2021-10-28 13:55:13 --> Router Class Initialized
+INFO - 2021-10-28 13:55:13 --> Output Class Initialized
+INFO - 2021-10-28 13:55:13 --> Security Class Initialized
+INFO - 2021-10-28 13:55:13 --> CRSF cookie sent
+INFO - 2021-10-28 13:55:13 --> CSRF token verified
+DEBUG - 2021-10-28 13:55:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:13 --> Input Class Initialized
+INFO - 2021-10-28 13:55:13 --> Language Class Initialized
+INFO - 2021-10-28 13:55:13 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:13 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:13 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:13 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:13 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:13 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:13 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:13 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:13 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:13 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+INFO - 2021-10-28 13:55:13 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:13 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:13 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:13 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:13 --> Model Class Initialized
+INFO - 2021-10-28 13:55:13 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:13 --> Total execution time: 0.3428
+INFO - 2021-10-28 13:55:17 --> Config Class Initialized
+INFO - 2021-10-28 13:55:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:17 --> URI Class Initialized
+INFO - 2021-10-28 13:55:17 --> Router Class Initialized
+INFO - 2021-10-28 13:55:17 --> Output Class Initialized
+INFO - 2021-10-28 13:55:17 --> Security Class Initialized
+INFO - 2021-10-28 13:55:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:17 --> Input Class Initialized
+INFO - 2021-10-28 13:55:17 --> Language Class Initialized
+INFO - 2021-10-28 13:55:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:17 --> Model Class Initialized
+INFO - 2021-10-28 13:55:17 --> Model Class Initialized
+INFO - 2021-10-28 13:55:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:17 --> Model Class Initialized
+ERROR - 2021-10-28 13:55:18 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:55:18 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:55:18 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:55:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:18 --> Total execution time: 1.0752
+INFO - 2021-10-28 13:55:18 --> Config Class Initialized
+INFO - 2021-10-28 13:55:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:18 --> URI Class Initialized
+INFO - 2021-10-28 13:55:18 --> Router Class Initialized
+INFO - 2021-10-28 13:55:18 --> Output Class Initialized
+INFO - 2021-10-28 13:55:18 --> Security Class Initialized
+INFO - 2021-10-28 13:55:18 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:18 --> Input Class Initialized
+INFO - 2021-10-28 13:55:18 --> Language Class Initialized
+INFO - 2021-10-28 13:55:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:18 --> Model Class Initialized
+INFO - 2021-10-28 13:55:18 --> Model Class Initialized
+INFO - 2021-10-28 13:55:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:18 --> Model Class Initialized
+DEBUG - 2021-10-28 13:55:18 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:55:18 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:55:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:18 --> Total execution time: 0.1836
+INFO - 2021-10-28 13:55:24 --> Config Class Initialized
+INFO - 2021-10-28 13:55:24 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:24 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:24 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:24 --> URI Class Initialized
+INFO - 2021-10-28 13:55:24 --> Router Class Initialized
+INFO - 2021-10-28 13:55:24 --> Output Class Initialized
+INFO - 2021-10-28 13:55:24 --> Security Class Initialized
+INFO - 2021-10-28 13:55:24 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:24 --> Input Class Initialized
+INFO - 2021-10-28 13:55:24 --> Language Class Initialized
+INFO - 2021-10-28 13:55:24 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:24 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:24 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:24 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:24 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:24 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:24 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:24 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:24 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:24 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:24 --> Model Class Initialized
+INFO - 2021-10-28 13:55:24 --> Model Class Initialized
+INFO - 2021-10-28 13:55:24 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:24 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:24 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:24 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:24 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:24 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:24 --> Model Class Initialized
+ERROR - 2021-10-28 13:55:26 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:55:26 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:55:26 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:55:26 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:26 --> Total execution time: 1.3104
+INFO - 2021-10-28 13:55:26 --> Config Class Initialized
+INFO - 2021-10-28 13:55:26 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:26 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:26 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:26 --> URI Class Initialized
+INFO - 2021-10-28 13:55:26 --> Router Class Initialized
+INFO - 2021-10-28 13:55:26 --> Output Class Initialized
+INFO - 2021-10-28 13:55:26 --> Security Class Initialized
+INFO - 2021-10-28 13:55:26 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:26 --> Input Class Initialized
+INFO - 2021-10-28 13:55:26 --> Language Class Initialized
+INFO - 2021-10-28 13:55:26 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:26 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:26 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:26 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:26 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:26 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:26 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:26 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:26 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:26 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:26 --> Model Class Initialized
+INFO - 2021-10-28 13:55:26 --> Model Class Initialized
+INFO - 2021-10-28 13:55:26 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:26 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:26 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:26 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:26 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:26 --> Model Class Initialized
+DEBUG - 2021-10-28 13:55:26 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:55:26 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:55:26 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:26 --> Total execution time: 0.1785
+INFO - 2021-10-28 13:55:32 --> Config Class Initialized
+INFO - 2021-10-28 13:55:32 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:32 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:32 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:32 --> URI Class Initialized
+INFO - 2021-10-28 13:55:32 --> Router Class Initialized
+INFO - 2021-10-28 13:55:32 --> Output Class Initialized
+INFO - 2021-10-28 13:55:32 --> Security Class Initialized
+INFO - 2021-10-28 13:55:32 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:32 --> Input Class Initialized
+INFO - 2021-10-28 13:55:32 --> Language Class Initialized
+INFO - 2021-10-28 13:55:32 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:32 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:32 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:32 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:32 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:32 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:32 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:32 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:32 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:32 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:32 --> Model Class Initialized
+INFO - 2021-10-28 13:55:32 --> Model Class Initialized
+INFO - 2021-10-28 13:55:32 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:32 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:32 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:32 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:32 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:32 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:32 --> Model Class Initialized
+ERROR - 2021-10-28 13:55:33 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:55:33 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:55:33 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:55:33 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:33 --> Total execution time: 1.1955
+INFO - 2021-10-28 13:55:33 --> Config Class Initialized
+INFO - 2021-10-28 13:55:33 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:33 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:33 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:33 --> URI Class Initialized
+INFO - 2021-10-28 13:55:33 --> Router Class Initialized
+INFO - 2021-10-28 13:55:33 --> Output Class Initialized
+INFO - 2021-10-28 13:55:33 --> Security Class Initialized
+INFO - 2021-10-28 13:55:33 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:33 --> Input Class Initialized
+INFO - 2021-10-28 13:55:33 --> Language Class Initialized
+INFO - 2021-10-28 13:55:33 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:33 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:33 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:33 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:33 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:33 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:33 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:33 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:33 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:33 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:33 --> Model Class Initialized
+INFO - 2021-10-28 13:55:33 --> Model Class Initialized
+INFO - 2021-10-28 13:55:33 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:33 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:33 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:33 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:33 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:33 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:33 --> Model Class Initialized
+DEBUG - 2021-10-28 13:55:33 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:55:33 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:55:33 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:33 --> Total execution time: 0.1806
+INFO - 2021-10-28 13:55:39 --> Config Class Initialized
+INFO - 2021-10-28 13:55:39 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:39 --> URI Class Initialized
+INFO - 2021-10-28 13:55:39 --> Router Class Initialized
+INFO - 2021-10-28 13:55:39 --> Output Class Initialized
+INFO - 2021-10-28 13:55:39 --> Security Class Initialized
+INFO - 2021-10-28 13:55:39 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:39 --> Input Class Initialized
+INFO - 2021-10-28 13:55:39 --> Language Class Initialized
+INFO - 2021-10-28 13:55:39 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:39 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:39 --> Model Class Initialized
+INFO - 2021-10-28 13:55:39 --> Model Class Initialized
+INFO - 2021-10-28 13:55:39 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:39 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:39 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:39 --> Model Class Initialized
+ERROR - 2021-10-28 13:55:40 --> Could not find the language line "combo_items"
+ERROR - 2021-10-28 13:55:40 --> Could not find the language line "label_printer"
+ERROR - 2021-10-28 13:55:40 --> Could not find the language line "label_printer"
+INFO - 2021-10-28 13:55:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/modal_view.php
+INFO - 2021-10-28 13:55:40 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:40 --> Total execution time: 1.1969
+INFO - 2021-10-28 13:55:40 --> Config Class Initialized
+INFO - 2021-10-28 13:55:40 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:55:40 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:55:40 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:55:40 --> URI Class Initialized
+INFO - 2021-10-28 13:55:40 --> Router Class Initialized
+INFO - 2021-10-28 13:55:40 --> Output Class Initialized
+INFO - 2021-10-28 13:55:40 --> Security Class Initialized
+INFO - 2021-10-28 13:55:40 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:55:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:55:40 --> Input Class Initialized
+INFO - 2021-10-28 13:55:40 --> Language Class Initialized
+INFO - 2021-10-28 13:55:40 --> Loader Class Initialized
+INFO - 2021-10-28 13:55:40 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:55:40 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:55:40 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:55:40 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:55:40 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:55:40 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:55:40 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:55:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:55:40 --> Parser Class Initialized
+INFO - 2021-10-28 13:55:40 --> Model Class Initialized
+INFO - 2021-10-28 13:55:40 --> Model Class Initialized
+INFO - 2021-10-28 13:55:40 --> Controller Class Initialized
+INFO - 2021-10-28 13:55:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:55:40 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:55:40 --> Could not find the language line "today"
+INFO - 2021-10-28 13:55:40 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:55:40 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:55:40 --> Model Class Initialized
+DEBUG - 2021-10-28 13:55:40 --> Zend Class Initialized
+DEBUG - 2021-10-28 13:55:40 --> Zend Class Zend/Barcode Loaded
+INFO - 2021-10-28 13:55:40 --> Final output sent to browser
+DEBUG - 2021-10-28 13:55:40 --> Total execution time: 0.2032
+INFO - 2021-10-28 13:56:17 --> Config Class Initialized
+INFO - 2021-10-28 13:56:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:17 --> URI Class Initialized
+INFO - 2021-10-28 13:56:17 --> Router Class Initialized
+INFO - 2021-10-28 13:56:17 --> Output Class Initialized
+INFO - 2021-10-28 13:56:17 --> Security Class Initialized
+INFO - 2021-10-28 13:56:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:56:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:17 --> Input Class Initialized
+INFO - 2021-10-28 13:56:17 --> Language Class Initialized
+INFO - 2021-10-28 13:56:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:56:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:17 --> Config Class Initialized
+INFO - 2021-10-28 13:56:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:17 --> URI Class Initialized
+INFO - 2021-10-28 13:56:17 --> Router Class Initialized
+INFO - 2021-10-28 13:56:17 --> Output Class Initialized
+INFO - 2021-10-28 13:56:17 --> Security Class Initialized
+INFO - 2021-10-28 13:56:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:56:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:17 --> Input Class Initialized
+INFO - 2021-10-28 13:56:17 --> Language Class Initialized
+INFO - 2021-10-28 13:56:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:56:17 --> Model Class Initialized
+INFO - 2021-10-28 13:56:17 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:56:17 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:56:17 --> Form Validation Class Initialized
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:56:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-28 13:56:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/pos/open_register.php
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:56:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:56:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:56:17 --> Final output sent to browser
+DEBUG - 2021-10-28 13:56:17 --> Total execution time: 0.2087
+INFO - 2021-10-28 13:56:22 --> Config Class Initialized
+INFO - 2021-10-28 13:56:22 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:22 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:22 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:22 --> URI Class Initialized
+INFO - 2021-10-28 13:56:22 --> Router Class Initialized
+INFO - 2021-10-28 13:56:22 --> Output Class Initialized
+INFO - 2021-10-28 13:56:22 --> Security Class Initialized
+INFO - 2021-10-28 13:56:22 --> CRSF cookie sent
+INFO - 2021-10-28 13:56:22 --> CSRF token verified
+DEBUG - 2021-10-28 13:56:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:22 --> Input Class Initialized
+INFO - 2021-10-28 13:56:22 --> Language Class Initialized
+INFO - 2021-10-28 13:56:22 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:22 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:22 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:22 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:22 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:22 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:22 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:22 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:22 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:22 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:22 --> Model Class Initialized
+INFO - 2021-10-28 13:56:22 --> Model Class Initialized
+INFO - 2021-10-28 13:56:22 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "today"
+INFO - 2021-10-28 13:56:22 --> Model Class Initialized
+INFO - 2021-10-28 13:56:22 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:56:22 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:56:22 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:22 --> Language file loaded: language/spanish/form_validation_lang.php
+ERROR - 2021-10-28 13:56:22 --> Query error: Field 'total_cash_submitted' doesn't have a default value - Invalid query: INSERT INTO `sma_pos_register` (`date`, `cash_in_hand`, `user_id`, `status`) VALUES ('2021-10-28 13:56:22', '500', '10', 'open')
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:56:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-28 13:56:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/pos/open_register.php
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:56:22 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:56:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:56:22 --> Final output sent to browser
+DEBUG - 2021-10-28 13:56:22 --> Total execution time: 0.2045
+INFO - 2021-10-28 13:56:25 --> Config Class Initialized
+INFO - 2021-10-28 13:56:25 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:25 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:25 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:25 --> URI Class Initialized
+INFO - 2021-10-28 13:56:25 --> Router Class Initialized
+INFO - 2021-10-28 13:56:25 --> Output Class Initialized
+INFO - 2021-10-28 13:56:25 --> Security Class Initialized
+INFO - 2021-10-28 13:56:25 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:56:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:25 --> Input Class Initialized
+INFO - 2021-10-28 13:56:25 --> Language Class Initialized
+INFO - 2021-10-28 13:56:25 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:25 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:25 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:25 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:25 --> Model Class Initialized
+INFO - 2021-10-28 13:56:25 --> Model Class Initialized
+INFO - 2021-10-28 13:56:25 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:25 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:56:25 --> Could not find the language line "today"
+INFO - 2021-10-28 13:56:25 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-10-28 13:56:25 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:25 --> Model Class Initialized
+DEBUG - 2021-10-28 13:56:25 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-10-28 13:56:25 --> Config Class Initialized
+INFO - 2021-10-28 13:56:25 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:25 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:25 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:25 --> URI Class Initialized
+INFO - 2021-10-28 13:56:25 --> Router Class Initialized
+INFO - 2021-10-28 13:56:25 --> Output Class Initialized
+INFO - 2021-10-28 13:56:25 --> Security Class Initialized
+INFO - 2021-10-28 13:56:25 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:56:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:25 --> Input Class Initialized
+INFO - 2021-10-28 13:56:25 --> Language Class Initialized
+INFO - 2021-10-28 13:56:25 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:25 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:25 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:25 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:26 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:26 --> Model Class Initialized
+INFO - 2021-10-28 13:56:26 --> Model Class Initialized
+INFO - 2021-10-28 13:56:26 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:26 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-10-28 13:56:26 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:26 --> Model Class Initialized
+DEBUG - 2021-10-28 13:56:26 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-10-28 13:56:26 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-10-28 13:56:26 --> Final output sent to browser
+DEBUG - 2021-10-28 13:56:26 --> Total execution time: 0.1843
+INFO - 2021-10-28 13:56:38 --> Config Class Initialized
+INFO - 2021-10-28 13:56:38 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:39 --> URI Class Initialized
+INFO - 2021-10-28 13:56:39 --> Router Class Initialized
+INFO - 2021-10-28 13:56:39 --> Output Class Initialized
+INFO - 2021-10-28 13:56:39 --> Security Class Initialized
+INFO - 2021-10-28 13:56:39 --> CRSF cookie sent
+INFO - 2021-10-28 13:56:39 --> CSRF token verified
+DEBUG - 2021-10-28 13:56:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:39 --> Input Class Initialized
+INFO - 2021-10-28 13:56:39 --> Language Class Initialized
+INFO - 2021-10-28 13:56:39 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:39 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+INFO - 2021-10-28 13:56:39 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:39 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-10-28 13:56:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+DEBUG - 2021-10-28 13:56:39 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-10-28 13:56:39 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2021-10-28 13:56:39 --> Config Class Initialized
+INFO - 2021-10-28 13:56:39 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:56:39 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:56:39 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:56:39 --> URI Class Initialized
+INFO - 2021-10-28 13:56:39 --> Router Class Initialized
+INFO - 2021-10-28 13:56:39 --> Output Class Initialized
+INFO - 2021-10-28 13:56:39 --> Security Class Initialized
+INFO - 2021-10-28 13:56:39 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:56:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:56:39 --> Input Class Initialized
+INFO - 2021-10-28 13:56:39 --> Language Class Initialized
+INFO - 2021-10-28 13:56:39 --> Loader Class Initialized
+INFO - 2021-10-28 13:56:39 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:56:39 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:56:39 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:56:39 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:56:39 --> Parser Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+INFO - 2021-10-28 13:56:39 --> Controller Class Initialized
+INFO - 2021-10-28 13:56:39 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:56:39 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "today"
+INFO - 2021-10-28 13:56:39 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:56:39 --> Model Class Initialized
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:56:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-28 13:56:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/dashboard.php
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:56:39 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:56:39 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:56:39 --> Final output sent to browser
+DEBUG - 2021-10-28 13:56:39 --> Total execution time: 0.1645
+INFO - 2021-10-28 13:57:06 --> Config Class Initialized
+INFO - 2021-10-28 13:57:06 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:06 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:06 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:06 --> URI Class Initialized
+INFO - 2021-10-28 13:57:06 --> Router Class Initialized
+INFO - 2021-10-28 13:57:06 --> Output Class Initialized
+INFO - 2021-10-28 13:57:06 --> Security Class Initialized
+INFO - 2021-10-28 13:57:06 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:06 --> Input Class Initialized
+INFO - 2021-10-28 13:57:06 --> Language Class Initialized
+INFO - 2021-10-28 13:57:06 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:06 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:06 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:06 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:06 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:57:06 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/pagination_lang.php
+INFO - 2021-10-28 13:57:06 --> Pagination Class Initialized
+ERROR - 2021-10-28 13:57:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\wamp64\www\Reactor\sma\controllers\Pos.php 743
+ERROR - 2021-10-28 13:57:06 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:57:06 --> Could not find the language line "order"
+ERROR - 2021-10-28 13:57:06 --> Could not find the language line "bill"
+INFO - 2021-10-28 13:57:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/pos/add.php
+INFO - 2021-10-28 13:57:06 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:06 --> Total execution time: 0.1594
+INFO - 2021-10-28 13:57:06 --> Config Class Initialized
+INFO - 2021-10-28 13:57:06 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:06 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:06 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:06 --> URI Class Initialized
+INFO - 2021-10-28 13:57:06 --> Router Class Initialized
+INFO - 2021-10-28 13:57:06 --> Output Class Initialized
+INFO - 2021-10-28 13:57:06 --> Security Class Initialized
+INFO - 2021-10-28 13:57:06 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:06 --> Input Class Initialized
+INFO - 2021-10-28 13:57:06 --> Language Class Initialized
+INFO - 2021-10-28 13:57:06 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:06 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:06 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:06 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:06 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:06 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:06 --> Language file loaded: language/spanish/customers_lang.php
+INFO - 2021-10-28 13:57:06 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:06 --> Model Class Initialized
+INFO - 2021-10-28 13:57:06 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:06 --> Total execution time: 0.0902
+INFO - 2021-10-28 13:57:09 --> Config Class Initialized
+INFO - 2021-10-28 13:57:09 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:09 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:09 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:09 --> URI Class Initialized
+INFO - 2021-10-28 13:57:09 --> Router Class Initialized
+INFO - 2021-10-28 13:57:09 --> Output Class Initialized
+INFO - 2021-10-28 13:57:09 --> Security Class Initialized
+INFO - 2021-10-28 13:57:09 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:09 --> Input Class Initialized
+INFO - 2021-10-28 13:57:09 --> Language Class Initialized
+INFO - 2021-10-28 13:57:09 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:09 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:09 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:09 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:09 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:09 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:09 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:09 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:09 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:09 --> Model Class Initialized
+INFO - 2021-10-28 13:57:09 --> Model Class Initialized
+INFO - 2021-10-28 13:57:09 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:09 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:09 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:09 --> Language file loaded: language/spanish/sales_lang.php
+INFO - 2021-10-28 13:57:10 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:10 --> Model Class Initialized
+INFO - 2021-10-28 13:57:10 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:10 --> Total execution time: 0.1567
+INFO - 2021-10-28 13:57:20 --> Config Class Initialized
+INFO - 2021-10-28 13:57:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:20 --> URI Class Initialized
+INFO - 2021-10-28 13:57:20 --> Router Class Initialized
+INFO - 2021-10-28 13:57:20 --> Output Class Initialized
+INFO - 2021-10-28 13:57:20 --> Security Class Initialized
+INFO - 2021-10-28 13:57:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:20 --> Input Class Initialized
+INFO - 2021-10-28 13:57:20 --> Language Class Initialized
+INFO - 2021-10-28 13:57:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:20 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:57:20 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:57:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/pos/view_bill.php
+INFO - 2021-10-28 13:57:20 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:20 --> Total execution time: 0.1219
+INFO - 2021-10-28 13:57:20 --> Config Class Initialized
+INFO - 2021-10-28 13:57:20 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:20 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:20 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:20 --> URI Class Initialized
+INFO - 2021-10-28 13:57:20 --> Router Class Initialized
+INFO - 2021-10-28 13:57:20 --> Output Class Initialized
+INFO - 2021-10-28 13:57:20 --> Security Class Initialized
+INFO - 2021-10-28 13:57:20 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:20 --> Input Class Initialized
+INFO - 2021-10-28 13:57:20 --> Language Class Initialized
+INFO - 2021-10-28 13:57:20 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:20 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:20 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:20 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:20 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:20 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:20 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:20 --> Model Class Initialized
+INFO - 2021-10-28 13:57:20 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/promotions.php
+INFO - 2021-10-28 13:57:20 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:20 --> Total execution time: 0.0971
+INFO - 2021-10-28 13:57:30 --> Config Class Initialized
+INFO - 2021-10-28 13:57:30 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:30 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:30 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:30 --> URI Class Initialized
+INFO - 2021-10-28 13:57:30 --> Router Class Initialized
+INFO - 2021-10-28 13:57:30 --> Output Class Initialized
+INFO - 2021-10-28 13:57:30 --> Security Class Initialized
+INFO - 2021-10-28 13:57:30 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:30 --> Input Class Initialized
+INFO - 2021-10-28 13:57:30 --> Language Class Initialized
+INFO - 2021-10-28 13:57:30 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:30 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:30 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:30 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:30 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:30 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:30 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:30 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:30 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:30 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:30 --> Model Class Initialized
+INFO - 2021-10-28 13:57:30 --> Model Class Initialized
+INFO - 2021-10-28 13:57:30 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:30 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:30 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:30 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:30 --> Model Class Initialized
+INFO - 2021-10-28 13:57:30 --> Helper loaded: text_helper
+INFO - 2021-10-28 13:57:30 --> Language file loaded: language/spanish/pos_lang.php
+INFO - 2021-10-28 13:57:30 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:30 --> Language file loaded: language/spanish/pagination_lang.php
+INFO - 2021-10-28 13:57:30 --> Pagination Class Initialized
+ERROR - 2021-10-28 13:57:30 --> Could not find the language line "no_opeded_bill"
+INFO - 2021-10-28 13:57:30 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/pos/opened.php
+INFO - 2021-10-28 13:57:30 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:30 --> Total execution time: 0.2306
+INFO - 2021-10-28 13:57:34 --> Config Class Initialized
+INFO - 2021-10-28 13:57:34 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:57:34 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:57:34 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:57:34 --> URI Class Initialized
+INFO - 2021-10-28 13:57:34 --> Router Class Initialized
+INFO - 2021-10-28 13:57:34 --> Output Class Initialized
+INFO - 2021-10-28 13:57:34 --> Security Class Initialized
+INFO - 2021-10-28 13:57:34 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:57:34 --> Input Class Initialized
+INFO - 2021-10-28 13:57:34 --> Language Class Initialized
+INFO - 2021-10-28 13:57:34 --> Loader Class Initialized
+INFO - 2021-10-28 13:57:34 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:57:34 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:57:34 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:57:34 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:57:34 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:57:34 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:57:34 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:57:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:57:34 --> Parser Class Initialized
+INFO - 2021-10-28 13:57:34 --> Model Class Initialized
+INFO - 2021-10-28 13:57:34 --> Model Class Initialized
+INFO - 2021-10-28 13:57:34 --> Controller Class Initialized
+INFO - 2021-10-28 13:57:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:57:34 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "today"
+INFO - 2021-10-28 13:57:34 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:57:34 --> Model Class Initialized
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:57:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-10-28 13:57:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/dashboard.php
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:57:34 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:57:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:57:34 --> Final output sent to browser
+DEBUG - 2021-10-28 13:57:34 --> Total execution time: 0.2217
+INFO - 2021-10-28 13:59:00 --> Config Class Initialized
+INFO - 2021-10-28 13:59:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:00 --> URI Class Initialized
+INFO - 2021-10-28 13:59:00 --> Router Class Initialized
+INFO - 2021-10-28 13:59:00 --> Output Class Initialized
+INFO - 2021-10-28 13:59:00 --> Security Class Initialized
+INFO - 2021-10-28 13:59:00 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:00 --> Input Class Initialized
+INFO - 2021-10-28 13:59:00 --> Language Class Initialized
+INFO - 2021-10-28 13:59:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+INFO - 2021-10-28 13:59:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:59:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:59:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:59:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:59:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:59:00 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:00 --> Total execution time: 0.1209
+INFO - 2021-10-28 13:59:00 --> Config Class Initialized
+INFO - 2021-10-28 13:59:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:00 --> URI Class Initialized
+INFO - 2021-10-28 13:59:00 --> Router Class Initialized
+INFO - 2021-10-28 13:59:00 --> Output Class Initialized
+INFO - 2021-10-28 13:59:00 --> Security Class Initialized
+INFO - 2021-10-28 13:59:00 --> CRSF cookie sent
+INFO - 2021-10-28 13:59:00 --> CSRF token verified
+DEBUG - 2021-10-28 13:59:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:00 --> Input Class Initialized
+INFO - 2021-10-28 13:59:00 --> Language Class Initialized
+INFO - 2021-10-28 13:59:00 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:00 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+INFO - 2021-10-28 13:59:00 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:00 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:59:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:00 --> Model Class Initialized
+INFO - 2021-10-28 13:59:00 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:00 --> Total execution time: 0.3348
+INFO - 2021-10-28 13:59:17 --> Config Class Initialized
+INFO - 2021-10-28 13:59:17 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:17 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:17 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:17 --> URI Class Initialized
+INFO - 2021-10-28 13:59:17 --> Router Class Initialized
+INFO - 2021-10-28 13:59:17 --> Output Class Initialized
+INFO - 2021-10-28 13:59:17 --> Security Class Initialized
+INFO - 2021-10-28 13:59:17 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:17 --> Input Class Initialized
+INFO - 2021-10-28 13:59:17 --> Language Class Initialized
+INFO - 2021-10-28 13:59:17 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:17 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:17 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:17 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:17 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:17 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:17 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:17 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:17 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:17 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:17 --> Model Class Initialized
+INFO - 2021-10-28 13:59:17 --> Model Class Initialized
+INFO - 2021-10-28 13:59:17 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:17 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:17 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:17 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:59:17 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:17 --> Model Class Initialized
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:59:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 13:59:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:59:17 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:59:17 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:59:17 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:17 --> Total execution time: 0.1212
+INFO - 2021-10-28 13:59:18 --> Config Class Initialized
+INFO - 2021-10-28 13:59:18 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:18 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:18 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:18 --> URI Class Initialized
+INFO - 2021-10-28 13:59:18 --> Router Class Initialized
+INFO - 2021-10-28 13:59:18 --> Output Class Initialized
+INFO - 2021-10-28 13:59:18 --> Security Class Initialized
+INFO - 2021-10-28 13:59:18 --> CRSF cookie sent
+INFO - 2021-10-28 13:59:18 --> CSRF token verified
+DEBUG - 2021-10-28 13:59:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:18 --> Input Class Initialized
+INFO - 2021-10-28 13:59:18 --> Language Class Initialized
+INFO - 2021-10-28 13:59:18 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:18 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:18 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:18 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:18 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:18 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:18 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:18 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:18 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:18 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:18 --> Model Class Initialized
+INFO - 2021-10-28 13:59:18 --> Model Class Initialized
+INFO - 2021-10-28 13:59:18 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:18 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:18 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:18 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:18 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 13:59:18 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:18 --> Model Class Initialized
+INFO - 2021-10-28 13:59:18 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:18 --> Total execution time: 0.1920
+INFO - 2021-10-28 13:59:23 --> Config Class Initialized
+INFO - 2021-10-28 13:59:23 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:23 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:23 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:23 --> URI Class Initialized
+INFO - 2021-10-28 13:59:23 --> Router Class Initialized
+INFO - 2021-10-28 13:59:23 --> Output Class Initialized
+INFO - 2021-10-28 13:59:23 --> Security Class Initialized
+INFO - 2021-10-28 13:59:23 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:23 --> Input Class Initialized
+INFO - 2021-10-28 13:59:23 --> Language Class Initialized
+INFO - 2021-10-28 13:59:23 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:23 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:23 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:23 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:23 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:23 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:23 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:23 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:23 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:23 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:23 --> Model Class Initialized
+INFO - 2021-10-28 13:59:23 --> Model Class Initialized
+INFO - 2021-10-28 13:59:23 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:23 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:23 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:23 --> Language file loaded: language/spanish/purchases_lang.php
+INFO - 2021-10-28 13:59:23 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:23 --> Model Class Initialized
+INFO - 2021-10-28 13:59:23 --> Helper loaded: string_helper
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "backups"
+INFO - 2021-10-28 13:59:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "product_option"
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "unit_cost"
+INFO - 2021-10-28 13:59:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/purchases/add.php
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "due"
+ERROR - 2021-10-28 13:59:23 --> Could not find the language line "transferring"
+INFO - 2021-10-28 13:59:23 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 13:59:23 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:23 --> Total execution time: 0.1216
+INFO - 2021-10-28 13:59:26 --> Config Class Initialized
+INFO - 2021-10-28 13:59:26 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:26 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:26 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:26 --> URI Class Initialized
+INFO - 2021-10-28 13:59:26 --> Router Class Initialized
+INFO - 2021-10-28 13:59:26 --> Output Class Initialized
+INFO - 2021-10-28 13:59:26 --> Security Class Initialized
+INFO - 2021-10-28 13:59:26 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:26 --> Input Class Initialized
+INFO - 2021-10-28 13:59:26 --> Language Class Initialized
+INFO - 2021-10-28 13:59:26 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:26 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:26 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:26 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:26 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:26 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:26 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:26 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:26 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:26 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:26 --> Model Class Initialized
+INFO - 2021-10-28 13:59:26 --> Model Class Initialized
+INFO - 2021-10-28 13:59:26 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:26 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:26 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:26 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:26 --> Language file loaded: language/spanish/purchases_lang.php
+INFO - 2021-10-28 13:59:26 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:26 --> Model Class Initialized
+INFO - 2021-10-28 13:59:26 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:26 --> Total execution time: 0.1225
+INFO - 2021-10-28 13:59:41 --> Config Class Initialized
+INFO - 2021-10-28 13:59:41 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:41 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:41 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:41 --> URI Class Initialized
+INFO - 2021-10-28 13:59:41 --> Router Class Initialized
+INFO - 2021-10-28 13:59:41 --> Output Class Initialized
+INFO - 2021-10-28 13:59:41 --> Security Class Initialized
+INFO - 2021-10-28 13:59:41 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:41 --> Input Class Initialized
+INFO - 2021-10-28 13:59:41 --> Language Class Initialized
+INFO - 2021-10-28 13:59:41 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:41 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:41 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:41 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:41 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:41 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:41 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:41 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:41 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:41 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:41 --> Model Class Initialized
+INFO - 2021-10-28 13:59:41 --> Model Class Initialized
+INFO - 2021-10-28 13:59:41 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:41 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:41 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:41 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:41 --> Language file loaded: language/spanish/purchases_lang.php
+INFO - 2021-10-28 13:59:41 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:41 --> Model Class Initialized
+INFO - 2021-10-28 13:59:41 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:41 --> Total execution time: 0.1005
+INFO - 2021-10-28 13:59:42 --> Config Class Initialized
+INFO - 2021-10-28 13:59:42 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:42 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:42 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:42 --> URI Class Initialized
+INFO - 2021-10-28 13:59:42 --> Router Class Initialized
+INFO - 2021-10-28 13:59:42 --> Output Class Initialized
+INFO - 2021-10-28 13:59:42 --> Security Class Initialized
+INFO - 2021-10-28 13:59:42 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:42 --> Input Class Initialized
+INFO - 2021-10-28 13:59:42 --> Language Class Initialized
+INFO - 2021-10-28 13:59:42 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:42 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:42 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:42 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:42 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:42 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:42 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:42 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:42 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:42 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:42 --> Model Class Initialized
+INFO - 2021-10-28 13:59:42 --> Model Class Initialized
+INFO - 2021-10-28 13:59:42 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:42 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:42 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:42 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:42 --> Language file loaded: language/spanish/purchases_lang.php
+INFO - 2021-10-28 13:59:42 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:42 --> Model Class Initialized
+INFO - 2021-10-28 13:59:42 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:42 --> Total execution time: 0.1158
+INFO - 2021-10-28 13:59:49 --> Config Class Initialized
+INFO - 2021-10-28 13:59:49 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:49 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:49 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:49 --> URI Class Initialized
+INFO - 2021-10-28 13:59:49 --> Router Class Initialized
+INFO - 2021-10-28 13:59:49 --> Output Class Initialized
+INFO - 2021-10-28 13:59:49 --> Security Class Initialized
+INFO - 2021-10-28 13:59:49 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:49 --> Input Class Initialized
+INFO - 2021-10-28 13:59:49 --> Language Class Initialized
+INFO - 2021-10-28 13:59:49 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:49 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:49 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:49 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:49 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:49 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:49 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:49 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:49 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:49 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:49 --> Model Class Initialized
+INFO - 2021-10-28 13:59:49 --> Model Class Initialized
+INFO - 2021-10-28 13:59:49 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:49 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:49 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:49 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:49 --> Language file loaded: language/spanish/suppliers_lang.php
+INFO - 2021-10-28 13:59:49 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:49 --> Model Class Initialized
+INFO - 2021-10-28 13:59:49 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:49 --> Total execution time: 0.1670
+INFO - 2021-10-28 13:59:52 --> Config Class Initialized
+INFO - 2021-10-28 13:59:52 --> Hooks Class Initialized
+DEBUG - 2021-10-28 13:59:52 --> UTF-8 Support Enabled
+INFO - 2021-10-28 13:59:52 --> Utf8 Class Initialized
+INFO - 2021-10-28 13:59:52 --> URI Class Initialized
+INFO - 2021-10-28 13:59:52 --> Router Class Initialized
+INFO - 2021-10-28 13:59:52 --> Output Class Initialized
+INFO - 2021-10-28 13:59:52 --> Security Class Initialized
+INFO - 2021-10-28 13:59:52 --> CRSF cookie sent
+DEBUG - 2021-10-28 13:59:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 13:59:52 --> Input Class Initialized
+INFO - 2021-10-28 13:59:52 --> Language Class Initialized
+INFO - 2021-10-28 13:59:52 --> Loader Class Initialized
+INFO - 2021-10-28 13:59:52 --> Helper loaded: url_helper
+INFO - 2021-10-28 13:59:52 --> Helper loaded: form_helper
+INFO - 2021-10-28 13:59:52 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 13:59:52 --> Helper loaded: language_helper
+INFO - 2021-10-28 13:59:52 --> Helper loaded: file_helper
+INFO - 2021-10-28 13:59:52 --> Helper loaded: date_helper
+INFO - 2021-10-28 13:59:52 --> Database Driver Class Initialized
+INFO - 2021-10-28 13:59:52 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 13:59:52 --> Parser Class Initialized
+INFO - 2021-10-28 13:59:52 --> Model Class Initialized
+INFO - 2021-10-28 13:59:52 --> Model Class Initialized
+INFO - 2021-10-28 13:59:52 --> Controller Class Initialized
+INFO - 2021-10-28 13:59:52 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 13:59:52 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 13:59:52 --> Could not find the language line "today"
+INFO - 2021-10-28 13:59:52 --> Language file loaded: language/spanish/purchases_lang.php
+INFO - 2021-10-28 13:59:52 --> Form Validation Class Initialized
+INFO - 2021-10-28 13:59:52 --> Model Class Initialized
+INFO - 2021-10-28 13:59:52 --> Final output sent to browser
+DEBUG - 2021-10-28 13:59:52 --> Total execution time: 0.1516
+INFO - 2021-10-28 14:00:00 --> Config Class Initialized
+INFO - 2021-10-28 14:00:00 --> Hooks Class Initialized
+DEBUG - 2021-10-28 14:00:00 --> UTF-8 Support Enabled
+INFO - 2021-10-28 14:00:00 --> Utf8 Class Initialized
+INFO - 2021-10-28 14:00:00 --> URI Class Initialized
+INFO - 2021-10-28 14:00:00 --> Router Class Initialized
+INFO - 2021-10-28 14:00:00 --> Output Class Initialized
+INFO - 2021-10-28 14:00:00 --> Security Class Initialized
+INFO - 2021-10-28 14:00:00 --> CRSF cookie sent
+DEBUG - 2021-10-28 14:00:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 14:00:00 --> Input Class Initialized
+INFO - 2021-10-28 14:00:00 --> Language Class Initialized
+INFO - 2021-10-28 14:00:00 --> Loader Class Initialized
+INFO - 2021-10-28 14:00:00 --> Helper loaded: url_helper
+INFO - 2021-10-28 14:00:00 --> Helper loaded: form_helper
+INFO - 2021-10-28 14:00:00 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 14:00:00 --> Helper loaded: language_helper
+INFO - 2021-10-28 14:00:00 --> Helper loaded: file_helper
+INFO - 2021-10-28 14:00:00 --> Helper loaded: date_helper
+INFO - 2021-10-28 14:00:00 --> Database Driver Class Initialized
+INFO - 2021-10-28 14:00:00 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 14:00:00 --> Parser Class Initialized
+INFO - 2021-10-28 14:00:00 --> Model Class Initialized
+INFO - 2021-10-28 14:00:00 --> Model Class Initialized
+INFO - 2021-10-28 14:00:00 --> Controller Class Initialized
+INFO - 2021-10-28 14:00:00 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 14:00:00 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "today"
+INFO - 2021-10-28 14:00:00 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 14:00:00 --> Form Validation Class Initialized
+INFO - 2021-10-28 14:00:00 --> Model Class Initialized
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "today_profit"
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "backups"
+INFO - 2021-10-28 14:00:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "sync_quantity"
+INFO - 2021-10-28 14:00:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/products/index.php
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "ordered"
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "due"
+ERROR - 2021-10-28 14:00:00 --> Could not find the language line "transferring"
+INFO - 2021-10-28 14:00:00 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-10-28 14:00:00 --> Final output sent to browser
+DEBUG - 2021-10-28 14:00:00 --> Total execution time: 0.2619
+INFO - 2021-10-28 14:00:01 --> Config Class Initialized
+INFO - 2021-10-28 14:00:01 --> Hooks Class Initialized
+DEBUG - 2021-10-28 14:00:01 --> UTF-8 Support Enabled
+INFO - 2021-10-28 14:00:01 --> Utf8 Class Initialized
+INFO - 2021-10-28 14:00:01 --> URI Class Initialized
+INFO - 2021-10-28 14:00:01 --> Router Class Initialized
+INFO - 2021-10-28 14:00:01 --> Output Class Initialized
+INFO - 2021-10-28 14:00:01 --> Security Class Initialized
+INFO - 2021-10-28 14:00:01 --> CRSF cookie sent
+INFO - 2021-10-28 14:00:01 --> CSRF token verified
+DEBUG - 2021-10-28 14:00:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-10-28 14:00:01 --> Input Class Initialized
+INFO - 2021-10-28 14:00:01 --> Language Class Initialized
+INFO - 2021-10-28 14:00:01 --> Loader Class Initialized
+INFO - 2021-10-28 14:00:01 --> Helper loaded: url_helper
+INFO - 2021-10-28 14:00:01 --> Helper loaded: form_helper
+INFO - 2021-10-28 14:00:01 --> Helper loaded: cookie_helper
+INFO - 2021-10-28 14:00:01 --> Helper loaded: language_helper
+INFO - 2021-10-28 14:00:01 --> Helper loaded: file_helper
+INFO - 2021-10-28 14:00:01 --> Helper loaded: date_helper
+INFO - 2021-10-28 14:00:01 --> Database Driver Class Initialized
+INFO - 2021-10-28 14:00:01 --> Session: Class initialized using 'database' driver.
+INFO - 2021-10-28 14:00:01 --> Parser Class Initialized
+INFO - 2021-10-28 14:00:01 --> Model Class Initialized
+INFO - 2021-10-28 14:00:01 --> Model Class Initialized
+INFO - 2021-10-28 14:00:01 --> Controller Class Initialized
+INFO - 2021-10-28 14:00:01 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-10-28 14:00:01 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-10-28 14:00:01 --> Could not find the language line "today"
+INFO - 2021-10-28 14:00:01 --> Language file loaded: language/spanish/products_lang.php
+INFO - 2021-10-28 14:00:01 --> Form Validation Class Initialized
+INFO - 2021-10-28 14:00:01 --> Model Class Initialized
+INFO - 2021-10-28 14:00:01 --> Final output sent to browser
+DEBUG - 2021-10-28 14:00:01 --> Total execution time: 0.3948

@@ -59,6 +59,10 @@
 
                         <div class="row">
                             <div class="col-sm-5">
+                            <?php if($product->image_url_external !== 'no_image.png' ){ ?>
+                                <img src=" <?= $product->image_url_external ?>"
+                                alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+                            <?php } else { ?>
                                 <img src="<?= base_url() ?>assets/uploads/<?= $product->image ?>"
                                      alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
 
@@ -72,6 +76,7 @@
                                     ?>
                                     <div class="clearfix"></div>
                                 </div>
+                            <?php } ?>
                             </div>
                             <div class="col-sm-7">
                                 <div class="table-responsive">
