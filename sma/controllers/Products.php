@@ -2109,53 +2109,34 @@ class Products extends MY_Controller
                 $file  = PHPExcel_IOFactory::createReader('Excel5');
                 $array = $file->load($this->digital_upload_path .$this->upload->file_name);
                 $cell_collection = $array->getActiveSheet()->getCellCollection();
-                foreach ($cell_collection as $cell) {
-                    $column = $array->getActiveSheet()->getCell($cell)->getColumn();
-                    $row = $array->getActiveSheet()->getCell($cell)->getRow();
-                    $data_value = $array->getActiveSheet()->getCell($cell)->getValue();
-                    //header will/should be in row 1 only. of course this can be modified to suit your need.
-                    if ($row == 1) {
-                        $header[$row][$column] = $data_value;
-                    } else {
-                        $arr_data[$row][$column] = $data_value;
-                    }
-                }
-
-                //send the data in an array format
-                $data['header'] = $header;
-                $data['values'] = $arr_data;
-
-
+                $sheetData = $array->getActiveSheet()->toArray(null,true,true,true);
+            
                 $keys = array('code', 'name', 'category_code', 'unit', 'cost', 'price', 'alert_quantity', 'tax_rate', 'tax_method', 'image_url_external','subcategory_code', 'variants', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
 
-                $final = array();
-
-                foreach ($arr_data as $key => $value) {
-                    $final[] = array_combine($keys, $value);
-                }
+    
                 $rw = 2;
-                foreach ($final as $csv_pr) {
-                       $catd = $this->products_model->getCategoryByCode(trim($csv_pr['category_code']));
-                        $pr_code[] = trim($csv_pr['code']);
-                        $pr_name[] = trim($csv_pr['name']);
+                foreach ($sheetData as $csv_pr) {
+                       $catd = $this->products_model->getCategoryByCode(trim($csv_pr['C']));
+                        $pr_code[] = trim($csv_pr['A']);
+                        $pr_name[] = trim($csv_pr['B']);
                         $pr_cat[] = $catd->id;
-                        $pr_variants[] = trim($csv_pr['variants'] != 0 ? $csv_pr['variants'] :0);
-                        $pr_unit[] = trim($csv_pr['unit']);
-                        $tax_method[] = $csv_pr['tax_method'] == 'exclusive' ? 1 : 0;
-                        $prsubcat = $csv_pr['subcategory_code'] != 0 ? $this->products_model->getSubcategoryByCode($csv_pr['subcategory_code']) :0;
+                        $pr_variants[] = trim($csv_pr['L'] != '' ? $csv_pr['L'] :0);
+                        $pr_unit[] = trim($csv_pr['D']);
+                        $tax_method[] = $csv_pr['I'] == 'exclusive' ? 1 : 0;
+                        $prsubcat = $csv_pr['K'] != '' ? $this->products_model->getSubcategoryByCode($csv_pr['K']) :0;
                         $pr_subcat[] = $prsubcat ? $prsubcat->id : NULL;
-                        $pr_cost[] = trim($csv_pr['cost']);
-                        $pr_price[] = trim($csv_pr['price']);
-                        $pr_aq[] = trim($csv_pr['alert_quantity']);
-                        $pr_imgExt[] = $csv_pr['image_url_external'] == '0' ? 'no_image.png' : $csv_pr['image_url_external'];
-                        $tax_details = $this->products_model->getTaxRateByName(trim($csv_pr['tax_rate']));
+                        $pr_cost[] = trim($csv_pr['E']);
+                        $pr_price[] = trim($csv_pr['F']);
+                        $pr_aq[] = trim($csv_pr['G']);
+                        $pr_imgExt[] = $csv_pr['J'] == '' ? 'no_image.png' : $csv_pr['J'];
+                        $tax_details = $this->products_model->getTaxRateByName(trim($csv_pr['H']));
                         $pr_tax[] = $tax_details ? $tax_details->id : NULL;
-                        $cf1[] = trim($csv_pr['cf1'] == "" ? null :$csv_pr['cf1']);
-                        $cf2[] = trim($csv_pr['cf2'] == "" ? null :$csv_pr['cf2']);
-                        $cf3[] = trim($csv_pr['cf3'] == "" ? null :$csv_pr['cf3']);
-                        $cf4[] = trim($csv_pr['cf4'] == "" ? null :$csv_pr['cf4']);
-                        $cf5[] = trim($csv_pr['cf5'] == "" ? null :$csv_pr['cf5']);
-                        $cf6[] = trim($csv_pr['cf6'] == "" ? null :$csv_pr['cf6']);
+                        $cf1[] = trim($csv_pr['M'] == "" ? null :$csv_pr['M']);
+                        $cf2[] = trim($csv_pr['N'] == "" ? null :$csv_pr['N']);
+                        $cf3[] = trim($csv_pr['O'] == "" ? null :$csv_pr['O']);
+                        $cf4[] = trim($csv_pr['P'] == "" ? null :$csv_pr['P']);
+                        $cf5[] = trim($csv_pr['Q'] == "" ? null :$csv_pr['Q']);
+                        $cf6[] = trim($csv_pr['R'] == "" ? null :$csv_pr['R']);
                     $rw++;
                 }
             }
@@ -2166,11 +2147,8 @@ class Products extends MY_Controller
             foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_imgExt, $pr_subcat, $pr_variants, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
                 $items[] = array_combine($ikeys, $value);
             }
-
-         
         }
-
-        $rw = 0;
+        $rw = 1;
         $codeErrorMessage = "";
         $catErrorMessage = "";
         foreach ($items as $csv_pr) {
@@ -2182,7 +2160,7 @@ class Products extends MY_Controller
                 } 
             }
 
-            if ($this->products_model->getCategoryByCode(trim($csv_pr['category_code'])) != false) {
+            if ($this->products_model->getCategoryByCode(trim($csv_pr['category_id'])) != false) {
                 if($catErrorMessage ==""){
                     $catErrorMessage = $csv_pr['code'];
                 }else {
@@ -2199,6 +2177,7 @@ class Products extends MY_Controller
             $this->session->set_flashdata('error', lang("lists_code_not_save") ."<br/> ".$codeErrorMessage);
         }
 
+        
         if ($this->form_validation->run() == true && $this->products_model->add_products($items)) {
             $this->session->set_flashdata('message', lang("products_added"));
             redirect('products');
