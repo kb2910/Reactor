@@ -552,6 +552,18 @@ class Products_model extends CI_Model
         return FALSE;
     }
 
+    
+    public function getCategoryByName($code)
+    {
+        $q = $this->db->get_where('categories', array('name' => $code), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        } else {
+             $this->db->insert('categories', array('code' => $code, 'name' => $code, 'image' => 'no_image.png'));
+             return $this->getCategoryByCode($code);
+        }
+    }
+
     public function getSubcategoryByCode($code)
     {
 
@@ -900,4 +912,21 @@ class Products_model extends CI_Model
           ->get()
           ->result();
       }
+
+    
+    public function importMassiveExcel($products = array())
+    {
+        if (!empty($products)) { 
+            foreach ($products as $product) {
+                $q = $this->db->get_where('products', array('code' => $product['code']),1);
+                if ($q->num_rows() == 0) {
+                    $this->db->insert('products', $product);
+                } else {
+                    $this->db->update('products', $product, array('code' => $product['code']));
+                }
+            }
+          return true;
+        }
+      return false;
+    }
 }

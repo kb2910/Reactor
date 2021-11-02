@@ -65,6 +65,26 @@ if (!empty($variants)) {
                 echo form_open_multipart("products/edit/" . $product->id, $attrib)
                 ?>
                 <div class="col-md-5">
+                <div class="form-group">
+                            <?php if($product->image_url_external !== 'no_image.png' ){ ?>
+                                <img src=" <?= $product->image_url_external ?>"
+                                alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+                            <?php } else { ?>
+                                <img src="<?= base_url() ?>assets/uploads/<?= $product->image ?>"
+                                     alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+
+                                <div id="multiimages" class="padding10">
+                                    <?php if (!empty($images)) {
+                                        echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $product->image . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $product->image . '" alt="' . $product->image . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        foreach ($images as $ph) {
+                                            echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $ph->photo . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $ph->photo . '" alt="' . $ph->photo . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        }
+                                    }
+                                    ?>
+                                    <div class="clearfix"></div>
+                                </div>
+                            <?php } ?>
+                  </div>
                     <div class="form-group">
                         <?= lang("product_type", "type") ?>
                         <?php

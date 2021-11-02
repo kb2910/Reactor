@@ -11,7 +11,8 @@
 
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#rulesTabs"><i class="fa fa-list-ol" aria-hidden="true"></i> Normas</a></li>
-                        <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel</a></li>
+                        <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel (Plantilla del Sistema)</a></li>
+                        <li><a data-toggle="tab" href="#excelMassiveTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel Masivo</a></li>
                         <li><a data-toggle="tab" href="#csvTabs"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
                     </ul>
 
@@ -60,6 +61,23 @@
                                     )</span> <?= lang("xls3"); ?>
 
                             </div>
+                            <div>
+                                <label for="xls_file"><?= lang("upload_file"); ?></label>
+                                <input type="file" name="userfile" class="form-control file" data-show-upload="false"
+                                       data-show-preview="false" id="xls_file" required="required"/>
+                            </div>
+                            <br/>
+                            <div >
+                                <?php echo form_submit('import', $this->lang->line("import"), 'class="btn btn-primary"'); ?>
+                            </div>
+                            <?= form_close(); ?>
+                        </div>
+                        <div id="excelMassiveTabs" class="tab-pane fade">
+                            <?php
+                            $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');
+                            echo form_open_multipart("products/massiveDataForExcel", $attrib)
+                            ?>
+                            <div class="well well-small"> <?= lang("onlyFormat");?></div>
                             <div>
                                 <label for="xls_file"><?= lang("upload_file"); ?></label>
                                 <input type="file" name="userfile" class="form-control file" data-show-upload="false"

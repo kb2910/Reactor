@@ -775,19 +775,23 @@ function checkbox(x) {
     return '<center><input class="checkbox multi-select" type="checkbox" name="val[]" value="' + x + '" /></center>';
 }
 function img_hl(x) {
-let termino = "https:";
-let posicion = x.indexOf(termino);
-let termino1 = "http:";
-let posicion1 = x.indexOf(termino1);
-if (posicion !== -1){
-   x =  '<center><ul class="enlarge"><li><img src="' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+ x + '" data-toggle="lightbox"><img src="' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
-}else if (posicion1 !== -1){
-    x =  '<center><ul class="enlarge"><li><img src="' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+ x + '" data-toggle="lightbox"><img src="' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
-} else if( x !== "no_image.png") { 
-    x =  '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/' + x + '" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
-} else if( x == "no_image.png"){
-    x = '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/' + x + '" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
-}
+    if( x==null){
+        x = '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/no_image.png" alt="no_image.png" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/no_image.png" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/no_image.png" alt="no_image.png" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
+    } else {
+            let termino = "https:";
+        let posicion = x.indexOf(termino);
+        let termino1 = "http:";
+        let posicion1 = x.indexOf(termino1);
+        if (posicion !== -1){
+        x =  '<center><ul class="enlarge"><li><img src="' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+ x + '" data-toggle="lightbox"><img src="' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
+        }else if (posicion1 !== -1){
+            x =  '<center><ul class="enlarge"><li><img src="' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+ x + '" data-toggle="lightbox"><img src="' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
+        } else if( x !== "no_image.png") { 
+            x =  '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/' + x + '" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
+        } else if( x == "no_image.png"){
+            x = '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/' + x + '" alt="' + x + '" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/' + x + '" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/' + x + '" alt="' + x + '" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';
+        }
+    }
     return x;
 }
 function user_status(x) {

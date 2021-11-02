@@ -2286,5 +2286,96 @@ class Products extends MY_Controller
           }
       }
   
-      /* ------------------------------------------------------------------------------- */
+      /* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+    function massiveDataForExcel()
+    {
+        $this->load->library('excel');
+        $this->sma->checkPermissions('xls');
+        $this->load->helper('security');
+        $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
+
+        if ($this->form_validation->run() == true) {
+
+            if (isset($_FILES["userfile"])) {
+                $this->load->library('upload');
+
+                $config['upload_path'] = $this->digital_upload_path;
+                $config['allowed_types'] = 'xls';
+                $config['max_size'] = $this->allowed_file_size;
+                $config['overwrite'] = TRUE;
+                $this->upload->initialize($config);
+                if (!$this->upload->do_upload()) {
+                    $error = $this->upload->display_errors();
+                    $this->session->set_flashdata('error', $error);
+                    redirect("products/import_csv");
+                }
+
+                $csv = $this->upload->file_name;
+                $file  = PHPExcel_IOFactory::createReader('Excel5');
+                $array = $file->load($this->digital_upload_path .$this->upload->file_name);
+                $cell_collection = $array->getActiveSheet()->getCellCollection();
+                $sheetData = $array->getActiveSheet()->toArray(null,true,true,true);
+
+                $rw = 2;
+                foreach ($sheetData as $csv_pr) {
+                        $porciones = explode(" > ",$csv_pr['B']);
+                        $number = count($porciones);
+                        $numberSd = $this->str_replaceChars(trim($csv_pr['E']));  
+                        $catd = $this->products_model->getCategoryByName(trim($porciones[$number-1]));
+                        $pr_code[] = trim($csv_pr['A']);
+                        $pr_name[] = trim($csv_pr['C']);
+                        $pr_cat[] = $catd->id;
+                        $pr_unit[] = 1;
+                        $tax_method[] = 0;
+                        $pr_subcat[] = 0;
+                        $pr_cost[] = $this->str_replaceChars($csv_pr['E']);
+                        $pr_price[] = $this->str_replaceChars($csv_pr['E']);
+                        $pr_aq[] = 1;
+                        $pr_imgExt[] = $csv_pr['I'] == '' ? 'no_image.png' : $csv_pr['I'];
+                        $pr_tax[] = NULL;
+                        $cf1[] = null;
+                        $cf2[] = null;
+                        $cf3[] = null;
+                        $cf4[] = null;
+                        $cf5[] = null;
+                        $cf6[] = null;
+                    $rw++;
+                }
+            }
+
+            $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity','tax_rate', 'tax_method', 'image_url_external', 'subcategory_id', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+
+            $items = array();
+            foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_imgExt, $pr_subcat, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
+                $items[] = array_combine($ikeys, $value);
+            }
+                        
+    
+
+        }
+        unset($items[0]);
+        if ($this->form_validation->run() == true && $this->products_model->importMassiveExcel($items)) {
+            $this->session->set_flashdata('message', lang("import_product"));
+           redirect('products');
+        } else {
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+            $this->data['userfile'] = array('name' => 'userfile',
+                'id' => 'userfile',
+                'type' => 'text',
+                'value' => $this->form_validation->set_value('userfile')
+            );
+
+            $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('import_products_by_csv')));
+            $meta = array('page_title' => lang('import_products_by_csv'), 'bc' => $bc);
+            $this->page_construct('products/import_csv', $meta, $this->data);
+
+        }
+    }
+
+    function str_replaceChars ($str){
+        return floatval(str_replace(array("$", " ", ","), "", $str));
+      }
+  
+
 }

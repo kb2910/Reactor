@@ -87,6 +87,7 @@ $lang['code_already_exist']                      =     "Código del producto ya 
 $lang['check_category_code']                     =     "Por favor, marque el código de categoría";
 $lang['category_code_x_exist']                   =     "No existe código de categoría.";
 $lang['products_added']                          =     "Productos agregados con éxito";
+$lang['import_product']                          =     "<i class='fa fa-check-square-o' aria-hidden='true'></i>  Productos importados con éxito";
 $lang['product_has_attributes']                  =     "Este producto tiene múltiples variantes";
 $lang['eg_sizes_colors']                         =     "Por ejemplo, múltiples tamaños y / o colores";
 $lang['enter_attributes']                        =     "Escriba las variantes separadas por coma";
@@ -107,3 +108,4 @@ $lang['purchases']                               = "Purchases";
 $lang['damages']                                 = "Damages";
 $lang['returns']                                 = "Returns";
 $lang['validate_price']                          = "The unit price cannot be less than:";
+$lang['onlyFormat']                              = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Solo se admiten formatos xls de excel.";
