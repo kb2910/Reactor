@@ -107,5 +107,16 @@ $lang['wh_pr_qty_issue'] 						 =     "<strong>Request Failed!</strong> Warehous
 $lang['purchases']                               = "Purchases";
 $lang['damages']                                 = "Damages";
 $lang['returns']                                 = "Returns";
+$lang['idML']                                    = "Mercado Libre";
+$lang['excelForTemplate']                        = "Excel (Plantilla del Sistema)";
+$lang['rules']                                   = "Normas";
+$lang['excelMassive']                            = "Excel (Archivo externo)";
+$lang['detailDepure']                            = "Depurar data";
+$lang['FromExcel']                               = "Desde excel";
+$lang['deleteExcel']                             = "Eliminar data";
+$lang['dataOfSystem']                            = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Permite eliminar todos lo productos y categorías existentes en el sistema, para cargar nuevos productos y categorías";
 $lang['validate_price']                          = "The unit price cannot be less than:";
 $lang['onlyFormat']                              = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Solo se admiten formatos xls de excel.";
+$lang['errorHeaderOfExcel']                      = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Disculpe la(s) siguientes columna(s) no existen en el excel y son necesarias:";
+$lang['detailExcelMassive']                      = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, Título, Categoría, Precio, Imagen 1, Descripción, SKU";
+$lang['detailDeupeExcelMassive']                 = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, SKU";

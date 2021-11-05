@@ -136,3 +136,15 @@ $lang['add_more_variants']                  = "Add more product variants";
 $lang['quantity_x_adjusted']                = "Product quantity can not be adjusted as there is no purchased item record found. Please add purchase first";
 $lang['validate_price']                     = "El precio unitario no puede ser menor a:";
 $lang['onlyFormat']                         = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Solo se admiten formatos xls de excel.";
+$lang['errorHeaderOfExcel']                 = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Disculpe la(s) siguiente(s) columnas no existen en el excel y son necesarias:";
+$lang['detailExcelMassive']                 = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, Título, Categoría, Precio, Imagen 1, Descripción, SKU";
+$lang['idML']                                    = "Mercado Libre";
+$lang['excelForTemplate']                        = "Excel (Plantilla del Sistema)";
+$lang['rules']                                   = "Normas";
+$lang['excelMassive']                            = "Excel (Archivo externo)";
+$lang['detailDepure']                            = "Depurar data";
+$lang['FromExcel']                               = "Desde excel";
+$lang['deleteExcel']                             = "Eliminar data";
+$lang['dataOfSystem']                            = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Permite eliminar todos lo productos y categorías existentes en el sistema, para cargar nuevos productos y categorías";
+$lang['detailDeupeExcelMassive']                 = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, SKU";
+

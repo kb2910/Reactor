@@ -35,7 +35,11 @@
                 {"bSortable": false, "mRender": checkbox}, {
                     "bSortable": false,
                     "mRender": img_hl
-                }, null, null, null, <?php if($Owner || $Admin) { echo '{"mRender": currencyFormat}, {"mRender": currencyFormat},'; } else { if($this->session->userdata('show_cost')) { echo '{"mRender": currencyFormat},';  } if($this->session->userdata('show_price')) { echo '{"mRender": currencyFormat},';  } } ?> {"mRender": decimalFormat}, null, <?php if(!$warehouse_id || !$Settings->racks) { echo '{"bVisible": false},'; } else { echo '{"bSortable": true},'; } ?> {"mRender": decimalFormat}, {"bSortable": false}
+                }, null, null, null, 
+                <?php if($Owner || $Admin) { echo '{"mRender": currencyFormat}, {"mRender": currencyFormat},'; } else { if($this->session->userdata('show_cost')) { echo '{"mRender": currencyFormat},';  } if($this->session->userdata('show_price')) { echo '{"mRender": currencyFormat},';  } } ?>
+                 {"mRender": decimalFormat}, null, 
+                 <?php if(!$warehouse_id || !$Settings->racks) { echo '{"bVisible": false},'; } else { echo '{"bSortable": true},'; } ?> 
+                 {"mRender": decimalFormat}, {"bSortable": false, "mRender": syncIdML}, {"bSortable": false}
             ]
         }).fnSetFilteringDelay().dtFilter([
             {column_number: 2, filter_default_label: "[<?=lang('product_code');?>]", filter_type: "text", data: []},
@@ -55,6 +59,7 @@
             {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('product_unit');?>]", filter_type: "text", data: []},
             <?php if($warehouse_id && $Settings->racks) { $col++; echo '{column_number : '. $col.', filter_default_label: "['.lang('rack').']", filter_type: "text", data: [] },'; } ?>
             {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('alert_quantity');?>]", filter_type: "text", data: []},
+            {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('idML');?>]", filter_type: "text", data: []}
         ], "footer");
 
     });
@@ -135,6 +140,7 @@
                             <th><?= lang("product_unit") ?></th>
                             <th><?= lang("rack") ?></th>
                             <th><?= lang("alert_quantity") ?></th>
+                            <th><?= lang("idML") ?></th>
                             <th style="min-width:65px; text-align:center;"><?= lang("actions") ?></th>
                         </tr>
                         </thead>
@@ -165,6 +171,7 @@
                                 }
                             }
                             ?>
+                            <th></th>
                             <th></th>
                             <th></th>
                             <th></th>

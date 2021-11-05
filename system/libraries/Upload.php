@@ -497,11 +497,11 @@ class CI_Upload {
 		}
 
 		// Is the file size within the allowed maximum?
-		if ( ! $this->is_allowed_filesize())
-		{
-			$this->set_error('upload_invalid_filesize');
-			return FALSE;
-		}
+		//if ( ! $this->is_allowed_filesize())
+	///	{
+		//	$this->set_error('upload_invalid_filesize');
+	//		return FALSE;
+	//	}
 
 		// Are the image dimensions within the allowed size?
 		// Note: This can fail if the server has an open_basedir restriction.

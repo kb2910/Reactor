@@ -28,7 +28,6 @@ class Pos extends MY_Controller
 
     function sales($warehouse_id = NULL)
     {
-        echo "holaaaa";
         
         $this->sma->checkPermissions('index');
         

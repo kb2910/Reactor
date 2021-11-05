@@ -117,6 +117,20 @@ $(document).ready(function() {
     });
 });
 
+   function showConfirmation() {
+            div = document.getElementById('flotante2');
+            div.style.display = 'none';
+               div = document.getElementById('flotante');
+            div.style.display = 'block';
+        }
+        
+        function hideConfirmation() {
+            div = document.getElementById('flotante');
+            div.style.display = 'none';
+             div = document.getElementById('flotante2');
+            div.style.display = 'block';
+        }
+
 function widthFunctions(e) {
     var l = $("#sidebar-left").outerHeight(true),
     c = $("#content").height(),
@@ -774,6 +788,15 @@ function pqFormat(x) {
 function checkbox(x) {
     return '<center><input class="checkbox multi-select" type="checkbox" name="val[]" value="' + x + '" /></center>';
 }
+
+function syncIdML(x) {
+   if(x == null){
+       return '<i class="fa fa-exclamation-circle" aria-hidden="true"></i> Sin publicar';
+   } else {
+       return x;
+   }
+}
+
 function img_hl(x) {
     if( x==null){
         x = '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/no_image.png" alt="no_image.png" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/no_image.png" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/no_image.png" alt="no_image.png" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';

@@ -81,7 +81,7 @@ class Products extends MY_Controller
         $this->load->library('datatables');
         if ($warehouse_id) {
             $this->datatables
-                ->select($this->db->dbprefix('warehouses_products') . ".product_id as productid, " . $this->db->dbprefix('products') . ".image as image, " . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, " . $this->db->dbprefix('warehouses_products') . ".quantity as quantity, unit, " . $this->db->dbprefix('warehouses_products') . ".rack as rack, alert_quantity", FALSE)
+                ->select($this->db->dbprefix('warehouses_products') . ".product_id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image,". $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, " . $this->db->dbprefix('warehouses_products') . ".quantity as quantity, unit, " . $this->db->dbprefix('warehouses_products') . ".rack as rack, alert_quantity, ".$this->db->dbprefix('products') . ".id_ML as codeML", FALSE)
                 ->from('warehouses_products')
                 ->join('products', 'products.id=warehouses_products.product_id', 'left')
                 ->join('categories', 'products.category_id=categories.id', 'left')
@@ -90,7 +90,7 @@ class Products extends MY_Controller
                 ->group_by("warehouses_products.product_id");
         } else {
             $this->datatables
-                ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity", FALSE)
+                ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity," . $this->db->dbprefix('products') . ".id_ML as codeML", FALSE)
                 ->from('products')
                 ->join('categories', 'products.category_id=categories.id', 'left')
                 ->group_by("products.id");
@@ -2317,44 +2317,61 @@ class Products extends MY_Controller
                 $cell_collection = $array->getActiveSheet()->getCellCollection();
                 $sheetData = $array->getActiveSheet()->toArray(null,true,true,true);
 
-                $rw = 2;
-                foreach ($sheetData as $csv_pr) {
-                        $porciones = explode(" > ",$csv_pr['B']);
-                        $number = count($porciones);
-                        $numberSd = $this->str_replaceChars(trim($csv_pr['E']));  
-                        $catd = $this->products_model->getCategoryByName(trim($porciones[$number-1]));
-                        $pr_code[] = trim($csv_pr['A']);
-                        $pr_name[] = trim($csv_pr['C']);
-                        $pr_cat[] = $catd->id;
-                        $pr_unit[] = 1;
-                        $tax_method[] = 0;
-                        $pr_subcat[] = 0;
-                        $pr_cost[] = $this->str_replaceChars($csv_pr['E']);
-                        $pr_price[] = $this->str_replaceChars($csv_pr['E']);
-                        $pr_aq[] = 1;
-                        $pr_imgExt[] = $csv_pr['I'] == '' ? 'no_image.png' : $csv_pr['I'];
-                        $pr_tax[] = NULL;
-                        $cf1[] = null;
-                        $cf2[] = null;
-                        $cf3[] = null;
-                        $cf4[] = null;
-                        $cf5[] = null;
-                        $cf6[] = null;
-                    $rw++;
+                $arrayHeaders = array("Id","Título","Categoría", "Precio","Imagen 1","Descripción","SKU");
+
+                $errorHeaders = "";
+                foreach ($arrayHeaders as $v) {
+                    if($this->validateColumnsExcel($v, $sheetData[1]) == 0){
+                        if($errorHeaders == ""){
+                            $errorHeaders = $v;
+                        }else {
+                            $errorHeaders =  $errorHeaders.", ". $v;
+                        } 
+                    }
                 }
+        
+                if($errorHeaders != ""){
+                    $this->session->set_flashdata('error', lang("errorHeaderOfExcel")  ."<br/> ".$errorHeaders);
+                    redirect('products/import_csv');
+                } 
+
+                        $rw = 2;
+                        foreach ($sheetData as $csv_pr) {
+                                $porciones = explode(" > ",$csv_pr[''.array_search('Categoría', $sheetData[1]).'']);
+                                $number = count($porciones);
+                                $numberSd = $this->str_replaceChars(trim($csv_pr[''.array_search('Precio', $sheetData[1]).'']));  
+                                $catd = $this->products_model->getCategoryByName(trim($porciones[$number-1]));
+                                $pr_code[] = trim($csv_pr[''.array_search('SKU', $sheetData[1]).''] == null ? $csv_pr[''.array_search('Id', $sheetData[1]).'']:$csv_pr[''.array_search('SKU', $sheetData[1]).'']);
+                                $pr_name[] = trim($csv_pr[''.array_search('Título', $sheetData[1]).'']);
+                                $pr_cat[] = $catd->id;
+                                $pr_unit[] = 1;
+                                $tax_method[] = 0;
+                                $pr_subcat[] = 0;
+                                $pr_cost[] = $numberSd;
+                                $pr_price[] = $numberSd;
+                                $pr_aq[] = 1;
+                                $pr_imgExt[] = $csv_pr[''.array_search('Imagen 1', $sheetData[1]).''] == '' ? 'no_image.png' : $csv_pr[''.array_search('Imagen 1', $sheetData[1]).''];
+                                $pr_tax[] = NULL;
+                                $cf1[] = null;
+                                $cf2[] = null;
+                                $cf3[] = null;
+                                $cf4[] = null;
+                                $cf5[] = null;
+                                $cf6[] = null;
+                                $detail_Products[] = trim($csv_pr[''.array_search('Descripción', $sheetData[1]).'']);
+                                $id_ML[] = trim($csv_pr[''.array_search('Id', $sheetData[1]).'']);
+                            $rw++;
+                        }
+
+                        $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity','tax_rate', 'tax_method', 'image_url_external', 'subcategory_id','id_ML','product_details', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
+
+                        $items = array();
+                        foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_imgExt, $pr_subcat, $id_ML, $detail_Products, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
+                            $items[] = array_combine($ikeys, $value);
+                        }
             }
-
-            $ikeys = array('code', 'name', 'category_id', 'unit', 'cost', 'price', 'alert_quantity','tax_rate', 'tax_method', 'image_url_external', 'subcategory_id', 'cf1', 'cf2', 'cf3', 'cf4', 'cf5', 'cf6');
-
-            $items = array();
-            foreach (array_map(null, $pr_code, $pr_name, $pr_cat, $pr_unit, $pr_cost, $pr_price, $pr_aq, $pr_tax, $tax_method, $pr_imgExt, $pr_subcat, $cf1, $cf2, $cf3, $cf4, $cf5, $cf6) as $ikey => $value) {
-                $items[] = array_combine($ikeys, $value);
-            }
-                        
-    
-
         }
-        unset($items[0]);
+       unset($items[0]);
         if ($this->form_validation->run() == true && $this->products_model->importMassiveExcel($items)) {
             $this->session->set_flashdata('message', lang("import_product"));
            redirect('products');
@@ -2371,11 +2388,121 @@ class Products extends MY_Controller
             $this->page_construct('products/import_csv', $meta, $this->data);
 
         }
+        
     }
 
     function str_replaceChars ($str){
         return floatval(str_replace(array("$", " ", ","), "", $str));
-      }
+    }
+
+    function validateColumnsExcel($valor,$array){
+
+        if (array_search($valor, $array) == null) {
+           return 0;
+        } else {
+           return 1;
+        }
+
+
+    }
   
+    /*----------------------------------------------------------------------------------------*/
+    function depure_excel()
+    {$this->load->library('excel');
+        $this->sma->checkPermissions('xls');
+        $this->load->helper('security');
+        $this->form_validation->set_rules('userfile', lang("upload_file"), 'xss_clean');
+
+        if ($this->form_validation->run() == true) {
+
+            if (isset($_FILES["userfile"])) {
+                $this->load->library('upload');
+
+                $config['upload_path'] = $this->digital_upload_path;
+                $config['allowed_types'] = 'xls';
+                $config['max_size'] = $this->allowed_file_size;
+                $config['overwrite'] = TRUE;
+                $this->upload->initialize($config);
+                if (!$this->upload->do_upload()) {
+                    $error = $this->upload->display_errors();
+                    $this->session->set_flashdata('error', $error);
+                    redirect("products/import_csv");
+                }
+
+                $csv = $this->upload->file_name;
+                $file  = PHPExcel_IOFactory::createReader('Excel5');
+                $array = $file->load($this->digital_upload_path .$this->upload->file_name);
+                $cell_collection = $array->getActiveSheet()->getCellCollection();
+                $sheetData = $array->getActiveSheet()->toArray(null,true,true,true);
+
+                $arrayHeaders = array("Id","SKU");
+
+                $errorHeaders = "";
+                foreach ($arrayHeaders as $v) {
+                    if($this->validateColumnsExcel($v, $sheetData[1]) == 0){
+                        if($errorHeaders == ""){
+                            $errorHeaders = $v;
+                        }else {
+                            $errorHeaders =  $errorHeaders.", ". $v;
+                        } 
+                    }
+                }
+        
+                if($errorHeaders != ""){
+                    $this->session->set_flashdata('error', lang("errorHeaderOfExcel")  ."<br/> ".$errorHeaders);
+                    redirect('products/import_csv');
+                } 
+
+                        $rw = 2;
+                        foreach ($sheetData as $csv_pr) {
+                                $porciones = explode(" > ",$csv_pr[''.array_search('Categoría', $sheetData[1]).'']);
+                                $number = count($porciones);
+                                $pr_sku[] = trim($csv_pr[''.array_search('SKU', $sheetData[1]).'']);
+                                $pr_idML[] = trim($csv_pr[''.array_search('Id', $sheetData[1]).'']);
+                                $pr_cat[] = $porciones[$number-1];
+                            $rw++;
+                        }
+
+                        $ikeys = array('code','id_ML','category');
+
+                        $items = array();
+                        foreach (array_map(null, $pr_sku,$pr_idML, $pr_cat) as $ikey => $value) {
+                            $items[] = array_combine($ikeys, $value);
+                        }
+            }
+        }
+       unset($items[0]);
+        if ($this->form_validation->run() == true && $this->products_model->depureMassiveExcel($items)) {
+            $this->session->set_flashdata('message', lang("products_deleted"));
+           redirect('products');
+        } else {
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+            $this->data['userfile'] = array('name' => 'userfile',
+                'id' => 'userfile',
+                'type' => 'text',
+                'value' => $this->form_validation->set_value('userfile')
+            );
+
+            $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('import_products_by_csv')));
+            $meta = array('page_title' => lang('import_products_by_csv'), 'bc' => $bc);
+            $this->page_construct('products/import_csv', $meta, $this->data);
+
+        }
+    }
+
+    
+    /* ------------------------------------------------------------------------------- */
+
+    function deleteProductMassive()
+    {
+        //print_r($this->products_model->depureMassiveProductAndCategory());
+        if($this->products_model->depureMassiveProductAndCategory()){
+            $this->session->set_flashdata('message', lang('products_deleted')); 
+            redirect('products');
+        }
+
+    }
+
+ 
 
 }

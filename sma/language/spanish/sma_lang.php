@@ -258,6 +258,7 @@ $lang['xls1']                                     = "La primera línea en el arc
 $lang['xls2']                                     = "El orden correcto de las columnas es";
 $lang['xls3']                                     = "& Amp, debe seguir esto. Si usted está usando cualquier otro idioma diferente de Inglés, por favor asegúrese de que el archivo excel es UTF-8 codificado y no guarda con marca de orden de bytes (BOM)";
 $lang['import']                                   = "Importar";
+$lang['deteleMasssive']                           = "Eliminar productos y categorias actuales";
 $lang['note']                                     = "Nota";
 $lang['grand_total']                              = "Gran Total";
 $lang['download_pdf']                             = "Descargar como PDF";

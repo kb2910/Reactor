@@ -10,9 +10,12 @@
 
 
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#rulesTabs"><i class="fa fa-list-ol" aria-hidden="true"></i> Normas</a></li>
-                        <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel (Plantilla del Sistema)</a></li>
-                        <li><a data-toggle="tab" href="#excelMassiveTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Excel Masivo</a></li>
+                        <li class="active"><a data-toggle="tab" href="#rulesTabs"><i class="fa fa-list-ol" aria-hidden="true"></i> <?= lang("rules");?></a></li>
+                        <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("excelForTemplate");?></a></li>
+                        <li><a data-toggle="tab" href="#excelMassiveTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("excelMassive");?></a></li>
+                        <?php if($Owner || $Admin) {  ?>
+                            <li><a data-toggle="tab" href="#dePureExcelMassiveTabs"><i class="fa fa-database" aria-hidden="true"></i > <?= lang("detailDepure");?></a></li>
+                        <?php } ?>
                         <li><a data-toggle="tab" href="#csvTabs"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
                     </ul>
 
@@ -34,7 +37,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="panel panel-default">
+                                    <div class="panel panel-default" style="height: 244px !important;">
                                         <div class="panel-heading">Para la carga de documento Csv (.csv)</div>
                                         <div class="panel-body">
                                             <ol>
@@ -77,7 +80,7 @@
                             $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');
                             echo form_open_multipart("products/massiveDataForExcel", $attrib)
                             ?>
-                            <div class="well well-small"> <?= lang("onlyFormat");?></div>
+                            <div class="well well-small"> <?= lang("onlyFormat");?>  <?= lang("detailExcelMassive");?></div>
                             <div>
                                 <label for="xls_file"><?= lang("upload_file"); ?></label>
                                 <input type="file" name="userfile" class="form-control file" data-show-upload="false"
@@ -88,6 +91,49 @@
                                 <?php echo form_submit('import', $this->lang->line("import"), 'class="btn btn-primary"'); ?>
                             </div>
                             <?= form_close(); ?>
+                        </div>
+                        <div id="dePureExcelMassiveTabs" class="tab-pane fade">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <fieldset class="scheduler-border">
+                                        <legend class="scheduler-border"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("FromExcel");?> </legend>
+                                            <?php
+                                            $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');
+                                            echo form_open_multipart("products/depure_excel", $attrib)
+                                            ?>
+                                            <div class="well well-small"> <?= lang("onlyFormat");?> <?= lang("detailDeupeExcelMassive"); ?></div>
+                                            <div>
+                                                <label for="xls_file"><?= lang("upload_file"); ?></label>
+                                                <input type="file" name="userfile" class="form-control file" data-show-upload="false"
+                                                    data-show-preview="false" id="xls_file" required="required"/>
+                                            </div>
+                                            <br/>
+                                            <div >
+                                                <?php echo form_submit('import', $this->lang->line("import"), 'class="btn btn-primary"'); ?>
+                                            </div>
+                                            <?= form_close(); ?>
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6">
+                                    <fieldset class="scheduler-border" style="height: 312px">
+                                        <legend class="scheduler-border"><i class="fa fa-laptop" aria-hidden="true"></i> <?= lang("deleteExcel");?></legend>
+                                        
+                                        <div class="well well-small"> <?= lang("dataOfSystem");?> </div>
+                                            <?= lang('r_u_sure'); ?><br/>
+                                            <div id="flotante2"><a class="btn btn-danger" href="javascript:showConfirmation();"><?= lang('i_m_sure')?></a></div>
+                                            <div  id="flotante" style="display:none;" class="content2">
+                                                <?php
+                                                $attrib = array('class' => 'form-horizontal', 'data-toggle' => 'validator', 'role' => 'form');
+                                                echo form_open_multipart("products/deleteProductMassive", $attrib)
+                                                ?>
+                                                    <?php echo form_submit('import', $this->lang->line("delete"), 'class="btn btn-primary"'); ?> 
+                                                    <a href="javascript:hideConfirmation();" class="btn btn-light"><?= lang('no');?></a>
+                                                
+                                                <?= form_close(); ?>
+                                            </div>
+                                    </fieldset>
+                                </div>
+                            </div>
                         </div>
                         <div id="csvTabs" class="tab-pane fade">
                             <?php

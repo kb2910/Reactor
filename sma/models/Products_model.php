@@ -929,4 +929,27 @@ class Products_model extends CI_Model
         }
       return false;
     }
+
+    public function depureMassiveExcel($products = array())
+    {
+        if (!empty($products)) { 
+            foreach ($products as $product) {
+                $this->db->delete('products', array('code' => $product['code'], 'id_ML' => $product['id_ML']));
+                $this->db->delete("categories", array('name' => $product['category']));
+            }
+          return true;
+        }
+      return false;
+    }
+
+    
+    public function depureMassiveProductAndCategory()
+    {
+                $this->db->empty_table('products');         
+                $this->db->empty_table("categories");
+                return  true;
+            
+    }
+
+
 }
