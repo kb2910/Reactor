@@ -42,6 +42,20 @@ class Products extends MY_Controller
         $this->page_construct('products/index', $meta, $this->data);
     }
 
+    function getImage($i){
+        if ($i == "no_image.png") {
+            return  site_url() . 'assets/uploads/$2';
+        } elseif ($i == "" || $i === null) {
+            return  site_url() . 'assets/uploads/$2';
+        } else if ($i != "no_image.png") {
+            return  '$2';
+        } else {
+            return  site_url() . 'assets/uploads/$2';
+        }
+    }
+
+
+
     function getProducts($warehouse_id = NULL)
     {
         $this->sma->checkPermissions('index');
@@ -68,7 +82,7 @@ class Products extends MY_Controller
             $action .= '<li><a href="' . site_url('products/set_rack/$1/' . $warehouse_id) . '" data-toggle="modal" data-target="#myModal"><i class="fa fa-bars"></i> '
                 . lang('set_rack') . '</a></li>';
         }
-        $action .= '<li><a href="' . site_url() . 'assets/uploads/$2" data-type="image" data-toggle="lightbox"><i class="fa fa-file-photo-o"></i> '
+        $action .= '<li><a href="' . $this->getImage('$2').'" data-type="image" data-toggle="lightbox"><i class="fa fa-file-photo-o"></i> '
             . lang('view_image') . '</a></li>
 			<li>' . $single_barcode . '</li>
 			<li>' . $single_label . '</li>
@@ -2503,6 +2517,111 @@ class Products extends MY_Controller
 
     }
 
- 
+
+    /* ------------------------------------------------------------------------------- */
+    
+   function exportExcelData(){    
+    
+        $this->form_validation->set_rules('qtyPer', lang("inputPerc"),  'required|numeric');
+
+        if ($this->form_validation->run() == true) {
+            
+            $perc = $this->input->post('qtyPer');
+
+                $llamadas = $this->products_model->dataExportExcel();
+                if(count($llamadas) > 0){
+                    //Cargamos la librería de excel.
+                    $this->load->library('excel'); 
+                    $this->excel->setActiveSheetIndex(0);
+                    $this->excel->getActiveSheet()
+                        ->getStyle('A1:H1')
+                        ->getFill()
+                        ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                        ->getStartColor()
+                        ->setRGB('FFD700');
+                    $this->excel->getActiveSheet()
+                        ->getStyle('A1:H1')
+                        ->getFont()
+                        ->getColor()
+                        ->setRGB('FFFFFF');
+                    $this->excel->getActiveSheet()->setTitle('Listados de Productos');
+                    //Contador de filas
+                    $contador = 1;
+                    //Le aplicamos ancho las columnas.
+                    $this->excel->getActiveSheet()->getColumnDimension('A')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('D')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('E')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('F')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('G')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('H')->setAutoSize(true);
+                    //Le aplicamos negrita a los títulos de la cabecera.
+                    $this->excel->getActiveSheet()->getStyle("A{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("B{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("C{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("D{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("E{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("F{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("G{$contador}")->getFont()->setBold(true);
+                    $this->excel->getActiveSheet()->getStyle("H{$contador}")->getFont()->setBold(true);
+                    //Definimos los títulos de la cabecera.
+                    $this->excel->getActiveSheet()->setCellValueExplicit("A{$contador}", 'Id',PHPExcel_Cell_DataType::TYPE_STRING);
+                    $this->excel->getActiveSheet()->setCellValue("B{$contador}", 'Título');
+                    $this->excel->getActiveSheet()->setCellValue("C{$contador}", 'Categoría');
+                    $this->excel->getActiveSheet()->setCellValue("D{$contador}", 'Precio');
+                    $this->excel->getActiveSheet()->setCellValue("E{$contador}", 'Imagen 1');
+                    $this->excel->getActiveSheet()->setCellValue("F{$contador}", 'Descripción');
+                    $this->excel->getActiveSheet()->setCellValueExplicit("G{$contador}", 'SKU',PHPExcel_Cell_DataType::TYPE_STRING);
+                    $this->excel->getActiveSheet()->setCellValue("H{$contador}", 'Stock');
+                    //Definimos la data del cuerpo.        
+                    foreach ($llamadas as $l){
+                    //Incrementamos una fila más, para ir a la siguiente.
+                    $contador++;
+
+                    $qtyXls = "";
+
+                    if($perc == 100){
+                        $qtyXls = $l->quantity;
+                    } else {
+                        if($l->quantity == 1 || $l->quantity == 0){
+                            $qtyXls = 0;
+                        } else {
+                            $qtyXls = floor(($l->quantity*$perc)/100);    
+                        }
+                    }
+
+                    //Informacion de las filas de la consulta.
+                    $this->excel->getActiveSheet()->setCellValueExplicit("A{$contador}", $l->codeML,PHPExcel_Cell_DataType::TYPE_STRING);
+                    $this->excel->getActiveSheet()->setCellValue("B{$contador}", $l->name);
+                    $this->excel->getActiveSheet()->setCellValue("C{$contador}", $l->cname);
+                    $this->excel->getActiveSheet()->setCellValue("D{$contador}", $l->price);
+                    $this->excel->getActiveSheet()->setCellValue("E{$contador}", $l->image);
+                    $this->excel->getActiveSheet()->setCellValue("F{$contador}", $l->product_details);
+                    $this->excel->getActiveSheet()->setCellValueExplicit("G{$contador}", $l->code,PHPExcel_Cell_DataType::TYPE_STRING);
+                    $this->excel->getActiveSheet()->setCellValue("H{$contador}", $qtyXls);
+                    
+                    }
+                    //Le ponemos un nombre al archivo que se va a generar.
+                    $archivo = "listado_de_productos_".date('Y-m-d_H:i').".xls";
+                    header('Content-Type: application/vnd.ms-excel');
+                    header('Content-Disposition: attachment;filename="'.$archivo.'"');
+                    header('Cache-Control: max-age=0');
+                    $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+                    //Hacemos una salida al navegador con el archivo Excel.
+                    $objWriter->save('php://output');
+                }else{
+                    echo 'No se han encontrado productos';
+                    exit; 
+                } 
+   
+
+    } else  {
+        $this->session->set_flashdata('error', validation_errors());
+        redirect("products/import_csv");
+    }
+
+
+}
 
 }

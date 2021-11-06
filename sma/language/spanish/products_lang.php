@@ -120,3 +120,10 @@ $lang['onlyFormat']                              = "<i class='fa fa-exclamation-
 $lang['errorHeaderOfExcel']                      = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Disculpe la(s) siguientes columna(s) no existen en el excel y son necesarias:";
 $lang['detailExcelMassive']                      = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, Título, Categoría, Precio, Imagen 1, Descripción, SKU";
 $lang['detailDeupeExcelMassive']                 = "<br/><i class='fa fa-exclamation-circle' aria-hidden='true'></i> El Archivo de Excel necesitan contener los nombres de las columnas de esta manera: Id, SKU";
+$lang['exportProducts']                          = "Exportar en Archivo Excel";
+$lang['downloadFileExcel']                       = "Descargar Excel";
+$lang['inputPerc']                               = "Porcentaje";
+$lang['export']                                  = "Exportar";
+$lang['select_percentaje_to_load']               = "Por favor seleccione porcentaje para cargar";
+$lang['exportExcelMassive']                      = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Esta opción genera un archivo de Excel con las columnas de esta manera: Id, Título, Categoría, Precio, Imagen 1, Descripción, SKU, Stock";
+$lang['detailExportExcel']                       = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Debe seleccionar un valor de porcentaje para generar el archivo excel con un porcentaje de stock a mostrar, debe tener presente que si el stock del producto actual es 0 o 1  el valor sera 0.";

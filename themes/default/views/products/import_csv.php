@@ -13,10 +13,12 @@
                         <li class="active"><a data-toggle="tab" href="#rulesTabs"><i class="fa fa-list-ol" aria-hidden="true"></i> <?= lang("rules");?></a></li>
                         <li><a data-toggle="tab" href="#excelTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("excelForTemplate");?></a></li>
                         <li><a data-toggle="tab" href="#excelMassiveTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("excelMassive");?></a></li>
+                        <li><a data-toggle="tab" href="#csvTabs"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
                         <?php if($Owner || $Admin) {  ?>
                             <li><a data-toggle="tab" href="#dePureExcelMassiveTabs"><i class="fa fa-database" aria-hidden="true"></i > <?= lang("detailDepure");?></a></li>
                         <?php } ?>
-                        <li><a data-toggle="tab" href="#csvTabs"><i class="fa fa-file" aria-hidden="true"></i> Csv</a></li>
+                        <li><a data-toggle="tab" href="#exportTabs"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("exportProducts");?></a></li>
+                        
                     </ul>
 
                     <div class="tab-content">
@@ -158,6 +160,35 @@
                             <div>
                                 <?php echo form_submit('import', $this->lang->line("import"), 'class="btn btn-primary"'); ?>
                             </div>
+                            <?= form_close(); ?>
+                        </div>
+                        <div id="exportTabs" class="tab-pane fade">
+                                                
+                            <?php $attrib = array('data-toggle' => 'validator', 'role' => 'form');
+                            echo form_open("products/exportExcelData", $attrib); ?>
+                                <div class="well well-small">
+                                    <span class="text-warning"><?= lang("exportExcelMassive"); ?></span><br/>
+                                    <span class="text-warning"><?= lang("detailExportExcel");?></span>
+                                </div>
+                                <div>
+                                <i class="fa fa-list" aria-hidden="true"></i>  <?= lang("inputPerc") ?>**   
+                                   <select name="qtyPer" class="form-control select" placeholder="'.<?= lang("select_percentaje_to_load")?>." id="qtyPer">
+                                   <option value=""><?= lang("select_percentaje_to_load")?></option>
+                                    <option value="10">10%</option>
+                                    <option value="20">20%</option>
+                                    <option value="30">30%</option>
+                                    <option value="40">40%</option>
+                                    <option value="50">50%</option>
+                                    <option value="60">60%</option>
+                                    <option value="70">70%</option>
+                                    <option value="80">80%</option>
+                                    <option value="90">90%</option>
+                                    <option value="100">100%</option>
+                                    </select>
+                              </div>
+                              <div style="margin-top: 15px">
+                              <?php echo form_submit('import', $this->lang->line("export"), 'class="btn btn-primary"'); ?>
+                              </div>
                             <?= form_close(); ?>
                         </div>
                     </div>

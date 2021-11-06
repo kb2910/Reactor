@@ -951,5 +951,17 @@ class Products_model extends CI_Model
             
     }
 
+    public function dataExportExcel(){
+        return $this->db
+        ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, price as price, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity,product_details," . $this->db->dbprefix('products') . ".id_ML as codeML", FALSE)
+        ->from('products')
+        ->join('categories', 'products.category_id=categories.id', 'left')
+        ->order_by('products.name asc')
+        ->get()
+        ->result();
+
+    }
+
+
 
 }
