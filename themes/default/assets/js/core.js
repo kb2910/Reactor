@@ -115,7 +115,19 @@ $(document).ready(function() {
             cssStyle();
         }
     });
+
+    $('input[name="yesno"]').click(function(){
+        alert()
+    	var demovalue = $(this).val(); 
+        if(demovalue == 1){
+            $("#panelQuestionCost").show();
+        }else{
+           $("#panelQuestionCost").hide();
+        }
+    });
 });
+
+
 
    function showConfirmation() {
             div = document.getElementById('flotante2');
@@ -123,6 +135,7 @@ $(document).ready(function() {
                div = document.getElementById('flotante');
             div.style.display = 'block';
         }
+
         
         function hideConfirmation() {
             div = document.getElementById('flotante');

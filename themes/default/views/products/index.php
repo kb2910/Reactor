@@ -45,21 +45,20 @@
             {column_number: 2, filter_default_label: "[<?=lang('product_code');?>]", filter_type: "text", data: []},
             {column_number: 3, filter_default_label: "[<?=lang('product_name');?>]", filter_type: "text", data: []},
             {column_number: 4, filter_default_label: "[<?=lang('category');?>]", filter_type: "text", data: []},
-            <?php $col = 4;
+            <?php 
             if($Owner || $Admin) {
                 echo '{column_number : 5, filter_default_label: "['.lang('product_cost').']", filter_type: "text", data: [] },';
                 echo '{column_number : 6, filter_default_label: "['.lang('product_price').']", filter_type: "text", data: [] },';
-                $col += 2;
             } else {
-                if($this->session->userdata('show_cost')) { $col++; echo '{column_number : '.$col.', filter_default_label: "['.lang('product_cost').']", filter_type: "text", data: [] },'; }
-                if($this->session->userdata('show_price')) { $col++; echo '{column_number : '.$col.', filter_default_label: "['.lang('product_price').']", filter_type: "text, data: []" },'; }
+                if($this->session->userdata('show_cost')) { $col++; echo '{column_number : 5, filter_default_label: "['.lang('product_cost').']", filter_type: "text", data: [] },'; }
+                if($this->session->userdata('show_price')) { $col++; echo '{column_number : 6, filter_default_label: "['.lang('product_price').']", filter_type: "text, data: []" },'; }
             }
             ?>
-            {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('quantity');?>]", filter_type: "text", data: []},
-            {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('product_unit');?>]", filter_type: "text", data: []},
-            <?php if($warehouse_id && $Settings->racks) { $col++; echo '{column_number : '. $col.', filter_default_label: "['.lang('rack').']", filter_type: "text", data: [] },'; } ?>
-            {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('alert_quantity');?>]", filter_type: "text", data: []},
-            {column_number: <?php $col++; echo $col; ?>, filter_default_label: "[<?=lang('idML');?>]", filter_type: "text", data: []}
+            {column_number: 7, filter_default_label: "[<?=lang('quantity');?>]", filter_type: "text", data: []},
+            {column_number: 8, filter_default_label: "[<?=lang('product_unit');?>]", filter_type: "text", data: []},
+            <?php if($warehouse_id && $Settings->racks) { $col++; echo '{column_number : 9, filter_default_label: "['.lang('rack').']", filter_type: "text", data: [] },'; } ?>
+            {column_number: 10, filter_default_label: "[<?=lang('alert_quantity');?>]", filter_type: "text", data: []},
+            {column_number: 11, filter_default_label: "[<?=lang('idML');?>]", filter_type: "text", data: []}
         ], "footer");
 
     });
@@ -171,6 +170,7 @@
                                 }
                             }
                             ?>
+                            <th></th>
                             <th></th>
                             <th></th>
                             <th></th>

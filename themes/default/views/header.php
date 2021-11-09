@@ -275,6 +275,10 @@
                                                                          href="<?= site_url('products/quantity_adjustments'); ?>"><i
                                                 class="fa fa-filter"></i><span
                                                 class="text"> <?= lang('quantity_adjustments'); ?></span></a></li>
+                                    <li id="products_settings"><a class="submenu"
+                                                                         href="<?= site_url('products/settings_products'); ?>"><i
+                                                class="fa fa-cogs"></i><span
+                                                class="text"> <?= lang('settings_products'); ?></span></a></li>
                                 </ul>
                             </li>
 

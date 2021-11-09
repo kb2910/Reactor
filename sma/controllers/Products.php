@@ -1338,6 +1338,23 @@ class Products extends MY_Controller
 
     /* ----------------------------------------------------------------------------- */
 
+    function settings_products()
+    {
+        $this->sma->checkPermissions();
+
+        $data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+
+        $this->data['categories'] = $this->site->getAllCategories();
+
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('settings_products')));
+        $meta = array('page_title' => lang('settings_products'), 'bc' => $bc);
+        $this->page_construct('products/settings_products', $meta, $this->data);
+    }
+
+
+    
+    /* ----------------------------------------------------------------------------- */
+
     function quantity_adjustments()
     {
         $this->sma->checkPermissions();
@@ -1350,6 +1367,10 @@ class Products extends MY_Controller
         $meta = array('page_title' => lang('quantity_adjustments'), 'bc' => $bc);
         $this->page_construct('products/quantity_adjustments', $meta, $this->data);
     }
+
+    
+    /* ----------------------------------------------------------------------------- */
+
 
     function getadjustments($pdf = NULL, $xls = NULL)
     {
@@ -2623,5 +2644,40 @@ class Products extends MY_Controller
 
 
 }
+
+    /* ------------------------------------------------------------------------------- */
+    
+    function assign_cost_products(){    
+    
+        $this->form_validation->set_rules('qtyPer', lang("inputPerc"),  'required|numeric');
+
+        if ($this->form_validation->run() == true) {
+            
+            $percenataje = $this->input->post('qtyPer');
+            $category = $this->input->post('category');
+
+            if ($this->form_validation->run() == true && $this->products_model->assignMassiveCost($percenataje,$category)) {
+                $this->session->set_flashdata('message', lang('costMessageMassuve') . $percenataje .'%');
+               redirect('products');
+            } else {
+                $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+                $this->data['userfile'] = array('name' => 'userfile',
+                    'id' => 'userfile',
+                    'type' => 'text',
+                    'value' => $this->form_validation->set_value('userfile')
+                );
+    
+                $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('settings_products')));
+                $meta = array('page_title' => lang('settings_products'), 'bc' => $bc);
+                $this->page_construct('products/settings_products', $meta, $this->data);
+    
+            }
+
+        } else  {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect("products/settings_products");
+        }
+
+    }
 
 }

@@ -962,6 +962,24 @@ class Products_model extends CI_Model
 
     }
 
+    public function assignMassiveCost($valor,$category){
+        $datos = $this->dataExportExcel();
+        if(count($datos) > 0 ){
+            foreach ($datos as $l){
+                $cost  = (($l->price)-(($l->price*$valor)/100));
+                $this->db->set('cost', $valor == 100?$l->price:$cost);
+                $this->db->where('id', $l->productid);
+                if($category != ""){
+                 $this->db->where('category_id', $category);
+                }
+                $this->db->update('products');
+            }
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
 
 
 }

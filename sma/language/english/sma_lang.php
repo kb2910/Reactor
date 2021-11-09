@@ -436,5 +436,8 @@ $lang['profit'] 						                = "Beneficio";
 $lang['unit_and_net_tip'] 				    	    = "Calculated on unit (with tax) and net (without tax) i.e <strong>unit(net)</strong> for all sales";
 $lang['expiry_alerts'] 						          = "Alerta de caducidad";
 $lang['quantity_alerts'] 					          = "Alerta de Cantidad";
-
+$lang['settings_products']                  = "Products Of Settings";
 $lang['please_select_these_before_adding_product'] = "Please select these before adding any product";
+$lang['massive_cost_products']              = "Massive allocation of product costs";
+$lang['for_category']                       = "Assign costs to products by category";
+$lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
