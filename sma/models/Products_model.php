@@ -966,7 +966,12 @@ class Products_model extends CI_Model
         $datos = $this->dataExportExcel();
         if(count($datos) > 0 ){
             foreach ($datos as $l){
-                $cost  = (($l->price)-(($l->price*$valor)/100));
+                $subjectVal = $this->getMethodCost();
+                // using str_replace() function
+                $priceItems = $l->price;
+                $resStr = str_replace('sale',$priceItems, $subjectVal[0]->method_cost);
+                $resStr2 = str_replace('perc',$valor, $resStr);
+                $cost  = ($priceItems - $this->anyfunction($resStr2));
                 $this->db->set('cost', $valor == 100?$l->price:$cost);
                 $this->db->where('id', $l->productid);
                 if($category != ""){
@@ -980,6 +985,41 @@ class Products_model extends CI_Model
         }
     }
 
+     public function anyfunction($expr)
+        {
+        // Optional: check if $expr contains only numerics and operators
+
+        // actual evaluation. The code in $expre should contain a return 
+        // statement if you want it to return something.
+        return eval("return $expr;");
+        }
+
+
+    public function getMethodCost(){
+        return $this->db
+        ->select("method_cost")
+        ->from('settings')
+        ->get()
+        ->result();
+    }
+
+    public function updateMethodCost($method){
+         $this->db->set('method_cost', $method);
+         $this->db->update('settings');
+         return 1;
+              
+    }
+
+
+    public function getCategoryById($id)
+    {
+        $q = $this->db->get_where('categories', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+
+        return FALSE;
+    }
 
 
 }

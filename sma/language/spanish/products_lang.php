@@ -127,3 +127,8 @@ $lang['export']                                  = "Exportar";
 $lang['select_percentaje_to_load']               = "Por favor seleccione porcentaje para cargar";
 $lang['exportExcelMassive']                      = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Esta opción genera un archivo de Excel con las columnas de esta manera: Id, Título, Categoría, Precio, Imagen 1, Descripción, SKU, Stock";
 $lang['detailExportExcel']                       = "<i class='fa fa-exclamation-circle' aria-hidden='true'></i> Debe seleccionar un valor de porcentaje para generar el archivo excel con un porcentaje de stock a mostrar, debe tener presente que si el stock del producto actual es 0 o 1  el valor sera 0.";
+$lang['method_cost']                             = "Fórmula para calcular el costos de precios";
+$lang['method_cost_success']                     = "Fórmula para costos de precios actualizada";
+$lang['for_categorys']                           = ", para todas las categorías";
+$lang['for_catgegory']                           = ", para la categoría: ";
+$lang['info_method_cost']                        = "Para establecer una fórmula debe mantener las variables (perc  equivale a porcentaje, sale equivale al precio del producto).";

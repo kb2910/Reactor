@@ -5,12 +5,37 @@
     </div>
     <div class="box-content">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12" id="myGroup">            
                 <div class="panel-group">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a data-toggle="collapse" href="#collapse1"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                <a data-toggle="collapse" href="#methodCost" data-parent="#myGroup"><i class="fa fa-angle-right" aria-hidden="true"></i>
+                                <?= lang("method_cost")?></a>
+                            </h4>
+                        </div>
+                        <div id="methodCost" class="panel-collapse collapse">
+                            <div class="panel-body">
+                            <?php $attrib = array('data-toggle' => 'validator', 'role' => 'form');
+                                    echo form_open_multipart("products/update_methodCost", $attrib); ?>
+                                        <div class="well well-small">
+                                            <span class="text-warning"><i class="fa fa-info-circle" aria-hidden="true"></i> <?= lang("info_method_cost"); ?></span>
+                                        </div>
+                                        <div class="form-group all">
+                                            <input type="text" class="form-control" name="basic-url"  id="basic-url" aria-describedby="basic-addon3" value="<?= $methodCost[0]->method_cost?>">
+                                        </div>
+                                        <?php echo form_submit('update2', lang('update'), 'class="btn btn-primary"'); ?>
+                                 
+                                </div>
+                                <?php echo form_close(); ?>
+                        </div>
+                   </div>
+                </div>
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#collapse1" data-parent="#myGroup"><i class="fa fa-angle-right" aria-hidden="true"></i>
                                 <?= lang("massive_cost_products")?></a>
                             </h4>
                         </div>
@@ -42,7 +67,7 @@
                                         foreach ($categories as $category) {
                                             $cat[$category->id] = $category->name;
                                         }
-                                        echo form_dropdown('category', $cat, (isset($_POST['category']) ? $_POST['category'] : ''), 'class="form-control select" id="category" placeholder="----- Todas -----" required="required" style="width:100%"')
+                                        echo form_dropdown('category', $cat, (isset($_POST['category']) ? $_POST['category'] : '0'), 'class="form-control select" id="category" placeholder="----- Seleccione -----" required="required" style="width:100%"')
                                         ?>
                                     </div>
                                 </div>

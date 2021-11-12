@@ -1345,6 +1345,7 @@ class Products extends MY_Controller
         $data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
 
         $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['methodCost'] = $this->products_model->getMethodCost();
 
         $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('settings_products')));
         $meta = array('page_title' => lang('settings_products'), 'bc' => $bc);
@@ -2656,8 +2657,15 @@ class Products extends MY_Controller
             $percenataje = $this->input->post('qtyPer');
             $category = $this->input->post('category');
 
+            if($category == ""){
+             $catd=lang("for_categorys");
+            } else {
+             $result = $this->products_model->getCategoryById($category);
+             $catd=lang("for_catgegory")." ".$result->name;
+            }
+
             if ($this->form_validation->run() == true && $this->products_model->assignMassiveCost($percenataje,$category)) {
-                $this->session->set_flashdata('message', lang('costMessageMassuve') . $percenataje .'%');
+                $this->session->set_flashdata('message', lang('costMessageMassuve') .' '. $percenataje .'%'.$catd);
                redirect('products');
             } else {
                 $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
@@ -2679,5 +2687,35 @@ class Products extends MY_Controller
         }
 
     }
+
+
+        /* ------------------------------------------------------------------------------- */
+    
+        function update_methodCost(){    
+            
+                
+                $method = $this->input->post('basic-url');
+    
+                if ($this->products_model->updateMethodCost($method)) {
+                    $this->session->set_flashdata('message', lang('method_cost_success'));
+                   redirect('products');
+                } else {
+                    $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+                    $this->data['userfile'] = array('name' => 'userfile',
+                        'id' => 'userfile',
+                        'type' => 'text',
+                        'value' => $this->form_validation->set_value('userfile')
+                    );
+        
+                    $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('settings_products')));
+                    $meta = array('page_title' => lang('settings_products'), 'bc' => $bc);
+                    $this->page_construct('products/settings_products', $meta, $this->data);
+        
+                }
+    
+           
+    
+        }
+    
 
 }
