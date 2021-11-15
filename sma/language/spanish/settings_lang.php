@@ -287,3 +287,7 @@ $lang['changelog']                      = "Change Log";
 $lang['expense_prefix']                 = "Expense Prefix";
 $lang['purchase_code']                  = "Purchase Code";
 $lang['envato_username']                = "Envato Username";
+$lang['represent_account']              = "Representante de la cuenta";
+$lang['email_ML']                       = "Email";
+$lang['token_access']                   = "Token de Acceso";
+$lang['account_saved']                  = "Cuenta guardada con éxito!";

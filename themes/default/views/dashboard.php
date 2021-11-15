@@ -130,6 +130,7 @@ function row_status($x)
                             <p><?= lang('settings') ?></p>
                         </a>
                     </div>
+
                 <?php } ?>
                 <div class="clearfix"></div>
             </div>

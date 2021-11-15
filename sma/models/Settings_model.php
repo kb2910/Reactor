@@ -543,4 +543,53 @@ class Settings_model extends CI_Model
         return FALSE;
     }
 
+    public function addAccounts($description, $email, $tokeen)
+    {
+        if ($this->db->insert("accounts_ml", array('name' => $description, 'email' => $email, 'token_access' => $tokeen))) {
+            return true;
+        }
+        return false;
+    }
+
+
+    public function addTemplate($type, $text)
+    {
+        $this->db->delete('accounts_template_response_ml', array('type' => $type));
+        if ($this->db->insert("accounts_template_response_ml", array('type' => $type, 'text' => $text))) {
+            return true;
+        }
+        return false;
+    }
+
+
+    public function getTemplateByType($type)
+    {
+    
+        $query = $this->db
+        ->select("text")
+        ->from('accounts_template_response_ml')
+        ->where('type',$type)
+        ->get();
+
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        } else {
+            return false;
+        }
+
+
+    }
+
+    public function getAllAccounts()
+    {
+        $q = $this->db->get("accounts_ml");
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
+
 }

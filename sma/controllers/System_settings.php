@@ -2261,4 +2261,98 @@ class system_settings extends MY_Controller
         }
     }
 
+
+    /* ----------------------------------------------------------------------------- */
+
+    function settings_ML()
+      {
+          $this->sma->checkPermissions();
+  
+          $data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+          
+          $this->data['headerReponse'] = $this->settings_model->getTemplateByType(1) == false ? false :$this->settings_model->getTemplateByType(1);
+          $this->data['footerReponse'] = $this->settings_model->getTemplateByType(2) == false ? false :$this->settings_model->getTemplateByType(2);
+          $this->data['accountsML'] = $this->settings_model->getAllAccounts();
+
+          $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('settings'), 'page' => lang('settings')), array('link' => '#', 'page' => lang('settings_ML')));
+          $meta = array('page_title' => lang('settings_ML'), 'bc' => $bc);
+          $this->page_construct('settings/settingsML', $meta, $this->data);
+      }
+
+
+
+      function question_response()
+      {
+                $this->data['headerReponse'] = $this->settings_model->getTemplateByType(1) == false ? false :$this->settings_model->getTemplateByType(1);
+                $this->data['footerReponse'] = $this->settings_model->getTemplateByType(2) == false ? false :$this->settings_model->getTemplateByType(2);
+                $this->data['modal_js'] = $this->site->modal_js();
+                $this->load->view($this->theme . 'settings/response_questions', $this->data);
+          
+      }
+
+
+      function add_template_header()
+      {
+          $this->form_validation->set_rules('text', lang("text"), 'required');
+
+        if ($this->form_validation->run() == true) {
+            $text = $this->input->post('text');
+            $type = 1;
+        } elseif ($this->input->post('text')) {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect("system_settings/settings_ML");
+        }
+
+          if ($this->form_validation->run() == true && $this->settings_model->addTemplate($type,$text)) {
+              $this->session->set_flashdata('message', lang("message_successfully_saved"));
+              redirect("system_settings/settings_ML");
+          } else {
+              $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+              $this->data['modal_js'] = $this->site->modal_js();
+              $this->load->view($this->theme . 'system_settings/settings_ML', $this->data);
+          }
+      }
+
+      function add_template_footer()
+      {
+          $this->form_validation->set_rules('textPFianl', lang("text"), 'required');
+          $text = $this->input->post('textPFianl');
+          $type = 2;
+
+          if ($this->form_validation->run() == true && $this->settings_model->addTemplate($type,$text)) {
+              $this->session->set_flashdata('message', lang("message_successfully_saved"));
+              redirect("system_settings/settings_ML");
+          } else {
+              $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+              $this->data['modal_js'] = $this->site->modal_js();
+              $this->load->view($this->theme . 'system_settings/settings_ML', $this->data);
+          }
+      }
+
+      function addAccountsML()
+      {
+         
+            $this->form_validation->set_rules('text1', lang("represent_account"), 'required');
+            $this->form_validation->set_rules('text2', lang("email_ML"), 'required');
+            $this->form_validation->set_rules('text3', lang("token_access"), 'required');
+
+            if ($this->form_validation->run() == true) {
+                $represent = $this->input->post('text1');
+                $email = $this->input->post('text2');
+                $token = $this->input->post('text3');    
+            } else{
+                $this->session->set_flashdata('error', validation_errors());
+                redirect("system_settings/settings_ML");
+            }
+
+          if ($this->form_validation->run() == true && $this->settings_model->addAccounts($represent,$email,$token)) {
+              $this->session->set_flashdata('message', lang("account_saved"));
+              redirect("system_settings/settings_ML");
+          } else {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect("system_settings/settings_ML");
+          }
+        
+      }
+
 }

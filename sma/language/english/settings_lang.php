@@ -256,3 +256,7 @@ $lang['expense_prefix']                 = "Expense Prefix";
 $lang['purchase_code']                  = "Purchase Code";
 $lang['envato_username']                = "Envato Username";
 $lang['sac']                            = "South Asian Countries Currency Format";
+$lang['represent_account']             = "Account representative";
+$lang['email_ML']                      = "Email";
+$lang['token_access']                  = "Access Token";
+$lang['account_saved']                 = "Account saved!";

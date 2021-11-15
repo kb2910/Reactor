@@ -83,6 +83,10 @@
                                                           data-placement="left"
                                                           href="<?= site_url('system_settings') ?>"><i
                                     class="fa fa-cogs"></i></a></li>
+                        <!--li class="dropdown hidden-sm"><a class="btn tip" title="Mercado Libre"
+                                                          data-placement="left"
+                                                          href="<!?= site_url('system_settings/settings_ML') ?>">
+                                                    <img style="width: 21px;" src="<?= site_url('/assets/images/mercadoLibre.png') ?>"></a></li-->
                     <?php } ?>
                     <li class="dropdown hidden-xs"><a class="btn tip" title="<?= lang('calculator') ?>"
                                                       data-placement="left" href="#" data-toggle="dropdown"><i
@@ -544,6 +548,11 @@
                                                 class="text"> <?= lang('staff_report'); ?></span></a></li>
                                 </ul>
                             </li>
+                            <!--li class="mm_mercadoLibre" style="padding-left: 9px;">
+                                    <a  href="<!?= site_url('system_settings/settings_ML'); ?>">
+                                          <img style="width: 21px;" src="<!?= site_url('/assets/images/mercadoLibre.png') ?>"><span
+                                            class="text" style="margin-left: 20px"> Mercado Libre </span> </a>
+                            </li-->    
 
                         <?php
                         } else { // not owner and not admin
@@ -798,9 +807,11 @@
                                         <?php } ?>
                                     </ul>
                                 </li>
+                                
+                    
                             <?php } ?>
-
-                        <?php } ?>
+                                                        
+                        <?php } ?>             
                     </ul>
                 </div>
                 <a href="#" id="main-menu-act" class="full visible-md visible-lg"><i

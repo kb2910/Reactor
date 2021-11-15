@@ -441,3 +441,4 @@ $lang['please_select_these_before_adding_product'] = "Please select these before
 $lang['massive_cost_products']              = "Massive allocation of product costs";
 $lang['for_category']                       = "Assign costs to products by category";
 $lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
+$lang['settings_ML']                        ="Mercado Libre";

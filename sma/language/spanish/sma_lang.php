@@ -412,3 +412,4 @@ $lang['quantity_adjustments']               = "Ajustes de cantidad";
 $lang['massive_cost_products']              = "Asignación Masiva de costos de productos";
 $lang['for_category']                       = "Asignar costos a productos por una categoría";
 $lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
+$lang['settings_ML']                        ="Mercado Libre";
