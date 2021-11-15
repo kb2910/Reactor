@@ -402,7 +402,7 @@ $lang['please_select_customer_warehouse']   = "Please select customer/warehouse"
 $lang['variants']                           = "Variants";
 $lang['add_sale_by_csv']                    = "Add Sale by CSV";
 $lang['categories_report']                  = "Categories Report";
-$lang['adjust_quantity']                    = "Adjust Quantity";
+$lang['adjust_quantity']                    = "Ajustar cantidad";
 $lang['quantity_adjustments']               = "Quantity Adjustments";
 $lang['partial']                            = "Partial";
 $lang['unexpected_value']                   = "Unexpected value provided!";
@@ -413,3 +413,7 @@ $lang['massive_cost_products']              = "Asignación Masiva de costos de p
 $lang['for_category']                       = "Asignar costos a productos por una categoría";
 $lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
 $lang['settings_ML']                        ="Mercado Libre";
+$lang['label_printer']                      ="Imprimir Cód. Barras / Etiquetas";
+$lang['duplicate_items']                    ="Duplicado para un item";
+$lang['for_all_exist']                      ="Para todos los items existentes";
+

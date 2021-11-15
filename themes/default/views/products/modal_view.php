@@ -28,6 +28,13 @@
                                 </div>
                             <?php } ?>
                 </div>
+                   
+            <div class="btn-group" style="    float: right;margin-right: 23px;">
+                <a href="<?= site_url('products/pdf/' . $product->id) ?>" class="tip btn btn-primary" title="<?= lang('pdf') ?>">
+                    <i class="fa fa-download"></i>
+                    <span class="hidden-sm hidden-xs"><?= lang('pdf') ?></span>
+                </a>
+            </div>
                 <div class="col-xs-7">
                     <div class="table-responsive">
                         <table class="table table-borderless table-striped dfTable table-right-left">
@@ -240,56 +247,74 @@
 </div>
 <?php if (!$Supplier || !$Customer) { ?>
     <div class="buttons">
-        <div class="btn-group btn-group-justified">
-            <div class="btn-group">
-                <a onclick="window.open('<?= site_url('products/single_barcode/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;"
-                    href="#" class="tip btn btn-primary" title="<?= lang('barcode') ?>">
-                    <i class="fa fa-print"></i>
-                    <span class="hidden-sm hidden-xs"><?= lang('print_barcode') ?></span>
-                </a>
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                <button type="button" class="tip btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width: 100%;">
+                <i class="fa fa-print"></i>  <?= lang('print_barcode') ?> <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right" role="menu">
+                    <li><a onclick="window.open('<?= site_url('products/single_barcode/'. $product->id.'/null/1') ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                            href="#"><i class="fa fa-file"></i> <?= lang("duplicate_items") ?></a></li>
+                    <li><a onclick="window.open('<?= site_url('products/single_barcode/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                            href="#"><i class="fa fa-file"></i> <?= lang("for_all_exist")?></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="btn-group">
-                <a onclick="window.open('<?= site_url('products/single_label/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;"
-                    href="#" class="tip btn btn-primary" title="<?= lang('label') ?>">
-                    <i class="fa fa-print"></i>
-                    <span class="hidden-sm hidden-xs"><?= lang('print_label') ?></span>
-                </a>
+            <div class="col-md-4">
+                <div>
+                <button type="button" class="tip btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width: 100%;">
+                <i class="fa fa-print"></i>  <?= lang('print_label') ?> <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right" role="menu">
+                    <li><a onclick="window.open('<?= site_url('products/single_label/'. $product->id.'/null/1') ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                            href="#"><i class="fa fa-file"></i> <?= lang("duplicate_items") ?></a></li>
+                    <li><a onclick="window.open('<?= site_url('products/single_label/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                            href="#"><i class="fa fa-file"></i> <?= lang("for_all_exist")?></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="btn-group">
-                <a onclick="window.open('<?= site_url('products/single_label2/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;"
-                    href="#" class="tip btn btn-primary" title="<?= lang('label_printer') ?>">
-                    <i class="fa fa-print"></i>
-                    <span class="hidden-sm hidden-xs"><?= lang('label_printer') ?></span>
-                </a>
+            <div class="col-md-4">
+                <div>
+                    <button type="button" class="tip btn btn-primary dropdown-toggle" data-toggle="dropdown" style="width: 100%;">
+                        <i class="fa fa-print"></i>  <?= lang('label_printer') ?> <span class="caret"></span></button>
+                            <ul class="dropdown-menu pull-right" role="menu">
+                            <li><a onclick="window.open('<?= site_url('products/single_label2/'. $product->id.'/null/1') ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                                    href="#"><i class="fa fa-file"></i> <?= lang("duplicate_items") ?></a></li>
+                            <li><a onclick="window.open('<?= site_url('products/single_label2/' . $product->id) ?>', 'sma_popup', 'width=900,height=600,menubar=yes,scrollbars=yes,status=no,resizable=yes,screenx=0,screeny=0'); return false;" 
+                                    href="#"><i class="fa fa-file"></i> <?= lang("for_all_exist")?></a></li>
+                            </ul>
+                </div>
             </div>
-            <div class="btn-group">
-                <a href="<?= site_url('products/pdf/' . $product->id) ?>" class="tip btn btn-primary" title="<?= lang('pdf') ?>">
-                    <i class="fa fa-download"></i>
-                    <span class="hidden-sm hidden-xs"><?= lang('pdf') ?></span>
-                </a>
-            </div>
+           
             <?php if($product->type == 'standard') { ?>
-                <div class="btn-group"><a data-target="#myModal2" data-toggle="modal"
+                
+            <div class="col-md-4">
+                <div><a data-target="#myModal2" data-toggle="modal"
                     href="<?= site_url('products/add_adjustment/' . $product->id) ?>"
-                    class="tip btn btn-warning" title="<?= lang('adjust_quantity') ?>"><i
+                    class="tip btn btn-warning" title="<?= lang('adjust_quantity') ?>" style="width: 100%;"><i
                     class="fa fa-filter"></i> <span
                     class="hidden-sm hidden-xs"><?= lang('adjust_quantity') ?></span>
                 </a>
             </div>
+            </div>
             <?php } ?>
-            <div class="btn-group">
-                <a href="<?= site_url('products/edit/' . $product->id) ?>" class="tip btn btn-warning tip" title="<?= lang('edit_product') ?>">
+            
+            <div class="<?= $product->type == 'standard' ? "col-md-4":"col-md-6"?>">
+            <div>
+                <a href="<?= site_url('products/edit/' . $product->id) ?>" class="tip btn btn-warning tip" title="<?= lang('edit_product') ?>" style="width: 100%;">
                     <i class="fa fa-edit"></i>
                     <span class="hidden-sm hidden-xs"><?= lang('edit') ?></span>
                 </a>
             </div>
-            <div class="btn-group">
+            </div>
+            <div class="<?= $product->type == 'standard' ? "col-md-4":"col-md-6"?>">
+            <div>
                 <a href="#" class="tip btn btn-danger bpo" title="<b><?= $this->lang->line("delete_product") ?></b>"
                     data-content="<div style='width:150px;'><p><?= lang('r_u_sure') ?></p><a class='btn btn-danger' href='<?= site_url('products/delete/' . $product->id) ?>'><?= lang('i_m_sure') ?></a> <button class='btn bpo-close'><?= lang('no') ?></button></div>"
-                    data-html="true" data-placement="top">
+                    data-html="true" data-placement="top" style="width: 100%;">
                     <i class="fa fa-trash-o"></i>
                     <span class="hidden-sm hidden-xs"><?= lang('delete') ?></span>
                 </a>
+            </div>
             </div>
         </div>
     </div>

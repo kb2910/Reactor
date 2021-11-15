@@ -174,7 +174,7 @@ class Products extends MY_Controller
 
     }
 
-    function single_barcode($product_id = NULL, $warehouse_id = NULL)
+    function single_barcode($product_id = NULL, $warehouse_id = NULL, $duplicado = NULL)
     {
         $this->sma->checkPermissions('barcode', true);
 
@@ -185,43 +185,56 @@ class Products extends MY_Controller
         $options = $this->products_model->getProductOptionsWithWH($product_id);
 
         $table = '';
+        $image=$product->image_url_external !== 'no_image.png'?'<img src="'.$product->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail" width="150" style="border: 0px !important;"/>':'<img src="'.base_url().'assets/uploads/'.$product->image.'" alt="'.$product->name.'" class="img-responsive img-thumbnail" width="150" style="border: 0px !important;"/>';
+        
+
         if (!empty($options)) {
             $r = 1;
             foreach ($options as $option) {
                 $quantity = ($option->quantity <= 0) ? 2 : $option->quantity;
                 $warehouse = $this->site->getWarehouseByID($option->warehouse_id);
                 $table .= '<h3 class="'.($option->quantity ? '' : 'text-danger').'">'.$warehouse->name.' ('.$warehouse->code.') - '.$product->name.' - '.$option->name.' ('.lang('quantity').': '.$option->quantity.')</h3>';
-                $table .= '<table class="table table-bordered barcodes"><tbody><tr>';
-                for($i=0; $i < $quantity; $i++) {
+                $table .= '<table class="table table-bordered barcodes"  style="border: 1px solid #ddd;!important"><tbody><tr>';
 
-                    $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2">' . $product->name . '</td></tr><tr><td colspan="2" class="text-center bc">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 60) . '</td></tr>';
-                    foreach ($currencies as $currency) {
-                        $table .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($product->price * $currency->rate) . '</td></tr>';
-                    }
+              
+                if($duplicado == 1){
+                    $table .= '<td style="width: 20px;"><table class="table-barcode"  style="width: 47%;margin-left: 27%;border: 1px solid #ddd;"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd;">'.$image.'</td><td class="text-center bc" style="border: 1px solid #ddd;">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 60) . '</td></tr>';
                     $table .= '</tbody></table>';
                     $table .= '</td>';
-                    $table .= ((bool)($i & 1)) ? '</tr><tr>' : '';
-
+                    $table .= ((bool)($i & 1)) ? '' : '';
+                } else {
+                    for($i=0; $i < $quantity; $i++) {
+                        $table .= '<td style="width: 20px;"><table class="table-barcode" style="border: 1px solid #ddd;!important"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd;">'.$image.'</td><td class="text-center bc" style="border: 1px solid #ddd;">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 60) . '</td></tr>';
+                        $table .= '</tbody></table>';
+                        $table .= '</td>';
+                        $table .= ((bool)($i & 1)) ? '' : '';
+                    }
                 }
+
                 $r++;
                 $table .= '</tr></tbody></table><hr>';
             }
         } else {
-            $table .= '<table class="table table-bordered barcodes"><tbody><tr>';
+            $table .= '<table class="table table-bordered barcodes" style="border: 1px solid #ddd;"><tbody><tr>';
             $num = $product->quantity ? $product->quantity : 8;
-            for ($r = 1; $r <= $num; $r++) {
-                if ($r != 1) {
-                    $rw = (bool)($r & 1);
-                    $table .= $rw ? '</tr><tr>' : '';
+            
+            if($duplicado == 1){
+                $table .= '<td style="width: 20px;"><table class="table-barcode" style="width: 47%;margin-left: 27%;"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd;">'.$image.'</td><td class="text-center bc" style="border: 1px solid #ddd;">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '</td></tr>';
+                    $table .= '</tbody></table>';
+                    $table .= '</td>';
+               
+            } else {
+                for ($r = 1; $r <= $num; $r++) {
+                    if ($r != 1) {
+                        $rw = (bool)($r & 1);
+                        $table .= $rw ? '</tr><tr>' : '';
+                    }
+                    $table .= '<td style="width: 20px;"><table class="table-barcode" style="border: 1px solid #ddd; !important"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd;">'.$image.'</td><td class="text-center bc" style="border: 1px solid #ddd;">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '</td></tr>';
+                    $table .= '</tbody></table>';
+                    $table .= '</td>';
                 }
-                $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2">' . $product->name . '</td></tr><tr><td colspan="2" class="text-center bc">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '</td></tr>';
-                foreach ($currencies as $currency) {
-                    $table .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($product->price * $currency->rate) . '</td></tr>';
-                }
-                $table .= '</tbody></table>';
-                $table .= '</td>';
             }
-            $table .= '</tr></tbody></table>';
+            $table .= '</tbody></table>';
         }
 
         $this->data['table'] = $table;
@@ -230,7 +243,7 @@ class Products extends MY_Controller
         $this->load->view($this->theme . 'products/single_barcode', $this->data);
     }
 
-    function single_label($product_id = NULL, $warehouse_id = NULL)
+    function single_label($product_id = NULL, $warehouse_id = NULL,$duplicado = NULL)
     {
         $this->sma->checkPermissions('barcode', true);
 
@@ -239,6 +252,7 @@ class Products extends MY_Controller
 
         $this->data['product'] = $product;
         $options = $this->products_model->getProductOptionsWithWH($product_id);
+        $image=$product->image_url_external !== 'no_image.png'?'<img src="'.$product->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail" width="150" style="border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$product->image.'" alt="'.$product->name.'" class="img-responsive img-thumbnail" width="150" />';
 
         $table = '';
         if (!empty($options)) {
@@ -247,33 +261,42 @@ class Products extends MY_Controller
                 $quantity = ($option->quantity <= 0) ? 4 : $option->quantity;
                 $warehouse = $this->site->getWarehouseByID($option->warehouse_id);
                 $table .= '<h3 class="'.($option->quantity ? '' : 'text-danger').'">'.$warehouse->name.' ('.$warehouse->code.') - '.$product->name.' - '.$option->name.' ('.lang('quantity').': '.$option->quantity.')</h3>';
-                $table .= '<table class="table table-bordered barcodes"><tbody><tr>';
-                for($i=0; $i < $quantity; $i++) {
-                    if ($i % 4 == 0 && $i > 3) {
-                        $table .= '</tr><tr>';
-                    }
-                    $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2">' . $product->name . '</td></tr><tr><td colspan="2" class="text-center bc">' . $this->product_barcode($product->code, $product->barcode_symbology, 30) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 30) . '</td></tr>';
-                    foreach ($currencies as $currency) {
-                        $table .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($product->price * $currency->rate) . '</td></tr>';
-                    }
+                $table .= '<table class="table table-bordered barcodes" style="border: 1px solid #ddd;!important"><tbody><tr>';
+
+                if($duplicado == 1){
+                   
+                    $table .= '<td style="width: 20px;"><table class="table-barcode"  style="width: 30%;margin-left: 37%;border: 1px solid #ddd;"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd; !important">'.$image.'</td></tr><tr><td class="text-center bc" style="border: 1px solid #ddd; !important">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 60) . '</td></tr>';
                     $table .= '</tbody></table>';
-                    $table .= '</td>';
+                    $table .= '</td>'; 
+
+                }else{
+                    for($i=0; $i < $quantity; $i++) {
+                        if ($i % 4 == 0 && $i > 3) {
+                            $table .= '</tr><tr>';
+                        }
+                        $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td>'.$image.'</td></tr><tr><td class="text-center bc">' . $this->product_barcode($product->code, $product->barcode_symbology, 50) . '<br><strong>' . $option->name . '</strong><br>' . $this->product_barcode($product->code . ' ' . $option->id, 'code39', 50) . '</td></tr>';
+                        $table .= '</tbody></table>';
+                        $table .= '</td>';
+                    }
                 }
                 $r++;
                 $table .= '</tr></tbody></table><hr>';
             }
         } else {
-            $table .= '<table class="table table-bordered barcodes"><tbody><tr>';
-            $num = $product->quantity ? $product->quantity : 16;
-            for ($r = 1; $r <= $num; $r++) {
-                $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2">' . $product->name . '</td></tr><tr><td colspan="2" class="text-center bc">' . $this->product_barcode($product->code, $product->barcode_symbology, 30) . '</td></tr>';
-                foreach ($currencies as $currency) {
-                    $table .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($product->price * $currency->rate) . '</td></tr>';
-                }
+            $table .= '<table class="table table-bordered barcodes" style="border: 1px solid #ddd;!important"><tbody><tr>';
+            if($duplicado == 1){
+                $table .= '<td style="width: 20px;"><table class="table-barcode"  style="width: 30%;margin-left: 37%;border: 1px solid #ddd;"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd; !important">'.$image.'</td></tr><tr><td class="text-center bc" style="border: 1px solid #ddd; !important">' . $this->product_barcode($product->code, $product->barcode_symbology, 60) . '</td></tr>';
                 $table .= '</tbody></table>';
                 $table .= '</td>';
-                if ($r % 4 == 0 && $r > 3) {
-                    $table .= '</tr><tr>';
+            } else {
+                $num = $product->quantity ? $product->quantity : 16;
+                for ($r = 1; $r <= $num; $r++) {
+                    $table .= '<td style="width: 20px;"><table class="table-barcode"><tbody><tr><td colspan="2" class="bold" style="border: 1px solid #ddd;!important">' . $this->Settings->site_name . '</td></tr><tr><td colspan="2" style="border: 1px solid #ddd;!important">' . $product->name . '</td></tr><tr><td style="border: 1px solid #ddd; !important">'.$image.'</td></tr><tr><td class="text-center bc" style="border: 1px solid #ddd; !important">' . $this->product_barcode($product->code, $product->barcode_symbology, 50) . '</td></tr>';
+                    $table .= '</tbody></table>';
+                    $table .= '</td>';
+                    if ($r % 4 == 0 && $r > 3) {
+                        $table .= '</tr><tr>';
+                    }
                 }
             }
             $table .= '</tr></tbody></table>';
@@ -284,7 +307,7 @@ class Products extends MY_Controller
         $this->load->view($this->theme . 'products/single_label', $this->data);
     }
 
-    function single_label2($product_id = NULL, $warehouse_id = NULL)
+    function single_label2($product_id = NULL, $warehouse_id = NULL,$duplicado = NULL)
     {
         $this->sma->checkPermissions('barcode', true);
 
@@ -293,19 +316,29 @@ class Products extends MY_Controller
 
         $this->data['product'] = $pr;
         $options = $this->products_model->getProductOptionsWithWH($product_id);
-        $html = "";
+        $html = '<table class="table table-bordered barcodes"><tbody><tr>';
 
         if (!empty($options)) {
             $r = 1;
             foreach ($options as $option) {
-                $html .= '<div class="labels"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 25) . '<br><span class="price">'.lang('price') .': ' .$this->Settings->default_currency. ' ' . $this->sma->formatMoney($pr->price) . '</span></div>';
+                $html .= '<td><div class="labels" style="width: 28%;margin-left: 37%;margin-right: 32%;border: 1px solid #ddd;!important"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 50) . '</div></td>';
                 $r++;
             }
         } else {
-            for ($r = 1; $r <= 16; $r++) {
-                $html .= '<div class="labels"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 25) . '<br><span class="price">'.lang('price') .': ' .$this->Settings->default_currency. ' ' . $this->sma->formatMoney($pr->price) . '</span></div>';
+            if($duplicado == 1){
+                $html .= '<td><div class="labels" style="width: 28%;margin-left: 37%;margin-right: 32%;border: 1px solid #ddd;!important"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 50) . '</div></td>';
+            } else {
+                for ($r = 1; $r <= 16; $r++) {
+                    $html .= '<td><div class="labels"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 50) . '</div></td>';
+                    if ($r % 4 == 0 && $r > 3) {
+                        $html .= '</tr><tr>';
+                    }
+                }
             }
         }
+
+        
+        $html .= '</tr></tbody></table>';
 
         $this->data['html'] = $html;
         $this->data['page_title'] = lang("barcode_label");

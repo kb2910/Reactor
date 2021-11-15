@@ -442,3 +442,6 @@ $lang['massive_cost_products']              = "Massive allocation of product cos
 $lang['for_category']                       = "Assign costs to products by category";
 $lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
 $lang['settings_ML']                        ="Mercado Libre";
+$lang['label_printer']                      ="Print Bar Code / Labels";
+$lang['duplicate_items']                    ="Duplicate for an item";
+$lang['for_all_exist']                      ="For all existing items";
