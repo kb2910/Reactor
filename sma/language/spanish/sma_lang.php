@@ -414,6 +414,9 @@ $lang['for_category']                       = "Asignar costos a productos por un
 $lang['costMessageMassuve']                 ="Costos actualizados con éxitos, segun el porcentaje:";
 $lang['settings_ML']                        ="Mercado Libre";
 $lang['label_printer']                      ="Imprimir Cód. Barras / Etiquetas";
+$lang['all_product_printer']                ="Imprimir todas las Etiquetas";
+$lang['all_image_code_printer']             ="Imprimir Código y Imagen";
+$lang['label_printer']                      ="Imprimir Cód. Barras / Etiquetas";
 $lang['duplicate_items']                    ="Duplicado para un item";
 $lang['for_all_exist']                      ="Para todos los items existentes";
 

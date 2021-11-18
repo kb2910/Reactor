@@ -783,9 +783,16 @@ class Products_model extends CI_Model
         if ($subcategory_id) {
             $this->db->where('subcategory_id', $subcategory_id);
         }
-        $this->db->from('products');
+        
+        if($category_id == 0){
+            $this->db->limit(16);
+        }
+
+           $this->db->from('products');
+        
         return $this->db->count_all_results();
     }
+
 
     public function fetch_products($category_id, $limit, $start, $subcategory_id = NULL)
     {
@@ -797,6 +804,8 @@ class Products_model extends CI_Model
         if ($subcategory_id) {
             $this->db->where('subcategory_id', $subcategory_id);
         }
+
+
         $this->db->order_by("id", "asc");
         $query = $this->db->get("products");
 
@@ -808,6 +817,95 @@ class Products_model extends CI_Model
         }
         return false;
     }
+
+    
+    public function products_countCode($code, $subcategory_id = NULL)
+    {
+        if ($code) {
+            $this->db->or_like('code', $code,'both');
+            $this->db->or_like('name', $code,'both');
+        }
+        if ($subcategory_id) {
+            $this->db->where('subcategory_id', $subcategory_id);
+        }
+        
+
+           $this->db->from('products');
+        
+        return $this->db->count_all_results();
+    }
+
+
+    public function fetch_productsCode($code, $limit, $start, $subcategory_id = NULL)
+    {
+
+        $this->db->limit($limit, $start);
+        if ($code) {
+            $this->db->or_like('code', $code,'both');
+            $this->db->or_like('name', $code,'both');
+        }
+        if ($subcategory_id) {
+            $this->db->where('subcategory_id', $subcategory_id);
+        }
+
+        if($code == 0){
+            $this->db->limit(16);
+        }
+
+        $this->db->order_by("id", "asc");
+        $query = $this->db->get("products");
+
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+    }
+
+
+    public function fetch_productsCodeNameCategory($code, $category_id)
+    {
+
+        if ($code) {
+            $this->db->or_like('code', $code,'both');
+            $this->db->or_like('name', $code,'both');
+        }
+        if ($category_id != 0) {
+            $this->db->where('category_id', $category_id);
+        }
+
+        $this->db->order_by("id", "asc");
+        $query = $this->db->get("products");
+
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+    }
+
+    
+
+    public function fetch_productsGeneral()
+    {
+
+
+        $this->db->order_by("id", "asc");
+        $query = $this->db->get("products");
+
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+    }
+
 
     public function getProductWarehouseOptionQty($option_id, $warehouse_id)
     {

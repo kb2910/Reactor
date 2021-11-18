@@ -405,15 +405,15 @@ class Products extends MY_Controller
         $this->page_construct('products/print_barcodes', $meta, $this->data);
     }
 
-    function print_labels($category_id = NULL, $per_page = 0)
+    function print_labels($category_id = NULL,$per_page = 0)
     {
         $this->sma->checkPermissions('barcode', true);
 
         $this->load->library('pagination');
-        $config['base_url'] = site_url('products/print_labels/' . ($category_id ? $category_id : 0));
+        $config['base_url'] = site_url('products/print_labels/'.($category_id ? $category_id : 0));
         $config['total_rows'] = $this->products_model->products_count($category_id);
         $config['per_page'] = 16;
-        $config['num_links'] = 4;
+        $config['num_links'] = 8;
         $config['full_tag_open'] = '<ul class="pagination">';
         $config['full_tag_close'] = '</ul>';
         $config['first_tag_open'] = '<li>';
@@ -430,94 +430,255 @@ class Products extends MY_Controller
         $config['cur_tag_close'] = '</a></li>';
         $this->pagination->initialize($config);
         $currencies = $this->site->getAllCurrencies();
-        $products = $this->products_model->fetch_products($category_id, $config['per_page'], $per_page);
+        $products = $this->products_model->fetch_products($category_id,$config['per_page'], $per_page);
         $r = 1;
         $html = "";
-        $html .= '<table class="table table-bordered table-condensed bartable"><tbody><tr>';
+      
+      if(count($products) == 1){
+        
+        foreach ($products as $pr) {
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
+        }
+      } else { 
+        $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+      
         foreach ($products as $pr) {
 
-            $html .= '<td class="text-center"><h4>' . $this->Settings->site_name . '</h4>' . $pr->name . '<br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 30);
-            $html .= '<table class="table table-bordered">';
-            foreach ($currencies as $currency) {
-                $html .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($pr->price * $currency->rate) . '</td></tr>';
-            }
-            $html .= '</table>';
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
             $html .= '</td>';
 
-            if ($r % 4 == 0) {
-                $html .= '</tr><tr>';
+            if ($r % 2 == 0) {
+                $html .= '</tr><tr style="background:white !important">';
             }
             $r++;
         }
-        if ($r < 4) {
-            for ($i = $r; $i <= 4; $i++) {
-                $html .= '<td></td>';
-            }
-        }
+    
         $html .= '</tr></tbody></table>';
+    }
 
         $this->data['r'] = $r;
         $this->data['html'] = $html;
         $this->data['links'] = $this->pagination->create_links();
         $this->data['categories'] = $this->site->getAllCategories();
         $this->data['category_id'] = $category_id;
-        $this->data['print_link'] = anchor_popup('products/print_labels2/' . ($category_id ? $category_id : ''), '<i class="icon fa fa-file"></i> ' . lang('label_printer'), $this->popup_attributes);
+        $this->data['code'] = '';
+        $this->data['print_link1'] = anchor_popup('products/print_labelsImage/', '<i class="icon fa fa-print"></i> ' . lang('all_image_code_printer'), $this->popup_attributes);
+        $this->data['print_link2'] = anchor_popup('products/print_labelsCodeImage/', '<i class="icon fa fa-print"></i> ' .lang('all_product_printer'), $this->popup_attributes);
         $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('print_labels')));
         $meta = array('page_title' => lang('print_labels'), 'bc' => $bc);
         $this->page_construct('products/print_labels', $meta, $this->data);
 
     }
 
-    function print_labels2($category_id = NULL, $per_page = 0)
+  
+    function print_labelsCode($code = NULL,$per_page = 0)
     {
-        $links = '';
-        if($this->input->post('print_selected')) {
-            $html = "";
-            foreach ($this->input->post('val') as $id) {
-                $pr = $this->site->getProductByID($id);
-                $html .= '<div class="labels"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 25) . '<br><span class="price">'.lang('price') .': ' .$this->Settings->default_currency. ' ' . $this->sma->formatMoney($pr->price) . '</span></div>';
+        $this->sma->checkPermissions('barcode', true);
+
+        $this->load->library('pagination');
+        $config['base_url'] = site_url('products/print_labelsCode/'.($code ? $code : ''));
+        $config['total_rows'] = $this->products_model->products_countCode($code);
+        $config['per_page'] = 16;
+        $config['num_links'] = 8;
+        $config['full_tag_open'] = '<ul class="pagination">';
+        $config['full_tag_close'] = '</ul>';
+        $config['first_tag_open'] = '<li>';
+        $config['first_tag_close'] = '</li>';
+        $config['last_tag_open'] = '<li>';
+        $config['last_tag_close'] = '</li>';
+        $config['next_tag_open'] = '<li>';
+        $config['next_tag_close'] = '</li>';
+        $config['prev_tag_open'] = '<li>';
+        $config['prev_tag_close'] = '</li>';
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
+        $config['cur_tag_open'] = '<li class="active"><a>';
+        $config['cur_tag_close'] = '</a></li>';
+        $this->pagination->initialize($config);
+        $currencies = $this->site->getAllCurrencies();
+        $products = $this->products_model->fetch_productsCode($code,$config['per_page'], $per_page);
+        $r = 1;
+        $html = "";
+      
+      if(count($products) == 1){
+        
+        foreach ($products as $pr) {
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
+        }
+      } else { 
+        $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+      
+        foreach ($products as $pr) {
+
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
+            $html .= '</td>';
+
+            if ($r % 2 == 0) {
+                $html .= '</tr><tr style="background:white !important">';
             }
+            $r++;
+        }
+    
+        $html .= '</tr></tbody></table>';
+    }
 
-        } else {
+        $this->data['r'] = $r;
+        $this->data['html'] = $html;
+        $this->data['links'] = $this->pagination->create_links();
+        $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['code'] = $code;
+        $this->data['category_id'] = 0;
+        $this->data['print_link1'] = anchor_popup('products/print_labelsImage/', '<i class="icon fa fa-print"></i> ' . lang('all_image_code_printer'), $this->popup_attributes);
+        $this->data['print_link2'] = anchor_popup('products/print_labelsCodeImage/', '<i class="icon fa fa-print"></i> ' .lang('all_product_printer'), $this->popup_attributes);
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('print_labels')));
+        $meta = array('page_title' => lang('print_labels'), 'bc' => $bc);
+        $this->page_construct('products/print_labels', $meta, $this->data);
 
+    }
+
+  
+    function print_labelsCodeImage()
+    {
             $this->sma->checkPermissions('barcode', true);
             $this->load->library('pagination');
-            $config['base_url'] = site_url('products/print_labels2/' . ($category_id ? $category_id : 0));
-            $config['total_rows'] = $this->products_model->products_count($category_id);
-            $config['per_page'] = 16;
-            $config['num_links'] = 4;
-            $config['full_tag_open'] = '<ul class="pagination">';
-            $config['full_tag_close'] = '</ul>';
-            $config['first_tag_open'] = '<li>';
-            $config['first_tag_close'] = '</li>';
-            $config['last_tag_open'] = '<li>';
-            $config['last_tag_close'] = '</li>';
-            $config['next_tag_open'] = '<li>';
-            $config['next_tag_close'] = '</li>';
-            $config['prev_tag_open'] = '<li>';
-            $config['prev_tag_close'] = '</li>';
-            $config['num_tag_open'] = '<li>';
-            $config['num_tag_close'] = '</li>';
-            $config['cur_tag_open'] = '<li class="active"><a>';
-            $config['cur_tag_close'] = '</a></li>';
-            $this->pagination->initialize($config);
-            $currencies = $this->site->getAllCurrencies();
-            $products = $this->products_model->fetch_products($category_id, $config['per_page'], $per_page);
-
+            $config['base_url'] = site_url('products/print_labels2/');
+            $products = $this->products_model->fetch_productsGeneral();
+            $r = 1;
             $html = "";
+            $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+      
             foreach ($products as $pr) {
-                $html .= '<div class="labels"><strong>' . $pr->name . '</strong><br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 25) . '<br><span class="price">'.lang('price') .': ' .$this->Settings->default_currency. ' ' . $this->sma->formatMoney($pr->price) . '</span></div>';
+    
+                $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+    
+                $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                $html .= '</td></tr></table>';
+                $html .= '</td>';
+    
+                if ($r % 2 == 0) {
+                    $html .= '</tr><tr style="background:white !important">';
+                }
+                $r++;
             }
-            $links = $this->pagination->create_links();
-        }
+        
+            $html .= '</tr></tbody></table>';
+        $links = $this->pagination->create_links();
+        
         $this->data['html'] = $html;
         $this->data['links'] = $links;
         $this->data['categories'] = $this->site->getAllCategories();
-        $this->data['category_id'] = $category_id;
+        $this->data['category_id'] = "";
+        $this->data['code'] = "";
+        $this->data['type'] = "1";
         $this->data['page_title'] = lang('print_labels');
         $this->load->view($this->theme.'products/print_labels2',$this->data);
 
     }
+
+    function print_labelsImage()
+    {
+            $this->sma->checkPermissions('barcode', true);
+            $this->load->library('pagination');
+            $config['base_url'] = site_url('products/print_labels2/');
+            $products = $this->products_model->fetch_productsGeneral();
+
+            $html = "";
+            foreach ($products as $pr) {    
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:300;height:300;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300;height:300;border: 0px!important"/>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2">'.$image.'</td></tr><tr><td style="height:50px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 20);
+            $html .= '</td></tr></table>';
+
+            }
+            $links = $this->pagination->create_links();
+        
+        $this->data['html'] = $html;
+        $this->data['links'] = $links;
+        $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['category_id'] = "";
+        $this->data['code'] = "";
+        $this->data['type'] = "2";
+        $this->data['page_title'] = lang('print_labels');
+        $this->load->view($this->theme.'products/print_labels2',$this->data);
+
+    }
+
+
+    
+    function print_labels2($category_id = NULL, $code = NULL, $type = NULL)
+    {
+
+            $this->sma->checkPermissions('barcode', true);
+            
+            if($type == 1){
+                
+                $r = 1;
+                $html = "";
+                
+               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id);
+
+        
+                if(count($products) == 1){
+        
+                    foreach ($products as $pr) {
+                        $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+                        $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                        $html .= '</td></tr></table>';
+                    }
+     
+                }else {  
+                    
+                    $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';    
+
+                    foreach ($products as $pr) {
+            
+                        $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+            
+                        $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                        $html .= '</td></tr></table>';
+                        $html .= '</td>';
+            
+                        if ($r % 2 == 0) {
+                            $html .= '</tr><tr style="background:white !important">';
+                        }
+                        $r++;
+                    }
+                
+                    $html .= '</tr></tbody></table>';
+                }
+           
+            } else {
+                    
+               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id);
+                $html = "";
+                foreach ($products as $pr) {    
+                $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:300;height:300;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300;height:300;border: 0px!important"/>';
+                $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2">'.$image.'</td></tr><tr><td style="height:50px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 20);
+                $html .= '</td></tr></table>';
+
+                }
+            }
+            
+            $this->data['html'] = $html;
+            $this->data['categories'] = $this->site->getAllCategories();
+            $this->data['category_id'] = $category_id;
+            $this->data['code'] = $code;
+            $this->data['type'] = $type;
+            $this->data['page_title'] = lang('print_labels');
+            $this->load->view($this->theme.'products/print_labels2',$this->data);
+
+    }
+
+
 
     /* ------------------------------------------------------- */
 

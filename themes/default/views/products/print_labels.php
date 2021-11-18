@@ -5,6 +5,12 @@
             window.location.replace("<?php echo site_url('products/print_labels'); ?>/" + $(this).val());
             return false;
         });
+        
+       
+        $("#code").blur(function(){ 
+            window.location.replace("<?php echo site_url('products/print_labelsCode'); ?>/"+ $('#code').val());
+            return false;
+        });
     });
 </script>
 <div class="box">
@@ -13,12 +19,9 @@
 
         <div class="box-icon">
             <ul class="btn-tasks">
-                <?php if(isset($print_link)) { ?><li class="dropdown" style="margin-right:10px;"><?= $print_link; ?></li><?php } ?>
-                <?php if(isset($inputs)) { ?><li class="dropdown" style="margin-right:10px;"><a href="#" id="labelPrinter" class="tip"
-                                        title="<?= lang('label_printer') ?>"><i class="icon fa fa-print"></i> <?= lang('label_printer') ?></a></li><?php } ?>
-                <li class="dropdown"><a href="javascript:void();" onclick="window.print();" id="print-icon" class="tip"
-                                        title="<?= lang('print') ?>"><i class="icon fa fa-print"></i></a></li>
-            </ul>
+                <?php if(isset($print_link1)) { ?><li class="dropdown" style="margin-right:10px;"><?= $print_link1; ?></li><?php } ?>
+                <?php if(isset($print_link2)) { ?><li class="dropdown" style="margin-right:10px;"><?= $print_link2; ?></li><?php } ?>
+                </ul>
         </div>
     </div>
     <div class="box-content">
@@ -27,6 +30,15 @@
                 <p class="introtext"><?php echo lang('print_barcode_heading'); ?></p>
 
                 <div class="well well-sm no-print">
+
+
+
+                   <div class="form-group">
+                        <div class="controls" style="display:flex">
+                        <input type="text" id="code" class="form-control"  style="width: 90%;" placeholder="Busqueda por código o descripción del nombre del producto" value="<?= $code?>" aria-describedby="basic-addon1"> 
+                        <button type="button" class="btn btn-primary" style="width: 10%;"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
 
                     <?php
                     $cat[''] = $this->lang->line("select") . " " . $this->lang->line("category");
@@ -46,7 +58,7 @@
 
 
                 </div>
-                <?php if ($r != 1) { ?>
+                <?php if ($r != 0) { ?>
 
                     <?php if (!empty($links)) {
                         echo '<div class="text-center">' . $links . '</div>';
@@ -64,12 +76,20 @@
         </div>
     </div>
 </div>
+
+
 <?php if(isset($inputs)) { ?>
 <div id="formData" style="display: none;">
-<?= form_open('products/print_labels2', 'id="PrintLabels"'); ?>
+<?= form_open('products/print_labelsCode', 'id="PrintLabels"'); ?>
 <?= $inputs; ?>
 <?= form_hidden('print_selected', 1); ?>
 <?= form_close(); ?>
+<div id="formData1" style="display: none;">
+<?= form_open('products/print_labelsCodeImage', 'id="PrintLabels1"'); ?>
+<?= $inputs; ?>
+<?= form_hidden('print_selected', 1); ?>
+<?= form_close(); ?>
+
 </div>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -79,18 +99,28 @@
             var fdata = $('#formData').html();
             Popup(fdata);
         });
+        $('#labelPrinter').click(function(e) {
+            e.preventDefault();
+            //$('#PrintLabels').submit();
+            var fdata = $('#formData').html();
+            Popup(fdata);
+        });
+
+
     });
     function Popup(data) {
         var mywindow = window.open('', 'sma_popup', 'height=600,width=900');
         mywindow.document.write('<!DOCTYPE html><html><head><title>Print</title>');
         mywindow.document.write('<link rel="stylesheet" href="<?=$assets;?>bootstrap/css/bootstrap.min.css" type="text/css" />');
-        mywindow.document.write('<style>a {color: #333;} #totaltbl td, #totaltbl th { vertical-align: middle; }</style>');
+        mywindow.document.write('<style>body {  background:white; text-align:center; } a {color: #333;} #totaltbl td, #totaltbl th { vertical-align: middle; }</style>');
         mywindow.document.write('</head><body>');
         mywindow.document.write(data);
         mywindow.document.write('<script type="text/javascript" src="<?= $assets ?>js/jquery-2.0.3.min.js"><\/script>');
         mywindow.document.write('<script>setInterval(function(){$(\'#PrintLabels\').submit();}, 10);<\/script>');
         mywindow.document.write('</body></html>');
     }
+
+    
 </script>
 <?php } ?>
 

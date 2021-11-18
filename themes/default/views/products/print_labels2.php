@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="<?= $assets ?>img/icon.png"/>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link href="<?= $assets ?>styles/helpers/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="<?= $assets ?>styles/helpers/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="<?= $assets ?>styles/helpers/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <style>
         body { text-align:center; }
         td { text-align: center; }
@@ -26,6 +26,14 @@
     <div class="container">
         <h4><?=$Settings->site_name.'<br>'.$page_title?></h4>
         <div class="well well-sm no-print">
+
+        
+        <div class="form-group">
+                        <div class="controls" style="display:flex">
+                        <input type="text" id="code" class="form-control"  style="width: 90%;" placeholder="Busqueda por código o descripción del nombre del producto" value="<?=  $code == 0 ? '' :$code?>" aria-describedby="basic-addon1"> 
+                        <button type="button" class="btn btn-primary" style="width: 10%;"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
 
             <?php
             $cat[''] = $this->lang->line("select") . " " . $this->lang->line("category");
@@ -59,9 +67,15 @@
         $(document).ready(function () {
             $('#category').val('<?=$category_id?>');
             $('#category').change(function () {
-                window.location.replace("<?php echo site_url('products/print_labels2'); ?>/" + $(this).val());
+                window.location.replace("<?php echo site_url('products/print_labels2'); ?>/" + $(this).val()+"/0/"+<?=$type?>);
                 return false;
             });
+
+            
+        $("#code").blur(function(){ 
+            window.location.replace("<?php echo site_url('products/print_labels2'); ?>/0/"+ $('#code').val()+"/"+<?=$type?>)
+            return false;
+        });
         });
     </script>
 </body>
