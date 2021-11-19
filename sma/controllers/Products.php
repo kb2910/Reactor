@@ -594,7 +594,7 @@ class Products extends MY_Controller
 
             $html = "";
             foreach ($products as $pr) {    
-            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:300;height:300;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300;height:300;border: 0px!important"/>';
+            $image=$pr->image_url_external !== 'no_image.png'?'<img class="imageProd" src="'.$pr->image_url_external.'"alt="'. $pr->name .'" class="img-responsive img-thumbnail"  style="width:300px;height:300px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300px;height:300px;border: 0px!important"/>';
             $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2">'.$image.'</td></tr><tr><td style="height:50px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 20);
             $html .= '</td></tr></table>';
 

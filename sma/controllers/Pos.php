@@ -739,19 +739,21 @@ class Pos extends MY_Controller
         $pro = 1;
         $prods = '<div>';
 
-        foreach ($products as $product) {
-            $count = $product->id;
-            if ($count < 10) {
-                $count = "0" . ($count / 100) * 100;
-            }
-            if ($category_id < 10) {
-                $category_id = "0" . ($category_id / 100) * 100;
-            }
+        if(count($products) > 1){
+            foreach ($products as $product) {
+                $count = $product->id;
+                if ($count < 10) {
+                    $count = "0" . ($count / 100) * 100;
+                }
+                if ($category_id < 10) {
+                    $category_id = "0" . ($category_id / 100) * 100;
+                }
 
-            $prods .= "<button id=\"product-" . $category_id . $count . "\" type=\"button\" value='" . $product->code . "' title=\"" . $product->name . "\" class=\"btn-prni btn-" . $this->pos_settings->product_button_color . " product pos-tip\" data-container=\"body\"><img src=\"" . base_url() . "assets/uploads/thumbs/" . $product->image . "\" alt=\"" . $product->name . "\" style='width:" . $this->Settings->twidth . "px;height:" . $this->Settings->theight . "px;' class='img-rounded' /><span>" . character_limiter($product->name, 40) . "</span></button>";
+                $prods .= "<button id=\"product-" . $category_id . $count . "\" type=\"button\" value='" . $product->code . "' title=\"" . $product->name . "\" class=\"btn-prni btn-" . $this->pos_settings->product_button_color . " product pos-tip\" data-container=\"body\"><img src=\"". $this->getImage($product->image,$product->image_url_external) . "\" alt=\"" . $product->name . "\" style='width:" . $this->Settings->twidth . "px;height:" . $this->Settings->theight . "px;' class='img-rounded' /><span>" . character_limiter($product->name, 40) . "</span></button>";
 
-            $pro++;
-        }
+                $pro++;
+            }
+         }
 
         $prods .= "</div>";
 
@@ -761,6 +763,21 @@ class Pos extends MY_Controller
             return $prods;
         }
     }
+
+
+    function getImage($i,$x){
+        if ($x == "no_image.png") {
+            return   base_url() . 'assets/uploads/'.$i;
+        } elseif ($x == "" || $x === null) {
+            return   base_url() . 'assets/uploads/'.$i;
+        } else if ($x != "no_image.png") {
+            return  $x;
+        } else {
+            return   base_url() . 'assets/uploads/'.$i;
+        }
+    }
+
+
 
     function ajaxcategorydata($category_id = NULL)
     {

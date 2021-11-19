@@ -42,6 +42,24 @@
             }
             echo form_dropdown('category', $cat, $category, 'class="tip form-control" id="category" placeholder="' . $this->lang->line("select") . " " . $this->lang->line("category") . '" required="required"');
             ?>
+
+            <br/>
+                <select id="size" name="size" class="tip form-control" placeholder="Seleccione dimensiones para la las imagenes (Alto / Ancho)">
+                    <optgroup label="Alto / Ancho">
+                        <option value=""><?= lang('select')?></option>
+                        <option value="100/100">100/100</option>
+                        <option value="150/150">150/150</option>
+                        <option value="200/200">200/200</option>
+                        <option value="250/250">250/250</option>
+                        <option value="300/300">300/300</option>
+                        <option value="350/350">350/350</option>
+                        <option value="400/400">400/400</option>
+                        <option value="450/450">450/450</option>
+                        <option value="500/500">500/500</option>
+                        <option value="550/550">550/550</option>
+                        <option value="600/600">600/600</option>
+                    </optgroup>
+                </select>
             <div class="clearfix"></div>
 
         </div>
@@ -69,6 +87,15 @@
             $('#category').change(function () {
                 window.location.replace("<?php echo site_url('products/print_labels2'); ?>/" + $(this).val()+"/0/"+<?=$type?>);
                 return false;
+            });
+
+            
+            $('#size').change(function () {
+                
+                var input = $('#size').val();
+                var fields = input.split('/');
+                $('.imageProd').css('height',fields[1]);
+                $('.imageProd').css('width',fields[0]);
             });
 
             
