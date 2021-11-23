@@ -351,6 +351,13 @@
                                                               href="<?= site_url('purchases/add'); ?>"><i
                                                 class="fa fa-plus-circle"></i><span
                                                 class="text"> <?= lang('add_purchase'); ?></span></a></li>
+                                            
+                                    <li id="purchases_add"><a class="submenu"
+                                                              href="<?= site_url('purchases/pucharse_order'); ?>"><i
+                                                class="fa fa-plus-circle"></i><span
+                                                class="text">Orden de Compra</span></a></li>
+
+                                                
                              
                                     <li id="purchases_expenses"><a class="submenu"
                                                                    href="<?= site_url('purchases/expenses'); ?>"><i

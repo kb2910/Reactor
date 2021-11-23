@@ -777,95 +777,194 @@ class Products_model extends CI_Model
 
     public function products_count($category_id, $subcategory_id = NULL)
     {
-        if ($category_id) {
-            $this->db->where('category_id', $category_id);
-        }
-        if ($subcategory_id) {
-            $this->db->where('subcategory_id', $subcategory_id);
-        }
-        
-        if($category_id == 0){
-            $this->db->limit(16);
-        }
+        if($category_id != 0){
+            if ($category_id) {
+                $this->db->where('category_id', $category_id);
+            }
+            if ($subcategory_id) {
+                $this->db->where('subcategory_id', $subcategory_id);
+            }
+            
+            if($category_id == 0){
+                $this->db->limit(16);
+            }
 
-           $this->db->from('products');
-        
-        return $this->db->count_all_results();
+            $this->db->from('products');
+            
+            return $this->db->count_all_results();
+        } else { 
+            return 0;
+        }
     }
 
 
     public function fetch_products($category_id, $limit, $start, $subcategory_id = NULL)
     {
 
-        $this->db->limit($limit, $start);
-        if ($category_id) {
-            $this->db->where('category_id', $category_id);
-        }
-        if ($subcategory_id) {
-            $this->db->where('subcategory_id', $subcategory_id);
-        }
+        if($category_id != 0){
 
-
-        $this->db->order_by("id", "asc");
-        $query = $this->db->get("products");
-
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                $data[] = $row;
+            $this->db->limit($limit, $start);
+            if ($category_id) {
+                $this->db->where('category_id', $category_id);
             }
-            return $data;
+            if ($subcategory_id) {
+                $this->db->where('subcategory_id', $subcategory_id);
+            }
+
+
+            $this->db->order_by("id", "asc");
+            $query = $this->db->get("products");
+
+            if ($query->num_rows() > 0) {
+                foreach ($query->result() as $row) {
+                    $data[] = $row;
+                }
+                return $data;
+            }
         }
+
         return false;
     }
 
     
     public function products_countCode($code, $subcategory_id = NULL)
     {
-        if ($code) {
-            $this->db->or_like('code', $code,'both');
-            $this->db->or_like('name', $code,'both');
-        }
-        if ($subcategory_id) {
-            $this->db->where('subcategory_id', $subcategory_id);
-        }
-        
+        if ($code !="") {
+            if ($code) {
+                $this->db->or_like('code', $code,'both');
+                $this->db->or_like('name', $code,'both');
+            }
+            if ($subcategory_id) {
+                $this->db->where('subcategory_id', $subcategory_id);
+            }
+            
 
-           $this->db->from('products');
-        
-        return $this->db->count_all_results();
+            $this->db->from('products');
+            
+            return $this->db->count_all_results();
+        } else {
+            return false;
+        }
     }
 
 
     public function fetch_productsCode($code, $limit, $start, $subcategory_id = NULL)
     {
-
-        $this->db->limit($limit, $start);
-        if ($code) {
-            $this->db->or_like('code', $code,'both');
-            $this->db->or_like('name', $code,'both');
-        }
-        if ($subcategory_id) {
-            $this->db->where('subcategory_id', $subcategory_id);
-        }
-
-        if($code == 0){
-            $this->db->limit(16);
-        }
-
-        $this->db->order_by("id", "asc");
-        $query = $this->db->get("products");
-
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                $data[] = $row;
+        if ($code !="") {
+            $this->db->limit($limit, $start);
+            if ($code) {
+                $this->db->or_like('code', $code,'both');
+                $this->db->or_like('name', $code,'both');
             }
-            return $data;
+            if ($subcategory_id) {
+                $this->db->where('subcategory_id', $subcategory_id);
+            }
+
+            if($code == 0){
+                $this->db->limit(16);
+            }
+
+            $this->db->order_by("id", "asc");
+            $query = $this->db->get("products");
+
+            if ($query->num_rows() > 0) {
+                foreach ($query->result() as $row) {
+                    $data[] = $row;
+                }
+                return $data;
+            }
         }
         return false;
     }
 
 
-    public function fetch_productsCodeNameCategory($code, $category_id)
+    
+    public function products_countStock($code, $subcategory_id = NULL)
+    {
+        if ($stock !="") {
+            if ($stock != 0) {
+
+                switch ($stock) {
+                    case 1:
+                        $this->db->where('quantity !=', 0);
+                        break;
+                    case 2:
+                        $this->db->where('quantity ==', 0);
+                        break;
+                    case 3:
+                        $this->db->where('quantity <=', 50);
+                        break;
+                    case 4:
+                        $this->db->where('quantity >=', 50);
+                        break;
+                    case 5:
+                        $this->db->where('quantity <=', 100);
+                        break;
+                    case 6:
+                        $this->db->where('quantity >=', 100);
+                        break;
+                }
+        
+            }
+    
+            if ($subcategory_id) {
+                $this->db->where('subcategory_id', $subcategory_id);
+            }
+            
+
+            $this->db->from('products');
+            
+            return $this->db->count_all_results();
+        } else {
+            return false;
+        }
+    }
+
+
+    public function fetch_productsStock($stock, $limit, $start)
+    {
+        if ($stock !="") {
+            $this->db->limit($limit, $start);
+            if ($stock != 0) {
+
+                switch ($stock) {
+                    case 1:
+                        $this->db->where('quantity !=', 0);
+                        break;
+                    case 2:
+                        $this->db->where('quantity ==', 0);
+                        break;
+                    case 3:
+                        $this->db->where('quantity <=', 50);
+                        break;
+                    case 4:
+                        $this->db->where('quantity >=', 50);
+                        break;
+                    case 5:
+                        $this->db->where('quantity <=', 100);
+                        break;
+                    case 6:
+                        $this->db->where('quantity >=', 100);
+                        break;
+                }
+        
+            }
+    
+            $this->db->order_by("id", "asc");
+            $query = $this->db->get("products");
+
+            if ($query->num_rows() > 0) {
+                foreach ($query->result() as $row) {
+                    $data[] = $row;
+                }
+                return $data;
+            }
+        }
+        return false;
+    }
+
+
+    public function fetch_productsCodeNameCategory($code, $category_id,$stock)
     {
 
         if ($code) {
@@ -874,6 +973,30 @@ class Products_model extends CI_Model
         }
         if ($category_id != 0) {
             $this->db->where('category_id', $category_id);
+        }
+        if ($stock != 0) {
+
+            switch ($stock) {
+                case 1:
+                    $this->db->where('quantity !=', 0);
+                    break;
+                case 2:
+                    $this->db->where('quantity ==', 0);
+                    break;
+                case 3:
+                    $this->db->where('quantity <=', 50);
+                    break;
+                case 4:
+                    $this->db->where('quantity >=', 50);
+                    break;
+                case 5:
+                    $this->db->where('quantity <=', 100);
+                    break;
+                case 6:
+                    $this->db->where('quantity >=', 100);
+                    break;
+            }
+    
         }
 
         $this->db->order_by("id", "asc");
@@ -905,6 +1028,23 @@ class Products_model extends CI_Model
         }
         return false;
     }
+
+
+    public function fetch_productsByIds($ids)
+    {
+        $this->db->order_by("id", "asc");
+        $this->db->where_in("id",$ids);
+        $query = $this->db->get("products");
+
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return false;
+    }
+
 
 
     public function getProductWarehouseOptionQty($option_id, $warehouse_id)

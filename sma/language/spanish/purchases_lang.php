@@ -65,3 +65,4 @@ $lang['expenses_deleted']                   = "Expenses successfully deleted";
 $lang['expense_note']                       = "Expense Note";
 $lang['no_expense_selected']                = "No expense selected. Please select at least one expense.";
 $lang['please_select_supplier']             = "Please select supplier";
+$lang['order_purchase']                     = "Orden de Compra";

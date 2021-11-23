@@ -69,8 +69,8 @@ class Products extends MY_Controller
             . lang('r_u_sure') . "</p><a class='btn btn-danger po-delete1' id='a__$1' href='" . site_url('products/delete/$1') . "'>"
             . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
             . lang('delete_product') . "</a>";
-        $single_barcode = anchor_popup('products/single_barcode/$1/' . ($warehouse_id ? $warehouse_id : ''), '<i class="fa fa-print"></i> ' . lang('print_barcode'), $this->popup_attributes);
-        $single_label = anchor_popup('products/single_label/$1/' . ($warehouse_id ? $warehouse_id : ''), '<i class="fa fa-print"></i> ' . lang('print_label'), $this->popup_attributes);
+        $single_barcode = anchor_popup('products/single_barcode/$1/null/1', '<i class="fa fa-print"></i> ' . lang('print_barcode'), $this->popup_attributes);
+        $single_label = anchor_popup('products/single_label/$1/null/1', '<i class="fa fa-print"></i> ' . lang('print_label'), $this->popup_attributes);
         $action = '<div class="text-center"><div class="btn-group text-left">'
             . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">'
             . lang('actions') . ' <span class="caret"></span></button>
@@ -379,13 +379,13 @@ class Products extends MY_Controller
                 $rw = (bool)($r & 1);
                 $html .= $rw ? '</tr><tr>' : '';
             }
-            $html .= '<td colspan="2" class="text-center"><h3>' . $this->Settings->site_name . '</h3>' . $pr->name . '<br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 60);
-            $html .= '<table class="table table-bordered">';
-            foreach ($currencies as $currency) {
-                $html .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($pr->price * $currency->rate) . '</td></tr>';
-            }
-            $html .= '</table>';
+            
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td colspan="2"><div><strong>' . $pr->name . '</strong></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
             $html .= '</td>';
+            
             $r++;
         }
         if (!(bool)($r & 1)) {
@@ -431,24 +431,24 @@ class Products extends MY_Controller
         $this->pagination->initialize($config);
         $currencies = $this->site->getAllCurrencies();
         $products = $this->products_model->fetch_products($category_id,$config['per_page'], $per_page);
-        $r = 1;
+        $r = 0;
         $html = "";
       
       if(count($products) == 1){
         
         foreach ($products as $pr) {
             $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
-            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '<table id="myTable" class="table table-bordered items" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
             $html .= '</td></tr></table>';
         }
       } else { 
-        $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+        $html .= '<table id="myTable" class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
       
         foreach ($products as $pr) {
 
             $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
 
-            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
             $html .= '</td></tr></table>';
             $html .= '</td>';
 
@@ -467,6 +467,7 @@ class Products extends MY_Controller
         $this->data['categories'] = $this->site->getAllCategories();
         $this->data['category_id'] = $category_id;
         $this->data['code'] = '';
+        $this->data['stock'] = 0;
         $this->data['print_link1'] = anchor_popup('products/print_labelsImage/', '<i class="icon fa fa-print"></i> ' . lang('all_image_code_printer'), $this->popup_attributes);
         $this->data['print_link2'] = anchor_popup('products/print_labelsCodeImage/', '<i class="icon fa fa-print"></i> ' .lang('all_product_printer'), $this->popup_attributes);
         $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('print_labels')));
@@ -502,15 +503,15 @@ class Products extends MY_Controller
         $this->pagination->initialize($config);
         $currencies = $this->site->getAllCurrencies();
         $products = $this->products_model->fetch_productsCode($code,$config['per_page'], $per_page);
-        $r = 1;
+        $r = 0;
         $html = "";
       
       if(count($products) == 1){
         
         foreach ($products as $pr) {
             $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
-            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
-            $html .= '</td></tr></table>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table></div>';
         }
       } else { 
         $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
@@ -519,7 +520,7 @@ class Products extends MY_Controller
 
             $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
 
-            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><str0ong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
             $html .= '</td></tr></table>';
             $html .= '</td>';
 
@@ -537,7 +538,81 @@ class Products extends MY_Controller
         $this->data['links'] = $this->pagination->create_links();
         $this->data['categories'] = $this->site->getAllCategories();
         $this->data['code'] = $code;
+        $this->data['stock'] = 0;
         $this->data['category_id'] = 0;
+        $this->data['print_link1'] = anchor_popup('products/print_labelsImage/', '<i class="icon fa fa-print"></i> ' . lang('all_image_code_printer'), $this->popup_attributes);
+        $this->data['print_link2'] = anchor_popup('products/print_labelsCodeImage/', '<i class="icon fa fa-print"></i> ' .lang('all_product_printer'), $this->popup_attributes);
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('print_labels')));
+        $meta = array('page_title' => lang('print_labels'), 'bc' => $bc);
+        $this->page_construct('products/print_labels', $meta, $this->data);
+
+    }
+
+
+    
+    function print_labelsStock($stock = NULL,$per_page = 0)
+    {
+        $this->sma->checkPermissions('barcode', true);
+
+        $this->load->library('pagination');
+        $config['base_url'] = site_url('products/print_labelsStock/'.($stock ? $stock : ''));
+        $config['total_rows'] = $this->products_model->products_countStock($stock);
+        $config['per_page'] = 16;
+        $config['num_links'] = 8;
+        $config['full_tag_open'] = '<ul class="pagination">';
+        $config['full_tag_close'] = '</ul>';
+        $config['first_tag_open'] = '<li>';
+        $config['first_tag_close'] = '</li>';
+        $config['last_tag_open'] = '<li>';
+        $config['last_tag_close'] = '</li>';
+        $config['next_tag_open'] = '<li>';
+        $config['next_tag_close'] = '</li>';
+        $config['prev_tag_open'] = '<li>';
+        $config['prev_tag_close'] = '</li>';
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
+        $config['cur_tag_open'] = '<li class="active"><a>';
+        $config['cur_tag_close'] = '</a></li>';
+        $this->pagination->initialize($config);
+        $currencies = $this->site->getAllCurrencies();
+        $products = $this->products_model->fetch_productsStock($stock,$config['per_page'], $per_page);
+        $r = 0;
+        $html = "";
+      
+      if(count($products) == 1){
+        
+        foreach ($products as $pr) {
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table></div>';
+        }
+      } else { 
+        $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+      
+        foreach ($products as $pr) {
+
+            $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+            $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><div style="display:flex"><div><button name="button" class="inputCheck typeA" id="'.$pr->id.'-A" onclick="getItemsByIdAdd('.$pr->id.')"> <i class="fa fa-square-o" aria-hidden="true" style="font-size:22px"></i></button><button name="button" id="'.$pr->id.'-B" class="inputCheck typeB"  style="display:none" onclick="getItemsByIdRemove('.$pr->id.')"><i class="fa fa-check-square" style="backgorund:#428bca;color:#428bca;font-size:22px" aria-hidden="true"></i></button></div><div><strong>' . $pr->name . '</strong></div></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+            $html .= '</td></tr></table>';
+            $html .= '</td>';
+
+            if ($r % 2 == 0) {
+                $html .= '</tr><tr style="background:white !important">';
+            }
+            $r++;
+        }
+    
+        $html .= '</tr></tbody></table>';
+    }
+
+        $this->data['r'] = $r;
+        $this->data['html'] = $html;
+        $this->data['links'] = $this->pagination->create_links();
+        $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['code'] = "";
+        $this->data['stock'] = $stock;
+        $this->data['category_id'] = '';
         $this->data['print_link1'] = anchor_popup('products/print_labelsImage/', '<i class="icon fa fa-print"></i> ' . lang('all_image_code_printer'), $this->popup_attributes);
         $this->data['print_link2'] = anchor_popup('products/print_labelsCodeImage/', '<i class="icon fa fa-print"></i> ' .lang('all_product_printer'), $this->popup_attributes);
         $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('products'), 'page' => lang('products')), array('link' => '#', 'page' => lang('print_labels')));
@@ -553,6 +628,76 @@ class Products extends MY_Controller
             $this->load->library('pagination');
             $config['base_url'] = site_url('products/print_labels2/');
             $products = $this->products_model->fetch_productsGeneral();
+            $r = 1;
+            $html = "";
+            $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
+      
+            foreach ($products as $pr) {
+    
+                $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+    
+                $html .= '<td class="text-center media '.$pr->quantity.'" style="background:white !important"><div><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important; "><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td  colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                $html .= '</div></td></tr></table>';
+                $html .= '</td>';
+    
+                if ($r % 2 == 0) {
+                    $html .= '</tr><tr style="background:white !important">';
+                }
+                $r++;
+            }
+        
+            $html .= '</tr></tbody></table>';
+        $links = $this->pagination->create_links();
+        
+        $this->data['html'] = $html;
+        $this->data['links'] = $links;
+        $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['category_id'] = "";
+        $this->data['code'] = "";
+        $this->data['stock'] = "0";
+        $this->data['type'] = "1";
+        $this->data['page_title'] = lang('print_labels');
+        $this->load->view($this->theme.'products/print_labels2',$this->data);
+
+    }
+
+
+    function print_labelsImage()
+    {
+            $this->sma->checkPermissions('barcode', true);
+            $this->load->library('pagination');
+            $config['base_url'] = site_url('products/print_labels2/');
+            $products = $this->products_model->fetch_productsGeneral();
+
+            $html = "";
+            foreach ($products as $pr) {    
+            $image=$pr->image_url_external !== 'no_image.png'?'<img class="imageProd" src="'.$pr->image_url_external.'"alt="'. $pr->name .'" class="img-responsive img-thumbnail"  style="width:300px;height:300px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300px;height:300px;border: 0px!important"/>';
+            $html .= '<table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;margin-left:10%;margin-rigth:10%; width:80%;text-align:center "><tbody><tr><td  colspan="2">'.$image.'</td></tr><tr><td style="height:50px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 20);
+            $html .= '</td></tr></table>';
+
+            }
+            $links = $this->pagination->create_links();
+        
+        $this->data['html'] = $html;
+        $this->data['links'] = $links;
+        $this->data['categories'] = $this->site->getAllCategories();
+        $this->data['category_id'] = "";
+        $this->data['code'] = "";
+        $this->data['stock'] = "0";
+        $this->data['type'] = "2";
+        $this->data['page_title'] = lang('print_labels');
+        $this->load->view($this->theme.'products/print_labels2',$this->data);
+
+    }
+    
+
+    function print_labelsCodeImageById($id)
+    {
+            $idsRef = explode(",", $id);
+            $this->sma->checkPermissions('barcode', true);
+            $this->load->library('pagination');
+            $config['base_url'] = site_url('products/print_labels3/');
+            $products = $this->products_model->fetch_productsByIds($idsRef);
             $r = 1;
             $html = "";
             $html .= '<table class="table table-bordered table-condensed bartable" style="border: 0px; background:white !important; margin-bottom:0px !important"><tbody><tr>';
@@ -579,18 +724,20 @@ class Products extends MY_Controller
         $this->data['categories'] = $this->site->getAllCategories();
         $this->data['category_id'] = "";
         $this->data['code'] = "";
-        $this->data['type'] = "1";
+        $this->data['type'] = 1;
         $this->data['page_title'] = lang('print_labels');
-        $this->load->view($this->theme.'products/print_labels2',$this->data);
+        $this->load->view($this->theme.'products/print_labels3',$this->data);
 
     }
 
-    function print_labelsImage()
+    
+    function print_labelsImage2($id)
     {
+            $idsRef = explode(",", $id);
             $this->sma->checkPermissions('barcode', true);
             $this->load->library('pagination');
-            $config['base_url'] = site_url('products/print_labels2/');
-            $products = $this->products_model->fetch_productsGeneral();
+            $config['base_url'] = site_url('products/print_labels3/');
+            $products = $this->products_model->fetch_productsByIds($idsRef);
 
             $html = "";
             foreach ($products as $pr) {    
@@ -602,19 +749,23 @@ class Products extends MY_Controller
             $links = $this->pagination->create_links();
         
         $this->data['html'] = $html;
+        $this->data['type'] = 2;
         $this->data['links'] = $links;
         $this->data['categories'] = $this->site->getAllCategories();
         $this->data['category_id'] = "";
         $this->data['code'] = "";
         $this->data['type'] = "2";
         $this->data['page_title'] = lang('print_labels');
-        $this->load->view($this->theme.'products/print_labels2',$this->data);
+        $this->load->view($this->theme.'products/print_labels3',$this->data);
 
     }
+    
+
+
 
 
     
-    function print_labels2($category_id = NULL, $code = NULL, $type = NULL)
+    function print_labels2($category_id = NULL, $code = NULL, $type = NULL, $stock = NULL)
     {
 
             $this->sma->checkPermissions('barcode', true);
@@ -624,7 +775,7 @@ class Products extends MY_Controller
                 $r = 1;
                 $html = "";
                 
-               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id);
+               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id,$stock);
 
         
                 if(count($products) == 1){
@@ -658,7 +809,7 @@ class Products extends MY_Controller
            
             } else {
                     
-               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id);
+               $products = $this->products_model->fetch_productsCodeNameCategory($code,$category_id,$stock);
                 $html = "";
                 foreach ($products as $pr) {    
                 $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:300;height:300;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:300;height:300;border: 0px!important"/>';
@@ -673,6 +824,7 @@ class Products extends MY_Controller
             $this->data['category_id'] = $category_id;
             $this->data['code'] = $code;
             $this->data['type'] = $type;
+            $this->data['stock'] = $stock;
             $this->data['page_title'] = lang('print_labels');
             $this->load->view($this->theme.'products/print_labels2',$this->data);
 
@@ -2002,26 +2154,25 @@ class Products extends MY_Controller
                         $inputs .= form_hidden('val[]', $id);
                         $pr = $this->products_model->getProductByID($id);
 
-                        $html .= '<td class="text-center"><h4>' . $this->Settings->site_name . '</h4>' . $pr->name . '<br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 30);
-                        $html .= '<table class="table table-bordered">';
-                        foreach ($currencies as $currency) {
-                            $html .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($pr->price * $currency->rate) . '</td></tr>';
-                        }
-                        $html .= '</table>';
+                        $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+                        $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td colspan="2"><div><strong>' . $pr->name . '</strong></div></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                        $html .= '</td></tr></table>';
                         $html .= '</td>';
 
-                        if ($r % 4 == 0) {
-                            $html .= '</tr><tr>';
+                        if ($r % 2 == 0) {
+                            $html .= '</tr><tr style="background:white !important">';
                         }
+
                         $r++;
                     }
-                    if ($r < 4) {
-                        for ($i = $r; $i <= 4; $i++) {
+                    if ($r < 2) {
+                        for ($i = $r; $i <= 2; $i++) {
                             $html .= '<td></td>';
                         }
                     }
-                    $html .= '</tr></tbody></table>';
 
+                    $html .= '</tr></tbody></table>';
                     $this->data['r'] = $r;
                     $this->data['html'] = $html;
                     $this->data['inputs'] = $inputs;
@@ -2046,13 +2197,13 @@ class Products extends MY_Controller
                             $rw = (bool)($r & 1);
                             $html .= $rw ? '</tr><tr>' : '';
                         }
-                        $html .= '<td colspan="2" class="text-center"><h3>' . $this->Settings->site_name . '</h3>' . $pr->name . '<br>' . $this->product_barcode($pr->code, $pr->barcode_symbology, 60);
-                        $html .= '<table class="table table-bordered">';
-                        foreach ($currencies as $currency) {
-                            $html .= '<tr><td class="text-left">' . $currency->code . '</td><td class="text-right">' . $this->sma->formatMoney($pr->price * $currency->rate) . '</td></tr>';
-                        }
-                        $html .= '</table>';
+                        
+                        $image=$pr->image_url_external !== 'no_image.png'?'<img src="'.$pr->image_url_external.'"alt="<?= $product->name ?>" class="img-responsive img-thumbnail"  style="width:90px;height:90px;border: 0px!important"/>':'<img src="'.base_url().'assets/uploads/'.$pr->image.'" alt="'.$pr->name.'" class="img-responsive img-thumbnail" style="width:90px;height:90px;border: 0px!important"/>';
+
+                        $html .= '<td class="text-center" style="background:white !important"><table class="table table-bordered" style="border: 1px solid #ddd;background:white !important;text-align:center !important"><tbody><tr><td  colspan="2"><strong>' . $this->Settings->site_name . '</strong></td></tr><tr><td colspan="2"><strong>' . $pr->name . '</strong></td></tr><tr><td style="height:100px;">'.$image.'</td><td style="height:100px;">' . $this->product_barcode($pr->code, $pr->barcode_symbology, 90);
+                        $html .= '</td></tr></table>';
                         $html .= '</td>';
+
                         $r++;
                     }
                     if (!(bool)($r & 1)) {

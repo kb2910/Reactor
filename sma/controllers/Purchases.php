@@ -50,6 +50,8 @@ class Purchases extends MY_Controller
 
     }
 
+
+
     function getPurchases($warehouse_id = NULL)
     {
         $this->sma->checkPermissions('index');
@@ -1788,5 +1790,179 @@ class Purchases extends MY_Controller
             redirect($_SERVER["HTTP_REFERER"]);
         }
     }
+
+
+    
+
+    
+    function pucharse_order()
+    {
+        $this->sma->checkPermissions(false, true);
+
+        $this->data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => '#', 'page' => lang('order_purchase')));
+        $meta = array('page_title' => lang('order_purchase'), 'bc' => $bc);
+        $this->page_construct('purchases/purchase_order', $meta, $this->data);
+
+    }
+
+    function getProducts()
+    {
+
+
+        $this->load->library('datatables');
+        $this->datatables
+        ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity," . $this->db->dbprefix('products') . ".id_ML as codeML", FALSE)
+        ->from('products')
+        ->join('categories', 'products.category_id=categories.id', 'left')
+        ->group_by("products.id");
+
+        if (!$this->Owner && !$this->Admin) {
+            $this->datatables->where('created_by', $this->session->userdata('user_id'));
+        }
+        echo $this->datatables->generate();
+    }
+
+
+    function getProductsWhereStock($id)
+    {
+
+        $setence = "";
+        $valor = "";
+        switch ($id) {
+            case 1:
+                $setence = 'quantity !=';
+                $valor  = 0;
+               break;
+            case 2:
+                $setence = 'quantity =';
+                $valor  = 0;
+               break;
+            case 3:
+                $setence = 'quantity <';
+                $valor  = 50;
+                break;
+            case 4:
+                $setence = 'quantity >=';
+                $valor  = 50;
+                break;
+            case 5:
+                $setence = 'quantity <';
+                $valor  = 100;
+                break;
+            case 6:
+                $setence = 'quantity >=';
+                $valor  = 100;
+               break;
+        }
+
+        $this->load->library('datatables');
+        $this->datatables
+        ->select($this->db->dbprefix('products') . ".id as productid,IF(" . $this->db->dbprefix('products') . ".image != 'no_image.png', " . $this->db->dbprefix('products') . ".image," . $this->db->dbprefix('products') . ".image_url_external) as image," . $this->db->dbprefix('products') . ".code as code, " . $this->db->dbprefix('products') . ".name as name, " . $this->db->dbprefix('categories') . ".name as cname, cost as cost, COALESCE(quantity, 0) as quantity, unit, NULL as rack, alert_quantity," . $this->db->dbprefix('products') . ".id_ML as codeML", FALSE)
+        ->from('products')
+        ->join('categories', 'products.category_id=categories.id', 'left')
+        ->group_by('products.id')
+        ->where($setence,$valor);
+   
+        echo $this->datatables->generate();
+    }
+
+
+
+    function purcharse_actions()
+    {
+        if (!$this->Owner) {
+            $this->session->set_flashdata('warning', lang('access_denied'));
+            redirect($_SERVER["HTTP_REFERER"]);
+        }
+
+        $this->form_validation->set_rules('form_action', lang("form_action"), 'required');
+
+        if ($this->form_validation->run() == true) {
+
+            if (!empty($_POST['val'])) {
+
+                if ($this->input->post('form_action') == 'export_excel' || $this->input->post('form_action') == 'export_pdf') {
+
+                    
+                    $this->load->library('excel');
+                    $this->excel->getActiveSheet(2)
+                        ->getStyle('A1:D1')
+                        ->getFill()
+                        ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                        ->getStartColor()
+                        ->setRGB('FFD700');
+                    $this->excel->getActiveSheet(2)
+                        ->getStyle('A1:D1')
+                        ->getFont()
+                        ->getColor()
+                        ->setRGB('FFFFFF');
+                    $this->excel->getActiveSheet()->setTitle("Orden de compra");
+                    $this->excel->getActiveSheet()->SetCellValue('A1', "Imagen");
+                    $this->excel->getActiveSheet()->SetCellValue('B1', "Código");
+                    $this->excel->getActiveSheet()->SetCellValue('C1', "Nombre");
+                    $this->excel->getActiveSheet()->SetCellValue('D1', "Stock");
+
+                    $row = 2;
+                    foreach ($_POST['val'] as $id) {
+                        $product = $this->purchases_model->getProductByID($id);
+                        $this->excel->getActiveSheet()->setCellValueExplicit('A'.$row,$product->image == 'no_image.png' ? $product->image_url_external : $product->image, PHPExcel_Cell_DataType::TYPE_STRING);
+                        $this->excel->getActiveSheet()->setCellValueExplicit('B' . $row, $product->code,PHPExcel_Cell_DataType::TYPE_STRING);
+                        $this->excel->getActiveSheet()->SetCellValue('C' . $row, $product->name);
+                        $this->excel->getActiveSheet()->SetCellValue('D' . $row, $product->quantity);
+                        $row++;
+                    }
+
+                    $this->excel->getActiveSheet()->getColumnDimension('A')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+                    $this->excel->getActiveSheet()->getColumnDimension('D')->setAutoSize(true);
+                    $this->excel->getDefaultStyle()->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+                    $filename = 'expenses_' . date('Y_m_d_H_i_s');
+
+                    if ($this->input->post('form_action') == 'export_pdf') {
+                        $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
+                        $this->excel->getDefaultStyle()->applyFromArray($styleArray);
+                        $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
+                        $rendererLibrary = 'MPDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
+                            die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
+                                PHP_EOL . ' as appropriate for your directory structure');
+                        }
+
+                        header('Content-Type: application/pdf');
+                        header('Content-Disposition: attachment;filename="' . $filename . '.pdf"');
+                        header('Cache-Control: max-age=0');
+
+                        $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'PDF');
+                        return $objWriter->save('php://output');
+                    }
+
+                    if ($this->input->post('form_action') == 'export_excel') {
+                        header('Content-Type: application/vnd.ms-excel');
+                        header('Content-Disposition: attachment;filename="' . $filename . '.xls"');
+                        header('Cache-Control: max-age=0');
+
+                        $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+                        return $objWriter->save('php://output');
+                    }
+
+                    redirect($_SERVER["HTTP_REFERER"]);
+                }
+            } else {
+                $this->session->set_flashdata('error', $this->lang->line("no_produducts_selected"));
+                redirect($_SERVER["HTTP_REFERER"]);
+            }
+        } else {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect($_SERVER["HTTP_REFERER"]);
+        }
+    }
+
+
+    
 
 }

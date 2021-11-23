@@ -43,7 +43,8 @@
             echo form_dropdown('category', $cat, $category, 'class="tip form-control" id="category" placeholder="' . $this->lang->line("select") . " " . $this->lang->line("category") . '" required="required"');
             ?>
 
-            <br/>
+            <?php if($type == 2) { ?>
+                <br/>
                 <select id="size" name="size" class="tip form-control" placeholder="Seleccione dimensiones para la las imagenes (Alto / Ancho)">
                     <optgroup label="Alto / Ancho">
                         <option value=""><?= lang('select')?></option>
@@ -60,6 +61,18 @@
                         <option value="600/600">600/600</option>
                     </optgroup>
                 </select>
+             <?php } ?>
+                <br/>
+                <select id="stock" name="stock" class="tip form-control" placeholder="Seleccione un stock">
+                        <option value="0"><?= lang('select')?></option>
+                        <option value="1">Distinto de cero</option>
+                        <option value="2">Igual de 0</option>
+                        <option value="3">Menores a 50</option>
+                        <option value="4">Mayores a 50</option>
+                        <option value="5">Menores a 100</option>
+                        <option value="6">Mayores a 100</option>
+                </select>
+
             <div class="clearfix"></div>
 
         </div>
@@ -85,7 +98,7 @@
         $(document).ready(function () {
             $('#category').val('<?=$category_id?>');
             $('#category').change(function () {
-                window.location.replace("<?php echo site_url('products/print_labels2'); ?>/" + $(this).val()+"/0/"+<?=$type?>);
+                window.location.replace("<?php echo site_url('products/print_labels2'); ?>/" + $(this).val()+"/0/"+<?=$type?>+"/0")
                 return false;
             });
 
@@ -100,9 +113,18 @@
 
             
         $("#code").blur(function(){ 
-            window.location.replace("<?php echo site_url('products/print_labels2'); ?>/0/"+ $('#code').val()+"/"+<?=$type?>)
+            window.location.replace("<?php echo site_url('products/print_labels2'); ?>/0/"+ $('#code').val()+"/"+<?=$type?>+"/0")
             return false;
         });
+
+
+        $('#stock').val('<?=$stock?>');
+            $('#stock').change(function () {
+                window.location.replace("<?php echo site_url('products/print_labels2'); ?>/0/0/"+<?=$type?>+"/"+$(this).val())
+                return false;
+            });
+
+
         });
     </script>
 </body>

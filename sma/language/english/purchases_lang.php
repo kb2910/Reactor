@@ -82,3 +82,4 @@ $lang['no_expense_selected']                = "No expense selected. Please selec
 $lang['please_select_supplier']             = "Please select supplier";
 $lang['unit_cost']                          = "Unit Cost";
 $lang['product_expiry_date_issue']          = "Product expiry date has issue";
+$lang['order_purchase']                     = "Purchase Order";
