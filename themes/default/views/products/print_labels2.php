@@ -64,7 +64,7 @@
              <?php } ?>
                 <br/>
                 <select id="stock" name="stock" class="tip form-control" placeholder="Seleccione un stock">
-                        <option value="0"><?= lang('select')?></option>
+                        <option value="0"><?= lang('select')?> stock</option>
                         <option value="1">Distinto de cero</option>
                         <option value="2">Igual de 0</option>
                         <option value="3">Menores a 50</option>
@@ -72,14 +72,15 @@
                         <option value="5">Menores a 100</option>
                         <option value="6">Mayores a 100</option>
                 </select>
-
+                <div class="btn-group" style="margin-top: 10px;">
+                    <button type="button" onclick="seeMore()" class="btn btn-default"><i class="fa fa-archive" aria-hidden="true"></i> Ver Todos</button>
+                    <a class="btn btn-default" href="javascript:void();" onclick="window.print();"><i class="fa fa-print"></i> <?= lang('print'); ?></a>
+                    <a class="btn btn-danger" href="javascript:void();" onclick="window.close();"><i class="fa fa-times"></i> <?= lang('close'); ?></a>
+                </div>
             <div class="clearfix"></div>
 
         </div>
-        <div class="btn-group">
-            <a class="btn btn-default" href="javascript:void();" onclick="window.print();"><i class="fa fa-print"></i> <?= lang('print'); ?></a>
-            <a class="btn btn-danger" href="javascript:void();" onclick="window.close();"><i class="fa fa-times"></i> <?= lang('close'); ?></a>
-        </div>
+        
 
         <?php if(!empty($html)) { ?>
         <?php if (!empty($links)) {
@@ -89,7 +90,7 @@
         <?php if (!empty($links)) {
             echo '<div class="text-center">' . $links . '</div>';
         } ?>
-        <?php } else { echo '<h4>'.lang('no_product_found').'</h4>'; } ?>
+        <?php } ?>
         
     </div>
 
@@ -124,8 +125,15 @@
                 return false;
             });
 
-
         });
+
+        function seeMore() {
+        
+            window.location.replace("<?php echo site_url('products/print_labels2'); ?>/0/0/"+<?=$type?>+"/0")
+            return false;
+         }   
+           
+
     </script>
 </body>
 </html> 

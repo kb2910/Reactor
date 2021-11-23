@@ -777,7 +777,6 @@ class Products_model extends CI_Model
 
     public function products_count($category_id, $subcategory_id = NULL)
     {
-        if($category_id != 0){
             if ($category_id) {
                 $this->db->where('category_id', $category_id);
             }
@@ -792,16 +791,13 @@ class Products_model extends CI_Model
             $this->db->from('products');
             
             return $this->db->count_all_results();
-        } else { 
-            return 0;
-        }
+        
     }
 
 
     public function fetch_products($category_id, $limit, $start, $subcategory_id = NULL)
     {
 
-        if($category_id != 0){
 
             $this->db->limit($limit, $start);
             if ($category_id) {
@@ -821,8 +817,7 @@ class Products_model extends CI_Model
                 }
                 return $data;
             }
-        }
-
+        
         return false;
     }
 
@@ -981,7 +976,7 @@ class Products_model extends CI_Model
                     $this->db->where('quantity !=', 0);
                     break;
                 case 2:
-                    $this->db->where('quantity ==', 0);
+                    $this->db->where('quantity =', 0);
                     break;
                 case 3:
                     $this->db->where('quantity <=', 50);
@@ -1013,18 +1008,19 @@ class Products_model extends CI_Model
 
     
 
-    public function fetch_productsGeneral()
+    public function fetch_productsGeneral($all = null)
     {
 
+        if($all != null){
+            $this->db->order_by("id", "asc");
+            $query = $this->db->get("products");
 
-        $this->db->order_by("id", "asc");
-        $query = $this->db->get("products");
-
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                $data[] = $row;
+            if ($query->num_rows() > 0) {
+                foreach ($query->result() as $row) {
+                    $data[] = $row;
+                }
+                return $data;
             }
-            return $data;
         }
         return false;
     }
