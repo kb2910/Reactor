@@ -206,6 +206,19 @@ class Purchases_model extends CI_Model
         return FALSE;
     }
 
+
+    public function getAllOrdersItems($orders_id)
+    {
+        $q = $this->db->get_where('orders_items', array('orders_id' => $orders_id));
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
+
     public function getItemByID($id)
     {
         $q = $this->db->get_where('purchase_items', array('id' => $id), 1);
@@ -227,6 +240,16 @@ class Purchases_model extends CI_Model
     public function getPurchaseByID($id)
     {
         $q = $this->db->get_where('purchases', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+        return FALSE;
+    }
+
+
+    public function getOrdesByID($id)
+    {
+        $q = $this->db->get_where('orders', array('id' => $id), 1);
         if ($q->num_rows() > 0) {
             return $q->row();
         }
@@ -318,6 +341,24 @@ class Purchases_model extends CI_Model
         return false;
     }
 
+    
+    public function addOrder($data, $items)
+    {
+
+        if ($this->db->insert('orders', $data)) {
+            $orders_id = $this->db->insert_id();
+            if ($this->site->getReference('po') == $data['reference_no']) {
+                $this->site->updateReference('po');
+            }
+            foreach ($items as $item) {
+                $item['orders_id'] = $orders_id;
+                $this->db->insert('orders_items', $item);
+            }
+            return true;
+        }
+        return false;
+    }
+
     public function updatePurchase($id, $data, $items = array())
     {
         $opurchase = $this->getPurchaseByID($id);
@@ -352,6 +393,16 @@ class Purchases_model extends CI_Model
         }
         return FALSE;
     }
+
+
+    public function deleteOrders($id)
+    {
+        if ($this->db->delete('orders_items', array('orders_id' => $id)) && $this->db->delete('orders', array('id' => $id))) {       
+            return true;
+        }
+        return FALSE;
+    }
+
 
     public function getWarehouseProductQuantity($warehouse_id, $product_id)
     {

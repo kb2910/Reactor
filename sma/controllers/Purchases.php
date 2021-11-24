@@ -1211,7 +1211,6 @@ class Purchases extends MY_Controller
                         $row->cost = $row->supplier5price;
                     }
                 }
-                $row->real_unit_cost = $row->cost;
                 $row->expiry = '';
                 $row->qty = 1;
                 $row->quantity_balance = '';
@@ -1219,9 +1218,9 @@ class Purchases extends MY_Controller
                 unset($row->details, $row->product_details, $row->price, $row->file, $row->supplier1price, $row->supplier2price, $row->supplier3price, $row->supplier4price, $row->supplier5price);
                 if ($row->tax_rate) {
                     $tax_rate = $this->site->getTaxRateByID($row->tax_rate);
-                    $pr[] = array('id' => ($c+$r), 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ")", 'row' => $row, 'tax_rate' => $tax_rate, 'options' => $options);
+                    $pr[] = array('id' => ($c+$r), 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ") Cant. (".$row->quantity.")", 'row' => $row, 'tax_rate' => $tax_rate, 'options' => $options);
                 } else {
-                    $pr[] = array('id' => ($c+$r), 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ")", 'row' => $row, 'tax_rate' => false, 'options' => $options);
+                    $pr[] = array('id' => ($c+$r), 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ") Cant. (".$row->quantity.")", 'row' => $row, 'tax_rate' => false, 'options' => $options);
                 }
                 $r++;
             }
@@ -1963,6 +1962,448 @@ class Purchases extends MY_Controller
     }
 
 
+    /*-----------------------------------------------------------------------------*/
+
+    function addOrder($quote_id = NULL)
+    {
+        $this->sma->checkPermissions();
+        $this->form_validation->set_rules('supplier', $this->lang->line("supplier"), 'required');
+
+        if ($this->form_validation->run() == true) {
+            $quantity = "quantity";
+            $product = "product";
+            $unit_cost = "unit_cost";
+            $reference = $this->input->post('reference_no') ? $this->input->post('reference_no') : $this->site->getReference('po');
+            if ($this->Owner || $this->Admin) {
+                $date = $this->sma->fld(trim($this->input->post('date')));
+            } else {
+                $date = date('Y-m-d H:i:s');
+            }
+            $supplier_id = $this->input->post('supplier');
+            $status = $this->input->post('status');
+            $supplier_details = $this->site->getCompanyByID($supplier_id);
+            $supplier = $supplier_details->company ? $supplier_details->company : $supplier_details->name;
+            $note = $this->sma->clear_tags($this->input->post('note'));
+
+            $total = 0;
+            $i = sizeof($_POST['product']);
+            for ($r = 0; $r < $i; $r++) {
+                $item_code = $_POST['product'][$r];
+                $item_net_cost = $this->sma->formatDecimal($_POST['net_cost'][$r]);
+                $item_quantity = $_POST['quantity'][$r];
+
+                if (isset($item_code) && isset($item_quantity)) {
+                    $product_details = $this->purchases_model->getProductByCode($item_code);
+                    $products[] = array(
+                        'product_id' => $product_details->id,
+                        'product_code' => $item_code,
+                        'product_name' => $product_details->name,
+                        //'product_type' => $item_type,
+                        'option_id' => false,
+                        'net_unit_cost' => $item_net_cost,
+                        'unit_cost' => $product_details->cost,
+                        'quantity' => $item_quantity,
+                        'date' => date('Y-m-d', strtotime($date)),
+                        'status' => $status
+                    );
+
+                    $total += $product_details->cost * $item_quantity;
+                }
+            }
+            if (empty($products)) {
+                $this->form_validation->set_rules('product', lang("order_items"), 'required');
+            } else {
+                krsort($products);
+            }
+            
+            $data = array('reference_no' => $reference,
+                'date' => $date,
+                'supplier_id' => $supplier_id,
+                'supplier' => $supplier,
+                'note' => $note,
+                'total' => $this->sma->formatDecimal($total),
+                'status' => $status,
+                'created_by' => $this->session->userdata('user_id'),
+                'updated_by' => $this->session->userdata('user_id')
+            );
+
+        }
+
+
+        if ($this->form_validation->run() == true && $this->purchases_model->addOrder($data, $products)) {
+            $this->session->set_userdata('remove_pols', 1);
+            $this->session->set_flashdata('message', $this->lang->line("success_orders"));
+            redirect('purchases/orderList');
+        } else {
+
+
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+            $this->data['quote_id'] = 0;
+            $this->data['suppliers'] = $this->site->getAllCompanies('supplier');
+            $this->data['categories'] = $this->site->getAllCategories();
+            $this->data['tax_rates'] = $this->site->getAllTaxRates();
+            $this->data['warehouses'] = $this->site->getAllWarehouses();
+            $this->data['ponumber'] = ''; //$this->site->getReference('po');
+            $this->load->helper('string');
+            $value = random_string('alnum', 20);
+            $this->session->set_userdata('user_csrf', $value);
+            $this->data['csrf'] = $this->session->userdata('user_csrf');
+            $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('purchases/orderList'), 'page' => lang('orders')), array('link' => '#', 'page' => lang('new_ordes')));
+            $meta = array('page_title' => lang('new_ordes'), 'bc' => $bc);
+            $this->page_construct('purchases/add_order', $meta, $this->data);
+        }
+
+    }
+
+    
+    /* ------------------------------------------------------------------------- */
+
+    function orderList($warehouse_id = NULL)
+    {
+        $this->sma->checkPermissions();
+
+        $this->data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+        if ($this->Owner || $this->Admin) {
+            $this->data['warehouses'] = $this->site->getAllWarehouses();
+            $this->data['warehouse_id'] = $warehouse_id;
+            $this->data['warehouse'] = $warehouse_id ? $this->site->getWarehouseByID($warehouse_id) : NULL;
+        } else {
+            $this->data['warehouses'] = NULL;
+            $this->data['warehouse_id'] = $this->session->userdata('warehouse_id');
+            $this->data['warehouse'] = $this->session->userdata('warehouse_id') ? $this->site->getWarehouseByID($this->session->userdata('warehouse_id')) : NULL;
+        }
+
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => '#', 'page' => lang('list_orders')));
+        $meta = array('page_title' => lang('list_orders'), 'bc' => $bc);
+        $this->page_construct('purchases/orders_list', $meta, $this->data);
+
+    }
+
+
     
 
+    function getOrderList()
+    {
+        $this->sma->checkPermissions('index');
+        $detail_link = anchor('purchases/viewOrder/$1', '<i class="fa fa-file-text-o"></i> ' . lang('order_details'));
+        $excel_link = anchor('purchases/generar_excel/$1', '<i class="fa fa-file-text-o"></i> ' . lang('download_excel'));
+        $pdf_link = anchor('purchases/pdf/$1', '<i class="fa fa-file-pdf-o"></i> ' . lang('download_pdf'));
+        $delete_link = "<a href='#' class='po' title='<b>" . $this->lang->line("delete_purchase") . "</b>' data-content=\"<p>"
+            . lang('r_u_sure') . "</p><a class='btn btn-danger po-delete' href='" . site_url('purchases/deleteOrder/$1') . "'>"
+            . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
+            . lang('delete_order') . "</a>";
+        $action = '<div class="text-center"><div class="btn-group text-left">'
+            . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">'
+            . lang('actions') . ' <span class="caret"></span></button>
+        <ul class="dropdown-menu pull-right" role="menu">
+            <li>' . $detail_link . '</li>
+            <li>' . $excel_link . '</li>
+            <li>' . $pdf_link . '</li>
+            <li>' . $delete_link . '</li>
+        </ul>
+    </div></div>';
+
+        $this->load->library('datatables');
+        
+            $this->datatables
+                ->select("id, date, reference_no, supplier, status, total")
+                ->from('orders');
+        if (!$this->Customer && !$this->Supplier && !$this->Owner && !$this->Admin) {
+            $this->datatables->where('created_by', $this->session->userdata('user_id'));
+        } elseif ($this->Supplier) {
+            $this->datatables->where('supplier_id', $this->session->userdata('user_id'));
+        }
+        $this->datatables->add_column("Actions", $action, "id");
+        echo $this->datatables->generate();
+    }
+
+        /* --------------------------------------------------------------------------- */
+
+        function deleteOrder($id = NULL)
+        {
+            $this->sma->checkPermissions(NULL, TRUE);
+    
+            if ($this->input->get('id')) {
+                $id = $this->input->get('id');
+            }
+            if ($this->purchases_model->deleteOrders($id)) {
+                if($this->input->is_ajax_request()) {
+                    echo lang("order_deleted"); die();
+                }
+                $this->session->set_flashdata('message', lang('order_deleted'));
+                redirect('welcome');
+            }
+        }
+    
+
+        
+        function viewOrder($orders_id = NULL)
+        {
+            $this->sma->checkPermissions('index');
+
+            if ($this->input->get('id')) {
+                $orders_id = $this->input->get('id');
+            }
+            $this->data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+            $inv = $this->purchases_model->getOrdesByID($orders_id);
+            $this->sma->view_rights($inv->created_by);
+            $this->data['rows'] = $this->purchases_model->getAllOrdersItems($orders_id);
+            $this->data['supplier'] = $this->site->getCompanyByID($inv->supplier_id);
+            $this->data['inv'] = $inv;
+            $this->data['payments'] = $this->purchases_model->getPaymentsForPurchase($orders_id);
+            $this->data['created_by'] = $this->site->getUser($inv->created_by);
+            $this->data['updated_by'] = $inv->updated_by ? $this->site->getUser($inv->updated_by) : NULL;
+
+            $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('purchases/orderList'), 'page' => lang('orders')), array('link' => '#', 'page' => lang('view')));
+            $meta = array('page_title' => lang('view_orders_details'), 'bc' => $bc);
+            $this->page_construct('purchases/view_order', $meta, $this->data);
+
+        }
+
+
+        function modal_view_order($purchase_id = NULL)
+        {
+            $this->sma->checkPermissions('index', TRUE);
+    
+            if ($this->input->get('id')) {
+                $purchase_id = $this->input->get('id');
+            }
+            $this->data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+            $inv = $this->purchases_model->getOrdesByID($purchase_id);
+            $this->sma->view_rights($inv->created_by, TRUE);
+            $this->data['rows'] = $this->purchases_model->getAllOrdersItems($purchase_id);
+            $this->data['supplier'] = $this->site->getCompanyByID($inv->supplier_id);
+            $this->data['inv'] = $inv;
+            $this->data['payments'] = $this->purchases_model->getPaymentsForPurchase($purchase_id);
+            $this->data['created_by'] = $this->site->getUser($inv->created_by);
+            $this->data['updated_by'] = $inv->updated_by ? $this->site->getUser($inv->updated_by) : NULL;
+    
+            $this->load->view($this->theme.'purchases/modal_view_order', $this->data);
+    
+        }
+    
+
+        /* ----------------------------------------------------------------------------- */
+
+        
+    public function generar_excel($id){
+        $header = $this->purchases_model->getOrdesByID($id);
+        $supplier = $this->site->getCompanyByID($header->supplier_id);
+        $body = $this->purchases_model->getAllOrdersItems($id);
+        if(count($header) > 0){
+            //Cargamos la librería de excel.
+            $this->load->library('excel'); 
+            $this->excel->setActiveSheetIndex(0);
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:H1')
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle('A1:H1')
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+            $this->excel->getActiveSheet()
+                ->getStyle('B8:G8')
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle('B8:G8')
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+           
+            $text = 'Pedido '.$header->reference_no;   
+            $this->excel->getActiveSheet()->setTitle('Pedido');
+            $this->excel->getActiveSheet()->mergeCells('A1:H1');
+            $this->excel->getActiveSheet()->mergeCells('B3:D3');
+            $this->excel->getActiveSheet()->mergeCells('B4:D4');
+            $this->excel->getActiveSheet()->mergeCells('B5:G6');
+            $this->excel->getActiveSheet()->setCellValue('A1',$text); 
+            $style = array(
+                'alignment' => array(
+                    'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER,
+                ),
+                'font' => [
+                    'size' => 16,
+                    'bold' => true
+                ]
+            );
+        
+            $styleCenter = array(
+                'alignment' => array(
+                    'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_CENTER,
+                ),
+                'font' => [
+                    'bold' => true
+                ]
+            );
+            $styleRight = array(
+                'alignment' => array(
+                    'horizontal' => PHPExcel_Style_Alignment::HORIZONTAL_RIGHT,
+                ),
+                'font' => [
+                    'bold' => true
+                ]
+            );
+            $this->excel->getActiveSheet()->getStyle("A1:H1")->applyFromArray($style);
+            $this->excel->getActiveSheet()->getStyle("B8:E8")->applyFromArray($styleCenter);
+            $this->excel->getActiveSheet()->getStyle("F8:G8")->applyFromArray($styleRight);
+            //Contador de filas
+            $contador = 1;
+            //Le aplicamos ancho las columnas.
+            $this->excel->getActiveSheet()->getColumnDimension('A')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('B')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('C')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('D')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('E')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('F')->setAutoSize(true);
+            $this->excel->getActiveSheet()->getColumnDimension('G')->setAutoSize(true);
+            //Le aplicamos negrita a los títulos de la cabecera.
+            $this->excel->getActiveSheet()->getStyle("A")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("B")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("E")->getFont()->setBold(true);
+            $this->excel->getActiveSheet()->getStyle("F")->getFont()->setBold(true);
+            //Definimos los títulos de la cabecera.
+            $this->excel->getActiveSheet()->setCellValue("A3", 'REFERENCIA:');
+            $this->excel->getActiveSheet()->setCellValue("F3", 'FECHA:');
+            $this->excel->getActiveSheet()->setCellValue("A4", 'PROVEEDOR:');
+            $this->excel->getActiveSheet()->setCellValue("A5", 'NOTA:');
+
+            
+            $this->excel->getActiveSheet()->setCellValue("B8", '#');
+            $this->excel->getActiveSheet()->setCellValue("C8", 'CÓDIGO');
+            $this->excel->getActiveSheet()->setCellValue("D8", 'DESCRIPCIÓN');
+            $this->excel->getActiveSheet()->setCellValue("E8", 'CANTIDAD');
+            $this->excel->getActiveSheet()->setCellValue("F8", 'COSTO');
+            $this->excel->getActiveSheet()->setCellValue("G8", 'SUBTOTAL');
+
+            $ob = $header->note;
+            $this->excel->getActiveSheet()->setCellValue("B3", $header->reference_no);
+            $this->excel->getActiveSheet()->setCellValue("G3", $this->sma->hrld($header->date));
+            $this->excel->getActiveSheet()->setCellValue("B4", $supplier->company ? $supplier->company : $supplier->name);
+            $this->excel->getActiveSheet()->setCellValue("B5", $ob);
+
+            $contador = 9;
+            $row = 1;
+            $qtyTotal = 0;
+            $netTotal = 0;
+            $SubTotal = 0;
+            //Definimos la data del cuerpo.        
+            foreach($body as $l){
+               //Incrementamos una fila más, para ir a la siguiente.
+               $this->excel->getActiveSheet()->setCellValue("B{$contador}", $row);
+               $this->excel->getActiveSheet()->setCellValueExplicit("C{$contador}", $l->product_code, PHPExcel_Cell_DataType::TYPE_STRING);;
+               $this->excel->getActiveSheet()->setCellValue("D{$contador}", $l->product_name);
+               $this->excel->getActiveSheet()->setCellValue("E{$contador}", $l->quantity);
+               $this->excel->getActiveSheet()->setCellValue("F{$contador}", $l->net_unit_cost);
+               $this->excel->getActiveSheet()->setCellValue("G{$contador}", $this->sma->formatMoney($l->quantity*$l->net_unit_cost)); 
+                $this->excel->getActiveSheet()->getStyle("E{$contador}")->applyFromArray($styleCenter);
+                $this->excel->getActiveSheet()->getStyle("F{$contador}")->applyFromArray($styleRight);
+                $this->excel->getActiveSheet()->getStyle("G{$contador}")->applyFromArray($styleRight);
+               $contador++;
+               $row++;
+               $qtyTotal = $qtyTotal + $l->quantity;
+               $netTotal = $netTotal + $l->net_unit_cost;
+               $SubTotal = $SubTotal + ($l->quantity*$l->net_unit_cost);
+               //Informacion de las filas de la consulta.
+            }
+            
+            $this->excel->getActiveSheet()
+                ->getStyle("B{$contador}:G{$contador}")
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle("B{$contador}:G{$contador}")
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+
+             $contadorFooter = $contador +6;   
+            $this->excel->getActiveSheet()
+                ->getStyle("A{$contadorFooter}:H{$contadorFooter}")
+                ->getFill()
+                ->setFillType(PHPExcel_Style_Fill::FILL_SOLID)
+                ->getStartColor()
+                ->setRGB('FFD700');
+            $this->excel->getActiveSheet()
+                ->getStyle("A{$contadorFooter}:H{$contadorFooter}")
+                ->getFont()
+                ->getColor()
+                ->setRGB('FFFFFF');
+           
+
+            $this->excel->getActiveSheet()->mergeCells("B{$contador}:D{$contador}");
+            $this->excel->getActiveSheet()->setCellValue("B{$contador}",'TOTAL'); 
+            $this->excel->getActiveSheet()->setCellValue("E{$contador}",$qtyTotal); 
+            $this->excel->getActiveSheet()->setCellValue("F{$contador}",$this->sma->formatMoney($netTotal)); 
+            $this->excel->getActiveSheet()->setCellValue("G{$contador}",$this->sma->formatMoney($SubTotal));  
+            $this->excel->getActiveSheet()->getStyle("B{$contador}")->applyFromArray($styleCenter);
+            $this->excel->getActiveSheet()->getStyle("E{$contador}")->applyFromArray($styleCenter);
+            $this->excel->getActiveSheet()->getStyle("F{$contador}")->applyFromArray($styleRight);
+            $this->excel->getActiveSheet()->getStyle("G{$contador}")->applyFromArray($styleRight);
+
+            $rowContDate = $contador + 2;
+            $rowContBy = $rowContDate + 1;
+            $this->excel->getActiveSheet()->setCellValue("F{$rowContDate}", 'RECIBIDO EL:'); 
+            $this->excel->getActiveSheet()->setCellValue("G{$rowContDate}", '______________________'); 
+            $this->excel->getActiveSheet()->setCellValue("F{$rowContBy}", 'POR:');
+            $this->excel->getActiveSheet()->setCellValue("G{$rowContBy}", '______________________'); 
+            
+
+            //Le ponemos un nombre al archivo que se va a generar.
+            $archivo = "listado_de_productos_".date('Y-m-d_H:i').".xls";
+            header('Content-Type: application/vnd.ms-excel');
+            header('Content-Disposition: attachment;filename="'.$archivo.'"');
+            header('Cache-Control: max-age=0');
+            $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+            //Hacemos una salida al navegador con el archivo Excel.
+            $objWriter->save('php://output');
+         }else{
+            echo 'No se han encontrado productos';
+            exit;        
+         }
+    }
+
+
+    
+    /* -------------------------------------------------------------------------------- */
+
+    function orders_actions()
+    {
+        if (!$this->Owner) {
+            $this->session->set_flashdata('warning', lang('access_denied'));
+            redirect($_SERVER["HTTP_REFERER"]);
+        }
+
+        $this->form_validation->set_rules('form_action', lang("form_action"), 'required');
+
+        if ($this->form_validation->run() == true) {
+
+            if (!empty($_POST['val'])) {
+                if ($this->input->post('form_action') == 'delete') {
+                    foreach ($_POST['val'] as $id) {
+                        $this->purchases_model->deleteOrder($id);
+                    }
+                    $this->session->set_flashdata('message', $this->lang->line("orders_deleted"));
+                    redirect($_SERVER["HTTP_REFERER"]);
+                }
+
+            } else {
+                $this->session->set_flashdata('error', $this->lang->line("no_purchase_selected"));
+                redirect($_SERVER["HTTP_REFERER"]);
+            }
+        } else {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect($_SERVER["HTTP_REFERER"]);
+        }
+    }
+
+    /* -------------------------------------------------------------------------------- */
 }

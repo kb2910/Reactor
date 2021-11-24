@@ -878,6 +878,11 @@ $(document).ready(function() {
         $('#myModal').modal('show');
         //window.location.href = site.base_url + 'purchases/view/' + $(this).parent('.purchase_link').attr('id');
     });
+    $('body').on('click', '.order_link td:not(:first-child :last-child)', function() {
+        $('#myModal').modal({remote: site.base_url + 'purchases/modal_view_order/' + $(this).parent('.order_link').attr('id')});
+        $('#myModal').modal('show');
+        //window.location.href = site.base_url + 'purchases/view/' + $(this).parent('.purchase_link').attr('id');
+    });
     $('body').on('click', '.transfer_link td:not(:first-child, :last-child)', function() {
         $('#myModal').modal({remote: site.base_url + 'transfers/view/' + $(this).parent('.transfer_link').attr('id')});
         $('#myModal').modal('show');

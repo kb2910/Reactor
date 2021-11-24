@@ -591,7 +591,7 @@ function loadItems() {
                         product_tax += pr_tax_val * item_qty;
                     }
                 }
-                item_cost = item_tax_method == 0 ? formatDecimal(unit_cost-pr_tax_val) : formatDecimal(unit_cost);
+                item_cost = item_tax_method == 0 ? formatDecimal(unit_cost-pr_tax_val) == 0 ? formatDecimal(unit_cost-pr_tax_val) :formatDecimal(item_cost): formatDecimal(unit_cost);
                 unit_cost = formatDecimal(unit_cost+item_discount);
                 var sel_opt = '';
                 $.each(item.options, function () {

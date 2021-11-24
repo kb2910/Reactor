@@ -447,3 +447,6 @@ $lang['duplicate_items']                    ="Duplicate for an item";
 $lang['for_all_exist']                      ="For all existing items";
 $lang['all_product_printer']                ="Imprimir todas las Etiquetas";
 $lang['all_image_code_printer']             ="Imprimir Código y Imagen";
+$lang['list_orders']                        ="Orders Lists";
+$lang['orders']                             ="Orders";
+$lang['new_ordes']                          ="Add Order";

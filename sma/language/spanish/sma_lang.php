@@ -419,4 +419,8 @@ $lang['all_image_code_printer']             ="Imprimir Código y Imagen";
 $lang['label_printer']                      ="Imprimir Cód. Barras / Etiquetas";
 $lang['duplicate_items']                    ="Duplicado para un item";
 $lang['for_all_exist']                      ="Para todos los items existentes";
+$lang['list_orders']                        ="Lista de pedidos";
+$lang['orders']                             ="Pedidos";
+$lang['new_ordes']                          ="Añadir Pedido";
+$lang['success_orders']                     ="Pedido agregado con  éxito";
 

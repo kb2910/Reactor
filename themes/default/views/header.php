@@ -351,14 +351,6 @@
                                                               href="<?= site_url('purchases/add'); ?>"><i
                                                 class="fa fa-plus-circle"></i><span
                                                 class="text"> <?= lang('add_purchase'); ?></span></a></li>
-                                            
-                                    <li id="purchases_add"><a class="submenu"
-                                                              href="<?= site_url('purchases/pucharse_order'); ?>"><i
-                                                class="fa fa-plus-circle"></i><span
-                                                class="text">Orden de Compra</span></a></li>
-
-                                                
-                             
                                     <li id="purchases_expenses"><a class="submenu"
                                                                    href="<?= site_url('purchases/expenses'); ?>"><i
                                                 class="fa fa-dollar"></i><span
@@ -368,6 +360,22 @@
                                                                       data-toggle="modal" data-target="#myModal"><i
                                                 class="fa fa-plus-circle"></i><span
                                                 class="text"> <?= lang('add_expense'); ?></span></a></li>
+                                                
+                                </ul>
+                            </li>
+
+                            <li class="mm_orders">
+                                <a class="dropmenu" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i><span
+                                        class="text"> <?= lang('orders'); ?> </span> <span
+                                        class="chevron closed"></span></a>
+                                <ul>
+
+                                    <li id="orders_index"><a class="submenu" href="<?= site_url('purchases/'); ?>"><i class="fa fa-list-alt" aria-hidden="true"></i></i><span
+                                                class="text"> <?= lang('list_orders'); ?></span></a></li>
+                                    <li id="orders_add"><a class="submenu"
+                                                              href="<?= site_url('purchases/addOrder'); ?>"><i
+                                                class="fa fa-plus-circle"></i><span
+                                                class="text"> <?= lang('new_ordes'); ?></span></a></li>
                                 </ul>
                             </li>
 
