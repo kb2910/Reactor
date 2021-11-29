@@ -847,6 +847,16 @@ function row_status(x) {
         return '<div class="text-center"><span class="label label-info">'+lang[x]+'</span></div>';
     } else if(x == 'due') {
         return '<div class="text-center"><span class="label label-danger">'+lang[x]+'</span></div>';
+    } else if(x == 'Solicitado'){
+        return '<div class="text-center"><span class="label label-danger">Solicitado</span></div>';
+    } else if(x == 'Recibido'){
+        return '<div class="text-center"><span class="label label-warning">Recibido</span></div>';
+    } else if(x == 'Finalizado'){
+        return '<div class="text-center"><span class="label label-default">Finalizado</span></div>';
+    } else if(x == 'Enviado'){
+        return '<div class="text-center"><span class="label label-info">Enviado</span></div>';
+    } else if(x != 'undefined'){
+        return '<div class="text-center"><span class="label label-default">'+x+'</span></div>';
     } else {
         return '<div class="text-center"><span class="label label-default">'+lang[x]+'</span></div>';
     }

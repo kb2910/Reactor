@@ -1,77 +1,28 @@
 <script type="text/javascript">
-    <?php if ($this->session->userdata('remove_pols')) { ?>
-    if (localStorage.getItem('poitems')) {
-        localStorage.removeItem('poitems');
-    }
-    if (localStorage.getItem('podiscount')) {
-        localStorage.removeItem('podiscount');
-    }
-    if (localStorage.getItem('potax2')) {
-        localStorage.removeItem('potax2');
-    }
-    if (localStorage.getItem('poshipping')) {
-        localStorage.removeItem('poshipping');
-    }
-    if (localStorage.getItem('poref')) {
-        localStorage.removeItem('poref');
-    }
-    if (localStorage.getItem('powarehouse')) {
-        localStorage.removeItem('powarehouse');
-    }
-    if (localStorage.getItem('ponote')) {
-        localStorage.removeItem('ponote');
-    }
-    if (localStorage.getItem('posupplier')) {
-        localStorage.removeItem('posupplier');
-    }
-    if (localStorage.getItem('pocurrency')) {
-        localStorage.removeItem('pocurrency');
-    }
-    if (localStorage.getItem('poextras')) {
-        localStorage.removeItem('poextras');
-    }
-    if (localStorage.getItem('podate')) {
-        localStorage.removeItem('podate');
-    }
-    if (localStorage.getItem('postatus')) {
-        localStorage.removeItem('postatus');
-    }
-    <?php $this->sma->unset_data('remove_pols');
-} ?>
-    <?php if($quote_id) { ?>
-    localStorage.setItem('powarehouse', '<?= $quote->warehouse_id ?>');
-    localStorage.setItem('ponote', '<?= str_replace(array("\r", "\n"), "", $this->sma->decode_html($quote->note)); ?>');
-    localStorage.setItem('podiscount', '<?= $quote->order_discount_id ?>');
-    localStorage.setItem('potax2', '<?= $quote->order_tax_id ?>');
-    localStorage.setItem('poshipping', '<?= $quote->shipping ?>');
-    localStorage.setItem('poitems', JSON.stringify(<?= $quote_items; ?>));
-    <?php } ?>
-
-    var count = 1, an = 1, product_variant = 0, DT = <?= $Settings->default_tax_rate ?>, DC = '<?= $default_currency->code ?>', shipping = 0,
+    var count = 1, an = 1, product_variant = 0, DT = <?= $Settings->default_tax_rate ?>, DC = '<?=$default_currency->code?>', shipping = 0,
         product_tax = 0, invoice_tax = 0, total_discount = 0, total = 0,
         tax_rates = <?php echo json_encode($tax_rates); ?>, poitems = {},
         audio_success = new Audio('<?= $assets ?>sounds/sound2.mp3'),
         audio_error = new Audio('<?= $assets ?>sounds/sound3.mp3');
     $(document).ready(function () {
-        <?php if($this->input->get('supplier')) { ?>
-        if (!localStorage.getItem('poitems')) {
-            localStorage.setItem('posupplier', <?=$this->input->get('supplier');?>);
+        <?php if ($inv) { ?>
+        localStorage.setItem('podate', '<?= date($dateFormats['php_ldate'], strtotime($inv->date))?>');
+        localStorage.setItem('posupplier', '<?=$inv->supplier_id?>');
+        localStorage.setItem('poref', '<?=$inv->reference_no?>');
+        localStorage.setItem('powarehouse', '');
+        localStorage.setItem('postatus', '<?=$inv->status?>');
+        localStorage.setItem('ponote', '<?= str_replace(array("\r", "\n"), "", $this->sma->decode_html($inv->note)); ?>');
+        localStorage.setItem('podiscount', '');
+        localStorage.setItem('potax2', '');
+        localStorage.setItem('poshipping', '');
+        if (parseFloat(localStorage.getItem('potax2')) >= 1 || localStorage.getItem('podiscount').length >= 1 || parseFloat(localStorage.getItem('poshipping')) >= 1) {
+            localStorage.setItem('poextras', '1');
         }
+        //localStorage.setItem('posupplier', '<?=$inv->supplier_id?>');
+        localStorage.setItem('poitems', JSON.stringify(<?=$inv_items;?>));
         <?php } ?>
+
         <?php if ($Owner || $Admin) { ?>
-        if (!localStorage.getItem('podate')) {
-            $("#podate").datetimepicker({
-                format: site.dateFormats.js_ldate,
-                fontAwesome: true,
-                language: 'sma',
-                weekStart: 1,
-                todayBtn: 1,
-                autoclose: 1,
-                todayHighlight: 1,
-                startView: 2,
-                forceParse: 0
-            }).datetimepicker('update', new Date());
-        }
         $(document).on('change', '#podate', function (e) {
             localStorage.setItem('podate', $(this).val());
         });
@@ -130,32 +81,32 @@
 
         $(document).on('click', '#addItemManually', function (e) {
             if (!$('#mcode').val()) {
-                $('#mError').text('<?= lang('product_code_is_required') ?>');
+                $('#mError').text('<?=lang('product_code_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
             if (!$('#mname').val()) {
-                $('#mError').text('<?= lang('product_name_is_required') ?>');
+                $('#mError').text('<?=lang('product_name_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
             if (!$('#mcategory').val()) {
-                $('#mError').text('<?= lang('product_category_is_required') ?>');
+                $('#mError').text('<?=lang('product_category_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
             if (!$('#munit').val()) {
-                $('#mError').text('<?= lang('product_unit_is_required') ?>');
+                $('#mError').text('<?=lang('product_unit_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
             if (!$('#mcost').val()) {
-                $('#mError').text('<?= lang('product_cost_is_required') ?>');
+                $('#mError').text('<?=lang('product_cost_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
             if (!$('#mprice').val()) {
-                $('#mError').text('<?= lang('product_price_is_required') ?>');
+                $('#mError').text('<?=lang('product_price_is_required')?>');
                 $('#mError-con').show();
                 return false;
             }
@@ -179,7 +130,7 @@
                 dataType: "json",
                 success: function (data) {
                     if (data.msg == 'success') {
-                        row = data.result;
+                        row = add_purchase_item(data.result);
                     } else {
                         msg = data.msg;
                     }
@@ -195,13 +146,29 @@
             return false;
 
         });
+        $(window).bind('beforeunload', function (e) {
+            $.get('<?=site_url('welcome/set_data/remove_pols/1');?>');
+            if (count > 1) {
+                var message = "You will loss data!";
+                return message;
+            }
+        });
+        $('#reset').click(function (e) {
+            $(window).unbind('beforeunload');
+        });
+        $('#edit_pruchase').click(function () {
+            $(window).unbind('beforeunload');
+            $('form.edit-po-form').submit();
+        });
+
     });
+
 
 </script>
 
 <div class="box">
     <div class="box-header">
-        <h2 class="blue"><i class="fa-fw fa fa-plus"></i><?= lang('new_ordes'); ?></h2>
+        <h2 class="blue"><i class="fa-fw fa fa-edit"></i><?= lang('edit_orders'); ?></h2>
     </div>
     <div class="box-content">
         <div class="row">
@@ -209,8 +176,8 @@
 
                 <p class="introtext"><?php echo lang('enter_info'); ?></p>
                 <?php
-                $attrib = array('data-toggle' => 'validator', 'role' => 'form');
-                echo form_open_multipart("purchases/addOrder", $attrib)
+                $attrib = array('data-toggle' => 'validator', 'role' => 'form', 'class' => 'edit-po-form');
+                echo form_open_multipart("purchases/editOrder/" . $inv->id, $attrib)
                 ?>
 
 
@@ -221,14 +188,14 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <?= lang("date", "podate"); ?>
-                                    <?php echo form_input('date', (isset($_POST['date']) ? $_POST['date'] : ""), 'class="form-control input-tip datetime" id="podate" required="required"'); ?>
+                                    <?php echo form_input('date', (isset($_POST['date']) ? $_POST['date'] : $this->sma->hrld($purchase->date)), 'class="form-control input-tip datetime" id="podate" required="required"'); ?>
                                 </div>
                             </div>
                         <?php } ?>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <?= lang("reference_no", "poref"); ?>
-                                <?php echo form_input('reference_no', (isset($_POST['reference_no']) ? $_POST['reference_no'] : $ponumber), 'class="form-control input-tip" id="poref"'); ?>
+                                <?php echo form_input('reference_no', (isset($_POST['reference_no']) ? $_POST['reference_no'] : $purchase->reference_no), 'class="form-control input-tip" id="poref" required="required"'); ?>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -239,10 +206,11 @@
                                  foreach ($statusList as $category) {
                                      $cat[$category->name] = $category->name;
                                  }
-                                echo form_dropdown('status', $cat, (isset($_POST['status']) ? $_POST['status'] : ''), 'id="postatus" class="form-control input-tip select" data-placeholder="' . $this->lang->line("select") . ' ' . $this->lang->line("status") . '" required="required" style="width:100%;" ');
+                                echo form_dropdown('status', $cat, (isset($_POST['status']) ? $_POST['status'] : $purchase->status), 'id="postatus" class="form-control input-tip select" data-placeholder="' . $this->lang->line("select") . ' ' . $this->lang->line("status") . '" required="required" style="width:100%;" ');
                                 ?>
                             </div>
                         </div>
+
                         <div class="col-md-12">
                             <div class="panel panel-warning">
                                 <div
@@ -255,14 +223,14 @@
                                                 <input type="hidden" name="supplier" value="" id="posupplier"
                                                        class="form-control" style="width:100%;"
                                                        placeholder="<?= lang("select") . ' ' . lang("supplier") ?>">
-                                                <input type="hidden" name="supplier_id" value="" id="supplier_id"
-                                                       class="form-control">
 
-                                                <div class="input-group-addon no-print" style="padding: 2px 5px;"><a
-                                                        href="<?= site_url('suppliers/add'); ?>" id="add-customer"
-                                                        class="external" data-toggle="modal" data-target="#myModal"><i
-                                                            class="fa fa-2x fa-plus-circle" id="addIcon"></i></a></div>
+                                                <div class="input-group-addon"
+                                                     style="padding-left: 10px; padding-right: 10px;"><a href="#"
+                                                                                                         id="removeReadonly"><i
+                                                            class="fa fa-unlock" id="unLock"></i></a></div>
                                             </div>
+                                            <input type="hidden" name="supplier_id" value="" id="supplier_id"
+                                                   class="form-control">
                                         </div>
                                     </div>
 
@@ -270,8 +238,6 @@
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                        
-                    
 
                         <div class="col-md-12" id="sticker">
                             <div class="well well-sm">
@@ -281,8 +247,8 @@
                                             <i class="fa fa-2x fa-barcode addIcon"></i></a></div>
                                         <?php echo form_input('add_item', '', 'class="form-control input-lg" id="add_item" placeholder="' . $this->lang->line("add_product_to_order") . '"'); ?>
                                         <div class="input-group-addon" style="padding-left: 10px; padding-right: 10px;">
-                                            <a href="<?= site_url('products/add') ?>" id="addManually1"><i
-                                                    class="fa fa-2x fa-plus-circle addIcon" id="addIcon"></i></a></div>
+                                            <a href="#" id="addManually"><i class="fa fa-2x fa-plus-circle addIcon"
+                                                                            id="addIcon"></i></a></div>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
@@ -333,23 +299,13 @@
                         <div class="clearfix"></div>
                         <input type="hidden" name="total_items" value="" id="total_items" required="required"/>
                         <div class="col-md-12">
-                            <div class="form-group">
-                                    <?= lang("note", "ponote"); ?>
-                                    <?php echo form_textarea('note', (isset($_POST['note']) ? $_POST['note'] : ""), 'class="form-control" id="ponote" style="margin-top: 10px; height: 100px;"'); ?>
-                                </div>
-                        </div>
-                        
-               
-                    </div>
-                     
-                     <div class="col-md-12">
                             <div
-                                class="from-group"><?php echo form_submit('add_pruchase', $this->lang->line("save"), 'id="add_pruchase" class="btn btn-primary" style="padding: 6px 15px; margin:15px 0;"'); ?>
+                                class="from-group"><?php echo form_submit('edit_pruchase', $this->lang->line("submit"), 'id="edit_pruchase" class="btn btn-primary" style="padding: 6px 15px; margin:15px 0;"'); ?>
                                 <button type="button" class="btn btn-danger" id="reset"><?= lang('reset') ?></button>
                             </div>
                         </div>
-                
-                        </div>   
+                    </div>
+                </div>
                 <div id="bottom-total" class="well well-sm" style="margin-bottom: 0;">
                     <table class="table table-bordered table-condensed totals" style="margin-bottom:0;">
                         <tr class="warning">
@@ -358,7 +314,6 @@
                         </tr>
                     </table>
                 </div>
-
 
                 <?php echo form_close(); ?>
 
@@ -523,6 +478,8 @@
                         <?php } ?>
                     </div>
                 </div>
+
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="addItemManually"><?= lang('submit') ?></button>

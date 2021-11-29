@@ -16049,3 +16049,89 @@ INFO - 2021-11-24 11:06:28 --> Model Class Initialized
 ERROR - 2021-11-24 11:06:28 --> Severity: Warning --> trim() expects at least 1 parameter, 0 given C:\wamp64\www\Reactor\sma\controllers\Purchases.php 2285
 INFO - 2021-11-24 11:06:29 --> Final output sent to browser
 DEBUG - 2021-11-24 11:06:29 --> Total execution time: 0.3799
+INFO - 2021-11-24 11:34:20 --> Config Class Initialized
+INFO - 2021-11-24 11:34:20 --> Hooks Class Initialized
+DEBUG - 2021-11-24 11:34:20 --> UTF-8 Support Enabled
+INFO - 2021-11-24 11:34:20 --> Utf8 Class Initialized
+INFO - 2021-11-24 11:34:20 --> URI Class Initialized
+DEBUG - 2021-11-24 11:34:20 --> No URI present. Default controller set.
+INFO - 2021-11-24 11:34:20 --> Router Class Initialized
+INFO - 2021-11-24 11:34:20 --> Output Class Initialized
+INFO - 2021-11-24 11:34:20 --> Security Class Initialized
+INFO - 2021-11-24 11:34:20 --> CRSF cookie sent
+DEBUG - 2021-11-24 11:34:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-11-24 11:34:20 --> Input Class Initialized
+INFO - 2021-11-24 11:34:20 --> Language Class Initialized
+INFO - 2021-11-24 11:34:20 --> Loader Class Initialized
+INFO - 2021-11-24 11:34:20 --> Helper loaded: url_helper
+INFO - 2021-11-24 11:34:20 --> Helper loaded: form_helper
+INFO - 2021-11-24 11:34:20 --> Helper loaded: cookie_helper
+INFO - 2021-11-24 11:34:20 --> Helper loaded: language_helper
+INFO - 2021-11-24 11:34:20 --> Helper loaded: file_helper
+INFO - 2021-11-24 11:34:20 --> Helper loaded: date_helper
+INFO - 2021-11-24 11:34:20 --> Database Driver Class Initialized
+INFO - 2021-11-24 11:34:20 --> Session: Class initialized using 'database' driver.
+INFO - 2021-11-24 11:34:20 --> Parser Class Initialized
+INFO - 2021-11-24 11:34:20 --> Model Class Initialized
+INFO - 2021-11-24 11:34:20 --> Model Class Initialized
+INFO - 2021-11-24 11:34:20 --> Controller Class Initialized
+INFO - 2021-11-24 11:34:20 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-11-24 11:34:20 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-11-24 11:34:20 --> Could not find the language line "today"
+INFO - 2021-11-24 11:34:21 --> Form Validation Class Initialized
+INFO - 2021-11-24 11:34:21 --> Model Class Initialized
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "today_profit"
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "backups"
+INFO - 2021-11-24 11:34:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-11-24 11:34:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/dashboard.php
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "ordered"
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "due"
+ERROR - 2021-11-24 11:34:21 --> Could not find the language line "transferring"
+INFO - 2021-11-24 11:34:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-11-24 11:34:21 --> Final output sent to browser
+DEBUG - 2021-11-24 11:34:21 --> Total execution time: 0.3984
+INFO - 2021-11-24 11:34:21 --> Config Class Initialized
+INFO - 2021-11-24 11:34:21 --> Hooks Class Initialized
+DEBUG - 2021-11-24 11:34:21 --> UTF-8 Support Enabled
+INFO - 2021-11-24 11:34:21 --> Utf8 Class Initialized
+INFO - 2021-11-24 11:34:21 --> URI Class Initialized
+DEBUG - 2021-11-24 11:34:21 --> No URI present. Default controller set.
+INFO - 2021-11-24 11:34:21 --> Router Class Initialized
+INFO - 2021-11-24 11:34:21 --> Output Class Initialized
+INFO - 2021-11-24 11:34:21 --> Security Class Initialized
+INFO - 2021-11-24 11:34:21 --> CRSF cookie sent
+DEBUG - 2021-11-24 11:34:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-11-24 11:34:21 --> Input Class Initialized
+INFO - 2021-11-24 11:34:21 --> Language Class Initialized
+INFO - 2021-11-24 11:34:21 --> Loader Class Initialized
+INFO - 2021-11-24 11:34:21 --> Helper loaded: url_helper
+INFO - 2021-11-24 11:34:21 --> Helper loaded: form_helper
+INFO - 2021-11-24 11:34:21 --> Helper loaded: cookie_helper
+INFO - 2021-11-24 11:34:21 --> Helper loaded: language_helper
+INFO - 2021-11-24 11:34:21 --> Helper loaded: file_helper
+INFO - 2021-11-24 11:34:21 --> Helper loaded: date_helper
+INFO - 2021-11-24 11:34:21 --> Database Driver Class Initialized
+INFO - 2021-11-24 11:34:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-11-24 11:34:21 --> Parser Class Initialized
+INFO - 2021-11-24 11:34:21 --> Model Class Initialized
+INFO - 2021-11-24 11:34:21 --> Model Class Initialized
+INFO - 2021-11-24 11:34:22 --> Controller Class Initialized
+INFO - 2021-11-24 11:34:22 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-11-24 11:34:22 --> Language file loaded: language/spanish/calendar_lang.php
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "today"
+INFO - 2021-11-24 11:34:22 --> Form Validation Class Initialized
+INFO - 2021-11-24 11:34:22 --> Model Class Initialized
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "Alerta de cantidad"
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "Alerta de expiracion"
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "today_profit"
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "backups"
+INFO - 2021-11-24 11:34:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/header.php
+INFO - 2021-11-24 11:34:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/dashboard.php
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "ordered"
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "due"
+ERROR - 2021-11-24 11:34:22 --> Could not find the language line "transferring"
+INFO - 2021-11-24 11:34:22 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/footer.php
+INFO - 2021-11-24 11:34:22 --> Final output sent to browser
+DEBUG - 2021-11-24 11:34:22 --> Total execution time: 0.1512

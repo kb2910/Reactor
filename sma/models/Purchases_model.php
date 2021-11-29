@@ -207,6 +207,7 @@ class Purchases_model extends CI_Model
     }
 
 
+
     public function getAllOrdersItems($orders_id)
     {
         $q = $this->db->get_where('orders_items', array('orders_id' => $orders_id));
@@ -560,4 +561,74 @@ class Purchases_model extends CI_Model
 
 
     
+    public function addStatus($name)
+    {
+        if ($this->db->insert("status_orders", array('name' => $name))) {
+            return true;
+        }
+        return false;
+    }
+
+
+
+    public function deleteStatus($id)
+    {
+        if ($this->db->delete("status_orders", array('id' => $id))) {
+            return true;
+        }
+        return FALSE;
+    }
+
+
+
+    public function getStatusByID($id)
+    {
+        $q = $this->db->get_where("status_orders", array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+        return FALSE;
+    }
+
+    public function updatStatus($id, $data = array())
+    {
+        $this->db->where('id', $id);
+        if ($this->db->update("status_orders", array('name' => $data['name']))) {
+            return true;
+        }
+        return false;
+    }
+
+    public function getAllStatus()
+    {
+        $q = $this->db->get('status_orders');
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
+
+
+    public function updateOrder($id, $data, $items = array())
+    {
+        $opurchase = $this->getPurchaseByID($id);
+          $this->db->update('orders', $data, array('id' => $id));
+          $this->db->delete('orders_items', array('orders_id' => $id));
+            foreach ($items as $item) {
+                $this->db->insert('orders_items', $item);
+            }
+            return true;
+    
+    }
+
+    
+    public function getImageByProductsBy($id)
+    {
+        $q = $this->db->get_where('products', array('id' => $id));
+            return $q;
+    }
+   
 }

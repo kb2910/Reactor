@@ -38,6 +38,26 @@
             {column_number: 4, filter_default_label: "[<?=lang('status');?>]", filter_type: "text", data: []},
         ], "footer");
 
+
+
+        $('#statusTable').dataTable({
+            "aaSorting": [[1, "asc"]],
+            "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "<?= lang('all') ?>"]],
+            "iDisplayLength": <?= $Settings->rows_per_page ?>,
+            'bProcessing': true, 'bServerSide': true,
+            'sAjaxSource': '<?= site_url('purchases/getStatus') ?>',
+            'fnServerData': function (sSource, aoData, fnCallback) {
+                aoData.push({
+                    "name": "<?= $this->security->get_csrf_token_name() ?>",
+                    "value": "<?= $this->security->get_csrf_hash() ?>"
+                });
+                $.ajax({'dataType': 'json', 'type': 'POST', 'url': sSource, 'data': aoData, 'success': fnCallback});
+            },
+            "aoColumns": [{"bSortable": false, "mRender": checkbox}, null, {"bSortable": false}]
+        });
+    
+
+
         <?php if($this->session->userdata('remove_pols')) { ?>
         if (localStorage.getItem('poitems')) {
             localStorage.removeItem('poitems');
@@ -105,45 +125,97 @@
     <div class="box-content">
         <div class="row">
             <div class="col-lg-12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#list"><i class="fa fa-list-ol" aria-hidden="true"></i> <?= lang("list_orders");?></a></li>
+                        <li><a data-toggle="tab" href="#addStatus"><i class="fa fa-file-excel-o" aria-hidden="true"></i> <?= lang("status"); ?>  <?= lang("orders"); ?></a></li>
+                    </ul>
 
-                <p class="introtext"><?= lang('list_results'); ?></p>
+                    <div class="tab-content">
+                        <div id="list" class="tab-pane fade in active">
+                            
+                        <div class="well well-small"><?= lang('list_results'); ?></div>
 
-                <div class="table-responsive">
-                    <table id="POData" cellpadding="0" cellspacing="0" border="0"
-                           class="table table-bordered table-hover table-striped">
-                        <thead>
-                        <tr class="active">
-                            <th style="min-width:30px; width: 30px; text-align: center;">
-                                <input class="checkbox checkft" type="checkbox" name="check"/>
-                            </th>
-                            <th><?php echo $this->lang->line("date"); ?></th>
-                            <th><?php echo $this->lang->line("ref_no"); ?></th>
-                            <th><?php echo $this->lang->line("supplier"); ?></th>
-                            <th><?php echo $this->lang->line("status"); ?></th>
-                            <th><?php echo $this->lang->line("total"); ?></th>
-                            <th style="width:100px;"><?php echo $this->lang->line("actions"); ?></th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td colspan="10" class="dataTables_empty"><?= lang('loading_data_from_server'); ?></td>
-                        </tr>
-                        </tbody>
-                        <tfoot class="dtFilter">
-                        <tr class="active">
-                            <th style="min-width:30px; width: 30px; text-align: center;">
-                                <input class="checkbox checkft" type="checkbox" name="check"/>
-                            </th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th><?php echo $this->lang->line("total"); ?></th>
-                            <th style="width:100px; text-align: center;"><?php echo $this->lang->line("actions"); ?></th>
-                        </tr>
-                        </tfoot>
-                    </table>
-                </div>
+                            <div class="table-responsive">
+                                <table id="POData" cellpadding="0" cellspacing="0" border="0"
+                                    class="table table-bordered table-hover table-striped">
+                                    <thead>
+                                    <tr class="active">
+                                        <th style="min-width:1px !important; width: 1px; text-align: center;">
+                                            <input class="checkbox checkft" type="checkbox" name="check"/>
+                                        </th>
+                                        <th><?php echo $this->lang->line("date"); ?></th>
+                                        <th><?php echo $this->lang->line("ref_no"); ?></th>
+                                        <th><?php echo $this->lang->line("supplier"); ?></th>
+                                        <th><?php echo $this->lang->line("status"); ?></th>
+                                        <th><?php echo $this->lang->line("total"); ?></th>
+                                        <th style="width:100px;"><?php echo $this->lang->line("actions"); ?></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td colspan="10" class="dataTables_empty"><?= lang('loading_data_from_server'); ?></td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot class="dtFilter">
+                                    <tr class="active">
+                                        <th style="min-width:30px; width: 30px; text-align: center;">
+                                            <input class="checkbox checkft" type="checkbox" name="check"/>
+                                        </th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <th><?php echo $this->lang->line("total"); ?></th>
+                                        <th style="width:100px; text-align: center;"><?php echo $this->lang->line("actions"); ?></th>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <div id="addStatus" class="tab-pane fade">
+                                <div class="box">
+                                    <div class="box-header">
+                                        <h2 class="blue"><i class="fa-fw fa fa-folder-open"></i><?= lang('Status'); ?></h2>
+
+                                        <div class="box-icon">
+                                            <ul class="btn-tasks">
+                                                <li class="dropdown">
+                                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon fa fa-tasks tip"
+                                                                                                                data-placement="left"
+                                                                                                                title="<?= lang("actions") ?>"></i></a>
+                                                    <ul class="dropdown-menu pull-right" class="tasks-menus" role="menu" aria-labelledby="dLabel">
+                                                        <li><a href="<?php echo site_url('purchases/add_status'); ?>" data-toggle="modal"
+                                                            data-target="#myModal"><i class="fa fa-plus"></i> <?= lang('add') ?></a></li>
+
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                    <div class="table-responsive">
+                                                <table id="statusTable" class="table table-bordered table-hover table-striped">
+                                                    <thead>
+                                                    <tr>
+                                                        <th style="min-width:1px !important; width: 1px; text-align: center;">
+                                                            <input class="checkbox checkth" type="checkbox" name="check"/>
+                                                        </th>
+                                                        <th><?= $this->lang->line("name"); ?></th>
+                                                        <th style="width:20px !important; text-align: center !important;"><?= $this->lang->line("actions"); ?></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td colspan="5" class="dataTables_empty"><?= lang('loading_data_from_server') ?></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                     </div>
             </div>
         </div>
     </div>

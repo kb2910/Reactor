@@ -619,7 +619,7 @@ function loadItems() {
             newTr.html(tr_html);
             newTr.prependTo("#poTable");
             //total += parseFloat(item_cost * item_qty);
-            total += formatDecimal(((parseFloat(item_cost) + parseFloat(pr_tax_val)) * parseFloat(item_qty)));
+            total +=  pr_tax_val == 0 ? parseFloat(item_cost * item_qty) : formatDecimal(((parseFloat(item_cost) + parseFloat(pr_tax_val)) * parseFloat(item_qty)));
             count += parseFloat(item_qty);
             an++;
             if(!belong) 
