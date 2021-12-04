@@ -439,7 +439,7 @@ class Purchases extends MY_Controller
                     }
                 }
             } else {
-                $order_tax_id = NULL;
+                $order_tax_id = 1;
             }
 
             $total_tax = $this->sma->formatDecimal($product_tax + $order_tax);

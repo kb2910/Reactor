@@ -42,7 +42,7 @@
     localStorage.setItem('powarehouse', '<?= $quote->warehouse_id ?>');
     localStorage.setItem('ponote', '<?= str_replace(array("\r", "\n"), "", $this->sma->decode_html($quote->note)); ?>');
     localStorage.setItem('podiscount', '<?= $quote->order_discount_id ?>');
-    localStorage.setItem('potax2', '<?= $quote->order_tax_id ?>');
+    localStorage.setItem('potax2', '<?= $quote->order_tax_id  == null ? 1 :$quote->order_tax_id ?>');
     localStorage.setItem('poshipping', '<?= $quote->shipping ?>');
     localStorage.setItem('poitems', JSON.stringify(<?= $quote_items; ?>));
     <?php } ?>
