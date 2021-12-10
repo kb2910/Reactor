@@ -478,6 +478,10 @@
                                                 href="<?= site_url('system_settings/tax_rates') ?>"><i
                                                     class="fa fa-plus-circle"></i><span
                                                     class="text"> <?= lang('tax_rates'); ?></span></a></li>
+                                         <li id="system_settings_payments_methods"><a
+                                                href="<?= site_url('system_settings/payments_methods') ?>"><i
+                                                    class="fa fa-credit-card"></i><span
+                                                    class="text"> <?= lang('payments_methods'); ?></span></a></li>
                                         <li id="system_settings_warehouses"><a
                                                 href="<?= site_url('system_settings/warehouses') ?>"><i
                                                     class="fa fa-building-o"></i><span

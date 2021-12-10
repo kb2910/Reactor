@@ -79,4 +79,4 @@ $lang['old_password_wrong']                                    = "Cuenta creada 
 $lang['sending_email_failed']                                  = "Por favor, escriba la contraseña antigua correctamente";
 $lang['deactivate_successful']                                 = "No se puede enviar correo electrónico, por favor verifique la configuración del sistema.";
 $lang['activate_successful']                                   = "Usuario desactivado correctamente Usuario activado correctamente";
-$lang['login_timeout']                                         = "You have 3 failed login attempts. Please try after 10 minutes";
+$lang['login_timeout']                                         = "You have 3 failed login attempts. Please try after 1 minutes";

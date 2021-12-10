@@ -91,6 +91,7 @@ if ($modal) {
             <?php }
             echo "<p>" . lang("reference_no") . ": " . $inv->reference_no . "<br>";
             echo lang("customer") . ": " . $inv->customer . "<br>";
+            echo lang("dni") . ": " . $customer->dni . "<br>";
             echo lang("date") . ": " . $this->sma->hrld($inv->date) . "</p>";
             ?>
             <div style="clear:both;"></div>

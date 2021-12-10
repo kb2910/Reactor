@@ -423,4 +423,14 @@ $lang['list_orders']                        ="Lista de pedidos";
 $lang['orders']                             ="Pedidos";
 $lang['new_ordes']                          ="Añadir Pedido";
 $lang['success_orders']                     ="Pedido agregado con  éxito";
-
+$lang['dni']                                ="CUIT/ CUIL / DNI";
+$lang['payments_methods']                   = "Formas de Pago";
+$lang['add_payments_methods']               = "Añadir Forma de Pago";
+$lang['edit_payments_methods']              = "Editar Forma de Pago";
+$lang['delete_payments_methods']            = "Eliminar Forma de Pago";
+$lang['message_payments_method']            ="Forma de pago agregada con  éxito";
+$lang['edit_message_payments_method']       ="Forma de pago editada con  éxito";
+$lang['delete_message_payments_method']     ="Forma de pago eliminada con  éxito";
+$lang['deletes_message_payments_methods']   ="Formas de pago eliminadas con  éxito";
+$lang['no_payments_method_selected']        ="No ha seleccionado por formas de pago";
+$lang['value']                              ="Valor";

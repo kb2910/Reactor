@@ -96,6 +96,18 @@ class Site extends CI_Model
         return FALSE;
     }
 
+    public function getAllPaymentMethods() {
+        $this->db->order_by('name');
+        $q = $this->db->get('payment_methods');
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
+
     public function getCurrencyByCode($code) {
         $q = $this->db->get_where('currencies', array('code' => $code), 1);
         if ($q->num_rows() > 0) {

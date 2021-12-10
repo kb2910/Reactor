@@ -64,6 +64,15 @@ class Settings_model extends CI_Model
         return false;
     }
 
+    public function addPaymentMethod($data)
+    {
+        if ($this->db->insert('payment_methods', $data)) {
+            return true;
+        }
+        return false;
+    }
+
+
     public function updateTaxRate($id, $data = array())
     {
         $this->db->where('id', $id);
@@ -94,6 +103,45 @@ class Settings_model extends CI_Model
         return FALSE;
     }
 
+    public function getPaymentMethodsByID($id)
+    {
+        $q = $this->db->get_where('payment_methods', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+        return FALSE;
+    }
+
+    public function deletePaymentMethod($id)
+    {
+        if ($this->db->delete('payment_methods', array('id' => $id))) {
+            return true;
+        }
+        return FALSE;
+    }
+
+
+
+    public function updatePaymentMethod($id, $data = array())
+    {
+        $this->db->where('id', $id);
+        if ($this->db->update('payment_methods', $data)) {
+            return true;
+        }
+        return false;
+    }
+
+    public function getAllPaymentsMethods()
+    {
+        $q = $this->db->get('tax_rates');
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
     public function addWarehouse($data)
     {
         if ($this->db->insert('warehouses', $data)) {

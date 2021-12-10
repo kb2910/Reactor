@@ -2354,5 +2354,174 @@ class system_settings extends MY_Controller
           }
         
       }
+      
+    function payments_methods()
+    {
+
+        $this->data['error'] = validation_errors() ? validation_errors() : $this->session->flashdata('error');
+
+        $bc = array(array('link' => base_url(), 'page' => lang('home')), array('link' => site_url('system_settings'), 'page' => lang('system_settings')), array('link' => '#', 'page' => lang('payments_methods')));
+        $meta = array('page_title' => lang('payments_methods'), 'bc' => $bc);
+        $this->page_construct('settings/payments_Methods', $meta, $this->data);
+    }
+
+    function getPayments_methods()
+    {
+
+        $this->load->library('datatables');
+        $this->datatables
+            ->select("id, name,value")
+            ->from("sma_payment_methods")
+            ->add_column("Actions", "<center><a href='" . site_url('system_settings/edit_payments_methods/$1') . "' class='tip' title='" . lang("edit_payments_methods") . "' data-toggle='modal' data-target='#myModal'><i class=\"fa fa-edit\"></i></a> <a href='#' class='tip po' title='<b>" . lang("delete_payments_methods") . "</b>' data-content=\"<p>" . lang('r_u_sure') . "</p><a class='btn btn-danger po-delete' href='" . site_url('system_settings/delete_payment_Method/$1') . "'>" . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i></a></center>", "id");
+        //->unset_column('id');
+
+        echo $this->datatables->generate();
+    }
+
+
+    function add_payments_methods()
+    {
+
+        $this->form_validation->set_rules('name', lang("name"), 'required');
+        $this->form_validation->set_rules('value', lang("value"), 'required');
+
+        if ($this->form_validation->run() == true) {
+            $data = array('name' => $this->input->post('name'),
+                          'value' => $this->input->post('value')
+            );
+        } elseif ($this->input->post('add_payments_methods')) {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect("system_settings/add_payment_method");
+        }
+
+        if ($this->form_validation->run() == true && $this->settings_model->addPaymentMethod($data)) {
+            $this->session->set_flashdata('message', lang("message_payments_method"));
+            redirect("system_settings/payments_methods");
+        } else {
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+
+            $this->data['modal_js'] = $this->site->modal_js();
+            $this->load->view($this->theme . 'settings/add_payment_methods', $this->data);
+        }
+    }
+
+    
+    function edit_payments_methods($id = NULL)
+    {
+
+        $this->form_validation->set_rules('name', lang("name"), 'trim|required');
+        $this->form_validation->set_rules('value', lang("value"), 'required');
+
+        $details = $this->settings_model->getPaymentMethodsByID($id);
+        if ($this->input->post('name') != $details->name) {
+            $this->form_validation->set_rules('name', lang("name"), 'is_unique[payment_methods.name]');
+        }
+
+        if ($this->form_validation->run() == true) {
+
+            $data = array('name' => $this->input->post('name'),
+                         'value' => $this->input->post('value')
+            );
+        } elseif ($this->input->post('edit_payments_methods')) {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect("system_settings/payments_methods");
+        }
+
+        if ($this->form_validation->run() == true && $this->settings_model->updatePaymentMethod($id, $data)) { //check to see if we are updateing the customer
+            $this->session->set_flashdata('message', lang("edit_message_payments_method"));
+            redirect("system_settings/payments_methods");
+        } else {
+            $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
+
+            $this->data['tax_rate'] = $this->settings_model->getPaymentMethodsByID($id);
+
+            $this->data['id'] = $id;
+            $this->data['modal_js'] = $this->site->modal_js();
+            $this->load->view($this->theme . 'settings/edit_payments_Methods', $this->data);
+        }
+    }
+
+    function delete_payment_Method($id = NULL)
+    {
+        if ($this->settings_model->deletePaymentMethod($id)) {
+            echo lang("delete_message_payments_method");
+        }
+    }
+
+    function payment_Method_actions()
+    {
+
+        $this->form_validation->set_rules('form_action', lang("form_action"), 'required');
+
+        if ($this->form_validation->run() == true) {
+
+            if (!empty($_POST['val'])) {
+                if ($this->input->post('form_action') == 'delete') {
+                    foreach ($_POST['val'] as $id) {
+                        $this->settings_model->deleteTaxRate($id);
+                    }
+                    $this->session->set_flashdata('message', lang("deletes_message_payments_methods"));
+                    redirect($_SERVER["HTTP_REFERER"]);
+                }
+
+                if ($this->input->post('form_action') == 'export_excel' || $this->input->post('form_action') == 'export_pdf') {
+
+                    $this->load->library('excel');
+                    $this->excel->setActiveSheetIndex(0);
+                    $this->excel->getActiveSheet()->setTitle(lang('tax_rates'));
+                    $this->excel->getActiveSheet()->SetCellValue('A1', lang('name'));
+                    $this->excel->getActiveSheet()->SetCellValue('B1', lang('value'));
+
+                    $row = 2;
+                    foreach ($_POST['val'] as $id) {
+                        $tax = $this->settings_model->getPaymentMethodsByID($id);
+                        $this->excel->getActiveSheet()->SetCellValue('A' . $row, $tax->name);
+                        $this->excel->getActiveSheet()->SetCellValue('A' . $row, $tax->value);
+                        $row++;
+                    }
+                    $this->excel->getActiveSheet()->getColumnDimension('A')->setWidth(20);
+                    $this->excel->getDefaultStyle()->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
+                    $filename = 'paymets_Methods_' . date('Y_m_d_H_i_s');
+                    if ($this->input->post('form_action') == 'export_pdf') {
+                        $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
+                        $this->excel->getDefaultStyle()->applyFromArray($styleArray);
+                        $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
+                        $rendererLibrary = 'MPDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
+                            die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
+                                PHP_EOL . ' as appropriate for your directory structure');
+                        }
+
+                        header('Content-Type: application/pdf');
+                        header('Content-Disposition: attachment;filename="' . $filename . '.pdf"');
+                        header('Cache-Control: max-age=0');
+
+                        $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'PDF');
+                        return $objWriter->save('php://output');
+                    }
+                    if ($this->input->post('form_action') == 'export_excel') {
+                        header('Content-Type: application/vnd.ms-excel');
+                        header('Content-Disposition: attachment;filename="' . $filename . '.xls"');
+                        header('Cache-Control: max-age=0');
+
+                        $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'Excel5');
+                        return $objWriter->save('php://output');
+                    }
+
+                    redirect($_SERVER["HTTP_REFERER"]);
+                }
+            } else {
+                $this->session->set_flashdata('error', lang("no_payments_method_selected"));
+                redirect($_SERVER["HTTP_REFERER"]);
+            }
+        } else {
+            $this->session->set_flashdata('error', validation_errors());
+            redirect($_SERVER["HTTP_REFERER"]);
+        }
+    }
+
 
 }

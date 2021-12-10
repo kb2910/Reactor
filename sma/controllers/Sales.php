@@ -87,12 +87,12 @@ class Sales extends MY_Controller
         $this->load->library('datatables');
         if ($warehouse_id) {
             $this->datatables
-                ->select("id, date, reference_no, biller, customer, sale_status, grand_total, paid, (grand_total-paid) as balance, payment_status")
+                ->select("sales.id, sales.date, sales.reference_no, sales.biller, sales.customer, sales.sale_status, sales.grand_total, sales.paid, (sales.grand_total-paid) as balance, sales.payment_status")
                 ->from('sales')
-                ->where('warehouse_id', $warehouse_id);
+                ->where('sales.warehouse_id', $warehouse_id);
         } else {
-            $this->datatables
-                ->select("id, date, reference_no, biller, customer, sale_status, grand_total, paid, (grand_total-paid) as balance, payment_status")
+                $this->datatables
+                ->select("sales.id, sales.date, sales.reference_no, sales.biller, sales.customer, sales.sale_status, sales.grand_total, sales.paid, (sales.grand_total-paid) as balance, sales.payment_status")
                 ->from('sales');
         }
         $this->datatables->where('pos !=', 1);

@@ -18,24 +18,18 @@
                             <span><?= $this->sma->formatMoney($cash_in_hand ? $cash_in_hand : $this->session->userdata('cash_in_hand')); ?></span>
                         </h4></td>
                 </tr>
-                <tr>
-                    <td style="border-bottom: 1px solid #EEE;"><h4><?= lang('cash_sale'); ?>:</h4></td>
-                    <td style="text-align:right; border-bottom: 1px solid #EEE;"><h4>
-                            <span><?= $this->sma->formatMoney($cashsales->paid ? $cashsales->paid : '0.00') . ' (' . $this->sma->formatMoney($cashsales->total ? $cashsales->total : '0.00') . ')'; ?></span>
-                        </h4></td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 1px solid #EEE;"><h4><?= lang('ch_sale'); ?>:</h4></td>
-                    <td style="text-align:right;border-bottom: 1px solid #EEE;"><h4>
-                            <span><?= $this->sma->formatMoney($chsales->paid ? $chsales->paid : '0.00') . ' (' . $this->sma->formatMoney($chsales->total ? $chsales->total : '0.00') . ')'; ?></span>
-                        </h4></td>
-                </tr>
-                <tr>
-                    <td style="border-bottom: 1px solid #DDD;"><h4><?= lang('cc_sale'); ?>:</h4></td>
-                    <td style="text-align:right;border-bottom: 1px solid #DDD;"><h4>
-                            <span><?= $this->sma->formatMoney($ccsales->paid ? $ccsales->paid : '0.00') . ' (' . $this->sma->formatMoney($ccsales->total ? $ccsales->total : '0.00') . ')'; ?></span>
-                        </h4></td>
-                </tr>
+                <?php 
+                    foreach($totales as $dato){
+
+                        echo ' <tr>
+                        <td style="border-bottom: 1px solid #EEE;"><h4>'.$dato['namePaid'].':</h4></td>
+                        <td style="text-align:right; border-bottom: 1px solid #EEE;"><h4>
+                                <span>'.$this->sma->formatMoney($dato['paid'] ?  $dato['paid'] : '0.00') . ' (' . $this->sma->formatMoney($dato['total'] ? $dato['total'] : '0.00').')</span>
+                            </h4></td>
+                        </tr>';
+
+                    }                
+                ?>
                 <?php if ($pos_settings->paypal_pro) { ?>
                     <tr>
                         <td style="border-bottom: 1px solid #DDD;"><h4><?= lang('paypal_pro'); ?>:</h4></td>

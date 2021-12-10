@@ -824,6 +824,36 @@ class Pos_model extends CI_Model
         return false;
     }
 
+    
+    public function getTotales($date, $payment, $paymentName, $user_id = NULL)
+    {
+        if (!$date) {
+            $date = $this->session->userdata('register_open_time');
+        }
+        if (!$user_id) {
+            $user_id = $this->session->userdata('user_id');
+        }
+        
+
+       $this->db->select('SUM( COALESCE( grand_total, 0 ) ) AS total, SUM( COALESCE( amount, 0 ) ) AS paid', FALSE)
+                ->join('sales', 'sales.id=payments.sale_id', 'left')
+                ->where('type', 'received')
+                ->where('payments.date >', $date)
+                ->where('paid_by', $payment);
+    $this->db->where('payments.created_by', $user_id);
+
+        $q = $this->db->get('payments');
+        if ($q->num_rows() > 0) {
+            $data = array();
+            $data['namePaid'] = $paymentName;
+            $data['total'] = $q->row()->total;
+            $data['paid'] = $q->row()->paid;
+            return $data;
+        } else {
+            return 0;
+        }
+    }
+
 
     public function getRegisterCCSales($date, $user_id = NULL)
     {
@@ -1215,6 +1245,34 @@ class Pos_model extends CI_Model
 
         }
         return false;
+    }
+
+
+
+    public function getAllPaymentMethods() {
+        $this->db->order_by('name');
+        $q = $this->db->get('payment_methods');
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
+
+
+    
+
+    public function getNoteSaleID($id)
+    {
+
+        $q = $this->db->get_where('payments', array('sale_id' => $id) , 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+
+        return FALSE;
     }
 
 }

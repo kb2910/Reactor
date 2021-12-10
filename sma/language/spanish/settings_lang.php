@@ -291,3 +291,5 @@ $lang['represent_account']              = "Representante de la cuenta";
 $lang['email_ML']                       = "Email";
 $lang['token_access']                   = "Token de Acceso";
 $lang['account_saved']                  = "Cuenta guardada con éxito!";
+$lang['payments_methods']               = "Formas de Pago";
+$lang['add_payments_methods']           = "Añadir Forma de Pago";

@@ -97,6 +97,7 @@ class Pos extends MY_Controller
                 ->join('companies', 'companies.id=sales.customer_id', 'left')
                 ->group_by('sales.id');
         }
+
         $this->datatables->where('pos', 1);
         if (!$this->Customer && !$this->Supplier && !$this->Owner && !$this->Admin) {
             $this->datatables->where('created_by', $this->session->userdata('user_id'));
@@ -481,6 +482,7 @@ class Pos extends MY_Controller
             $this->data["tcp"] = $this->pos_model->products_count($this->pos_settings->default_category);
             $this->data['products'] = $this->ajaxproducts($this->pos_settings->default_category);
             $this->data['categories'] = $this->site->getAllCategories();
+            $this->data['payments_Methodd'] = $this->site->getAllPaymentMethods();
             $this->data['subcategories'] = $this->pos_model->getSubCategoriesByCategoryID($this->pos_settings->default_category);
             $this->data['pos_settings'] = $this->pos_settings;
 
@@ -598,6 +600,17 @@ class Pos extends MY_Controller
                 $this->data['cash_in_hand'] = NULL;
                 $this->data['register_open_time'] = NULL;
             }
+
+            $this->data['payments_methods'] =  $this->pos_model-> getAllPaymentMethods();
+            $this->totales = array();
+            foreach($this->data['payments_methods'] as $x) {
+                $key =  $x->name;
+                $valorAr = $this->pos_model->getTotales($register_open_time,$x->value,$x->name,$user_id);
+                $this->totales[$key] = $valorAr;
+            }
+
+        
+            $this->data['totales']=$this->totales;
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
             $this->data['ccsales'] = $this->pos_model->getRegisterCCSales($register_open_time, $user_id);
             $this->data['cashsales'] = $this->pos_model->getRegisterCashSales($register_open_time, $user_id);
@@ -612,6 +625,7 @@ class Pos extends MY_Controller
             $this->data['suspended_bills'] = $this->pos_model->getSuspendedsales($user_id);
             $this->data['user_id'] = $user_id;
             $this->data['modal_js'] = $this->site->modal_js();
+
             $this->load->view($this->theme . 'pos/close_register', $this->data);
         }
     }

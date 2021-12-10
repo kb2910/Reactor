@@ -90,4 +90,4 @@ $lang['old_password_wrong']                         = "Please type correct old p
 $lang['sending_email_failed']                       = "Unable to send email, please check you system settings.";
 $lang['deactivate_successful']                      = "User successfully deactivated";
 $lang['activate_successful']                        = "User successfully activated";
-$lang['login_timeout']                              = "You have 3 failed login attempts. Please try after 10 minutes";
+$lang['login_timeout']                              = "You have 3 failed login attempts. Please try after 1 minutes";
