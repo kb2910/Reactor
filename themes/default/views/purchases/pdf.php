@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="iso-8859-1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $this->lang->line("purchase") . " " . $inv->reference_no; ?></title>
     <link href="<?php echo $assets ?>styles/style.css" rel="stylesheet">
@@ -38,9 +38,9 @@
             <?php } ?>
             <div class="well well-sm">
                 <div class="row bold">
-                    <div class="col-xs-4"><?= lang("date"); ?>: <?= $this->sma->hrld($inv->date); ?>
+                    <div class="col-xs-5"><?= lang("date"); ?>: <?= $this->sma->hrld($inv->date); ?>
                         <br><?= lang("ref"); ?>: <?= $inv->reference_no; ?></div>
-                    <div class="col-xs-6 pull-right text-right">
+                    <div class="col-xs-7 pull-right text-right">
                         <?php $br = $this->sma->save_barcode($inv->reference_no, 'code39', 35, false); ?>
                         <img src="<?= base_url() ?>assets/uploads/barcode<?= $this->session->userdata('user_id') ?>.png"
                              alt="<?= $inv->reference_no ?>"/>

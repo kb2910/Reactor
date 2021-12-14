@@ -108,6 +108,41 @@ class Pos_model extends CI_Model
         return FALSE;
     }
 
+
+    
+    public function getBoxRegistersByID($id)
+    {
+
+        $q = $this->db->get_where('pos_register', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+
+        return FALSE;
+    }
+
+
+    public function getUserByBoxRegister($id)
+    {
+
+        $q = $this->db->get_where('users', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+
+        return FALSE;
+    }
+
+
+    public function getSettings()
+    {
+        $q = $this->db->get('settings');
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+        return FALSE;
+    }
+
     public function getUsers()
     {
         $q = $this->db->get_where('users', array('company_id' => NULL));

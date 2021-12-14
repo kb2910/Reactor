@@ -1,9 +1,36 @@
-<div class="modal-dialog modal-lg no-modal-header">
-    <div class="modal-content">
-        <div class="modal-body">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-2x">&times;</i>
-            </button>
-            <?php if ($logo) { ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="iso-8859-1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $this->lang->line("order") . " " . $inv->reference_no; ?></title>
+    <link href="<?php echo $assets ?>styles/style.css" rel="stylesheet">
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            background: #FFF;
+        }
+
+        body:before, body:after {
+            display: none !important;
+        }
+
+        .table th {
+            text-align: center;
+            padding: 5px;
+        }
+
+        .table td {
+            padding: 4px;
+        }
+    </style>
+</head>
+
+<body>
+<div id="wrap">
+    <div class="row">
+        <div class="col-lg-12">
+             <?php if ($logo) { ?>
                 <div class="text-center" style="margin-bottom:20px;">
                     <img src="<?= base_url() . 'assets/uploads/logos/' . $Settings->logo; ?>"
                          alt="<?= $Settings->site_name; ?>">
@@ -11,17 +38,13 @@
             <?php } ?>
             <div class="well well-sm">
                 <div class="row bold">
-                    <div class="col-xs-5">
-                    <p class="bold">
-                        <?= lang("ref"); ?>: <?= $inv->reference_no; ?><br>
-                        <?= lang("date"); ?>: <?= $this->sma->hrld($inv->date); ?><br>
-                        <?= lang("status"); ?>: <?= lang($inv->status); ?><br>
-                    </p>
-                    </div>
-                    <div class="col-xs-7 text-right">
-                        <?php $br = $this->sma->save_barcode($inv->reference_no, 'code39', 70, false); ?>
+                    <div class="col-xs-5"><?= lang("date"); ?>: <?= $this->sma->hrld($inv->date); ?>
+                        <br><?= lang("ref"); ?>: <?= $inv->reference_no; ?></div>
+                    <div class="col-xs-7 pull-right text-right">
+                        <?php $br = $this->sma->save_barcode($inv->reference_no, 'code39', 35, false); ?>
                         <img src="<?= base_url() ?>assets/uploads/barcode<?= $this->session->userdata('user_id') ?>.png"
                              alt="<?= $inv->reference_no ?>"/>
+                        <?php $this->sma->qrcode('link', urlencode(site_url('purchases/view/' . $inv->id)), 1); ?>
                         <img src="<?= base_url() ?>assets/uploads/qrcode<?= $this->session->userdata('user_id') ?>.png"
                              alt="<?= $inv->reference_no ?>"/>
                     </div>
@@ -30,13 +53,14 @@
                 <div class="clearfix"></div>
             </div>
 
+
             <div class="row" style="margin-bottom:15px;">
-                <div class="col-xs-6">
+                <div class="col-xs-5">
                     <?php echo $this->lang->line("from"); ?>:
                     <h2 style="margin-top:10px;"><?= $Settings->site_name; ?></h2>
                     
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-5">
                     <?php echo $this->lang->line("to"); ?>:<br/>
                     <h2 style="margin-top:10px;"><?= $supplier->company ? $supplier->company : $supplier->name; ?></h2>
                     <?= $supplier->company ? "" : "Attn: " . $supplier->name ?>
@@ -158,43 +182,7 @@
                     </div>
                 </div>
             </div>
-            <?php if (!$Supplier || !$Customer) { ?>
-                <div class="buttons">
-                    <div class="btn-group btn-group-justified">
-                        <div class="btn-group">
-                            <a href="<?= site_url('purchases/viewOrder/' . $inv->id) ?>" class="tip btn btn-primary" title="<?= lang('view') ?>">
-                                <i class="fa fa-file-text-o"></i>
-                                <span class="hidden-sm hidden-xs"><?= lang('view') ?></span>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="javascript:window.print()" class="tip btn btn-primary" title="<?= lang('print') ?>">
-                                <i class="fa fa-print"></i>
-                                <span class="hidden-sm hidden-xs"><?= lang('print') ?></span>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="<?= site_url('purchases/pdfOrder/' . $inv->id) ?>" class="tip btn btn-primary" title="<?= lang('download_pdf') ?>">
-                                <i class="fa fa-download"></i>
-                                <span class="hidden-sm hidden-xs"><?= lang('pdf') ?></span>
-                            </a>
-                        </div>
-                        <div class="btn-group">
-                            <a href="#" class="tip btn btn-danger bpo" title="<b><?= $this->lang->line("delete") ?></b>"
-                                data-content="<div style='width:150px;'><p><?= lang('r_u_sure') ?></p><a class='btn btn-danger' href='<?= site_url('purchases/deleteOrder/' . $inv->id) ?>'><?= lang('i_m_sure') ?></a> <button class='btn bpo-close'><?= lang('no') ?></button></div>"
-                                data-html="true" data-placement="top">
-                                <i class="fa fa-trash-o"></i>
-                                <span class="hidden-sm hidden-xs"><?= lang('delete') ?></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            <?php } ?>
-        </div>
     </div>
 </div>
-<script type="text/javascript">
-    $(document).ready( function() {
-        $('.tip').tooltip();
-    });
-</script>
+</body>
+</html>

@@ -59,7 +59,7 @@
                     
                     <div class="form-group">
                         <?= lang("email_address", "email_address"); ?>
-                        <input type="email" name="email" class="form-control" required="required" id="email_address"/>
+                        <input type="email" name="email" class="form-control"  id="email_address"/>
                     </div>
                     <div class="form-group">
                         <?= lang("address", "address"); ?>

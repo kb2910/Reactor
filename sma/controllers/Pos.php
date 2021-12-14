@@ -587,8 +587,45 @@ class Pos extends MY_Controller
         }
 
         if ($this->form_validation->run() == true && $this->pos_model->closeRegister($rid, $user_id, $data)) {
-            $this->session->set_flashdata('message', lang("register_closed"));
-            redirect("welcome");
+            if ($this->Owner || $this->Admin) {
+                $user_register = $user_id ? $this->pos_model->registerData($user_id) : NULL;
+                $register_open_time = $user_register ? $user_register->date : $this->session->userdata('register_open_time');
+                $this->data['cash_in_hand'] = $user_register ? $user_register->cash_in_hand : NULL;
+                $this->data['register_open_time'] = $user_register ? $register_open_time : NULL;
+            } else {
+                $register_open_time = $this->session->userdata('register_open_time');
+                $this->data['cash_in_hand'] = NULL;
+                $this->data['register_open_time'] = NULL;
+            }
+
+            $this->data['payments_methods'] =  $this->pos_model-> getAllPaymentMethods();
+            $this->totales = array();
+            foreach($this->data['payments_methods'] as $x) {
+                $key =  $x->name;
+                $valorAr = $this->pos_model->getTotales($register_open_time,$x->value,$x->name,$user_id);
+                $this->totales[$key] = $valorAr;
+            }        
+            $this->data['totales']=$this->totales;
+            $this->data['box'] = $this->pos_model->getBoxRegistersByID($rid);
+            $this->data['ccsales'] = $this->pos_model->getRegisterCCSales($register_open_time, $user_id);
+            $this->data['cashsales'] = $this->pos_model->getRegisterCashSales($register_open_time, $user_id);
+            $this->data['chsales'] = $this->pos_model->getRegisterChSales($register_open_time, $user_id);
+            $this->data['pppsales'] = $this->pos_model->getRegisterPPPSales($register_open_time, $user_id);
+            $this->data['stripesales'] = $this->pos_model->getRegisterStripeSales($register_open_time, $user_id);
+            $this->data['totalsales'] = $this->pos_model->getRegisterSales($register_open_time, $user_id);
+            $this->data['refunds'] = $this->pos_model->getRegisterRefunds($register_open_time);
+            $this->data['cashrefunds'] = $this->pos_model->getRegisterCashRefunds($register_open_time);
+            $this->data['expenses'] = $this->pos_model->getRegisterExpenses($register_open_time);
+            $this->data['users'] = $this->pos_model->getUsers($user_id);
+            $this->data['suspended_bills'] = $this->pos_model->getSuspendedsales($user_id);
+            $this->data['user_id'] = $user_id;
+            $settings = $this->pos_model->getSettings();
+            $this->data['biller'] = $this->pos_model->getCompanyByID($settings->default_biller);
+            $this->data['openUser'] = $this->pos_model->getUserByBoxRegister($this->data['box']->user_id);
+            $this->data['closedUser'] = $this->pos_model->getUserByBoxRegister($this->data['box']->closed_by);
+            
+            $this->load->view($this->theme . 'pos/view_close_box', $this->data);
+
         } else {
             if ($this->Owner || $this->Admin) {
                 $user_register = $user_id ? $this->pos_model->registerData($user_id) : NULL;

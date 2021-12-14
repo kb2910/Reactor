@@ -1782,6 +1782,7 @@ class Products extends MY_Controller
                 $filename = lang('quantity_adjustments');
                 $this->excel->getDefaultStyle()->getAlignment()->setVertical(PHPExcel_Style_Alignment::VERTICAL_CENTER);
                 if ($pdf) {
+                    ob_start();
                     $styleArray = array(
                         'borders' => array(
                             'allborders' => array(
@@ -1799,11 +1800,11 @@ class Products extends MY_Controller
                         die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                             PHP_EOL . ' as appropriate for your directory structure');
                     }
-
+                    
                     header('Content-Type: application/pdf');
                     header('Content-Disposition: attachment;filename="' . $filename . '.pdf"');
                     header('Cache-Control: max-age=0');
-
+                    ob_end_clean();
                     $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'PDF');
                     $objWriter->save('php://output');
                     exit();
@@ -2102,6 +2103,7 @@ class Products extends MY_Controller
             $this->load->view($this->theme . 'products/pdf', $this->data);
         } else {
             $html = $this->load->view($this->theme . 'products/pdf', $this->data, TRUE);
+         //   print_r($html);
             $this->sma->generate_pdf($html, $name);
         }
     }
@@ -2248,10 +2250,13 @@ class Products extends MY_Controller
                         $product = $this->products_model->getProductDetail($id);
                         $variants = $this->products_model->getProductOptions($id);
                         $product_variants = '';
-                        foreach ($variants as $variant) {
-                            $product_variants .= trim($variant->name) . '|';
+                       if($variants != null || $variants != "" ){
+                            foreach ($variants as $variant) {
+                                $product_variants .= trim($variant->name) . '|';
+                            }
                         }
-                        $this->excel->getActiveSheet()->SetCellValue('A' . $row, $product->code);
+                        
+                        $this->excel->getActiveSheet()->setCellValueExplicit('A' . $row, $product->code,PHPExcel_Cell_DataType::TYPE_STRING);
                         $this->excel->getActiveSheet()->SetCellValue('B' . $row, $product->name);
                         $this->excel->getActiveSheet()->SetCellValue('C' . $row, $product->category_code);
                         $this->excel->getActiveSheet()->SetCellValue('D' . $row, $product->unit);
@@ -2280,19 +2285,19 @@ class Products extends MY_Controller
                         $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
                         $this->excel->getDefaultStyle()->applyFromArray($styleArray);
                         $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
-                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . "PDF" . DIRECTORY_SEPARATOR . "mPDF.php");
                         $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
-                        $rendererLibrary = 'MPDF';
-                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        $rendererLibrary = 'PDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . "PHPExcel"  .DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . $rendererLibrary;
                         if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
                             die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                                 PHP_EOL . ' as appropriate for your directory structure');
                         }
-
+                        
                         header('Content-Type: application/pdf');
                         header('Content-Disposition: attachment;filename="' . $filename . '.pdf"');
                         header('Cache-Control: max-age=0');
-
+                        
                         $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'PDF');
                         return $objWriter->save('php://output');
                     }

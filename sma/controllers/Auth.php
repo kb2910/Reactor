@@ -929,12 +929,13 @@ class Auth extends MY_Controller
                     $row = 2;
                     foreach ($_POST['val'] as $id) {
                         $user = $this->site->getUser($id);
+                        $group = $this->site->getGroupById($user->group_id);
                         $this->excel->getActiveSheet()->SetCellValue('A' . $row, $user->first_name);
                         $this->excel->getActiveSheet()->SetCellValue('B' . $row, $user->last_name);
                         $this->excel->getActiveSheet()->SetCellValue('C' . $row, $user->email);
                         $this->excel->getActiveSheet()->SetCellValue('D' . $row, $user->company);
-                        $this->excel->getActiveSheet()->SetCellValue('E' . $row, $user->group);
-                        $this->excel->getActiveSheet()->SetCellValue('F' . $row, $user->status);
+                        $this->excel->getActiveSheet()->SetCellValue('E' . $row, $group->name);
+                        $this->excel->getActiveSheet()->SetCellValue('F' . $row, $user->active == 1 ? "ACTIVO" : "DESACTIVADO");
                         $row++;
                     }
 
@@ -946,19 +947,19 @@ class Auth extends MY_Controller
                         $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
                         $this->excel->getDefaultStyle()->applyFromArray($styleArray);
                         $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
-                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . "PDF" . DIRECTORY_SEPARATOR . "mPDF.php");
                         $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
-                        $rendererLibrary = 'MPDF';
-                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        $rendererLibrary = 'PDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . "PHPExcel"  .DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . $rendererLibrary;
                         if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
                             die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                                 PHP_EOL . ' as appropriate for your directory structure');
                         }
-
+                        
                         header('Content-Type: application/pdf');
                         header('Content-Disposition: attachment;filename="' . $filename . '.pdf"');
                         header('Cache-Control: max-age=0');
-
+                        
                         $objWriter = PHPExcel_IOFactory::createWriter($this->excel, 'PDF');
                         return $objWriter->save('php://output');
                     }

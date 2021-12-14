@@ -320,6 +320,8 @@ class Sma
 
     public function generate_pdf($content, $name = 'download.pdf', $output_type = NULL, $footer = NULL, $margin_bottom = NULL, $header = NULL, $margin_top = NULL, $orientation = 'P')
     {
+    
+        ob_start();
         if (!$output_type) {
             $output_type = 'D';
         }
@@ -330,8 +332,10 @@ class Sma
             $margin_top = 10;
         }
         $this->load->library('pdf');
-        $pdf = new mPDF('utf-8', 'A4-' . $orientation, '13', '', 10, 10, $margin_top, $margin_bottom, 9, 9);
+        $pdf = new mPDF('UTF-8', 'A4-' . $orientation, '13', '', 10, 10, $margin_top, $margin_bottom, 9, 9);
         $pdf->debug = false;
+        $pdf->allow_charset_conversion = true;
+        $pdf->charset_in = 'windows-1252';
         $pdf->autoScriptToLang = true;
         $pdf->autoLangToFont = true;
         $pdf->SetProtection(array('print')); // You pass 2nd arg for user password (open) and 3rd for owner password (edit)
@@ -343,6 +347,7 @@ class Sma
         $stylesheet = file_get_contents('assets/bs/bootstrap.min.css');
         $pdf->WriteHTML($stylesheet, 1);
         $pdf->WriteHTML($content);
+        ob_end_clean();
         if ($header != '') {
             $pdf->SetHTMLHeader('<p class="text-center">' . $header . '</p>', '', TRUE);
         }
@@ -357,6 +362,7 @@ class Sma
             return 'assets/uploads/' . $name;
         } else {
             $pdf->Output($name, $output_type);
+
         }
     }
 

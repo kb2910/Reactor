@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="iso-8859-1"/>
     <base href="<?= site_url() ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $product->name ?> - <?= $Settings->site_name ?></title>
@@ -23,11 +23,25 @@
 
         <div class="clearfix"></div>
         <div class="row">
-            <div class="col-sm-5">
-                <?php if ($product->image != 'no_image.png') { ?><img
-                    src="<?= base_url() ?>assets/uploads/<?= $product->image ?>" alt="<?= $product->name ?>"
-                    class="img-responsive img-thumbnail" /><?php } ?>
-            </div>
+            <div class="col-xs-5">
+            <?php if($product->image_url_external !== 'no_image.png' ){ ?>
+                                <img src=" <?= $product->image_url_external ?>"
+                                alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+                            <?php } else { ?>
+                                <img src="<?= base_url() ?>assets/uploads/<?= $product->image ?>"
+                                     alt="<?= $product->name ?>" class="img-responsive img-thumbnail"/>
+
+                                <div id="multiimages" class="padding10">
+                                    <?php if (!empty($images)) {
+                                        echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $product->image . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $product->image . '" alt="' . $product->image . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        foreach ($images as $ph) {
+                                            echo '<a class="img-thumbnail" data-toggle="lightbox" data-gallery="multiimages" data-parent="#multiimages" href="' . base_url() . 'assets/uploads/' . $ph->photo . '" style="margin-right:5px;"><img class="img-responsive" src="' . base_url() . 'assets/uploads/thumbs/' . $ph->photo . '" alt="' . $ph->photo . '" style="width:' . $Settings->twidth . 'px; height:' . $Settings->theight . 'px;" /></a>';
+                                        }
+                                    }
+                                    ?>
+                                    <div class="clearfix"></div>
+                                </div>
+                            <?php } ?>            </div>
             <div class="col-sm-7">
                 <div class="clearfix"></div>
                 <div class="table-responsive">

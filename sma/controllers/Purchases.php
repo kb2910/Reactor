@@ -186,6 +186,39 @@ class Purchases extends MY_Controller
 
     }
 
+
+    //generate pdf and force to download
+
+    function pdfOrder($order_id = NULL, $view = NULL, $save_bufffer = NULL)
+    {
+        $this->sma->checkPermissions();
+
+        if ($this->input->get('id')) {
+            $order_id = $this->input->get('id');
+        }
+
+        $this->data['error'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('error');
+        $inv = $this->purchases_model->getOrdesByID($order_id);
+        $this->sma->view_rights($inv->created_by);
+        $this->data['rows'] = $this->purchases_model->getAllOrdersItems($order_id);
+        $this->data['supplier'] = $this->site->getCompanyByID($inv->supplier_id);
+        $this->data['created_by'] = $this->site->getUser($inv->created_by);
+
+        $this->data['updated_by'] = $inv->updated_by ? $this->site->getUser($inv->updated_by) : NULL;
+        $this->data['inv'] = $inv;
+        $name = $this->lang->line("purchase") . "_" . str_replace('/', '_', $inv->reference_no) . ".pdf";
+        $html = $this->load->view($this->theme . 'purchases/pdf1', $this->data, TRUE);
+        if ($view) {
+            $this->load->view($this->theme . 'purchases/pdf1', $this->data);
+        } elseif ($save_bufffer) {
+            return $this->sma->generate_pdf($html, $name, $save_bufffer);
+        } else {
+            $this->sma->generate_pdf($html, $name);
+        }
+
+    }
+
+
     function email($purchase_id = NULL)
     {
         $this->sma->checkPermissions(false, true);
@@ -1269,7 +1302,7 @@ class Purchases extends MY_Controller
                         $this->excel->getActiveSheet()->SetCellValue('A' . $row, $this->sma->hrld($purchase->date));
                         $this->excel->getActiveSheet()->SetCellValue('B' . $row, $purchase->reference_no);
                         $this->excel->getActiveSheet()->SetCellValue('C' . $row, $purchase->supplier);
-                        $this->excel->getActiveSheet()->SetCellValue('D' . $row, $purchase->status);
+                        $this->excel->getActiveSheet()->SetCellValue('F' . $row, $purchase->status);
                         $this->excel->getActiveSheet()->SetCellValue('E' . $row, $this->sma->formatMoney($purchase->grand_total));
                         $row++;
                     }
@@ -1282,10 +1315,10 @@ class Purchases extends MY_Controller
                         $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
                         $this->excel->getDefaultStyle()->applyFromArray($styleArray);
                         $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
-                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . "PDF" . DIRECTORY_SEPARATOR . "mPDF.php");
                         $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
-                        $rendererLibrary = 'MPDF';
-                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        $rendererLibrary = 'PDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . "PHPExcel"  .DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . $rendererLibrary;
                         if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
                             die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                                 PHP_EOL . ' as appropriate for your directory structure');
@@ -1753,11 +1786,11 @@ class Purchases extends MY_Controller
                         $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
                         $this->excel->getDefaultStyle()->applyFromArray($styleArray);
                         $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
-                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . "PDF" . DIRECTORY_SEPARATOR . "mPDF.php");
                         $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
-                        $rendererLibrary = 'MPDF';
-                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
-                        if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
+                        $rendererLibrary = 'PDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . "PHPExcel"  .DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . $rendererLibrary;
+                         if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
                             die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                                 PHP_EOL . ' as appropriate for your directory structure');
                         }

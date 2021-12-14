@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="modal-footer">
-            <?php echo form_submit('edit_tax_rate', lang('edit_tax_rate'), 'class="btn btn-primary"'); ?>
+            <?php echo form_submit('update', lang('update'), 'class="btn btn-primary"'); ?>
         </div>
     </div>
     <?php echo form_close(); ?>

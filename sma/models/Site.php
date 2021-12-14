@@ -77,6 +77,15 @@ class Site extends CI_Model
         return FALSE;
     }
 
+    public function getGroupById($id = NULL) {
+        
+        $q = $this->db->get_where('groups', array('id' => $id), 1);
+        if ($q->num_rows() > 0) {
+            return $q->row();
+        }
+        return FALSE;
+    }
+
     public function getProductByID($id) {
         $q = $this->db->get_where('products', array('id' => $id), 1);
         if ($q->num_rows() > 0) {

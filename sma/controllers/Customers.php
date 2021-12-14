@@ -421,10 +421,10 @@ class Customers extends MY_Controller
                         $styleArray = array('borders' => array('allborders' => array('style' => PHPExcel_Style_Border::BORDER_THIN)));
                         $this->excel->getDefaultStyle()->applyFromArray($styleArray);
                         $this->excel->getActiveSheet()->getPageSetup()->setOrientation(PHPExcel_Worksheet_PageSetup::ORIENTATION_LANDSCAPE);
-                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "MPDF" . DIRECTORY_SEPARATOR . "mpdf.php");
+                        require_once(APPPATH . "third_party" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . "PDF" . DIRECTORY_SEPARATOR . "mPDF.php");
                         $rendererName = PHPExcel_Settings::PDF_RENDERER_MPDF;
-                        $rendererLibrary = 'MPDF';
-                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . $rendererLibrary;
+                        $rendererLibrary = 'PDF';
+                        $rendererLibraryPath = APPPATH . 'third_party' . DIRECTORY_SEPARATOR . "PHPExcel"  .DIRECTORY_SEPARATOR . "PHPExcel" . DIRECTORY_SEPARATOR . "Writer" . DIRECTORY_SEPARATOR . $rendererLibrary;
                         if (!PHPExcel_Settings::setPdfRenderer($rendererName, $rendererLibraryPath)) {
                             die('Please set the $rendererName: ' . $rendererName . ' and $rendererLibraryPath: ' . $rendererLibraryPath . ' values' .
                                 PHP_EOL . ' as appropriate for your directory structure');

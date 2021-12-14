@@ -86,7 +86,7 @@ if (!defined('PHP_VERSION_ID')) {
     define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));
 }
 
-class mPDF
+class mPDF 
 {
 
 ///////////////////////////////
@@ -810,7 +810,7 @@ var $innerblocktags;
 // **********************************
 // **********************************
 
-function mPDF($mode='',$format='A4',$default_font_size=0,$default_font='',$mgl=15,$mgr=15,$mgt=16,$mgb=16,$mgh=9,$mgf=9, $orientation='P') {
+function __construct($mode='',$format='A4',$default_font_size=0,$default_font='',$mgl=15,$mgr=15,$mgt=16,$mgb=16,$mgh=9,$mgf=9, $orientation='P') {
 
 /*-- BACKGROUNDS --*/
 		if (!class_exists('grad', false)) { include(_MPDF_PATH.'classes/grad.php'); }
@@ -13956,6 +13956,7 @@ function WriteHTML($html,$sub=0,$init=true,$close=true) {
 			if ($success) { $html = $success; }
 		}
 	}
+//	print_r($html);
 	$html = $this->purify_utf8($html,false);
 	if ($init) {
 		$this->blklvl = 0;
