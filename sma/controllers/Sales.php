@@ -1863,6 +1863,7 @@ class Sales extends MY_Controller
 
             $sale = $this->sales_model->getInvoiceByID($id);
             $this->data['inv'] = $sale;
+            $this->data['payments_Methodd'] = $this->sales_model->getAllPaymentMethods();
             $this->data['payment_ref'] = ''; //$this->site->getReference('pay');
             $this->data['modal_js'] = $this->site->modal_js();
 

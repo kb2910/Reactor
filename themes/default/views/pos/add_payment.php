@@ -46,16 +46,18 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <?= lang("paying_by", "paid_by_1"); ?>
-                                    <select name="paid_by" id="paid_by_1" class="form-control paid_by"
-                                            required="required">
-                                        <option value="cash"><?= lang("cash"); ?></option>
-                                        <option value="CC"><?= lang("CC"); ?></option>
-                                        <option value="gift_card"><?= lang("gift_card"); ?></option>
-                                        <option value="Cheque"><?= lang("cheque"); ?></option>
-                                        <?= $pos_settings->paypal_pro ? '<option value="ppp">' . lang("paypal_pro") . '</option>' : ''; ?>
-                                        <?= $pos_settings->stripe ? '<option value="stripe">' . lang("stripe") . '</option>' : ''; ?>
-                                        <option value="other"><?= lang("other"); ?></option>
+                                    <?= lang("paying_by", "paid_by_1");?>
+                                    <select name="paid_by" id="paid_by_1" class="form-control paid_by" required="required">
+                                        <option value="">  <?= lang("select");?></option>
+                                       
+                                                   <?php
+                                                        foreach ($payments_Methodd as $category) {
+                                                            echo "<option value=".$category->value.">".$category->name."</option>";
+                                                        }
+                                                    ?>
+                                                    <?= $pos_settings->paypal_pro ? '<option value="ppp">' . lang("paypal_pro") . '</option>' : ''; ?>
+                                                    <?= $pos_settings->stripe ? '<option value="stripe">' . lang("stripe") . '</option>' : ''; ?>
+                                                
                                     </select>
                                 </div>
                             </div>

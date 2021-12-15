@@ -77,21 +77,13 @@ if ($modal) {
                 "<br>" . lang("tel") . ": " . $biller->phone . "<br>";
             ?>
             <?php
-            if ($pos_settings->cf_title1 != "" && $pos_settings->cf_value1 != "") {
-                echo $pos_settings->cf_title1 . ": " . $pos_settings->cf_value1 . "<br>";
-            }
-            if ($pos_settings->cf_title2 != "" && $pos_settings->cf_value2 != "") {
-                echo $pos_settings->cf_title2 . ": " . $pos_settings->cf_value2 . "<br>";
-            }
             echo '</p></div>';
             if ($Settings->invoice_view == 1) { ?>
                 <div class="col-sm-12 text-center">
                     <h4 style="font-weight:bold;"><?= lang('tax_invoice'); ?></h4>
                 </div>
             <?php }
-            echo "<p>" . lang("reference_no") . ": " . $inv->reference_no . "<br>";
             echo lang("customer") . ": " . $inv->customer . "<br>";
-            echo lang("dni") . ": " . $customer->dni . "<br>";
             echo lang("date") . ": " . $this->sma->hrld($inv->date) . "</p>";
             ?>
             <div style="clear:both;"></div>
@@ -226,14 +218,6 @@ if ($modal) {
             </div>
         </div>
         <?php $this->sma->qrcode('link', urlencode(site_url('pos/view/' . $inv->id)), 2); ?>
-        <div class="text-center"><img
-                src="<?= base_url() ?>assets/uploads/qrcode<?= $this->session->userdata('user_id') ?>.png"
-                alt="<?= $inv->reference_no ?>"/></div>
-        <?php $br = $this->sma->save_barcode($inv->reference_no, 'code39'); ?>
-        <div class="text-center"><img
-                src="<?= base_url() ?>assets/uploads/barcode<?= $this->session->userdata('user_id') ?>.png"
-                alt="<?= $inv->reference_no ?>"/></div>
-        <div style="clear:both;"></div>
     </div>
 <?php if ($modal) {
     echo '</div></div></div></div>';

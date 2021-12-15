@@ -28505,3 +28505,806 @@ DEBUG - 2021-12-14 15:35:45 --> Config file loaded: C:\wamp64\www\Reactor\sma\co
 INFO - 2021-12-14 15:35:45 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
 INFO - 2021-12-14 15:35:45 --> Final output sent to browser
 DEBUG - 2021-12-14 15:35:45 --> Total execution time: 0.1732
+INFO - 2021-12-14 15:41:21 --> Config Class Initialized
+INFO - 2021-12-14 15:41:21 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:41:21 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:41:21 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:41:21 --> URI Class Initialized
+INFO - 2021-12-14 15:41:21 --> Router Class Initialized
+INFO - 2021-12-14 15:41:21 --> Output Class Initialized
+INFO - 2021-12-14 15:41:21 --> Security Class Initialized
+INFO - 2021-12-14 15:41:21 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:41:21 --> Input Class Initialized
+INFO - 2021-12-14 15:41:21 --> Language Class Initialized
+INFO - 2021-12-14 15:41:21 --> Loader Class Initialized
+INFO - 2021-12-14 15:41:21 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:41:21 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:41:21 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:41:21 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:41:21 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:41:21 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:41:21 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:41:21 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:41:21 --> Parser Class Initialized
+INFO - 2021-12-14 15:41:21 --> Model Class Initialized
+INFO - 2021-12-14 15:41:21 --> Model Class Initialized
+INFO - 2021-12-14 15:41:21 --> Controller Class Initialized
+INFO - 2021-12-14 15:41:21 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:41:21 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:41:21 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:41:21 --> Model Class Initialized
+DEBUG - 2021-12-14 15:41:21 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:41:21 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:41:21 --> Final output sent to browser
+DEBUG - 2021-12-14 15:41:21 --> Total execution time: 0.2793
+INFO - 2021-12-14 15:41:25 --> Config Class Initialized
+INFO - 2021-12-14 15:41:25 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:41:25 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:41:25 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:41:25 --> URI Class Initialized
+INFO - 2021-12-14 15:41:25 --> Router Class Initialized
+INFO - 2021-12-14 15:41:25 --> Output Class Initialized
+INFO - 2021-12-14 15:41:25 --> Security Class Initialized
+INFO - 2021-12-14 15:41:25 --> CRSF cookie sent
+INFO - 2021-12-14 15:41:25 --> CSRF token verified
+DEBUG - 2021-12-14 15:41:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:41:25 --> Input Class Initialized
+INFO - 2021-12-14 15:41:25 --> Language Class Initialized
+INFO - 2021-12-14 15:41:25 --> Loader Class Initialized
+INFO - 2021-12-14 15:41:25 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:41:25 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:41:25 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:41:25 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:41:25 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:41:25 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:41:25 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:41:25 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:41:25 --> Parser Class Initialized
+INFO - 2021-12-14 15:41:25 --> Model Class Initialized
+INFO - 2021-12-14 15:41:25 --> Model Class Initialized
+INFO - 2021-12-14 15:41:25 --> Controller Class Initialized
+INFO - 2021-12-14 15:41:25 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:41:25 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:41:25 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:41:25 --> Model Class Initialized
+DEBUG - 2021-12-14 15:41:25 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:41:25 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:41:25 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:41:25 --> Email Class Initialized
+ERROR - 2021-12-14 15:41:27 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:41:27 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2021-12-14 15:41:27 --> Config Class Initialized
+INFO - 2021-12-14 15:41:27 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:41:27 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:41:27 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:41:27 --> URI Class Initialized
+INFO - 2021-12-14 15:41:27 --> Router Class Initialized
+INFO - 2021-12-14 15:41:27 --> Output Class Initialized
+INFO - 2021-12-14 15:41:27 --> Security Class Initialized
+INFO - 2021-12-14 15:41:27 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:41:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:41:27 --> Input Class Initialized
+INFO - 2021-12-14 15:41:27 --> Language Class Initialized
+INFO - 2021-12-14 15:41:27 --> Loader Class Initialized
+INFO - 2021-12-14 15:41:27 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:41:27 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:41:27 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:41:27 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:41:27 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:41:27 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:41:27 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:41:27 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:41:27 --> Parser Class Initialized
+INFO - 2021-12-14 15:41:27 --> Model Class Initialized
+INFO - 2021-12-14 15:41:27 --> Model Class Initialized
+INFO - 2021-12-14 15:41:27 --> Controller Class Initialized
+INFO - 2021-12-14 15:41:27 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:41:27 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:41:27 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:41:27 --> Model Class Initialized
+DEBUG - 2021-12-14 15:41:27 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:41:27 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:41:27 --> Final output sent to browser
+DEBUG - 2021-12-14 15:41:27 --> Total execution time: 0.1455
+INFO - 2021-12-14 15:42:10 --> Config Class Initialized
+INFO - 2021-12-14 15:42:10 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:10 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:10 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:10 --> URI Class Initialized
+INFO - 2021-12-14 15:42:10 --> Router Class Initialized
+INFO - 2021-12-14 15:42:10 --> Output Class Initialized
+INFO - 2021-12-14 15:42:10 --> Security Class Initialized
+INFO - 2021-12-14 15:42:10 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:42:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:10 --> Input Class Initialized
+INFO - 2021-12-14 15:42:10 --> Language Class Initialized
+INFO - 2021-12-14 15:42:10 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:10 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:10 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:10 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:10 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:10 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:10 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:10 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:10 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:10 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:10 --> Model Class Initialized
+INFO - 2021-12-14 15:42:10 --> Model Class Initialized
+INFO - 2021-12-14 15:42:10 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:10 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:10 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:10 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:10 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:10 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:10 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:42:10 --> Final output sent to browser
+DEBUG - 2021-12-14 15:42:10 --> Total execution time: 0.1616
+INFO - 2021-12-14 15:42:14 --> Config Class Initialized
+INFO - 2021-12-14 15:42:14 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:15 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:15 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:15 --> URI Class Initialized
+INFO - 2021-12-14 15:42:15 --> Router Class Initialized
+INFO - 2021-12-14 15:42:15 --> Output Class Initialized
+INFO - 2021-12-14 15:42:15 --> Security Class Initialized
+INFO - 2021-12-14 15:42:15 --> CRSF cookie sent
+INFO - 2021-12-14 15:42:15 --> CSRF token verified
+DEBUG - 2021-12-14 15:42:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:15 --> Input Class Initialized
+INFO - 2021-12-14 15:42:15 --> Language Class Initialized
+INFO - 2021-12-14 15:42:15 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:15 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:15 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:15 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:15 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:15 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:15 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:15 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:15 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:15 --> Model Class Initialized
+INFO - 2021-12-14 15:42:15 --> Model Class Initialized
+INFO - 2021-12-14 15:42:15 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:15 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:15 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:15 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:15 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:15 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:42:15 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:42:15 --> Email Class Initialized
+ERROR - 2021-12-14 15:42:17 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:42:17 --> Language file loaded: language/spanish/email_lang.php
+DEBUG - 2021-12-14 15:42:17 --> Email class already loaded. Second attempt ignored.
+ERROR - 2021-12-14 15:42:19 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:42:19 --> Config Class Initialized
+INFO - 2021-12-14 15:42:19 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:19 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:19 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:19 --> URI Class Initialized
+INFO - 2021-12-14 15:42:19 --> Router Class Initialized
+INFO - 2021-12-14 15:42:19 --> Output Class Initialized
+INFO - 2021-12-14 15:42:19 --> Security Class Initialized
+INFO - 2021-12-14 15:42:19 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:42:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:19 --> Input Class Initialized
+INFO - 2021-12-14 15:42:19 --> Language Class Initialized
+INFO - 2021-12-14 15:42:19 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:19 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:19 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:19 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:19 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:19 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:19 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:19 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:19 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:19 --> Model Class Initialized
+INFO - 2021-12-14 15:42:19 --> Model Class Initialized
+INFO - 2021-12-14 15:42:19 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:19 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:19 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:19 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:19 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:42:19 --> Final output sent to browser
+DEBUG - 2021-12-14 15:42:19 --> Total execution time: 0.1801
+INFO - 2021-12-14 15:42:40 --> Config Class Initialized
+INFO - 2021-12-14 15:42:40 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:40 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:40 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:40 --> URI Class Initialized
+INFO - 2021-12-14 15:42:40 --> Router Class Initialized
+INFO - 2021-12-14 15:42:40 --> Output Class Initialized
+INFO - 2021-12-14 15:42:40 --> Security Class Initialized
+INFO - 2021-12-14 15:42:40 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:42:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:40 --> Input Class Initialized
+INFO - 2021-12-14 15:42:40 --> Language Class Initialized
+INFO - 2021-12-14 15:42:40 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:40 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:40 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:40 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:40 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:40 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:40 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:40 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:40 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:40 --> Model Class Initialized
+INFO - 2021-12-14 15:42:40 --> Model Class Initialized
+INFO - 2021-12-14 15:42:40 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:40 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:40 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:40 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:40 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:42:40 --> Final output sent to browser
+DEBUG - 2021-12-14 15:42:40 --> Total execution time: 0.2944
+INFO - 2021-12-14 15:42:45 --> Config Class Initialized
+INFO - 2021-12-14 15:42:45 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:45 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:45 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:45 --> URI Class Initialized
+INFO - 2021-12-14 15:42:45 --> Router Class Initialized
+INFO - 2021-12-14 15:42:45 --> Output Class Initialized
+INFO - 2021-12-14 15:42:45 --> Security Class Initialized
+INFO - 2021-12-14 15:42:45 --> CRSF cookie sent
+INFO - 2021-12-14 15:42:45 --> CSRF token verified
+DEBUG - 2021-12-14 15:42:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:45 --> Input Class Initialized
+INFO - 2021-12-14 15:42:45 --> Language Class Initialized
+INFO - 2021-12-14 15:42:45 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:45 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:45 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:45 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:45 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:45 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:45 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:45 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:45 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:45 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:45 --> Model Class Initialized
+INFO - 2021-12-14 15:42:45 --> Model Class Initialized
+INFO - 2021-12-14 15:42:45 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:45 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:45 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:45 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:45 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:45 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:45 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:42:45 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:42:45 --> Email Class Initialized
+ERROR - 2021-12-14 15:42:48 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:42:48 --> Language file loaded: language/spanish/email_lang.php
+DEBUG - 2021-12-14 15:42:48 --> Email class already loaded. Second attempt ignored.
+ERROR - 2021-12-14 15:42:50 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:42:50 --> Config Class Initialized
+INFO - 2021-12-14 15:42:50 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:42:50 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:42:50 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:42:50 --> URI Class Initialized
+INFO - 2021-12-14 15:42:50 --> Router Class Initialized
+INFO - 2021-12-14 15:42:50 --> Output Class Initialized
+INFO - 2021-12-14 15:42:50 --> Security Class Initialized
+INFO - 2021-12-14 15:42:50 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:42:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:42:50 --> Input Class Initialized
+INFO - 2021-12-14 15:42:50 --> Language Class Initialized
+INFO - 2021-12-14 15:42:50 --> Loader Class Initialized
+INFO - 2021-12-14 15:42:50 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:42:50 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:42:50 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:42:50 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:42:50 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:42:50 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:42:50 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:42:50 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:42:50 --> Parser Class Initialized
+INFO - 2021-12-14 15:42:50 --> Model Class Initialized
+INFO - 2021-12-14 15:42:50 --> Model Class Initialized
+INFO - 2021-12-14 15:42:50 --> Controller Class Initialized
+INFO - 2021-12-14 15:42:50 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:42:50 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:42:50 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:42:50 --> Model Class Initialized
+DEBUG - 2021-12-14 15:42:50 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:42:50 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:42:50 --> Final output sent to browser
+DEBUG - 2021-12-14 15:42:50 --> Total execution time: 0.1421
+INFO - 2021-12-14 15:43:11 --> Config Class Initialized
+INFO - 2021-12-14 15:43:11 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:43:11 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:43:11 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:43:11 --> URI Class Initialized
+INFO - 2021-12-14 15:43:11 --> Router Class Initialized
+INFO - 2021-12-14 15:43:11 --> Output Class Initialized
+INFO - 2021-12-14 15:43:11 --> Security Class Initialized
+INFO - 2021-12-14 15:43:11 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:43:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:43:11 --> Input Class Initialized
+INFO - 2021-12-14 15:43:11 --> Language Class Initialized
+INFO - 2021-12-14 15:43:11 --> Loader Class Initialized
+INFO - 2021-12-14 15:43:11 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:43:11 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:43:11 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:43:11 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:43:11 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:43:11 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:43:11 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:43:11 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:43:11 --> Parser Class Initialized
+INFO - 2021-12-14 15:43:11 --> Model Class Initialized
+INFO - 2021-12-14 15:43:11 --> Model Class Initialized
+INFO - 2021-12-14 15:43:11 --> Controller Class Initialized
+INFO - 2021-12-14 15:43:11 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:43:11 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:43:11 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:43:11 --> Model Class Initialized
+DEBUG - 2021-12-14 15:43:11 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:43:11 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:43:11 --> Final output sent to browser
+DEBUG - 2021-12-14 15:43:11 --> Total execution time: 0.2051
+INFO - 2021-12-14 15:43:15 --> Config Class Initialized
+INFO - 2021-12-14 15:43:15 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:43:15 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:43:15 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:43:15 --> URI Class Initialized
+INFO - 2021-12-14 15:43:15 --> Router Class Initialized
+INFO - 2021-12-14 15:43:15 --> Output Class Initialized
+INFO - 2021-12-14 15:43:15 --> Security Class Initialized
+INFO - 2021-12-14 15:43:15 --> CRSF cookie sent
+INFO - 2021-12-14 15:43:15 --> CSRF token verified
+DEBUG - 2021-12-14 15:43:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:43:15 --> Input Class Initialized
+INFO - 2021-12-14 15:43:15 --> Language Class Initialized
+INFO - 2021-12-14 15:43:15 --> Loader Class Initialized
+INFO - 2021-12-14 15:43:15 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:43:15 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:43:15 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:43:15 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:43:15 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:43:15 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:43:15 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:43:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:43:15 --> Parser Class Initialized
+INFO - 2021-12-14 15:43:15 --> Model Class Initialized
+INFO - 2021-12-14 15:43:15 --> Model Class Initialized
+INFO - 2021-12-14 15:43:15 --> Controller Class Initialized
+INFO - 2021-12-14 15:43:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:43:15 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:43:15 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:43:15 --> Model Class Initialized
+DEBUG - 2021-12-14 15:43:15 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:43:15 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:43:15 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:43:15 --> Email Class Initialized
+ERROR - 2021-12-14 15:43:17 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:43:17 --> Language file loaded: language/spanish/email_lang.php
+DEBUG - 2021-12-14 15:43:17 --> Email class already loaded. Second attempt ignored.
+ERROR - 2021-12-14 15:43:19 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+ERROR - 2021-12-14 15:43:19 --> Could not find the language line "sending_email_failed1"
+ERROR - 2021-12-14 15:43:19 --> Could not find the language line "sending_email_failed1"
+INFO - 2021-12-14 15:43:19 --> Config Class Initialized
+INFO - 2021-12-14 15:43:19 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:43:19 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:43:19 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:43:19 --> URI Class Initialized
+INFO - 2021-12-14 15:43:19 --> Router Class Initialized
+INFO - 2021-12-14 15:43:19 --> Output Class Initialized
+INFO - 2021-12-14 15:43:19 --> Security Class Initialized
+INFO - 2021-12-14 15:43:19 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:43:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:43:19 --> Input Class Initialized
+INFO - 2021-12-14 15:43:19 --> Language Class Initialized
+INFO - 2021-12-14 15:43:19 --> Loader Class Initialized
+INFO - 2021-12-14 15:43:19 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:43:19 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:43:19 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:43:19 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:43:19 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:43:19 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:43:19 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:43:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:43:19 --> Parser Class Initialized
+INFO - 2021-12-14 15:43:19 --> Model Class Initialized
+INFO - 2021-12-14 15:43:19 --> Model Class Initialized
+INFO - 2021-12-14 15:43:19 --> Controller Class Initialized
+INFO - 2021-12-14 15:43:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:43:19 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:43:19 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:43:19 --> Model Class Initialized
+DEBUG - 2021-12-14 15:43:19 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:43:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:43:19 --> Final output sent to browser
+DEBUG - 2021-12-14 15:43:19 --> Total execution time: 0.1264
+INFO - 2021-12-14 15:44:34 --> Config Class Initialized
+INFO - 2021-12-14 15:44:34 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:44:34 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:44:34 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:44:34 --> URI Class Initialized
+INFO - 2021-12-14 15:44:34 --> Router Class Initialized
+INFO - 2021-12-14 15:44:34 --> Output Class Initialized
+INFO - 2021-12-14 15:44:34 --> Security Class Initialized
+INFO - 2021-12-14 15:44:34 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:44:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:44:34 --> Input Class Initialized
+INFO - 2021-12-14 15:44:34 --> Language Class Initialized
+INFO - 2021-12-14 15:44:34 --> Loader Class Initialized
+INFO - 2021-12-14 15:44:34 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:44:34 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:44:34 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:44:34 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:44:34 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:44:34 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:44:34 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:44:34 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:44:34 --> Parser Class Initialized
+INFO - 2021-12-14 15:44:34 --> Model Class Initialized
+INFO - 2021-12-14 15:44:34 --> Model Class Initialized
+INFO - 2021-12-14 15:44:34 --> Controller Class Initialized
+INFO - 2021-12-14 15:44:34 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:44:34 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:44:34 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:44:34 --> Model Class Initialized
+DEBUG - 2021-12-14 15:44:34 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:44:34 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:44:34 --> Final output sent to browser
+DEBUG - 2021-12-14 15:44:34 --> Total execution time: 0.1601
+INFO - 2021-12-14 15:44:37 --> Config Class Initialized
+INFO - 2021-12-14 15:44:37 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:44:37 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:44:37 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:44:37 --> URI Class Initialized
+INFO - 2021-12-14 15:44:37 --> Router Class Initialized
+INFO - 2021-12-14 15:44:37 --> Output Class Initialized
+INFO - 2021-12-14 15:44:37 --> Security Class Initialized
+INFO - 2021-12-14 15:44:37 --> CRSF cookie sent
+INFO - 2021-12-14 15:44:37 --> CSRF token verified
+DEBUG - 2021-12-14 15:44:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:44:37 --> Input Class Initialized
+INFO - 2021-12-14 15:44:37 --> Language Class Initialized
+INFO - 2021-12-14 15:44:37 --> Loader Class Initialized
+INFO - 2021-12-14 15:44:37 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:44:37 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:44:37 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:44:37 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:44:37 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:44:37 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:44:37 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:44:37 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:44:37 --> Parser Class Initialized
+INFO - 2021-12-14 15:44:37 --> Model Class Initialized
+INFO - 2021-12-14 15:44:37 --> Model Class Initialized
+INFO - 2021-12-14 15:44:37 --> Controller Class Initialized
+INFO - 2021-12-14 15:44:37 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:44:37 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:44:37 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:44:37 --> Model Class Initialized
+DEBUG - 2021-12-14 15:44:37 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:44:37 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:44:37 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:44:37 --> Email Class Initialized
+ERROR - 2021-12-14 15:44:39 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:44:39 --> Language file loaded: language/spanish/email_lang.php
+ERROR - 2021-12-14 15:44:39 --> Could not find the language line "sending_email_failed1"
+ERROR - 2021-12-14 15:44:39 --> Could not find the language line "sending_email_failed1"
+INFO - 2021-12-14 15:44:39 --> Config Class Initialized
+INFO - 2021-12-14 15:44:39 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:44:39 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:44:39 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:44:39 --> URI Class Initialized
+INFO - 2021-12-14 15:44:39 --> Router Class Initialized
+INFO - 2021-12-14 15:44:39 --> Output Class Initialized
+INFO - 2021-12-14 15:44:39 --> Security Class Initialized
+INFO - 2021-12-14 15:44:40 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:44:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:44:40 --> Input Class Initialized
+INFO - 2021-12-14 15:44:40 --> Language Class Initialized
+INFO - 2021-12-14 15:44:40 --> Loader Class Initialized
+INFO - 2021-12-14 15:44:40 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:44:40 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:44:40 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:44:40 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:44:40 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:44:40 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:44:40 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:44:40 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:44:40 --> Parser Class Initialized
+INFO - 2021-12-14 15:44:40 --> Model Class Initialized
+INFO - 2021-12-14 15:44:40 --> Model Class Initialized
+INFO - 2021-12-14 15:44:40 --> Controller Class Initialized
+INFO - 2021-12-14 15:44:40 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:44:40 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:44:40 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:44:40 --> Model Class Initialized
+DEBUG - 2021-12-14 15:44:40 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:44:40 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:44:40 --> Final output sent to browser
+DEBUG - 2021-12-14 15:44:40 --> Total execution time: 0.1852
+INFO - 2021-12-14 15:45:06 --> Config Class Initialized
+INFO - 2021-12-14 15:45:06 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:45:06 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:45:06 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:45:06 --> URI Class Initialized
+INFO - 2021-12-14 15:45:06 --> Router Class Initialized
+INFO - 2021-12-14 15:45:06 --> Output Class Initialized
+INFO - 2021-12-14 15:45:06 --> Security Class Initialized
+INFO - 2021-12-14 15:45:06 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:45:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:45:06 --> Input Class Initialized
+INFO - 2021-12-14 15:45:06 --> Language Class Initialized
+INFO - 2021-12-14 15:45:06 --> Loader Class Initialized
+INFO - 2021-12-14 15:45:06 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:45:06 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:45:06 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:45:06 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:45:06 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:45:06 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:45:06 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:45:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:45:06 --> Parser Class Initialized
+INFO - 2021-12-14 15:45:06 --> Model Class Initialized
+INFO - 2021-12-14 15:45:06 --> Model Class Initialized
+INFO - 2021-12-14 15:45:06 --> Controller Class Initialized
+INFO - 2021-12-14 15:45:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:45:06 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:45:06 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:45:06 --> Model Class Initialized
+DEBUG - 2021-12-14 15:45:06 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:45:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:45:06 --> Final output sent to browser
+DEBUG - 2021-12-14 15:45:06 --> Total execution time: 0.2485
+INFO - 2021-12-14 15:45:09 --> Config Class Initialized
+INFO - 2021-12-14 15:45:09 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:45:09 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:45:09 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:45:09 --> URI Class Initialized
+INFO - 2021-12-14 15:45:09 --> Router Class Initialized
+INFO - 2021-12-14 15:45:09 --> Output Class Initialized
+INFO - 2021-12-14 15:45:09 --> Security Class Initialized
+INFO - 2021-12-14 15:45:09 --> CRSF cookie sent
+INFO - 2021-12-14 15:45:09 --> CSRF token verified
+DEBUG - 2021-12-14 15:45:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:45:09 --> Input Class Initialized
+INFO - 2021-12-14 15:45:09 --> Language Class Initialized
+INFO - 2021-12-14 15:45:09 --> Loader Class Initialized
+INFO - 2021-12-14 15:45:09 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:45:09 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:45:09 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:45:09 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:45:09 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:45:09 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:45:09 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:45:09 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:45:09 --> Parser Class Initialized
+INFO - 2021-12-14 15:45:09 --> Model Class Initialized
+INFO - 2021-12-14 15:45:09 --> Model Class Initialized
+INFO - 2021-12-14 15:45:09 --> Controller Class Initialized
+INFO - 2021-12-14 15:45:09 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:45:09 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:45:09 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:45:09 --> Model Class Initialized
+DEBUG - 2021-12-14 15:45:09 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:45:09 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:45:09 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:45:09 --> Email Class Initialized
+ERROR - 2021-12-14 15:45:11 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:45:11 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2021-12-14 15:45:11 --> Final output sent to browser
+DEBUG - 2021-12-14 15:45:11 --> Total execution time: 2.3827
+INFO - 2021-12-14 15:58:08 --> Config Class Initialized
+INFO - 2021-12-14 15:58:08 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:58:08 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:58:08 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:58:08 --> URI Class Initialized
+INFO - 2021-12-14 15:58:08 --> Router Class Initialized
+INFO - 2021-12-14 15:58:08 --> Output Class Initialized
+INFO - 2021-12-14 15:58:08 --> Security Class Initialized
+INFO - 2021-12-14 15:58:08 --> CRSF cookie sent
+INFO - 2021-12-14 15:58:08 --> CSRF token verified
+DEBUG - 2021-12-14 15:58:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:58:08 --> Input Class Initialized
+INFO - 2021-12-14 15:58:08 --> Language Class Initialized
+INFO - 2021-12-14 15:58:08 --> Loader Class Initialized
+INFO - 2021-12-14 15:58:08 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:58:08 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:58:08 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:58:08 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:58:08 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:58:08 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:58:08 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:58:08 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:58:08 --> Parser Class Initialized
+INFO - 2021-12-14 15:58:08 --> Model Class Initialized
+INFO - 2021-12-14 15:58:08 --> Model Class Initialized
+INFO - 2021-12-14 15:58:08 --> Controller Class Initialized
+INFO - 2021-12-14 15:58:08 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:58:08 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:58:08 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:58:08 --> Model Class Initialized
+DEBUG - 2021-12-14 15:58:08 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:58:08 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 15:58:08 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 15:58:08 --> Email Class Initialized
+ERROR - 2021-12-14 15:58:10 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 15:58:10 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2021-12-14 15:58:10 --> Final output sent to browser
+DEBUG - 2021-12-14 15:58:10 --> Total execution time: 2.3835
+INFO - 2021-12-14 15:59:15 --> Config Class Initialized
+INFO - 2021-12-14 15:59:15 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:59:15 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:59:15 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:59:15 --> URI Class Initialized
+INFO - 2021-12-14 15:59:15 --> Router Class Initialized
+INFO - 2021-12-14 15:59:15 --> Output Class Initialized
+INFO - 2021-12-14 15:59:15 --> Security Class Initialized
+INFO - 2021-12-14 15:59:15 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:59:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:59:15 --> Input Class Initialized
+INFO - 2021-12-14 15:59:15 --> Language Class Initialized
+INFO - 2021-12-14 15:59:15 --> Loader Class Initialized
+INFO - 2021-12-14 15:59:15 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:59:15 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:59:15 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:59:15 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:59:15 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:59:15 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:59:15 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:59:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:59:15 --> Parser Class Initialized
+INFO - 2021-12-14 15:59:15 --> Model Class Initialized
+INFO - 2021-12-14 15:59:15 --> Model Class Initialized
+INFO - 2021-12-14 15:59:15 --> Controller Class Initialized
+INFO - 2021-12-14 15:59:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:59:15 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:59:15 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:59:15 --> Model Class Initialized
+DEBUG - 2021-12-14 15:59:15 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:59:15 --> Helper loaded: string_helper
+INFO - 2021-12-14 15:59:15 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/reset_password.php
+INFO - 2021-12-14 15:59:15 --> Final output sent to browser
+DEBUG - 2021-12-14 15:59:15 --> Total execution time: 0.1378
+INFO - 2021-12-14 15:59:19 --> Config Class Initialized
+INFO - 2021-12-14 15:59:19 --> Hooks Class Initialized
+DEBUG - 2021-12-14 15:59:19 --> UTF-8 Support Enabled
+INFO - 2021-12-14 15:59:19 --> Utf8 Class Initialized
+INFO - 2021-12-14 15:59:19 --> URI Class Initialized
+INFO - 2021-12-14 15:59:19 --> Router Class Initialized
+INFO - 2021-12-14 15:59:19 --> Output Class Initialized
+INFO - 2021-12-14 15:59:19 --> Security Class Initialized
+INFO - 2021-12-14 15:59:19 --> CRSF cookie sent
+DEBUG - 2021-12-14 15:59:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 15:59:19 --> Input Class Initialized
+INFO - 2021-12-14 15:59:19 --> Language Class Initialized
+INFO - 2021-12-14 15:59:19 --> Loader Class Initialized
+INFO - 2021-12-14 15:59:19 --> Helper loaded: url_helper
+INFO - 2021-12-14 15:59:19 --> Helper loaded: form_helper
+INFO - 2021-12-14 15:59:19 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 15:59:19 --> Helper loaded: language_helper
+INFO - 2021-12-14 15:59:19 --> Helper loaded: file_helper
+INFO - 2021-12-14 15:59:19 --> Helper loaded: date_helper
+INFO - 2021-12-14 15:59:19 --> Database Driver Class Initialized
+INFO - 2021-12-14 15:59:19 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 15:59:19 --> Parser Class Initialized
+INFO - 2021-12-14 15:59:19 --> Model Class Initialized
+INFO - 2021-12-14 15:59:19 --> Model Class Initialized
+INFO - 2021-12-14 15:59:19 --> Controller Class Initialized
+INFO - 2021-12-14 15:59:19 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 15:59:19 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 15:59:19 --> Form Validation Class Initialized
+INFO - 2021-12-14 15:59:19 --> Model Class Initialized
+DEBUG - 2021-12-14 15:59:19 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 15:59:19 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 15:59:19 --> Final output sent to browser
+DEBUG - 2021-12-14 15:59:19 --> Total execution time: 0.1540
+INFO - 2021-12-14 16:02:15 --> Config Class Initialized
+INFO - 2021-12-14 16:02:15 --> Hooks Class Initialized
+DEBUG - 2021-12-14 16:02:15 --> UTF-8 Support Enabled
+INFO - 2021-12-14 16:02:15 --> Utf8 Class Initialized
+INFO - 2021-12-14 16:02:15 --> URI Class Initialized
+INFO - 2021-12-14 16:02:15 --> Router Class Initialized
+INFO - 2021-12-14 16:02:15 --> Output Class Initialized
+INFO - 2021-12-14 16:02:15 --> Security Class Initialized
+INFO - 2021-12-14 16:02:15 --> CRSF cookie sent
+INFO - 2021-12-14 16:02:15 --> CSRF token verified
+DEBUG - 2021-12-14 16:02:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 16:02:15 --> Input Class Initialized
+INFO - 2021-12-14 16:02:15 --> Language Class Initialized
+INFO - 2021-12-14 16:02:15 --> Loader Class Initialized
+INFO - 2021-12-14 16:02:15 --> Helper loaded: url_helper
+INFO - 2021-12-14 16:02:15 --> Helper loaded: form_helper
+INFO - 2021-12-14 16:02:15 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 16:02:15 --> Helper loaded: language_helper
+INFO - 2021-12-14 16:02:15 --> Helper loaded: file_helper
+INFO - 2021-12-14 16:02:15 --> Helper loaded: date_helper
+INFO - 2021-12-14 16:02:15 --> Database Driver Class Initialized
+INFO - 2021-12-14 16:02:15 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 16:02:15 --> Parser Class Initialized
+INFO - 2021-12-14 16:02:15 --> Model Class Initialized
+INFO - 2021-12-14 16:02:15 --> Model Class Initialized
+INFO - 2021-12-14 16:02:15 --> Controller Class Initialized
+INFO - 2021-12-14 16:02:15 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 16:02:15 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 16:02:15 --> Form Validation Class Initialized
+INFO - 2021-12-14 16:02:15 --> Model Class Initialized
+DEBUG - 2021-12-14 16:02:15 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 16:02:15 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 16:02:15 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 16:02:15 --> Email Class Initialized
+ERROR - 2021-12-14 16:02:17 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 16:02:17 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2021-12-14 16:02:17 --> Final output sent to browser
+DEBUG - 2021-12-14 16:02:17 --> Total execution time: 2.4069
+INFO - 2021-12-14 16:15:03 --> Config Class Initialized
+INFO - 2021-12-14 16:15:03 --> Hooks Class Initialized
+DEBUG - 2021-12-14 16:15:03 --> UTF-8 Support Enabled
+INFO - 2021-12-14 16:15:03 --> Utf8 Class Initialized
+INFO - 2021-12-14 16:15:03 --> URI Class Initialized
+INFO - 2021-12-14 16:15:03 --> Router Class Initialized
+INFO - 2021-12-14 16:15:03 --> Output Class Initialized
+INFO - 2021-12-14 16:15:03 --> Security Class Initialized
+INFO - 2021-12-14 16:15:03 --> CRSF cookie sent
+INFO - 2021-12-14 16:15:03 --> CSRF token verified
+DEBUG - 2021-12-14 16:15:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 16:15:03 --> Input Class Initialized
+INFO - 2021-12-14 16:15:03 --> Language Class Initialized
+INFO - 2021-12-14 16:15:03 --> Loader Class Initialized
+INFO - 2021-12-14 16:15:03 --> Helper loaded: url_helper
+INFO - 2021-12-14 16:15:04 --> Helper loaded: form_helper
+INFO - 2021-12-14 16:15:04 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 16:15:04 --> Helper loaded: language_helper
+INFO - 2021-12-14 16:15:04 --> Helper loaded: file_helper
+INFO - 2021-12-14 16:15:04 --> Helper loaded: date_helper
+INFO - 2021-12-14 16:15:04 --> Database Driver Class Initialized
+INFO - 2021-12-14 16:15:04 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 16:15:04 --> Parser Class Initialized
+INFO - 2021-12-14 16:15:04 --> Model Class Initialized
+INFO - 2021-12-14 16:15:04 --> Model Class Initialized
+INFO - 2021-12-14 16:15:04 --> Controller Class Initialized
+INFO - 2021-12-14 16:15:04 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 16:15:04 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 16:15:04 --> Form Validation Class Initialized
+INFO - 2021-12-14 16:15:04 --> Model Class Initialized
+DEBUG - 2021-12-14 16:15:04 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 16:15:04 --> Language file loaded: language/spanish/form_validation_lang.php
+DEBUG - 2021-12-14 16:15:04 --> Parser class already loaded. Second attempt ignored.
+INFO - 2021-12-14 16:15:04 --> Email Class Initialized
+ERROR - 2021-12-14 16:15:06 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\wamp64\www\Reactor\system\libraries\Email.php 1812
+INFO - 2021-12-14 16:15:06 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2021-12-14 16:15:06 --> Config Class Initialized
+INFO - 2021-12-14 16:15:06 --> Hooks Class Initialized
+DEBUG - 2021-12-14 16:15:06 --> UTF-8 Support Enabled
+INFO - 2021-12-14 16:15:06 --> Utf8 Class Initialized
+INFO - 2021-12-14 16:15:06 --> URI Class Initialized
+INFO - 2021-12-14 16:15:06 --> Router Class Initialized
+INFO - 2021-12-14 16:15:06 --> Output Class Initialized
+INFO - 2021-12-14 16:15:06 --> Security Class Initialized
+INFO - 2021-12-14 16:15:06 --> CRSF cookie sent
+DEBUG - 2021-12-14 16:15:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2021-12-14 16:15:06 --> Input Class Initialized
+INFO - 2021-12-14 16:15:06 --> Language Class Initialized
+INFO - 2021-12-14 16:15:06 --> Loader Class Initialized
+INFO - 2021-12-14 16:15:06 --> Helper loaded: url_helper
+INFO - 2021-12-14 16:15:06 --> Helper loaded: form_helper
+INFO - 2021-12-14 16:15:06 --> Helper loaded: cookie_helper
+INFO - 2021-12-14 16:15:06 --> Helper loaded: language_helper
+INFO - 2021-12-14 16:15:06 --> Helper loaded: file_helper
+INFO - 2021-12-14 16:15:06 --> Helper loaded: date_helper
+INFO - 2021-12-14 16:15:06 --> Database Driver Class Initialized
+INFO - 2021-12-14 16:15:06 --> Session: Class initialized using 'database' driver.
+INFO - 2021-12-14 16:15:06 --> Parser Class Initialized
+INFO - 2021-12-14 16:15:06 --> Model Class Initialized
+INFO - 2021-12-14 16:15:06 --> Model Class Initialized
+INFO - 2021-12-14 16:15:06 --> Controller Class Initialized
+INFO - 2021-12-14 16:15:06 --> Language file loaded: language/spanish/sma_lang.php
+INFO - 2021-12-14 16:15:06 --> Language file loaded: language/spanish/auth_lang.php
+INFO - 2021-12-14 16:15:06 --> Form Validation Class Initialized
+INFO - 2021-12-14 16:15:06 --> Model Class Initialized
+DEBUG - 2021-12-14 16:15:06 --> Config file loaded: C:\wamp64\www\Reactor\sma\config/ion_auth.php
+INFO - 2021-12-14 16:15:06 --> File loaded: C:\wamp64\www\Reactor\themes\default/views/auth/login.php
+INFO - 2021-12-14 16:15:06 --> Final output sent to browser
+DEBUG - 2021-12-14 16:15:06 --> Total execution time: 0.1265

@@ -853,4 +853,16 @@ class Sales_model extends CI_Model
         return FALSE;
     }
 
+
+    public function getAllPaymentMethods() {
+        $this->db->order_by('name');
+        $q = $this->db->get('payment_methods');
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
+    }
 }
