@@ -10,7 +10,7 @@
                          alt="<?= $Settings->site_name; ?>">
                 </div>
                 <div class="well well-sm">
-                    <div class="col-xs-6 border-right">
+                    <div class="col-xs-4 border-right">
 
                         <div class="col-xs-2"><i class="fa fa-3x fa-building padding010 text-muted"></i></div>
                         <div class="col-xs-10">
@@ -48,7 +48,23 @@
                         <div class="clearfix"></div>
 
                     </div>
-                    <div class="col-xs-6 border-left">
+                    <div class="col-xs-4">
+
+                    <div class="col-xs-2"><i class="fa fa-3x fa-truck padding010 text-muted"></i></div>
+                    <div class="col-xs-10">
+                        <h2 class=""><?= $Settings->site_name; ?></h2>
+                        <?= $warehouse->name ?>
+
+                        <?php
+                        echo $warehouse->address . "<br>";
+                        echo ($warehouse->phone ? lang("tel") . ": " . $warehouse->phone . "<br>" : '') . ($warehouse->email ? lang("email") . ": " . $warehouse->email : '');
+                        ?>
+                    </div>
+                    <div class="clearfix"></div>
+
+
+                    </div>
+                    <div class="col-xs-4 border-left">
 
                         <div class="col-xs-2"><i class="fa fa-3x fa-file-text-o padding010 text-muted"></i></div>
                         <div class="col-xs-10">

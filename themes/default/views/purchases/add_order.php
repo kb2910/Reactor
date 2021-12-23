@@ -218,20 +218,32 @@
                     <div class="col-lg-12">
 
                         <?php if ($Owner || $Admin) { ?>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <?= lang("date", "podate"); ?>
                                     <?php echo form_input('date', (isset($_POST['date']) ? $_POST['date'] : ""), 'class="form-control input-tip datetime" id="podate" required="required"'); ?>
                                 </div>
                             </div>
                         <?php } ?>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <?= lang("reference_no", "poref"); ?>
                                 <?php echo form_input('reference_no', (isset($_POST['reference_no']) ? $_POST['reference_no'] : $ponumber), 'class="form-control input-tip" id="poref"'); ?>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <?= lang("warehouse", "powarehouse"); ?>
+                                <?php
+                                $wh[''] = '';
+                                foreach ($warehouses as $warehouse) {
+                                    $wh[$warehouse->id] = $warehouse->name;
+                                }
+                                echo form_dropdown('warehouse', $wh, (isset($_POST['warehouse']) ? $_POST['warehouse'] : $Settings->default_warehouse), 'id="powarehouse" class="form-control input-tip select" data-placeholder="' . $this->lang->line("select") . ' ' . $this->lang->line("warehouse") . '" required="required" style="width:100%;" ');
+                                ?>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <?= lang("status", "postatus"); ?>
                                 <?php

@@ -75,3 +75,4 @@ $lang['view_orders_details']                = "Ver detalles del pedido";
 $lang['order_no']                           = "Pedido número";
 $lang['edit_orders']                        = "Editar pedido";
 $lang['edit_orders_message']                = "El pedido fue actualizado con éxito";
+$lang['generatePurchasesByOrder']           = "Cargar Comprar";

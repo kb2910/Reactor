@@ -364,13 +364,13 @@
                                 </ul>
                             </li>
 
-                            <li class="mm_orders">
+                            <li class="mm_orderlist">
                                 <a class="dropmenu" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i><span
                                         class="text"> <?= lang('orders'); ?> </span> <span
                                         class="chevron closed"></span></a>
                                 <ul>
 
-                                    <li id="orders_index"><a class="submenu" href="<?= site_url('purchases/orderList'); ?>"><i class="fa fa-list-alt" aria-hidden="true"></i></i><span
+                                    <li id="orders_index"><a class="submenu mm_orderlist" href="<?= site_url('purchases/orderList'); ?>"><i class="fa fa-list-alt" aria-hidden="true"></i></i><span
                                                 class="text"> <?= lang('list_orders'); ?></span></a></li>
                                     <li id="orders_add"><a class="submenu"
                                                               href="<?= site_url('purchases/addOrder'); ?>"><i

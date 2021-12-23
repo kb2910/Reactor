@@ -34,7 +34,12 @@
                 <div class="col-xs-6">
                     <?php echo $this->lang->line("from"); ?>:
                     <h2 style="margin-top:10px;"><?= $Settings->site_name; ?></h2>
-                    
+                    <?= $warehouse->name ?>
+
+                    <?php
+                    echo $warehouse->address;
+                    echo ($warehouse->phone ? lang("tel") . ": " . $warehouse->phone . "<br>" : '') . ($warehouse->email ? lang("email") . ": " . $warehouse->email : '');
+                    ?>
                 </div>
                 <div class="col-xs-6">
                     <?php echo $this->lang->line("to"); ?>:<br/>
@@ -70,6 +75,7 @@
                     ?>
                 </div>
             </div>
+
             
             <div class="table-responsive">
                 <table class="table table-bordered table-hover table-striped print-table order-table">

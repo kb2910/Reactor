@@ -320,7 +320,7 @@ class Purchases_model extends CI_Model
 
     public function addPurchase($data, $items)
     {
-
+        $purchase_id = "";
         if ($this->db->insert('purchases', $data)) {
             $purchase_id = $this->db->insert_id();
             if ($this->site->getReference('po') == $data['reference_no']) {
@@ -333,7 +333,7 @@ class Purchases_model extends CI_Model
                 if($item['option_id']) {
                     $this->db->update('product_variants', array('cost' => $item['real_unit_cost']), array('id' => $item['option_id'], 'product_id' => $item['product_id']));
                 }
-            }
+             }
             if ($data['status'] == 'received') {
                 $this->site->syncQuantity(NULL, $purchase_id);
             }
@@ -341,7 +341,6 @@ class Purchases_model extends CI_Model
         }
         return false;
     }
-
     
     public function addOrder($data, $items)
     {
@@ -631,4 +630,8 @@ class Purchases_model extends CI_Model
             return $q;
     }
    
+    public function purcharseIs($id)
+    {
+    $this->db->update('orders', array('purcharse_is' => 1), array('id' => $id));
+    }
 }

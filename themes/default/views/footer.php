@@ -50,10 +50,21 @@ $s2_file_date = $this->parser->parse_string($s2_lang_file, $s2_data, true);
     $.extend(true, $.fn.dataTable.defaults, {"oLanguage":<?=$dt_lang?>});
     $.fn.datetimepicker.dates['sma'] = <?=$dp_lang?>;
     $(window).load(function () {
+        var nameMenu = "<?=$v?>";
+        if( nameMenu == "orderlist"){
+            
+        $('.mm_<?=$v?>').addClass('active');
+        $('.mm_<?=$v?>').find("ul").first().slideToggle();
+        $('#<?=$v?>_<?=$v?>').addClass('active');
+        $('.mm_<?=$m?> a .chevron').removeClass("closed").addClass("opened");
+
+        } else {
+
         $('.mm_<?=$m?>').addClass('active');
         $('.mm_<?=$m?>').find("ul").first().slideToggle();
         $('#<?=$m?>_<?=$v?>').addClass('active');
         $('.mm_<?=$m?> a .chevron').removeClass("closed").addClass("opened");
+        }
     });
 </script>
 </body>

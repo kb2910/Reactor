@@ -2012,6 +2012,7 @@ class Purchases extends MY_Controller
             } else {
                 $date = date('Y-m-d H:i:s');
             }
+            $warehouse_id = $this->input->post('warehouse');
             $supplier_id = $this->input->post('supplier');
             $status = $this->input->post('status');
             $supplier_details = $this->site->getCompanyByID($supplier_id);
@@ -2032,6 +2033,7 @@ class Purchases extends MY_Controller
                         'product_code' => $item_code,
                         'product_name' => $product_details->name,
                         //'product_type' => $item_type,
+                        'warehouse_id' => $warehouse_id,
                         'option_id' => false,
                         'net_unit_cost' => $item_net_cost,
                         'unit_cost' => $product_details->cost,
@@ -2051,6 +2053,7 @@ class Purchases extends MY_Controller
             
             $data = array('reference_no' => $reference,
                 'date' => $date,
+                'warehouse_id' => $warehouse_id,
                 'supplier_id' => $supplier_id,
                 'supplier' => $supplier,
                 'note' => $note,
@@ -2123,6 +2126,7 @@ class Purchases extends MY_Controller
         $excel_link = anchor('purchases/generar_excel/$1', '<i class="fa fa-file-text-o"></i> ' . lang('download_excel'));
         $pdf_link = anchor('purchases/pdf/$1', '<i class="fa fa-file-pdf-o"></i> ' . lang('download_pdf'));
         $edit_link = anchor('purchases/editOrder/$1', '<i class="fa fa-edit"></i> ' . lang('edit_orders'));
+        $generatePurchasesByOrder_link = anchor('purchases/generatePurchasesByOrder/$1', '<i class="fa fa-edit"></i> ' . lang('generatePurchasesByOrder'));
         $delete_link = "<a href='#' class='po' title='<b>" . $this->lang->line("delete_purchase") . "</b>' data-content=\"<p>"
             . lang('r_u_sure') . "</p><a class='btn btn-danger po-delete' href='" . site_url('purchases/deleteOrder/$1') . "'>"
             . lang('i_m_sure') . "</a> <button class='btn po-close'>" . lang('no') . "</button>\"  rel='popover'><i class=\"fa fa-trash-o\"></i> "
@@ -2135,6 +2139,7 @@ class Purchases extends MY_Controller
             <li>' . $edit_link . '</li>
             <li>' . $excel_link . '</li>
             <li>' . $pdf_link . '</li>
+            <li>' . $generatePurchasesByOrder_link . '</li>
             <li>' . $delete_link . '</li>
         </ul>
     </div></div>';
@@ -2185,6 +2190,7 @@ class Purchases extends MY_Controller
             $this->sma->view_rights($inv->created_by);
             $this->data['rows'] = $this->purchases_model->getAllOrdersItems($orders_id);
             $this->data['supplier'] = $this->site->getCompanyByID($inv->supplier_id);
+            $this->data['warehouse'] = $this->site->getWarehouseByID($inv->warehouse_id);
             $this->data['inv'] = $inv;
             $this->data['payments'] = $this->purchases_model->getPaymentsForPurchase($orders_id);
             $this->data['created_by'] = $this->site->getUser($inv->created_by);
@@ -2209,6 +2215,7 @@ class Purchases extends MY_Controller
             $this->sma->view_rights($inv->created_by, TRUE);
             $this->data['rows'] = $this->purchases_model->getAllOrdersItems($purchase_id);
             $this->data['supplier'] = $this->site->getCompanyByID($inv->supplier_id);
+            $this->data['warehouse'] = $this->site->getWarehouseByID($inv->warehouse_id);
             $this->data['inv'] = $inv;
             $this->data['payments'] = $this->purchases_model->getPaymentsForPurchase($purchase_id);
             $this->data['created_by'] = $this->site->getUser($inv->created_by);
@@ -2757,5 +2764,77 @@ class Purchases extends MY_Controller
             return $ref_no;
         }
         return FALSE;
+    }
+
+
+    public function generatePurchasesByOrder($orders_id){
+        $this->sma->checkPermissions();
+        if ($this->input->get('id')) {
+            $orders_id = $this->input->get('id');
+        }
+
+        $inv = $this->purchases_model->getOrdesByID($orders_id);
+        $inv_items = $this->purchases_model->getAllOrdersItems($orders_id);
+
+           foreach ($inv_items as $r) {
+                    $products[] = array(
+                        'product_id' => $r->product_id,
+                        'product_code' => $r->product_code,
+                        'product_name' => $r->product_name,
+                        //'product_type' => $item_type,
+                        'purchase_id'=> 0,
+                        'option_id' => 0,
+                        'net_unit_cost' => $r->net_unit_cost,
+                        'unit_cost' => $r->unit_cost,
+                        'quantity' => $r->quantity,
+                        'quantity_balance' => $r->quantity,
+                        'warehouse_id' => $r->warehouse_id,
+                        'item_tax' => 0,
+                        'tax_rate_id' => 1,
+                        'tax' => 0,
+                        'discount' => 0,
+                        'item_discount' => 0,
+                        'subtotal' => $this->sma->formatDecimal($r->unit_cost * $r->quantity),
+                        'real_unit_cost' => $r->unit_cost,
+                        'date' => $inv->date,
+                        'status' => "received"
+                    );
+                }
+
+                $data = array('reference_no' => $inv->reference_no,
+                'date' => $inv->date,
+                'supplier_id' => $inv->supplier_id,
+                'supplier' => $inv->supplier,
+                'warehouse_id' => $inv->warehouse_id,
+                'note' => $inv->note,
+                'total' => $inv->total,
+                'product_discount' => 0,
+                'order_discount_id' => 0,
+                'order_discount' => 0,
+                'total_discount' => 0,
+                'product_tax' => 0,
+                'order_tax_id' => 1,
+                'order_tax' => 0,
+                'total_tax' => 0,
+                'shipping' => 0,
+                'grand_total' => $inv->total,
+                'created_by' => $this->session->userdata('user_id'),
+                'status' => "received",
+                'updated_by' => $this->session->userdata('user_id'),
+                'updated_at' => date('Y-m-d H:i:s'),
+                'order_id' =>$inv->id
+            );
+
+
+         //   print_r($this->purchases_model->addPurchase($data, $products));
+        if ($this->purchases_model->addPurchase($data, $products)) {
+            $this->purchases_model->purcharseIs($inv->id);
+            $this->session->set_flashdata('message', $this->lang->line("purchase_added"));
+            redirect('purchases');
+         } else {
+            $this->session->flashdata('error');
+            redirect('purchases/orderList');
+        } 
+
     }
 }
