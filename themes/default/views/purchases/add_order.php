@@ -39,15 +39,14 @@
     <?php $this->sma->unset_data('remove_pols');
 } ?>
     <?php if($quote_id) { ?>
-    localStorage.setItem('powarehouse', '<?= $quote->warehouse_id ?>');
-    localStorage.setItem('ponote', '<?= str_replace(array("\r", "\n"), "", $this->sma->decode_html($quote->note)); ?>');
-    localStorage.setItem('podiscount', '<?= $quote->order_discount_id ?>');
-    localStorage.setItem('potax2', '<?= $quote->order_tax_id ?>');
-    localStorage.setItem('poshipping', '<?= $quote->shipping ?>');
-    localStorage.setItem('poitems', JSON.stringify(<?= $quote_items; ?>));
+    localStorage.setItem('powarehouse', '<?= $order->warehouse_id ?>');
+    localStorage.setItem('ponote', '<?= str_replace(array("\r", "\n"), "", $this->sma->decode_html($order->note)); ?>');
+    localStorage.setItem('posupplier', '<?= $order->supplier_id ?>');
+    localStorage.setItem('poshipping', '0');
+    localStorage.setItem('poitems', JSON.stringify(<?= $inv_items; ?>));
     <?php } ?>
 
-    var count = 1, an = 1, product_variant = 0, DT = <?= $Settings->default_tax_rate ?>, DC = '<?= $default_currency->code ?>', shipping = 0,
+    var count = 1, an = 1, product_variant = 0, DT = <?= $Settings->default_tax_rate ?>, DC = '<?= $default_currency->code ?>', shipping = 1,
         product_tax = 0, invoice_tax = 0, total_discount = 0, total = 0,
         tax_rates = <?php echo json_encode($tax_rates); ?>, poitems = {},
         audio_success = new Audio('<?= $assets ?>sounds/sound2.mp3'),
@@ -221,14 +220,14 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <?= lang("date", "podate"); ?>
-                                    <?php echo form_input('date', (isset($_POST['date']) ? $_POST['date'] : ""), 'class="form-control input-tip datetime" id="podate" required="required"'); ?>
+                                    <?php echo form_input('date', (isset($_POST['date']) ? $_POST['date'] : ''), 'class="form-control input-tip datetime" id="podate" required="required"'); ?>
                                 </div>
                             </div>
                         <?php } ?>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <?= lang("reference_no", "poref"); ?>
-                                <?php echo form_input('reference_no', (isset($_POST['reference_no']) ? $_POST['reference_no'] : $ponumber), 'class="form-control input-tip" id="poref"'); ?>
+                                <?php echo form_input('reference_no', (isset($_POST['reference_no']) ? $_POST['reference_no'] :  $ponumber ), 'class="form-control input-tip" id="poref"'); ?>
                             </div>
                         </div>
                         <div class="col-md-6">

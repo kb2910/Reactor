@@ -2060,10 +2060,13 @@ class Purchases extends MY_Controller
                 'total' => $this->sma->formatDecimal($total),
                 'status' => $status,
                 'created_by' => $this->session->userdata('user_id'),
-                'updated_by' => $this->session->userdata('user_id')
+                'updated_by' => $this->session->userdata('user_id'),
+                'purcharse_is' => 0
             );
 
         }
+
+
 
 
         if ($this->form_validation->run() == true && $this->purchases_model->addOrder($data, $products)) {
@@ -2071,10 +2074,36 @@ class Purchases extends MY_Controller
             $this->session->set_flashdata('message', $this->lang->line("success_orders"));
             redirect('purchases/orderList');
         } else {
-
-
+            
+            $this->data['quote_id'] = $quote_id != null ? $quote_id : 0;
+            if ($quote_id != 0) {
+            $this->data['order'] = $quote_id ?  $this->purchases_model->getOrdesByID($quote_id) : '';
+            $inv_items = $this->purchases_model->getAllOrdersItems($quote_id);
+            $c = rand(100000, 9999999);
+            foreach ($inv_items as $item) {
+                $row = $this->site->getProductByID($item->product_id);
+                $row->qty = $item->quantity;
+                $row->quantity_balance = $item->quantity;
+                $row->discount = '0';
+                $row->shipping = '0';
+                $options = 0;
+                $row->option = $item->option_id;
+                $row->real_unit_cost = $item->unit_cost;
+                $row->cost = $this->sma->formatDecimal($item->unit_cost);
+                $row->tax_rate = 0;
+                unset($row->details, $row->product_details, $row->price, $row->file, $row->product_group_id);
+                $ri = $this->Settings->item_addition ? $row->id : $c;
+                if ($row->tax_rate) {
+                    $tax_rate = $this->site->getTaxRateByID($row->tax_rate);
+                    $pr[$ri] = array('id' => $c, 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ")", 'row' => $row, 'tax_rate' => $tax_rate, 'options' => $options);
+                } else {
+                    $pr[$ri] = array('id' => $c, 'item_id' => $row->id, 'label' => $row->name . " (" . $row->code . ")", 'row' => $row, 'tax_rate' => false, 'options' => $options);
+                }
+                $c++;
+            }
+            $this->data['inv_items'] = json_encode($pr);
+            }
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
-            $this->data['quote_id'] = 0;
             $this->data['suppliers'] = $this->site->getAllCompanies('supplier');
             $this->data['categories'] = $this->site->getAllCategories();
             $this->data['statusList'] = $this->purchases_model->getAllStatus();
@@ -2117,7 +2146,7 @@ class Purchases extends MY_Controller
     }
 
 
-    
+
 
     function getOrderList()
     {
@@ -2126,6 +2155,7 @@ class Purchases extends MY_Controller
         $excel_link = anchor('purchases/generar_excel/$1', '<i class="fa fa-file-text-o"></i> ' . lang('download_excel'));
         $pdf_link = anchor('purchases/pdf/$1', '<i class="fa fa-file-pdf-o"></i> ' . lang('download_pdf'));
         $edit_link = anchor('purchases/editOrder/$1', '<i class="fa fa-edit"></i> ' . lang('edit_orders'));
+        $add_link = anchor('purchases/addOrder/$1', '<i class="fa fa-edit"></i> ' . 'Duplicar');
         $generatePurchasesByOrder_link = anchor('purchases/generatePurchasesByOrder/$1', '<i class="fa fa-edit"></i> ' . lang('generatePurchasesByOrder'));
         $delete_link = "<a href='#' class='po' title='<b>" . $this->lang->line("delete_purchase") . "</b>' data-content=\"<p>"
             . lang('r_u_sure') . "</p><a class='btn btn-danger po-delete' href='" . site_url('purchases/deleteOrder/$1') . "'>"
@@ -2134,20 +2164,21 @@ class Purchases extends MY_Controller
         $action = '<div class="text-center"><div class="btn-group text-left">'
             . '<button type="button" class="btn btn-default btn-xs btn-primary dropdown-toggle" data-toggle="dropdown">'
             . lang('actions') . ' <span class="caret"></span></button>
-        <ul class="dropdown-menu pull-right" role="menu">
-            <li>' . $detail_link . '</li>
-            <li>' . $edit_link . '</li>
-            <li>' . $excel_link . '</li>
-            <li>' . $pdf_link . '</li>
-            <li>' . $generatePurchasesByOrder_link . '</li>
-            <li>' . $delete_link . '</li>
-        </ul>
-    </div></div>';
+            <ul class="dropdown-menu pull-right" role="menu">
+                <li>' . $detail_link . '</li>
+                <li>' . $edit_link . '</li>
+                <li>' . $add_link . '</li>
+                <li>' . $excel_link . '</li>
+                <li>' . $pdf_link . '</li>';
+        $action .=  '<li>' . $generatePurchasesByOrder_link . '</li>
+                <li>' . $delete_link . '</li>
+            </ul>
+        </div></div>';
 
         $this->load->library('datatables');
         
             $this->datatables
-                ->select("id, date, reference_no, supplier, status, total")
+                ->select("id, date, reference_no, supplier, status, total, purcharse_is")
                 ->from('orders');
         if (!$this->Customer && !$this->Supplier && !$this->Owner && !$this->Admin) {
             $this->datatables->where('created_by', $this->session->userdata('user_id'));
@@ -2768,6 +2799,12 @@ class Purchases extends MY_Controller
 
 
     public function generatePurchasesByOrder($orders_id){
+        $validate = $this->purchases_model->validateOrder($orders_id);
+        if($validate != false){
+            $this->session->set_flashdata('error', "Este pedido ya fue cargado como compra");
+            redirect('purchases/orderList');
+
+        } else {
         $this->sma->checkPermissions();
         if ($this->input->get('id')) {
             $orders_id = $this->input->get('id');
@@ -2801,7 +2838,9 @@ class Purchases extends MY_Controller
                     );
                 }
 
-                $data = array('reference_no' => $inv->reference_no,
+                $referenceNew = str_replace("PED","COM",$inv->reference_no);
+
+                $data = array('reference_no' => $referenceNew,
                 'date' => $inv->date,
                 'supplier_id' => $inv->supplier_id,
                 'supplier' => $inv->supplier,
@@ -2824,11 +2863,10 @@ class Purchases extends MY_Controller
                 'updated_at' => date('Y-m-d H:i:s'),
                 'order_id' =>$inv->id
             );
-
-
+	
          //   print_r($this->purchases_model->addPurchase($data, $products));
         if ($this->purchases_model->addPurchase($data, $products)) {
-            $this->purchases_model->purcharseIs($inv->id);
+            $this->purchases_model->purcharseIs($inv->id,$referenceNew);
             $this->session->set_flashdata('message', $this->lang->line("purchase_added"));
             redirect('purchases');
          } else {
@@ -2836,5 +2874,6 @@ class Purchases extends MY_Controller
             redirect('purchases/orderList');
         } 
 
+    }
     }
 }

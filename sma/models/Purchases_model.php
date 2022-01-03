@@ -354,9 +354,9 @@ class Purchases_model extends CI_Model
                 $item['orders_id'] = $orders_id;
                 $this->db->insert('orders_items', $item);
             }
-            return true;
+            return 200;
         }
-        return false;
+        return $this->db->insert('orders', $data);
     }
 
     public function updatePurchase($id, $data, $items = array())
@@ -385,11 +385,9 @@ class Purchases_model extends CI_Model
     public function deletePurchase($id)
     {
         $purchase_items = $this->site->getAllPurchaseItems($id);
-
         if ($this->db->delete('purchase_items', array('purchase_id' => $id)) && $this->db->delete('purchases', array('id' => $id))) {
             $this->db->delete('payments', array('purchase_id' => $id));
             $this->site->syncQuantity(NULL, NULL, $purchase_items);
-            return true;
         }
         return FALSE;
     }
@@ -397,7 +395,9 @@ class Purchases_model extends CI_Model
 
     public function deleteOrders($id)
     {
-        if ($this->db->delete('orders_items', array('orders_id' => $id)) && $this->db->delete('orders', array('id' => $id))) {       
+        if ($this->db->delete('orders_items', array('orders_id' => $id)) && $this->db->delete('orders', array('id' => $id))) {    
+            
+            $this->db->update('purchases', array('order_id' => "0"), array('order_id' => $id));   
             return true;
         }
         return FALSE;
@@ -630,8 +630,21 @@ class Purchases_model extends CI_Model
             return $q;
     }
    
-    public function purcharseIs($id)
+    public function purcharseIs($id,$value)
     {
-    $this->db->update('orders', array('purcharse_is' => 1), array('id' => $id));
+    $this->db->update('orders', array('purcharse_is' => $value), array('id' => $id));
+    }
+
+      
+    public function validateOrder($id)
+    {
+        $q = $this->db->get_where('purchases',array('order_id' => $id));
+        if ($q->num_rows() > 0) {
+            foreach (($q->result()) as $row) {
+                $data[] = $row;
+            }
+            return $data;
+        }
+        return FALSE;
     }
 }

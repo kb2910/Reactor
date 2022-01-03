@@ -810,6 +810,16 @@ function syncIdML(x) {
    }
 }
 
+function getValueOfText(x) {
+    if(x != 0){
+        return "<div style='text-align:center;color:green'><i class='fa fa-clipboard' aria-hidden='true'></i> " +x+"</div>";
+    } else {
+        return "<div style='text-align:center;color:red'><i class='fa fa-times-circle' aria-hidden='true'></i></div>";
+    }
+}
+
+
+
 function img_hl(x) {
     if( x==null){
         x = '<center><ul class="enlarge"><li><img src="'+site.base_url+'assets/uploads/thumbs/no_image.png" alt="no_image.png" style="width:30px; height:30px;" class="img-circle" /><span><a href="'+site.base_url+'assets/uploads/no_image.png" data-toggle="lightbox"><img src="'+site.base_url+'assets/uploads/no_image.png" alt="no_image.png" style="width:200px;" class="img-thumbnail" /></a></span></li></ul></center>';

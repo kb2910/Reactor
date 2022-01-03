@@ -671,6 +671,8 @@ function loadItems() {
                 });
             }
         }
+
+        var shipping = (shipping == "" ? 0 :shipping);
         total_discount = parseFloat(order_discount + product_discount);
         // Totals calculations after item addition
         var gtotal = ((total + invoice_tax) - order_discount) + shipping;

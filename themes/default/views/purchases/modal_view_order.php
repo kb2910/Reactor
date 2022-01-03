@@ -18,13 +18,13 @@
                         <?= lang("status"); ?>: <?= lang($inv->status); ?><br>
                     </p>
                     </div>
-                    <div class="col-xs-7 text-right">
+                    <!--div class="col-xs-7 text-right">
                         <?php $br = $this->sma->save_barcode($inv->reference_no, 'code39', 70, false); ?>
                         <img src="<?= base_url() ?>assets/uploads/barcode<?= $this->session->userdata('user_id') ?>.png"
                              alt="<?= $inv->reference_no ?>"/>
                         <img src="<?= base_url() ?>assets/uploads/qrcode<?= $this->session->userdata('user_id') ?>.png"
                              alt="<?= $inv->reference_no ?>"/>
-                    </div>
+                    </div-->
                     <div class="clearfix"></div>
                 </div>
                 <div class="clearfix"></div>

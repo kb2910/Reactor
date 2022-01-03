@@ -16,7 +16,8 @@
             "aoColumns": [{
                 "bSortable": false,
                 "mRender": checkbox
-            }, {"mRender": fld}, null, null, {"mRender": row_status}, {"mRender": currencyFormat}, {"bSortable": false}],
+            }, {"mRender": fld}, null, null, {"mRender": row_status}, {"mRender": currencyFormat}, {"bSortable": false,"mRender": getValueOfText},
+            {"bSortable": false}],
             'fnRowCallback': function (nRow, aData, iDisplayIndex) {
                 var oSettings = oTable.fnSettings();
                 nRow.id = aData[0];
@@ -36,6 +37,7 @@
             {column_number: 2, filter_default_label: "[<?=lang('ref_no');?>]", filter_type: "text", data: []},
             {column_number: 3, filter_default_label: "[<?=lang('supplier');?>]", filter_type: "text", data: []},
             {column_number: 4, filter_default_label: "[<?=lang('status');?>]", filter_type: "text", data: []},
+            {column_number: 6, filter_default_label: "-----", filter_type: "text", data: []},
         ], "footer");
 
 
@@ -148,6 +150,7 @@
                                         <th><?php echo $this->lang->line("supplier"); ?></th>
                                         <th><?php echo $this->lang->line("status"); ?></th>
                                         <th><?php echo $this->lang->line("total"); ?></th>
+                                        <th style="text-align: center;">Asociado a compra</th>
                                         <th style="width:100px;"><?php echo $this->lang->line("actions"); ?></th>
                                     </tr>
                                     </thead>
@@ -166,6 +169,7 @@
                                         <th></th>
                                         <th></th>
                                         <th><?php echo $this->lang->line("total"); ?></th>
+                                        <th style="text-align: center; !important"></th>
                                         <th style="width:100px; text-align: center;"><?php echo $this->lang->line("actions"); ?></th>
                                     </tr>
                                     </tfoot>
